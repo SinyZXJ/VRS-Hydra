@@ -1,0 +1,5 @@
+semantic_inference::BackprojectionNode;lib/libsemantic_inference_ros.so
+semantic_inference::SegmentationNode;lib/libsemantic_inference_ros.so
+semantic_inference::MaskNode;lib/libsemantic_inference_ros.so
+semantic_inference::RelabelNode;lib/libsemantic_inference_ros.so
+semantic_inference::RGBDSegmentationNode;lib/libsemantic_inference_ros.so

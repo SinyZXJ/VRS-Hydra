@@ -1,0 +1,4 @@
+source;share/config_utilities_ros/local_setup.bash
+source;share/config_utilities_ros/local_setup.dsv
+source;share/config_utilities_ros/local_setup.sh
+source;share/config_utilities_ros/local_setup.zsh

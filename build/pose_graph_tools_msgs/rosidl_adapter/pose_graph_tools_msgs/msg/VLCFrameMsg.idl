@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pose_graph_tools_msgs/msg/VLCFrameMsg.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "sensor_msgs/msg/Image.idl"
+#include "sensor_msgs/msg/PointCloud2.idl"
+
+module pose_graph_tools_msgs {
+  module msg {
+    struct VLCFrameMsg {
+      uint32 robot_id;
+
+      uint32 pose_id;
+
+      uint32 submap_id;
+
+      @verbatim (language="comment", text=
+        "Descriptor of all keypoints stored as a matrix.")
+      sensor_msgs::msg::Image descriptors_mat;
+
+      @verbatim (language="comment", text=
+        "Bearing vector of each keypoint expressed as a 3D vector.")
+      sensor_msgs::msg::PointCloud2 versors;
+
+      @verbatim (language="comment", text=
+        "Depth of each keypoint. The 3D keypoint v can be recovered from the depth d and bearing u by v = d * u / u")
+      @unit (value="2")
+      sequence<float> depths;
+
+      geometry_msgs::msg::Pose submap_from_pose;
+    };
+  };
+};

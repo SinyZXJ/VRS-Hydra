@@ -1,0 +1,10 @@
+msg/FeatureImage.idl
+msg/FeatureImage.msg
+msg/FeatureVector.idl
+msg/FeatureVector.msg
+msg/FeatureVectorStamped.idl
+msg/FeatureVectorStamped.msg
+msg/FeatureVectors.idl
+msg/FeatureVectors.msg
+srv/EncodeFeature.idl
+srv/EncodeFeature.srv

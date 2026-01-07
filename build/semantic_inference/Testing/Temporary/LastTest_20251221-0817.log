@@ -1,0 +1,87 @@
+Start testing: Dec 21 16:17 +08
+----------------------------------------------------------
+1/3 Testing: */ColorConversionFixture.FillColorImageCorrect/*
+1/3 Test: */ColorConversionFixture.FillColorImageCorrect/*
+Command: "/home/siny/hydra_ws/build/semantic_inference/tests/test_semantic_inference" "--gtest_filter=*/ColorConversionFixture.FillColorImageCorrect/*"
+Directory: /home/siny/hydra_ws/build/semantic_inference/tests
+"*/ColorConversionFixture.FillColorImageCorrect/*" start time: Dec 21 16:17 +08
+Output:
+----------------------------------------------------------
+Note: Google Test filter = */ColorConversionFixture.FillColorImageCorrect/*
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from ImageUtilities/ColorConversionFixture
+[ RUN      ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/RGBChannelsFirst
+[       OK ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/RGBChannelsFirst (0 ms)
+[ RUN      ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/BGRChannelsFirst
+[       OK ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/BGRChannelsFirst (0 ms)
+[ RUN      ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/RGBChannelsLast
+[       OK ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/RGBChannelsLast (0 ms)
+[ RUN      ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/BGRChannelsLast
+[       OK ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/BGRChannelsLast (0 ms)
+[----------] 4 tests from ImageUtilities/ColorConversionFixture (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.77 sec
+----------------------------------------------------------
+Test Passed.
+"*/ColorConversionFixture.FillColorImageCorrect/*" end time: Dec 21 16:17 +08
+"*/ColorConversionFixture.FillColorImageCorrect/*" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: ImageUtilities.FillDepthImage
+2/3 Test: ImageUtilities.FillDepthImage
+Command: "/home/siny/hydra_ws/build/semantic_inference/tests/test_semantic_inference" "--gtest_filter=ImageUtilities.FillDepthImage"
+Directory: /home/siny/hydra_ws/build/semantic_inference/tests
+"ImageUtilities.FillDepthImage" start time: Dec 21 16:17 +08
+Output:
+----------------------------------------------------------
+Note: Google Test filter = ImageUtilities.FillDepthImage
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ImageUtilities
+[ RUN      ] ImageUtilities.FillDepthImage
+[       OK ] ImageUtilities.FillDepthImage (0 ms)
+[----------] 1 test from ImageUtilities (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"ImageUtilities.FillDepthImage" end time: Dec 21 16:17 +08
+"ImageUtilities.FillDepthImage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: ImageUtilities.ConvertColorCorrect
+3/3 Test: ImageUtilities.ConvertColorCorrect
+Command: "/home/siny/hydra_ws/build/semantic_inference/tests/test_semantic_inference" "--gtest_filter=ImageUtilities.ConvertColorCorrect"
+Directory: /home/siny/hydra_ws/build/semantic_inference/tests
+"ImageUtilities.ConvertColorCorrect" start time: Dec 21 16:17 +08
+Output:
+----------------------------------------------------------
+Note: Google Test filter = ImageUtilities.ConvertColorCorrect
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ImageUtilities
+[ RUN      ] ImageUtilities.ConvertColorCorrect
+[       OK ] ImageUtilities.ConvertColorCorrect (0 ms)
+[----------] 1 test from ImageUtilities (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"ImageUtilities.ConvertColorCorrect" end time: Dec 21 16:17 +08
+"ImageUtilities.ConvertColorCorrect" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 21 16:17 +08

@@ -1,0 +1,4 @@
+source;share/config_utilities_ros/environment/ament_prefix_path.sh
+source;share/config_utilities_ros/environment/library_path.sh
+source;share/config_utilities_ros/environment/path.sh
+source;share/config_utilities_ros/environment/pythonpath.sh

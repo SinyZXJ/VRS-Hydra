@@ -1,0 +1,80 @@
+[0.047s] Invoking command in '/home/siny/hydra_ws/build/semantic_inference': CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/semantic_inference:/home/siny/hydra_ws/install/config_utilities:/home/siny/hydra_ws/install/hydra_ros:/home/siny/hydra_ws/install/hydra:/home/siny/hydra_ws/install/teaserpp:/home/siny/hydra_ws/install/kimera_pgmo_ros:/home/siny/hydra_ws/install/kimera_pgmo:/home/siny/hydra_ws/install/spatial_hash:/home/siny/hydra_ws/install/hydra_visualizer:/home/siny/hydra_ws/install/spark_dsg:/home/siny/hydra_ws/install/semantic_inference_ros:/home/siny/hydra_ws/install/semantic_inference_msgs:/home/siny/hydra_ws/install/pose_graph_tools_ros:/home/siny/hydra_ws/install/pose_graph_tools_msgs:/home/siny/hydra_ws/install/pose_graph_tools:/home/siny/hydra_ws/install/kimera_rpgo:/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/kimera_pgmo_msgs:/home/siny/hydra_ws/install/ianvs:/home/siny/hydra_ws/install/hydra_msgs:/home/siny/hydra_ws/install/config_utilities_ros:/home/siny/hydra_ws/install/config_utilities_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/semantic_inference/lib:/home/siny/hydra_ws/install/config_utilities/lib:/home/siny/hydra_ws/install/hydra_ros/lib:/home/siny/hydra_ws/install/hydra/lib:/home/siny/hydra_ws/install/teaserpp/lib:/home/siny/hydra_ws/install/kimera_pgmo_ros/lib:/home/siny/hydra_ws/install/kimera_pgmo/lib:/home/siny/hydra_ws/install/hydra_visualizer/lib:/home/siny/hydra_ws/install/spark_dsg/lib:/home/siny/hydra_ws/install/semantic_inference_ros/lib:/home/siny/hydra_ws/install/semantic_inference_msgs/lib:/home/siny/hydra_ws/install/pose_graph_tools_ros/lib:/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib:/home/siny/hydra_ws/install/pose_graph_tools/lib:/home/siny/hydra_ws/install/kimera_rpgo/lib:/home/siny/hydra_ws/install/kimera_pgmo_rviz/lib:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib:/home/siny/hydra_ws/install/ianvs/lib:/home/siny/hydra_ws/install/hydra_msgs/lib:/home/siny/hydra_ws/install/config_utilities_ros/lib:/home/siny/hydra_ws/install/config_utilities_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PATH=/home/siny/hydra_ws/install/semantic_inference/bin:/home/siny/hydra_ws/install/config_utilities/bin:/home/siny/hydra_ws/install/kimera_pgmo/bin:/home/siny/hydra_ws/install/spark_dsg/bin:/opt/ros/jazzy/bin:/home/siny/anaconda3/condabin:/home/siny/.local/bin:/usr/local/cuda/bin:/opt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin PKG_CONFIG_PATH=/home/siny/hydra_ws/install/semantic_inference/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/semantic_inference/lib/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig:/home/siny/hydra_ws/install/hydra/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/hydra/lib/pkgconfig:/home/siny/hydra_ws/install/teaserpp/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/teaserpp/lib/pkgconfig:/home/siny/hydra_ws/install/kimera_pgmo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_pgmo/lib/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/pkgconfig:/home/siny/hydra_ws/install/spark_dsg/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spark_dsg/lib/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/pkgconfig /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.051s] UpdateCTestConfiguration  from :/home/siny/hydra_ws/build/semantic_inference/DartConfiguration.tcl
+[0.051s] Parse Config file:/home/siny/hydra_ws/build/semantic_inference/DartConfiguration.tcl
+[0.051s]    Site: Sispark
+[0.051s]    Build name: Linux-c++
+[0.051s] Create new tag: 20251228-1347 - Experimental
+[0.051s] UpdateCTestConfiguration  from :/home/siny/hydra_ws/build/semantic_inference/DartConfiguration.tcl
+[0.051s] Parse Config file:/home/siny/hydra_ws/build/semantic_inference/DartConfiguration.tcl
+[0.051s] Test project /home/siny/hydra_ws/build/semantic_inference
+[0.052s] Constructing a list of tests
+[0.052s] Done constructing a list of tests
+[0.052s] Updating test list for fixtures
+[0.052s] Added 0 tests to meet fixture requirements
+[0.052s] Checking test dependency graph...
+[0.052s] Checking test dependency graph end
+[0.052s] test 1
+[0.052s]     Start 1: */ColorConversionFixture.FillColorImageCorrect/*
+[0.052s] 
+[0.052s] 1: Test command: /home/siny/hydra_ws/build/semantic_inference/tests/test_semantic_inference "--gtest_filter=*/ColorConversionFixture.FillColorImageCorrect/*"
+[0.052s] 1: Working Directory: /home/siny/hydra_ws/build/semantic_inference/tests
+[0.052s] 1: Test timeout computed to be: 1500
+[0.084s] 1: Note: Google Test filter = */ColorConversionFixture.FillColorImageCorrect/*
+[0.084s] 1: [==========] Running 4 tests from 1 test suite.
+[0.084s] 1: [----------] Global test environment set-up.
+[0.084s] 1: [----------] 4 tests from ImageUtilities/ColorConversionFixture
+[0.084s] 1: [ RUN      ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/RGBChannelsFirst
+[0.084s] 1: [       OK ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/RGBChannelsFirst (0 ms)
+[0.084s] 1: [ RUN      ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/BGRChannelsFirst
+[0.084s] 1: [       OK ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/BGRChannelsFirst (0 ms)
+[0.084s] 1: [ RUN      ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/RGBChannelsLast
+[0.084s] 1: [       OK ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/RGBChannelsLast (0 ms)
+[0.084s] 1: [ RUN      ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/BGRChannelsLast
+[0.084s] 1: [       OK ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/BGRChannelsLast (0 ms)
+[0.084s] 1: [----------] 4 tests from ImageUtilities/ColorConversionFixture (0 ms total)
+[0.085s] 1: 
+[0.085s] 1: [----------] Global test environment tear-down
+[0.085s] 1: [==========] 4 tests from 1 test suite ran. (0 ms total)
+[0.085s] 1: [  PASSED  ] 4 tests.
+[0.104s] 1/3 Test #1: */ColorConversionFixture.FillColorImageCorrect/* ...   Passed    0.05 sec
+[0.104s] test 2
+[0.104s]     Start 2: ImageUtilities.FillDepthImage
+[0.104s] 
+[0.104s] 2: Test command: /home/siny/hydra_ws/build/semantic_inference/tests/test_semantic_inference "--gtest_filter=ImageUtilities.FillDepthImage"
+[0.104s] 2: Working Directory: /home/siny/hydra_ws/build/semantic_inference/tests
+[0.104s] 2: Test timeout computed to be: 1500
+[0.143s] 2: Note: Google Test filter = ImageUtilities.FillDepthImage
+[0.143s] 2: [==========] Running 1 test from 1 test suite.
+[0.143s] 2: [----------] Global test environment set-up.
+[0.143s] 2: [----------] 1 test from ImageUtilities
+[0.143s] 2: [ RUN      ] ImageUtilities.FillDepthImage
+[0.143s] 2: [       OK ] ImageUtilities.FillDepthImage (0 ms)
+[0.143s] 2: [----------] 1 test from ImageUtilities (0 ms total)
+[0.143s] 2: 
+[0.143s] 2: [----------] Global test environment tear-down
+[0.143s] 2: [==========] 1 test from 1 test suite ran. (0 ms total)
+[0.143s] 2: [  PASSED  ] 1 test.
+[0.156s] 2/3 Test #2: ImageUtilities.FillDepthImage ......................   Passed    0.05 sec
+[0.156s] test 3
+[0.156s]     Start 3: ImageUtilities.ConvertColorCorrect
+[0.156s] 
+[0.156s] 3: Test command: /home/siny/hydra_ws/build/semantic_inference/tests/test_semantic_inference "--gtest_filter=ImageUtilities.ConvertColorCorrect"
+[0.156s] 3: Working Directory: /home/siny/hydra_ws/build/semantic_inference/tests
+[0.156s] 3: Test timeout computed to be: 1500
+[0.195s] 3: Note: Google Test filter = ImageUtilities.ConvertColorCorrect
+[0.195s] 3: [==========] Running 1 test from 1 test suite.
+[0.195s] 3: [----------] Global test environment set-up.
+[0.195s] 3: [----------] 1 test from ImageUtilities
+[0.195s] 3: [ RUN      ] ImageUtilities.ConvertColorCorrect
+[0.195s] 3: [       OK ] ImageUtilities.ConvertColorCorrect (0 ms)
+[0.195s] 3: [----------] 1 test from ImageUtilities (0 ms total)
+[0.195s] 3: 
+[0.195s] 3: [----------] Global test environment tear-down
+[0.195s] 3: [==========] 1 test from 1 test suite ran. (0 ms total)
+[0.195s] 3: [  PASSED  ] 1 test.
+[0.208s] 3/3 Test #3: ImageUtilities.ConvertColorCorrect .................   Passed    0.05 sec
+[0.209s] 
+[0.209s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 3
+[0.209s] 
+[0.209s] Total Test time (real) =   0.16 sec
+[0.221s] Invoked command in '/home/siny/hydra_ws/build/semantic_inference' returned '0': CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/semantic_inference:/home/siny/hydra_ws/install/config_utilities:/home/siny/hydra_ws/install/hydra_ros:/home/siny/hydra_ws/install/hydra:/home/siny/hydra_ws/install/teaserpp:/home/siny/hydra_ws/install/kimera_pgmo_ros:/home/siny/hydra_ws/install/kimera_pgmo:/home/siny/hydra_ws/install/spatial_hash:/home/siny/hydra_ws/install/hydra_visualizer:/home/siny/hydra_ws/install/spark_dsg:/home/siny/hydra_ws/install/semantic_inference_ros:/home/siny/hydra_ws/install/semantic_inference_msgs:/home/siny/hydra_ws/install/pose_graph_tools_ros:/home/siny/hydra_ws/install/pose_graph_tools_msgs:/home/siny/hydra_ws/install/pose_graph_tools:/home/siny/hydra_ws/install/kimera_rpgo:/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/kimera_pgmo_msgs:/home/siny/hydra_ws/install/ianvs:/home/siny/hydra_ws/install/hydra_msgs:/home/siny/hydra_ws/install/config_utilities_ros:/home/siny/hydra_ws/install/config_utilities_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/semantic_inference/lib:/home/siny/hydra_ws/install/config_utilities/lib:/home/siny/hydra_ws/install/hydra_ros/lib:/home/siny/hydra_ws/install/hydra/lib:/home/siny/hydra_ws/install/teaserpp/lib:/home/siny/hydra_ws/install/kimera_pgmo_ros/lib:/home/siny/hydra_ws/install/kimera_pgmo/lib:/home/siny/hydra_ws/install/hydra_visualizer/lib:/home/siny/hydra_ws/install/spark_dsg/lib:/home/siny/hydra_ws/install/semantic_inference_ros/lib:/home/siny/hydra_ws/install/semantic_inference_msgs/lib:/home/siny/hydra_ws/install/pose_graph_tools_ros/lib:/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib:/home/siny/hydra_ws/install/pose_graph_tools/lib:/home/siny/hydra_ws/install/kimera_rpgo/lib:/home/siny/hydra_ws/install/kimera_pgmo_rviz/lib:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib:/home/siny/hydra_ws/install/ianvs/lib:/home/siny/hydra_ws/install/hydra_msgs/lib:/home/siny/hydra_ws/install/config_utilities_ros/lib:/home/siny/hydra_ws/install/config_utilities_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PATH=/home/siny/hydra_ws/install/semantic_inference/bin:/home/siny/hydra_ws/install/config_utilities/bin:/home/siny/hydra_ws/install/kimera_pgmo/bin:/home/siny/hydra_ws/install/spark_dsg/bin:/opt/ros/jazzy/bin:/home/siny/anaconda3/condabin:/home/siny/.local/bin:/usr/local/cuda/bin:/opt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin PKG_CONFIG_PATH=/home/siny/hydra_ws/install/semantic_inference/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/semantic_inference/lib/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig:/home/siny/hydra_ws/install/hydra/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/hydra/lib/pkgconfig:/home/siny/hydra_ws/install/teaserpp/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/teaserpp/lib/pkgconfig:/home/siny/hydra_ws/install/kimera_pgmo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_pgmo/lib/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/pkgconfig:/home/siny/hydra_ws/install/spark_dsg/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spark_dsg/lib/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/pkgconfig /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

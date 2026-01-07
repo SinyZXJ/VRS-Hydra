@@ -1,0 +1,234 @@
+[0.019s] Invoking command in '/home/siny/hydra_ws/build/config_utilities_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/siny/ros2_jazzy/install/ament_uncrustify:/home/siny/ros2_jazzy/install/tracetools_trace:/home/siny/ros2_jazzy/install/tracetools_read:/home/siny/ros2_jazzy/install/rpyutils:/home/siny/ros2_jazzy/install/rosidl_pycommon:/home/siny/ros2_jazzy/install/rosidl_cli:/home/siny/ros2_jazzy/install/launch_pytest:/home/siny/ros2_jazzy/install/launch_testing:/home/siny/ros2_jazzy/install/launch_yaml:/home/siny/ros2_jazzy/install/launch_xml:/home/siny/ros2_jazzy/install/launch:/home/siny/ros2_jazzy/install/osrf_pycommon:/home/siny/ros2_jazzy/install/domain_coordinator:/home/siny/ros2_jazzy/install/ament_xmllint:/home/siny/ros2_jazzy/install/ament_pyflakes:/home/siny/ros2_jazzy/install/ament_pycodestyle:/home/siny/ros2_jazzy/install/ament_pep257:/home/siny/ros2_jazzy/install/ament_pclint:/home/siny/ros2_jazzy/install/ament_package:/home/siny/ros2_jazzy/install/ament_mypy:/home/siny/ros2_jazzy/install/ament_lint_cmake:/home/siny/ros2_jazzy/install/ament_flake8:/home/siny/ros2_jazzy/install/ament_copyright:/home/siny/ros2_jazzy/install/ament_lint:/home/siny/ros2_jazzy/install/ament_index_python:/home/siny/ros2_jazzy/install/ament_cpplint:/home/siny/ros2_jazzy/install/ament_cppcheck:/home/siny/ros2_jazzy/install/ament_clang_tidy:/home/siny/ros2_jazzy/install/ament_clang_format DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/siny/hydra_ws/src/config_utilities/config_utilities_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/config_utilities_msgs
+[0.070s] -- The C compiler identification is GNU 13.3.0
+[0.122s] -- The CXX compiler identification is GNU 13.3.0
+[0.137s] -- Detecting C compiler ABI info
+[0.199s] -- Detecting C compiler ABI info - done
+[0.204s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.204s] -- Detecting C compile features
+[0.204s] -- Detecting C compile features - done
+[0.210s] -- Detecting CXX compiler ABI info
+[0.297s] -- Detecting CXX compiler ABI info - done
+[0.300s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.300s] -- Detecting CXX compile features
+[0.301s] -- Detecting CXX compile features - done
+[0.302s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.475s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.563s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.610s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.622s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.642s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.667s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.719s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.745s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.300s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.882s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.042s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.063s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.366s] -- Found PythonExtra: /usr/bin/python3  
+[7.837s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[8.011s] -- Configuring done (8.0s)
+[8.087s] -- Generating done (0.1s)
+[8.112s] -- Build files have been written to: /home/siny/hydra_ws/build/config_utilities_msgs
+[8.164s] Invoked command in '/home/siny/hydra_ws/build/config_utilities_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/siny/ros2_jazzy/install/ament_uncrustify:/home/siny/ros2_jazzy/install/tracetools_trace:/home/siny/ros2_jazzy/install/tracetools_read:/home/siny/ros2_jazzy/install/rpyutils:/home/siny/ros2_jazzy/install/rosidl_pycommon:/home/siny/ros2_jazzy/install/rosidl_cli:/home/siny/ros2_jazzy/install/launch_pytest:/home/siny/ros2_jazzy/install/launch_testing:/home/siny/ros2_jazzy/install/launch_yaml:/home/siny/ros2_jazzy/install/launch_xml:/home/siny/ros2_jazzy/install/launch:/home/siny/ros2_jazzy/install/osrf_pycommon:/home/siny/ros2_jazzy/install/domain_coordinator:/home/siny/ros2_jazzy/install/ament_xmllint:/home/siny/ros2_jazzy/install/ament_pyflakes:/home/siny/ros2_jazzy/install/ament_pycodestyle:/home/siny/ros2_jazzy/install/ament_pep257:/home/siny/ros2_jazzy/install/ament_pclint:/home/siny/ros2_jazzy/install/ament_package:/home/siny/ros2_jazzy/install/ament_mypy:/home/siny/ros2_jazzy/install/ament_lint_cmake:/home/siny/ros2_jazzy/install/ament_flake8:/home/siny/ros2_jazzy/install/ament_copyright:/home/siny/ros2_jazzy/install/ament_lint:/home/siny/ros2_jazzy/install/ament_index_python:/home/siny/ros2_jazzy/install/ament_cpplint:/home/siny/ros2_jazzy/install/ament_cppcheck:/home/siny/ros2_jazzy/install/ament_clang_tidy:/home/siny/ros2_jazzy/install/ament_clang_format DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/siny/hydra_ws/src/config_utilities/config_utilities_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/config_utilities_msgs
+[8.165s] Invoking command in '/home/siny/hydra_ws/build/config_utilities_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/siny/ros2_jazzy/install/ament_uncrustify:/home/siny/ros2_jazzy/install/tracetools_trace:/home/siny/ros2_jazzy/install/tracetools_read:/home/siny/ros2_jazzy/install/rpyutils:/home/siny/ros2_jazzy/install/rosidl_pycommon:/home/siny/ros2_jazzy/install/rosidl_cli:/home/siny/ros2_jazzy/install/launch_pytest:/home/siny/ros2_jazzy/install/launch_testing:/home/siny/ros2_jazzy/install/launch_yaml:/home/siny/ros2_jazzy/install/launch_xml:/home/siny/ros2_jazzy/install/launch:/home/siny/ros2_jazzy/install/osrf_pycommon:/home/siny/ros2_jazzy/install/domain_coordinator:/home/siny/ros2_jazzy/install/ament_xmllint:/home/siny/ros2_jazzy/install/ament_pyflakes:/home/siny/ros2_jazzy/install/ament_pycodestyle:/home/siny/ros2_jazzy/install/ament_pep257:/home/siny/ros2_jazzy/install/ament_pclint:/home/siny/ros2_jazzy/install/ament_package:/home/siny/ros2_jazzy/install/ament_mypy:/home/siny/ros2_jazzy/install/ament_lint_cmake:/home/siny/ros2_jazzy/install/ament_flake8:/home/siny/ros2_jazzy/install/ament_copyright:/home/siny/ros2_jazzy/install/ament_lint:/home/siny/ros2_jazzy/install/ament_index_python:/home/siny/ros2_jazzy/install/ament_cpplint:/home/siny/ros2_jazzy/install/ament_cppcheck:/home/siny/ros2_jazzy/install/ament_clang_tidy:/home/siny/ros2_jazzy/install/ament_clang_format DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/config_utilities_msgs -- -j20 -l20
+[8.283s] [  0%] Built target ament_cmake_python_copy_config_utilities_msgs
+[8.293s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[8.545s] [  2%] Built target config_utilities_msgs__rosidl_generator_type_description
+[8.565s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.592s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.091s] running egg_info
+[9.098s] creating config_utilities_msgs.egg-info
+[9.102s] [ 11%] [32mBuilding C object CMakeFiles/config_utilities_msgs__rosidl_generator_c.dir/rosidl_generator_c/config_utilities_msgs/srv/detail/set_config__description.c.o[0m
+[9.109s] [ 14%] [32mBuilding C object CMakeFiles/config_utilities_msgs__rosidl_generator_c.dir/rosidl_generator_c/config_utilities_msgs/srv/detail/set_config__functions.c.o[0m
+[9.110s] [ 17%] [32mBuilding C object CMakeFiles/config_utilities_msgs__rosidl_generator_c.dir/rosidl_generator_c/config_utilities_msgs/srv/detail/set_config__type_support.c.o[0m
+[9.133s] writing config_utilities_msgs.egg-info/PKG-INFO
+[9.133s] writing dependency_links to config_utilities_msgs.egg-info/dependency_links.txt
+[9.133s] writing top-level names to config_utilities_msgs.egg-info/top_level.txt
+[9.133s] writing manifest file 'config_utilities_msgs.egg-info/SOURCES.txt'
+[9.257s] reading manifest file 'config_utilities_msgs.egg-info/SOURCES.txt'
+[9.257s] writing manifest file 'config_utilities_msgs.egg-info/SOURCES.txt'
+[9.353s] [ 17%] Built target ament_cmake_python_build_config_utilities_msgs_egg
+[9.398s] [ 17%] Built target config_utilities_msgs__cpp
+[9.598s] [ 20%] [32m[1mLinking C shared library libconfig_utilities_msgs__rosidl_generator_c.so[0m
+[9.634s] [ 20%] Built target config_utilities_msgs__rosidl_generator_c
+[9.655s] [ 23%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.663s] [ 26%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.670s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.670s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.672s] [ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.677s] [ 38%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.052s] [ 41%] [32mBuilding CXX object CMakeFiles/config_utilities_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/config_utilities_msgs/srv/set_config__type_support.cpp.o[0m
+[10.138s] [ 44%] [32mBuilding CXX object CMakeFiles/config_utilities_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/config_utilities_msgs/srv/detail/set_config__type_support_c.cpp.o[0m
+[10.178s] [ 47%] [32mBuilding C object CMakeFiles/config_utilities_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/config_utilities_msgs/srv/detail/set_config__type_support.c.o[0m
+[10.217s] [ 50%] [32mBuilding CXX object CMakeFiles/config_utilities_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/config_utilities_msgs/srv/set_config__type_support.cpp.o[0m
+[10.298s] [ 52%] [32mBuilding CXX object CMakeFiles/config_utilities_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/config_utilities_msgs/srv/detail/dds_fastrtps/set_config__type_support.cpp.o[0m
+[10.326s] [ 55%] [32m[1mLinking CXX shared library libconfig_utilities_msgs__rosidl_typesupport_c.so[0m
+[10.396s] [ 58%] [32m[1mLinking C shared library libconfig_utilities_msgs__rosidl_typesupport_introspection_c.so[0m
+[10.404s] [ 58%] Built target config_utilities_msgs__rosidl_typesupport_c
+[10.440s] [ 61%] [32mBuilding CXX object CMakeFiles/config_utilities_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/config_utilities_msgs/srv/detail/set_config__type_support.cpp.o[0m
+[10.476s] [ 61%] Built target config_utilities_msgs__rosidl_typesupport_introspection_c
+[11.392s] [ 64%] [32m[1mLinking CXX shared library libconfig_utilities_msgs__rosidl_typesupport_cpp.so[0m
+[11.555s] [ 64%] Built target config_utilities_msgs__rosidl_typesupport_cpp
+[11.573s] [ 67%] [32m[1mLinking CXX shared library libconfig_utilities_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[11.728s] [ 67%] Built target config_utilities_msgs__rosidl_typesupport_introspection_cpp
+[11.752s] [ 70%] [32m[1mLinking CXX shared library libconfig_utilities_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[11.966s] [ 70%] Built target config_utilities_msgs__rosidl_typesupport_fastrtps_c
+[12.233s] [ 73%] [32m[1mLinking CXX shared library libconfig_utilities_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.468s] [ 73%] Built target config_utilities_msgs__rosidl_typesupport_fastrtps_cpp
+[12.523s] [ 73%] Built target config_utilities_msgs
+[12.570s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.451s] [ 76%] Built target config_utilities_msgs__py
+[13.542s] [ 79%] [32mBuilding C object CMakeFiles/config_utilities_msgs__rosidl_generator_py.dir/rosidl_generator_py/config_utilities_msgs/srv/_set_config_s.c.o[0m
+[14.058s] [ 82%] [32m[1mLinking C shared library libconfig_utilities_msgs__rosidl_generator_py.so[0m
+[14.130s] [ 82%] Built target config_utilities_msgs__rosidl_generator_py
+[14.168s] [ 85%] [32mBuilding C object CMakeFiles/config_utilities_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/config_utilities_msgs/_config_utilities_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.168s] [ 88%] [32mBuilding C object CMakeFiles/config_utilities_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/config_utilities_msgs/_config_utilities_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.168s] [ 91%] [32mBuilding C object CMakeFiles/config_utilities_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/config_utilities_msgs/_config_utilities_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[14.311s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/config_utilities_msgs/config_utilities_msgs_s__rosidl_typesupport_c.so[0m
+[14.360s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/config_utilities_msgs/config_utilities_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[14.363s] [ 97%] Built target config_utilities_msgs_s__rosidl_typesupport_c
+[14.412s] [ 97%] Built target config_utilities_msgs_s__rosidl_typesupport_introspection_c
+[14.516s] [100%] [32m[1mLinking C shared module rosidl_generator_py/config_utilities_msgs/config_utilities_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[14.583s] [100%] Built target config_utilities_msgs_s__rosidl_typesupport_fastrtps_c
+[14.613s] Invoked command in '/home/siny/hydra_ws/build/config_utilities_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/siny/ros2_jazzy/install/ament_uncrustify:/home/siny/ros2_jazzy/install/tracetools_trace:/home/siny/ros2_jazzy/install/tracetools_read:/home/siny/ros2_jazzy/install/rpyutils:/home/siny/ros2_jazzy/install/rosidl_pycommon:/home/siny/ros2_jazzy/install/rosidl_cli:/home/siny/ros2_jazzy/install/launch_pytest:/home/siny/ros2_jazzy/install/launch_testing:/home/siny/ros2_jazzy/install/launch_yaml:/home/siny/ros2_jazzy/install/launch_xml:/home/siny/ros2_jazzy/install/launch:/home/siny/ros2_jazzy/install/osrf_pycommon:/home/siny/ros2_jazzy/install/domain_coordinator:/home/siny/ros2_jazzy/install/ament_xmllint:/home/siny/ros2_jazzy/install/ament_pyflakes:/home/siny/ros2_jazzy/install/ament_pycodestyle:/home/siny/ros2_jazzy/install/ament_pep257:/home/siny/ros2_jazzy/install/ament_pclint:/home/siny/ros2_jazzy/install/ament_package:/home/siny/ros2_jazzy/install/ament_mypy:/home/siny/ros2_jazzy/install/ament_lint_cmake:/home/siny/ros2_jazzy/install/ament_flake8:/home/siny/ros2_jazzy/install/ament_copyright:/home/siny/ros2_jazzy/install/ament_lint:/home/siny/ros2_jazzy/install/ament_index_python:/home/siny/ros2_jazzy/install/ament_cpplint:/home/siny/ros2_jazzy/install/ament_cppcheck:/home/siny/ros2_jazzy/install/ament_clang_tidy:/home/siny/ros2_jazzy/install/ament_clang_format DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/config_utilities_msgs -- -j20 -l20
+[14.614s] Invoking command in '/home/siny/hydra_ws/build/config_utilities_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/siny/ros2_jazzy/install/ament_uncrustify:/home/siny/ros2_jazzy/install/tracetools_trace:/home/siny/ros2_jazzy/install/tracetools_read:/home/siny/ros2_jazzy/install/rpyutils:/home/siny/ros2_jazzy/install/rosidl_pycommon:/home/siny/ros2_jazzy/install/rosidl_cli:/home/siny/ros2_jazzy/install/launch_pytest:/home/siny/ros2_jazzy/install/launch_testing:/home/siny/ros2_jazzy/install/launch_yaml:/home/siny/ros2_jazzy/install/launch_xml:/home/siny/ros2_jazzy/install/launch:/home/siny/ros2_jazzy/install/osrf_pycommon:/home/siny/ros2_jazzy/install/domain_coordinator:/home/siny/ros2_jazzy/install/ament_xmllint:/home/siny/ros2_jazzy/install/ament_pyflakes:/home/siny/ros2_jazzy/install/ament_pycodestyle:/home/siny/ros2_jazzy/install/ament_pep257:/home/siny/ros2_jazzy/install/ament_pclint:/home/siny/ros2_jazzy/install/ament_package:/home/siny/ros2_jazzy/install/ament_mypy:/home/siny/ros2_jazzy/install/ament_lint_cmake:/home/siny/ros2_jazzy/install/ament_flake8:/home/siny/ros2_jazzy/install/ament_copyright:/home/siny/ros2_jazzy/install/ament_lint:/home/siny/ros2_jazzy/install/ament_index_python:/home/siny/ros2_jazzy/install/ament_cpplint:/home/siny/ros2_jazzy/install/ament_cppcheck:/home/siny/ros2_jazzy/install/ament_clang_tidy:/home/siny/ros2_jazzy/install/ament_clang_format DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/config_utilities_msgs
+[14.634s] -- Install configuration: "Release"
+[14.634s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/ament_index/resource_index/rosidl_interfaces/config_utilities_msgs
+[14.634s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/srv/SetConfig.json
+[14.634s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs
+[14.634s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv
+[14.634s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/set_config.h
+[14.634s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail
+[14.634s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail/set_config__description.c
+[14.635s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail/set_config__functions.c
+[14.635s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail/set_config__type_support.c
+[14.635s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail/set_config__type_support.h
+[14.635s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail/set_config__struct.h
+[14.635s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail/set_config__functions.h
+[14.635s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/msg
+[14.635s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/msg/rosidl_generator_c__visibility_control.h
+[14.635s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/environment/library_path.sh
+[14.635s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/environment/library_path.dsv
+[14.635s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/libconfig_utilities_msgs__rosidl_generator_c.so
+[14.639s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/config_utilities_msgs/lib/libconfig_utilities_msgs__rosidl_generator_c.so" to ""
+[14.639s] -- Up-to-date: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs
+[14.639s] -- Up-to-date: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv
+[14.639s] -- Up-to-date: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail
+[14.639s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail/set_config__rosidl_typesupport_fastrtps_c.h
+[14.639s] -- Up-to-date: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/msg
+[14.639s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.640s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/libconfig_utilities_msgs__rosidl_typesupport_fastrtps_c.so
+[14.640s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/config_utilities_msgs/lib/libconfig_utilities_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[14.640s] -- Up-to-date: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs
+[14.640s] -- Up-to-date: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv
+[14.640s] -- Up-to-date: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail
+[14.640s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail/set_config__struct.hpp
+[14.640s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail/set_config__builder.hpp
+[14.640s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail/set_config__traits.hpp
+[14.640s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail/set_config__type_support.hpp
+[14.640s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/set_config.hpp
+[14.640s] -- Up-to-date: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/msg
+[14.641s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[14.641s] -- Up-to-date: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs
+[14.641s] -- Up-to-date: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv
+[14.641s] -- Up-to-date: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail
+[14.641s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail/dds_fastrtps
+[14.641s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail/set_config__rosidl_typesupport_fastrtps_cpp.hpp
+[14.641s] -- Up-to-date: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/msg
+[14.641s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.641s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/libconfig_utilities_msgs__rosidl_typesupport_fastrtps_cpp.so
+[14.641s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/config_utilities_msgs/lib/libconfig_utilities_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.641s] -- Up-to-date: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs
+[14.641s] -- Up-to-date: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv
+[14.642s] -- Up-to-date: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail
+[14.642s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail/set_config__type_support.c
+[14.645s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail/set_config__rosidl_typesupport_introspection_c.h
+[14.645s] -- Up-to-date: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/msg
+[14.645s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.645s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/libconfig_utilities_msgs__rosidl_typesupport_introspection_c.so
+[14.645s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/config_utilities_msgs/lib/libconfig_utilities_msgs__rosidl_typesupport_introspection_c.so" to ""
+[14.646s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/libconfig_utilities_msgs__rosidl_typesupport_c.so
+[14.646s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/config_utilities_msgs/lib/libconfig_utilities_msgs__rosidl_typesupport_c.so" to ""
+[14.646s] -- Up-to-date: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs
+[14.646s] -- Up-to-date: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv
+[14.646s] -- Up-to-date: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail
+[14.646s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail/set_config__rosidl_typesupport_introspection_cpp.hpp
+[14.646s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail/set_config__type_support.cpp
+[14.646s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/libconfig_utilities_msgs__rosidl_typesupport_introspection_cpp.so
+[14.647s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/config_utilities_msgs/lib/libconfig_utilities_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[14.647s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/libconfig_utilities_msgs__rosidl_typesupport_cpp.so
+[14.647s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/config_utilities_msgs/lib/libconfig_utilities_msgs__rosidl_typesupport_cpp.so" to ""
+[14.647s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/environment/pythonpath.sh
+[14.647s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/environment/pythonpath.dsv
+[14.647s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs-2.0.0-py3.12.egg-info
+[14.647s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs-2.0.0-py3.12.egg-info/top_level.txt
+[14.648s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs-2.0.0-py3.12.egg-info/PKG-INFO
+[14.649s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs-2.0.0-py3.12.egg-info/SOURCES.txt
+[14.651s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs-2.0.0-py3.12.egg-info/dependency_links.txt
+[14.651s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs
+[14.651s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs/_config_utilities_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[14.651s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs/config_utilities_msgs_s__rosidl_typesupport_c.so
+[14.651s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs/_config_utilities_msgs_s.ep.rosidl_typesupport_c.c
+[14.652s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs/_config_utilities_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.652s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs/config_utilities_msgs_s__rosidl_typesupport_fastrtps_c.so
+[14.652s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs/srv
+[14.652s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs/srv/_set_config_s.c
+[14.653s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs/srv/__init__.py
+[14.653s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs/srv/_set_config.py
+[14.653s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs/__init__.py
+[14.653s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs/config_utilities_msgs_s__rosidl_typesupport_introspection_c.so
+[14.700s] Listing '/home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs'...
+[14.700s] Compiling '/home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs/__init__.py'...
+[14.700s] Listing '/home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs/srv'...
+[14.700s] Compiling '/home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs/srv/__init__.py'...
+[14.700s] Compiling '/home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs/srv/_set_config.py'...
+[14.711s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs/config_utilities_msgs_s__rosidl_typesupport_fastrtps_c.so
+[14.711s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs/config_utilities_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[14.712s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs/config_utilities_msgs_s__rosidl_typesupport_introspection_c.so
+[14.712s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs/config_utilities_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[14.712s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs/config_utilities_msgs_s__rosidl_typesupport_c.so
+[14.712s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages/config_utilities_msgs/config_utilities_msgs_s__rosidl_typesupport_c.so" to ""
+[14.712s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/lib/libconfig_utilities_msgs__rosidl_generator_py.so
+[14.712s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/config_utilities_msgs/lib/libconfig_utilities_msgs__rosidl_generator_py.so" to ""
+[14.712s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/srv/SetConfig.idl
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/srv/SetConfig.srv
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/ament_index/resource_index/package_run_dependencies/config_utilities_msgs
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/ament_index/resource_index/parent_prefix_path/config_utilities_msgs
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/environment/ament_prefix_path.sh
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/environment/ament_prefix_path.dsv
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/environment/path.sh
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/environment/path.dsv
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/local_setup.bash
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/local_setup.sh
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/local_setup.zsh
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/local_setup.dsv
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/package.dsv
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/ament_index/resource_index/packages/config_utilities_msgs
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/export_config_utilities_msgs__rosidl_generator_cExport.cmake
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/export_config_utilities_msgs__rosidl_generator_cExport-release.cmake
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/export_config_utilities_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/export_config_utilities_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/export_config_utilities_msgs__rosidl_generator_cppExport.cmake
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/export_config_utilities_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/export_config_utilities_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/config_utilities_msgs__rosidl_typesupport_introspection_cExport.cmake
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/config_utilities_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/config_utilities_msgs__rosidl_typesupport_cExport.cmake
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/config_utilities_msgs__rosidl_typesupport_cExport-release.cmake
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/config_utilities_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/config_utilities_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/config_utilities_msgs__rosidl_typesupport_cppExport.cmake
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/config_utilities_msgs__rosidl_typesupport_cppExport-release.cmake
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/export_config_utilities_msgs__rosidl_generator_pyExport.cmake
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/export_config_utilities_msgs__rosidl_generator_pyExport-release.cmake
+[14.717s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/rosidl_cmake-extras.cmake
+[14.718s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.718s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.718s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[14.718s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[14.718s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.718s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.718s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/config_utilities_msgsConfig.cmake
+[14.718s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake/config_utilities_msgsConfig-version.cmake
+[14.718s] -- Installing: /home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/package.xml
+[14.719s] Invoked command in '/home/siny/hydra_ws/build/config_utilities_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/siny/ros2_jazzy/install/ament_uncrustify:/home/siny/ros2_jazzy/install/tracetools_trace:/home/siny/ros2_jazzy/install/tracetools_read:/home/siny/ros2_jazzy/install/rpyutils:/home/siny/ros2_jazzy/install/rosidl_pycommon:/home/siny/ros2_jazzy/install/rosidl_cli:/home/siny/ros2_jazzy/install/launch_pytest:/home/siny/ros2_jazzy/install/launch_testing:/home/siny/ros2_jazzy/install/launch_yaml:/home/siny/ros2_jazzy/install/launch_xml:/home/siny/ros2_jazzy/install/launch:/home/siny/ros2_jazzy/install/osrf_pycommon:/home/siny/ros2_jazzy/install/domain_coordinator:/home/siny/ros2_jazzy/install/ament_xmllint:/home/siny/ros2_jazzy/install/ament_pyflakes:/home/siny/ros2_jazzy/install/ament_pycodestyle:/home/siny/ros2_jazzy/install/ament_pep257:/home/siny/ros2_jazzy/install/ament_pclint:/home/siny/ros2_jazzy/install/ament_package:/home/siny/ros2_jazzy/install/ament_mypy:/home/siny/ros2_jazzy/install/ament_lint_cmake:/home/siny/ros2_jazzy/install/ament_flake8:/home/siny/ros2_jazzy/install/ament_copyright:/home/siny/ros2_jazzy/install/ament_lint:/home/siny/ros2_jazzy/install/ament_index_python:/home/siny/ros2_jazzy/install/ament_cpplint:/home/siny/ros2_jazzy/install/ament_cppcheck:/home/siny/ros2_jazzy/install/ament_clang_tidy:/home/siny/ros2_jazzy/install/ament_clang_format DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/config_utilities_msgs

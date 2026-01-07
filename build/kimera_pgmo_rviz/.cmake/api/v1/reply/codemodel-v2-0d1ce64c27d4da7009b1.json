@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-0fc660367d8264d33869.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "kimera_pgmo_rviz",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "kimera_pgmo_rviz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kimera_pgmo_rviz-Release-ec7491ec1d1ce4050eae.json",
+					"name" : "kimera_pgmo_rviz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kimera_pgmo_rviz_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kimera_pgmo_rviz_autogen-Release-b8c0e89aa1c2dcb711ab.json",
+					"name" : "kimera_pgmo_rviz_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kimera_pgmo_rviz_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kimera_pgmo_rviz_autogen_timestamp_deps-Release-fb24d77e8ee7b18e1f28.json",
+					"name" : "kimera_pgmo_rviz_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kimera_pgmo_rviz_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kimera_pgmo_rviz_uninstall-Release-df2b6bb54d98cb18ba52.json",
+					"name" : "kimera_pgmo_rviz_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-235fe1090a37456e78e0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/siny/hydra_ws/build/kimera_pgmo_rviz",
+		"source" : "/home/siny/hydra_ws/src/kimera_pgmo/kimera_pgmo_rviz"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

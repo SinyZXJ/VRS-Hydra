@@ -1,0 +1,54 @@
+[0.021s] Invoking command in '/home/siny/hydra_ws/build/spark_dsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/spark_dsg -- -j20 -l20
+[0.092s] [ 52%] Built target spark_dsg
+[0.141s] [ 55%] Built target dsg_repeater
+[0.146s] [ 59%] Built target dsg_endpoint
+[0.152s] [100%] Built target utest_spark_dsg
+[0.172s] Invoked command in '/home/siny/hydra_ws/build/spark_dsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/spark_dsg -- -j20 -l20
+[0.173s] Invoking command in '/home/siny/hydra_ws/build/spark_dsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/spark_dsg
+[0.182s] -- Install configuration: "Release"
+[0.182s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/bin/dsg_repeater
+[0.182s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/bin/dsg_endpoint
+[0.183s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/lib/libspark_dsg.so
+[0.183s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include
+[0.183s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg
+[0.183s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization
+[0.183s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/binary_conversions.h
+[0.183s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/file_io.h
+[0.183s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/binary_serialization.h
+[0.183s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/graph_binary_serialization.h
+[0.183s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/json_conversions.h
+[0.183s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/attribute_serialization.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/graph_json_serialization.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/versioning.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/attribute_registry.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/bounding_box.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/labelspace.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/dynamic_scene_graph.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/color.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/scene_graph_layer.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/bounding_box_extraction.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/edge_container.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/spark_dsg_fwd.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/spark_dsg.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/graph_utilities.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/scene_graph_types.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/colormaps.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/scene_graph_logger.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/scene_graph_utilities.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/scene_graph_node.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/metadata.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/mesh.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/edge_attributes.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/node_attributes.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/adjacency_matrix.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/logging.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/zmq_interface.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/node_symbol.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/traversability_boundary.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/layer_view.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/printing.h
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/lib/cmake/spark_dsg/spark_dsgTargets.cmake
+[0.184s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/lib/cmake/spark_dsg/spark_dsgTargets-release.cmake
+[0.185s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/lib/cmake/spark_dsg/spark_dsgConfig.cmake
+[0.185s] -- Up-to-date: /home/siny/hydra_ws/install/spark_dsg/lib/cmake/spark_dsg/spark_dsgConfigVersion.cmake
+[0.186s] Invoked command in '/home/siny/hydra_ws/build/spark_dsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/spark_dsg

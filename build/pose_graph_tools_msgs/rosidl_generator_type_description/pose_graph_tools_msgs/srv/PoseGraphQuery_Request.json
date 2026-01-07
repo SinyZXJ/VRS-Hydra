@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "pose_graph_tools_msgs/srv/PoseGraphQuery_Request",
+      "fields": [
+        {
+          "name": "robot_id",
+          "type": {
+            "type_id": 5,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "pose_graph_tools_msgs/srv/PoseGraphQuery_Request",
+      "hash_string": "RIHS01_d544fd9448ac90870b192909f39b328947fa9153d58bd5109ffab4a32d84d6c8"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+source;share/hydra/hook/cmake_prefix_path.ps1
+source;share/hydra/hook/cmake_prefix_path.dsv
+source;share/hydra/hook/cmake_prefix_path.sh
+source;share/hydra/hook/ld_library_path_lib.ps1
+source;share/hydra/hook/ld_library_path_lib.dsv
+source;share/hydra/hook/ld_library_path_lib.sh
+source;share/hydra/hook/pkg_config_path.ps1
+source;share/hydra/hook/pkg_config_path.dsv
+source;share/hydra/hook/pkg_config_path.sh
+source;share/hydra/hook/pkg_config_path_multiarch.ps1
+source;share/hydra/hook/pkg_config_path_multiarch.dsv
+source;share/hydra/hook/pkg_config_path_multiarch.sh
+source;share/hydra/local_setup.bash
+source;share/hydra/local_setup.dsv
+source;share/hydra/local_setup.sh
+source;share/hydra/local_setup.zsh

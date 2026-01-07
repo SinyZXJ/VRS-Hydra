@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "semantic_inference_msgs/msg/FeatureVectors",
+      "fields": [
+        {
+          "name": "names",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "features",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "semantic_inference_msgs/msg/FeatureVector"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "semantic_inference_msgs/msg/FeatureVector",
+        "fields": [
+          {
+            "name": "data",
+            "type": {
+              "type_id": 154,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "semantic_inference_msgs/msg/FeatureVectors",
+      "hash_string": "RIHS01_9470410768c4871b7ff4a0667a48254c0b2c44492e7492c59833b0b295153b67"
+    },
+    {
+      "type_name": "semantic_inference_msgs/msg/FeatureVector",
+      "hash_string": "RIHS01_4cf50fe328c3d113331718a7186142428610f9bc096524f0141d4e32cefaf9ce"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from semantic_inference_msgs/msg/FeatureVector.msg
+// generated code does not contain a copyright notice
+
+
+module semantic_inference_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message contains an arbitrary vector of feature data")
+    struct FeatureVector {
+      sequence<float> data;
+    };
+  };
+};

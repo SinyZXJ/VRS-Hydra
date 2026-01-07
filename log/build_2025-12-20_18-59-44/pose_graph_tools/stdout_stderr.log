@@ -1,0 +1,33 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/siny/hydra_ws/build/pose_graph_tools
+[ 50%] [32mBuilding CXX object CMakeFiles/pose_graph_tools.dir/src/ostream.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libpose_graph_tools.so[0m
+[100%] Built target pose_graph_tools
+-- Install configuration: "Release"
+-- Installing: /home/siny/hydra_ws/install/pose_graph_tools/lib/libpose_graph_tools.so
+-- Installing: /home/siny/hydra_ws/install/pose_graph_tools/include
+-- Installing: /home/siny/hydra_ws/install/pose_graph_tools/include/pose_graph_tools
+-- Installing: /home/siny/hydra_ws/install/pose_graph_tools/include/pose_graph_tools/pose_graph_node.h
+-- Installing: /home/siny/hydra_ws/install/pose_graph_tools/include/pose_graph_tools/pose_graph.h
+-- Installing: /home/siny/hydra_ws/install/pose_graph_tools/include/pose_graph_tools/bow_queries.h
+-- Installing: /home/siny/hydra_ws/install/pose_graph_tools/include/pose_graph_tools/pose_graph_edge.h
+-- Installing: /home/siny/hydra_ws/install/pose_graph_tools/include/pose_graph_tools/all.h
+-- Installing: /home/siny/hydra_ws/install/pose_graph_tools/include/pose_graph_tools/bow_query.h
+-- Installing: /home/siny/hydra_ws/install/pose_graph_tools/include/pose_graph_tools/bow_vector.h
+-- Installing: /home/siny/hydra_ws/install/pose_graph_tools/lib/cmake/pose_graph_tools/pose_graph_toolsTargets.cmake
+-- Installing: /home/siny/hydra_ws/install/pose_graph_tools/lib/cmake/pose_graph_tools/pose_graph_toolsTargets-release.cmake
+-- Installing: /home/siny/hydra_ws/install/pose_graph_tools/lib/cmake/pose_graph_tools/pose_graph_toolsConfig.cmake
+-- Installing: /home/siny/hydra_ws/install/pose_graph_tools/lib/cmake/pose_graph_tools/pose_graph_toolsConfigVersion.cmake

@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pose_graph_tools_msgs/msg/PoseGraph.msg
+// generated code does not contain a copyright notice
+
+#include "pose_graph_tools_msgs/msg/PoseGraphEdge.idl"
+#include "pose_graph_tools_msgs/msg/PoseGraphNode.idl"
+#include "std_msgs/msg/Header.idl"
+
+module pose_graph_tools_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Timestamp of last update and map frame ID")
+    struct PoseGraph {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Nodes and edges")
+      sequence<pose_graph_tools_msgs::msg::PoseGraphNode> nodes;
+
+      sequence<pose_graph_tools_msgs::msg::PoseGraphEdge> edges;
+    };
+  };
+};

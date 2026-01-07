@@ -1,0 +1,1 @@
+ament_index_cpp;cli11;cv_bridge;ianvs;image_geometry;message_filters;nlohmann-json-dev;rclcpp;rclcpp_components;rosbag2_transport;semantic_inference;tf2_eigen;rclpy;image_transport_plugins;pcl_conversions;ament_cmake_gtest

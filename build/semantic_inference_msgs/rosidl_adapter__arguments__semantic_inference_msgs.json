@@ -1,0 +1,10 @@
+{
+  "package_name": "semantic_inference_msgs",
+  "non_idl_tuples": [
+    "/home/siny/hydra_ws/src/semantic_inference/semantic_inference_msgs:msg/FeatureVector.msg",
+    "/home/siny/hydra_ws/src/semantic_inference/semantic_inference_msgs:msg/FeatureVectors.msg",
+    "/home/siny/hydra_ws/src/semantic_inference/semantic_inference_msgs:msg/FeatureVectorStamped.msg",
+    "/home/siny/hydra_ws/src/semantic_inference/semantic_inference_msgs:msg/FeatureImage.msg",
+    "/home/siny/hydra_ws/src/semantic_inference/semantic_inference_msgs:srv/EncodeFeature.srv"
+  ]
+}

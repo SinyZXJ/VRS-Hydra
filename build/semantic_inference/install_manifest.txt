@@ -1,0 +1,12 @@
+/home/siny/hydra_ws/install/semantic_inference/lib/libsemantic_inference.so
+/home/siny/hydra_ws/install/semantic_inference/bin/demo_segmentation
+/home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/segmenter.h
+/home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/image_recolor.h
+/home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/model_config.h
+/home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/image_rotator.h
+/home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/image_utilities.h
+/home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/logging.h
+/home/siny/hydra_ws/install/semantic_inference/lib/cmake/semantic_inference/semantic_inferenceTargets.cmake
+/home/siny/hydra_ws/install/semantic_inference/lib/cmake/semantic_inference/semantic_inferenceTargets-release.cmake
+/home/siny/hydra_ws/install/semantic_inference/lib/cmake/semantic_inference/semantic_inferenceConfig.cmake
+/home/siny/hydra_ws/install/semantic_inference/lib/cmake/semantic_inference/semantic_inferenceConfigVersion.cmake

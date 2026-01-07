@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "config_utilities_msgs/srv/SetConfig_Response",
+      "fields": [
+        {
+          "name": "data",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "config_utilities_msgs/srv/SetConfig_Response",
+      "hash_string": "RIHS01_bf95ca351cc45db6aa87f26ccc2b1f6cf9c7ba552187db760e16c6778ee6f31a"
+    }
+  ]
+}

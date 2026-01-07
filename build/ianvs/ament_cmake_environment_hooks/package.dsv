@@ -1,0 +1,4 @@
+source;share/ianvs/local_setup.bash
+source;share/ianvs/local_setup.dsv
+source;share/ianvs/local_setup.sh
+source;share/ianvs/local_setup.zsh

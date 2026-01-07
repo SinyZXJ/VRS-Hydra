@@ -1,0 +1,121 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 93,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libkimera_pgmo.so"
+			],
+			"targetId" : "kimera_pgmo::@6890427a1f51a3e7e1df",
+			"targetIndex" : 28,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"mesh_trajectory_deformer"
+			],
+			"targetId" : "mesh_trajectory_deformer::@6890427a1f51a3e7e1df",
+			"targetIndex" : 29,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/kimera_pgmo",
+			"exportName" : "kimera_pgmo-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "kimera_pgmo::@6890427a1f51a3e7e1df",
+					"index" : 28
+				},
+				{
+					"id" : "mesh_trajectory_deformer::@6890427a1f51a3e7e1df",
+					"index" : 29
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/473b8ac0e08c0f16d3a4881d7e1714f9/kimera_pgmoTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/kimera_pgmo",
+			"paths" : 
+			[
+				"/home/siny/hydra_ws/build/kimera_pgmo/kimera_pgmoConfig.cmake",
+				"/home/siny/hydra_ws/build/kimera_pgmo/kimera_pgmoConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

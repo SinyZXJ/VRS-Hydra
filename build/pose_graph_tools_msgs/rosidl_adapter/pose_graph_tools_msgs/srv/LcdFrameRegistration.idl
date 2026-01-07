@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from pose_graph_tools_msgs/srv/LcdFrameRegistration.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module pose_graph_tools_msgs {
+  module srv {
+    struct LcdFrameRegistration_Request {
+      uint64 query_robot;
+
+      uint64 match_robot;
+
+      uint64 query;
+
+      uint64 match;
+    };
+    struct LcdFrameRegistration_Response {
+      boolean valid;
+
+      geometry_msgs::msg::Pose match_from_query;
+    };
+  };
+};

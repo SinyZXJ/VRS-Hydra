@@ -1,0 +1,211 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-41565ce052a0d6921f34.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-0908a8c91ddba5d6c989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/jazzy/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "semantic_inference_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_semantic_inference_ros_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_semantic_inference_ros_egg-Release-f558f639d3bbfe335e3e.json",
+					"name" : "ament_cmake_python_build_semantic_inference_ros_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_semantic_inference_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_semantic_inference_ros-Release-3ee370caff4679fce9c1.json",
+					"name" : "ament_cmake_python_copy_semantic_inference_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "backprojection_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-backprojection_node-Release-c8d093e4fb7e68b2f994.json",
+					"name" : "backprojection_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "closed_set_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-closed_set_node-Release-c78860520d0760d6952e.json",
+					"name" : "closed_set_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "closed_set_rosbag_writer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-closed_set_rosbag_writer-Release-61df3f310b58d1803529.json",
+					"name" : "closed_set_rosbag_writer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-6eb49065466b8705eb55.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-8311711da695004d469d.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mask_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mask_node-Release-088ccca01496c83b7112.json",
+					"name" : "mask_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "relabel_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-relabel_node-Release-f46714e3e76dfbc5c1e1.json",
+					"name" : "relabel_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rgbd_closed_set_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rgbd_closed_set_node-Release-eb2ab46c55b339cab770.json",
+					"name" : "rgbd_closed_set_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_inference_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_inference_ros-Release-ec3b796fea5199c88439.json",
+					"name" : "semantic_inference_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_inference_ros_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_inference_ros_test-Release-13f6f1c196349467d49b.json",
+					"name" : "semantic_inference_ros_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_inference_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_inference_ros_uninstall-Release-180020db3f605e2beb0d.json",
+					"name" : "semantic_inference_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-3baf56b7447412d6a3e8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/siny/hydra_ws/build/semantic_inference_ros",
+		"source" : "/home/siny/hydra_ws/src/semantic_inference/semantic_inference_ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

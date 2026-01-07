@@ -1,0 +1,8 @@
+{
+  "package_name": "hydra_msgs",
+  "non_idl_tuples": [
+    "/home/siny/hydra_ws/src/hydra_ros/hydra_msgs:msg/ActiveLayer.msg",
+    "/home/siny/hydra_ws/src/hydra_ros/hydra_msgs:msg/DsgUpdate.msg",
+    "/home/siny/hydra_ws/src/hydra_ros/hydra_msgs:srv/GetDsg.srv"
+  ]
+}

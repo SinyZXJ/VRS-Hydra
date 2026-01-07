@@ -1,0 +1,21 @@
+{
+  "package_name": "pose_graph_tools_msgs",
+  "non_idl_tuples": [
+    "/home/siny/hydra_ws/src/pose_graph_tools/pose_graph_tools_msgs:msg/BowQueries.msg",
+    "/home/siny/hydra_ws/src/pose_graph_tools/pose_graph_tools_msgs:msg/BowQuery.msg",
+    "/home/siny/hydra_ws/src/pose_graph_tools/pose_graph_tools_msgs:msg/BowRequests.msg",
+    "/home/siny/hydra_ws/src/pose_graph_tools/pose_graph_tools_msgs:msg/BowVector.msg",
+    "/home/siny/hydra_ws/src/pose_graph_tools/pose_graph_tools_msgs:msg/LoopClosures.msg",
+    "/home/siny/hydra_ws/src/pose_graph_tools/pose_graph_tools_msgs:msg/LoopClosuresAck.msg",
+    "/home/siny/hydra_ws/src/pose_graph_tools/pose_graph_tools_msgs:msg/PoseGraph.msg",
+    "/home/siny/hydra_ws/src/pose_graph_tools/pose_graph_tools_msgs:msg/PoseGraphEdge.msg",
+    "/home/siny/hydra_ws/src/pose_graph_tools/pose_graph_tools_msgs:msg/PoseGraphNode.msg",
+    "/home/siny/hydra_ws/src/pose_graph_tools/pose_graph_tools_msgs:msg/TimeRangeQuery.msg",
+    "/home/siny/hydra_ws/src/pose_graph_tools/pose_graph_tools_msgs:msg/VLCFrameMsg.msg",
+    "/home/siny/hydra_ws/src/pose_graph_tools/pose_graph_tools_msgs:msg/VLCFrames.msg",
+    "/home/siny/hydra_ws/src/pose_graph_tools/pose_graph_tools_msgs:msg/VLCRequests.msg",
+    "/home/siny/hydra_ws/src/pose_graph_tools/pose_graph_tools_msgs:srv/LcdFrameRegistration.srv",
+    "/home/siny/hydra_ws/src/pose_graph_tools/pose_graph_tools_msgs:srv/PoseGraphQuery.srv",
+    "/home/siny/hydra_ws/src/pose_graph_tools/pose_graph_tools_msgs:srv/VLCFrameQuery.srv"
+  ]
+}

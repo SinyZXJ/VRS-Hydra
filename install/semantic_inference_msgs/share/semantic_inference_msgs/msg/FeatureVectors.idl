@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from semantic_inference_msgs/msg/FeatureVectors.msg
+// generated code does not contain a copyright notice
+
+#include "semantic_inference_msgs/msg/FeatureVector.idl"
+
+module semantic_inference_msgs {
+  module msg {
+    struct FeatureVectors {
+      @verbatim (language="comment", text=
+        "optional")
+      sequence<string> names;
+
+      sequence<semantic_inference_msgs::msg::FeatureVector> features;
+    };
+  };
+};

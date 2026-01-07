@@ -1,0 +1,12 @@
+{
+  "package_name": "config_utilities_msgs",
+  "output_dir": "/home/siny/hydra_ws/build/config_utilities_msgs/rosidl_generator_type_description/config_utilities_msgs",
+  "idl_tuples": [
+    "/home/siny/hydra_ws/build/config_utilities_msgs/rosidl_adapter/config_utilities_msgs:srv/SetConfig.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

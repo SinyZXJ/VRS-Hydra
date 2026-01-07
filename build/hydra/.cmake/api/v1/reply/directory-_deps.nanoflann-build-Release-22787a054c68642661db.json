@@ -1,0 +1,100 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/home/siny/hydra_ws/build/hydra/_deps/nanoflann-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 175,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 183,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 188,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/nanoflann",
+			"exportName" : "nanoflannTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "nanoflann::@3cea6c80e61be4a53fc4",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"_deps/nanoflann-build/CMakeFiles/Export/26470991d8f95f1bbc9a839d99b87ebc/nanoflannTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/siny/hydra_ws/build/hydra/_deps/nanoflann-build/nanoflann.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/nanoflann",
+			"paths" : 
+			[
+				"/home/siny/hydra_ws/build/hydra/_deps/nanoflann-build/nanoflannConfig.cmake",
+				"/home/siny/hydra_ws/build/hydra/_deps/nanoflann-build/nanoflannConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/home/siny/hydra_ws/build/hydra/_deps/nanoflann-src/include/nanoflann.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/nanoflann-build",
+		"source" : "/home/siny/hydra_ws/build/hydra/_deps/nanoflann-src"
+	}
+}

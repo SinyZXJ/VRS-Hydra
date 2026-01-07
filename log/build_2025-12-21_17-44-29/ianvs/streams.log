@@ -1,0 +1,82 @@
+[0.024s] Invoking command in '/home/siny/hydra_ws/build/ianvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/siny/ros2_jazzy/install/ament_uncrustify:/home/siny/ros2_jazzy/install/tracetools_trace:/home/siny/ros2_jazzy/install/tracetools_read:/home/siny/ros2_jazzy/install/rpyutils:/home/siny/ros2_jazzy/install/rosidl_pycommon:/home/siny/ros2_jazzy/install/rosidl_cli:/home/siny/ros2_jazzy/install/launch_pytest:/home/siny/ros2_jazzy/install/launch_testing:/home/siny/ros2_jazzy/install/launch_yaml:/home/siny/ros2_jazzy/install/launch_xml:/home/siny/ros2_jazzy/install/launch:/home/siny/ros2_jazzy/install/osrf_pycommon:/home/siny/ros2_jazzy/install/domain_coordinator:/home/siny/ros2_jazzy/install/ament_xmllint:/home/siny/ros2_jazzy/install/ament_pyflakes:/home/siny/ros2_jazzy/install/ament_pycodestyle:/home/siny/ros2_jazzy/install/ament_pep257:/home/siny/ros2_jazzy/install/ament_pclint:/home/siny/ros2_jazzy/install/ament_package:/home/siny/ros2_jazzy/install/ament_mypy:/home/siny/ros2_jazzy/install/ament_lint_cmake:/home/siny/ros2_jazzy/install/ament_flake8:/home/siny/ros2_jazzy/install/ament_copyright:/home/siny/ros2_jazzy/install/ament_lint:/home/siny/ros2_jazzy/install/ament_index_python:/home/siny/ros2_jazzy/install/ament_cpplint:/home/siny/ros2_jazzy/install/ament_cppcheck:/home/siny/ros2_jazzy/install/ament_clang_tidy:/home/siny/ros2_jazzy/install/ament_clang_format DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/ianvs -- -j20 -l20
+[0.096s] [ 13%] Built target _ianvs_bindings
+[0.099s] [ 13%] Built target ament_cmake_python_copy_ianvs_setup
+[0.112s] [ 47%] Built target ianvs
+[0.112s] [ 56%] Built target transform_file_broadcaster
+[0.118s] [ 56%] Built target ament_cmake_python_copy_ianvs
+[0.124s] [ 65%] Built target ianvs_rosbag
+[0.146s] [ 73%] Built target play_rosbag
+[0.151s] [ 82%] Built target merge_rosbags
+[0.168s] [100%] Built target ianvs_plugins
+[0.286s] running egg_info
+[0.296s] writing ianvs.egg-info/PKG-INFO
+[0.296s] writing dependency_links to ianvs.egg-info/dependency_links.txt
+[0.296s] writing entry points to ianvs.egg-info/entry_points.txt
+[0.296s] writing top-level names to ianvs.egg-info/top_level.txt
+[0.323s] reading manifest file 'ianvs.egg-info/SOURCES.txt'
+[0.323s] writing manifest file 'ianvs.egg-info/SOURCES.txt'
+[0.353s] [100%] Built target ament_cmake_python_build_ianvs_egg
+[0.380s] Invoked command in '/home/siny/hydra_ws/build/ianvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/siny/ros2_jazzy/install/ament_uncrustify:/home/siny/ros2_jazzy/install/tracetools_trace:/home/siny/ros2_jazzy/install/tracetools_read:/home/siny/ros2_jazzy/install/rpyutils:/home/siny/ros2_jazzy/install/rosidl_pycommon:/home/siny/ros2_jazzy/install/rosidl_cli:/home/siny/ros2_jazzy/install/launch_pytest:/home/siny/ros2_jazzy/install/launch_testing:/home/siny/ros2_jazzy/install/launch_yaml:/home/siny/ros2_jazzy/install/launch_xml:/home/siny/ros2_jazzy/install/launch:/home/siny/ros2_jazzy/install/osrf_pycommon:/home/siny/ros2_jazzy/install/domain_coordinator:/home/siny/ros2_jazzy/install/ament_xmllint:/home/siny/ros2_jazzy/install/ament_pyflakes:/home/siny/ros2_jazzy/install/ament_pycodestyle:/home/siny/ros2_jazzy/install/ament_pep257:/home/siny/ros2_jazzy/install/ament_pclint:/home/siny/ros2_jazzy/install/ament_package:/home/siny/ros2_jazzy/install/ament_mypy:/home/siny/ros2_jazzy/install/ament_lint_cmake:/home/siny/ros2_jazzy/install/ament_flake8:/home/siny/ros2_jazzy/install/ament_copyright:/home/siny/ros2_jazzy/install/ament_lint:/home/siny/ros2_jazzy/install/ament_index_python:/home/siny/ros2_jazzy/install/ament_cpplint:/home/siny/ros2_jazzy/install/ament_cppcheck:/home/siny/ros2_jazzy/install/ament_clang_tidy:/home/siny/ros2_jazzy/install/ament_clang_format DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/ianvs -- -j20 -l20
+[0.380s] Invoking command in '/home/siny/hydra_ws/build/ianvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/siny/ros2_jazzy/install/ament_uncrustify:/home/siny/ros2_jazzy/install/tracetools_trace:/home/siny/ros2_jazzy/install/tracetools_read:/home/siny/ros2_jazzy/install/rpyutils:/home/siny/ros2_jazzy/install/rosidl_pycommon:/home/siny/ros2_jazzy/install/rosidl_cli:/home/siny/ros2_jazzy/install/launch_pytest:/home/siny/ros2_jazzy/install/launch_testing:/home/siny/ros2_jazzy/install/launch_yaml:/home/siny/ros2_jazzy/install/launch_xml:/home/siny/ros2_jazzy/install/launch:/home/siny/ros2_jazzy/install/osrf_pycommon:/home/siny/ros2_jazzy/install/domain_coordinator:/home/siny/ros2_jazzy/install/ament_xmllint:/home/siny/ros2_jazzy/install/ament_pyflakes:/home/siny/ros2_jazzy/install/ament_pycodestyle:/home/siny/ros2_jazzy/install/ament_pep257:/home/siny/ros2_jazzy/install/ament_pclint:/home/siny/ros2_jazzy/install/ament_package:/home/siny/ros2_jazzy/install/ament_mypy:/home/siny/ros2_jazzy/install/ament_lint_cmake:/home/siny/ros2_jazzy/install/ament_flake8:/home/siny/ros2_jazzy/install/ament_copyright:/home/siny/ros2_jazzy/install/ament_lint:/home/siny/ros2_jazzy/install/ament_index_python:/home/siny/ros2_jazzy/install/ament_cpplint:/home/siny/ros2_jazzy/install/ament_cppcheck:/home/siny/ros2_jazzy/install/ament_clang_tidy:/home/siny/ros2_jazzy/install/ament_clang_format DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/ianvs
+[0.383s] -- Install configuration: "Release"
+[0.384s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs/
+[0.384s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs
+[0.384s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/image_subscription.h
+[0.384s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/node_handle.h
+[0.384s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/app
+[0.384s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/app/rosbag_play_plugins.h
+[0.384s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/node_handle_factory.h
+[0.384s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/image_publisher.h
+[0.384s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/bag_reader.h
+[0.384s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/lazy_publisher_group.h
+[0.384s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/spin_functions.h
+[0.384s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/detail
+[0.384s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/detail/string_transforms.h
+[0.384s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/visibility_control.h
+[0.384s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/message_wait_functor.h
+[0.384s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/node_init.h
+[0.384s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/bindings
+[0.384s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/bindings/image_encodings.h
+[0.384s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/libianvs.so
+[0.384s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/libianvs_plugins.so
+[0.385s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/libianvs_rosbag.so
+[0.386s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/ianvs/play_rosbag
+[0.386s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/ianvs/merge_rosbags
+[0.386s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/ianvs/transform_file_broadcaster
+[0.386s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs/_ianvs_bindings.cpython-312-aarch64-linux-gnu.so
+[0.386s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/pythonpath.sh
+[0.386s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/pythonpath.dsv
+[0.386s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info
+[0.386s] -- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/entry_points.txt
+[0.387s] -- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/top_level.txt
+[0.387s] -- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/PKG-INFO
+[0.387s] -- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.387s] -- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.387s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs
+[0.387s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs/__init__.py
+[0.388s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs/launch.py
+[0.406s] Listing '/home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs'...
+[0.406s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/plugins.xml
+[0.406s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/library_path.sh
+[0.406s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/library_path.dsv
+[0.406s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ament_index/resource_index/package_run_dependencies/ianvs
+[0.406s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ament_index/resource_index/parent_prefix_path/ianvs
+[0.406s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/ament_prefix_path.sh
+[0.406s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/ament_prefix_path.dsv
+[0.406s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/path.sh
+[0.406s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/path.dsv
+[0.406s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/local_setup.bash
+[0.407s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/local_setup.sh
+[0.407s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/local_setup.zsh
+[0.407s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/local_setup.dsv
+[0.407s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/package.dsv
+[0.407s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ament_index/resource_index/packages/ianvs
+[0.407s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ament_index/resource_index/ianvs__pluginlib__plugin/ianvs
+[0.407s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ianvs-exportsExport.cmake
+[0.407s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ianvs-exportsExport-release.cmake
+[0.407s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ament_cmake_export_targets-extras.cmake
+[0.407s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.407s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ianvsConfig.cmake
+[0.407s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ianvsConfig-version.cmake
+[0.407s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/package.xml
+[0.438s] Invoked command in '/home/siny/hydra_ws/build/ianvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/siny/ros2_jazzy/install/ament_uncrustify:/home/siny/ros2_jazzy/install/tracetools_trace:/home/siny/ros2_jazzy/install/tracetools_read:/home/siny/ros2_jazzy/install/rpyutils:/home/siny/ros2_jazzy/install/rosidl_pycommon:/home/siny/ros2_jazzy/install/rosidl_cli:/home/siny/ros2_jazzy/install/launch_pytest:/home/siny/ros2_jazzy/install/launch_testing:/home/siny/ros2_jazzy/install/launch_yaml:/home/siny/ros2_jazzy/install/launch_xml:/home/siny/ros2_jazzy/install/launch:/home/siny/ros2_jazzy/install/osrf_pycommon:/home/siny/ros2_jazzy/install/domain_coordinator:/home/siny/ros2_jazzy/install/ament_xmllint:/home/siny/ros2_jazzy/install/ament_pyflakes:/home/siny/ros2_jazzy/install/ament_pycodestyle:/home/siny/ros2_jazzy/install/ament_pep257:/home/siny/ros2_jazzy/install/ament_pclint:/home/siny/ros2_jazzy/install/ament_package:/home/siny/ros2_jazzy/install/ament_mypy:/home/siny/ros2_jazzy/install/ament_lint_cmake:/home/siny/ros2_jazzy/install/ament_flake8:/home/siny/ros2_jazzy/install/ament_copyright:/home/siny/ros2_jazzy/install/ament_lint:/home/siny/ros2_jazzy/install/ament_index_python:/home/siny/ros2_jazzy/install/ament_cpplint:/home/siny/ros2_jazzy/install/ament_cppcheck:/home/siny/ros2_jazzy/install/ament_clang_tidy:/home/siny/ros2_jazzy/install/ament_clang_format DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/ianvs

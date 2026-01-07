@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-subbuild/CMakeFiles/pmc-populate"
+		},
+		{
+			"file" : "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-subbuild/CMakeFiles/pmc-populate.rule"
+		},
+		{
+			"file" : "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-subbuild/CMakeFiles/pmc-populate-complete.rule"
+		},
+		{
+			"file" : "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-build.rule"
+		},
+		{
+			"file" : "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-configure.rule"
+		},
+		{
+			"file" : "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-download.rule"
+		},
+		{
+			"file" : "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-install.rule"
+		},
+		{
+			"file" : "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-patch.rule"
+		},
+		{
+			"file" : "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-test.rule"
+		},
+		{
+			"file" : "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pmc-populate"
+		],
+		"name" : "pmc-populate"
+	}
+}

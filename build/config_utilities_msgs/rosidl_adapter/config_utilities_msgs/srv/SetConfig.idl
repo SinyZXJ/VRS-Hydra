@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from config_utilities_msgs/srv/SetConfig.srv
+// generated code does not contain a copyright notice
+
+
+module config_utilities_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Requested data by the client as YAML string data.")
+    struct SetConfig_Request {
+      string data;
+    };
+    @verbatim (language="comment", text=
+      "Response from the server as YAML string data. ")
+    struct SetConfig_Response {
+      string data;
+    };
+  };
+};

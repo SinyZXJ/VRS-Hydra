@@ -1,0 +1,39 @@
+[0.013s] Invoking command in '/home/siny/hydra_ws/build/kimera_pgmo_rviz': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/kimera_pgmo_msgs CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/kimera_pgmo_msgs CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib PYTHONPATH=/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages /usr/bin/cmake --build /home/siny/hydra_ws/build/kimera_pgmo_rviz -- -j20 -l20
+[0.065s] [  0%] Built target kimera_pgmo_rviz_autogen_timestamp_deps
+[0.105s] [ 11%] Built target kimera_pgmo_rviz_autogen
+[0.151s] [100%] Built target kimera_pgmo_rviz
+[0.162s] Invoked command in '/home/siny/hydra_ws/build/kimera_pgmo_rviz' returned '0': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/kimera_pgmo_msgs CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/kimera_pgmo_msgs CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib PYTHONPATH=/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages /usr/bin/cmake --build /home/siny/hydra_ws/build/kimera_pgmo_rviz -- -j20 -l20
+[0.163s] Invoking command in '/home/siny/hydra_ws/build/kimera_pgmo_rviz': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/kimera_pgmo_msgs CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/kimera_pgmo_msgs CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib PYTHONPATH=/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages /usr/bin/cmake --install /home/siny/hydra_ws/build/kimera_pgmo_rviz
+[0.170s] -- Install configuration: "Release"
+[0.171s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/lib/libkimera_pgmo_rviz.so
+[0.172s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/include/kimera_pgmo_rviz/
+[0.172s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/include/kimera_pgmo_rviz//mesh_display.h
+[0.172s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/include/kimera_pgmo_rviz//tf_event_buffer.h
+[0.172s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/include/kimera_pgmo_rviz//visuals_map.h
+[0.172s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/include/kimera_pgmo_rviz//mesh_visual.h
+[0.172s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/include/kimera_pgmo_rviz//visibility_field.h
+[0.172s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/kimera_pgmo_rviz/rviz_common_plugins.xml
+[0.172s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/kimera_pgmo_rviz/icons
+[0.172s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/kimera_pgmo_rviz/icons/classes
+[0.172s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/kimera_pgmo_rviz/icons/classes/MeshDisplay.png
+[0.172s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/kimera_pgmo_rviz/rviz_common_plugins.xml
+[0.172s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/ament_index/resource_index/package_run_dependencies/kimera_pgmo_rviz
+[0.172s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/ament_index/resource_index/parent_prefix_path/kimera_pgmo_rviz
+[0.172s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/kimera_pgmo_rviz/environment/ament_prefix_path.sh
+[0.172s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/kimera_pgmo_rviz/environment/ament_prefix_path.dsv
+[0.172s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/kimera_pgmo_rviz/environment/path.sh
+[0.172s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/kimera_pgmo_rviz/environment/path.dsv
+[0.172s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/kimera_pgmo_rviz/local_setup.bash
+[0.172s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/kimera_pgmo_rviz/local_setup.sh
+[0.172s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/kimera_pgmo_rviz/local_setup.zsh
+[0.172s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/kimera_pgmo_rviz/local_setup.dsv
+[0.172s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/kimera_pgmo_rviz/package.dsv
+[0.172s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/ament_index/resource_index/packages/kimera_pgmo_rviz
+[0.173s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/ament_index/resource_index/rviz_common__pluginlib__plugin/kimera_pgmo_rviz
+[0.173s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/kimera_pgmo_rviz/cmake/kimera_pgmo_rviz-targetsExport.cmake
+[0.173s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/kimera_pgmo_rviz/cmake/kimera_pgmo_rviz-targetsExport-release.cmake
+[0.173s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/kimera_pgmo_rviz/cmake/ament_cmake_export_targets-extras.cmake
+[0.173s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/kimera_pgmo_rviz/cmake/kimera_pgmo_rvizConfig.cmake
+[0.173s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/kimera_pgmo_rviz/cmake/kimera_pgmo_rvizConfig-version.cmake
+[0.173s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_rviz/share/kimera_pgmo_rviz/package.xml
+[0.175s] Invoked command in '/home/siny/hydra_ws/build/kimera_pgmo_rviz' returned '0': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/kimera_pgmo_msgs CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/kimera_pgmo_msgs CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib PYTHONPATH=/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages /usr/bin/cmake --install /home/siny/hydra_ws/build/kimera_pgmo_rviz

@@ -1,0 +1,4 @@
+Invoking command in '/home/siny/hydra_ws/build/pose_graph_tools_msgs': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/pose_graph_tools_msgs -- -j20 -l20
+Invoked command in '/home/siny/hydra_ws/build/pose_graph_tools_msgs' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/pose_graph_tools_msgs -- -j20 -l20
+Invoking command in '/home/siny/hydra_ws/build/pose_graph_tools_msgs': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/pose_graph_tools_msgs
+Invoked command in '/home/siny/hydra_ws/build/pose_graph_tools_msgs' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/pose_graph_tools_msgs

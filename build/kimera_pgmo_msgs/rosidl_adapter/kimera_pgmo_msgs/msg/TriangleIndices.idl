@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kimera_pgmo_msgs/msg/TriangleIndices.msg
+// generated code does not contain a copyright notice
+
+
+module kimera_pgmo_msgs {
+  module msg {
+    typedef uint32 uint32__3[3];
+    @verbatim (language="comment", text=
+      "Definition of a triangle's vertices")
+    struct TriangleIndices {
+      uint32__3 vertex_indices;
+    };
+  };
+};

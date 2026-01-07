@@ -1,0 +1,474 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex 
+-- GTSAM include directory:  /opt/ros/jazzy/lib/cmake/GTSAM/../../../include
+-- GTSAM include directory:  /opt/ros/jazzy/lib/cmake/GTSAM/../../../include
+-- Found nlohmann_json: /usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.11.3") 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- Checking for module 'libglog'
+--   Found libglog, version 0.6.0
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization 
+-- Found flann version 1.9.2
+-- looking for PCL_COMPATIBILITY
+-- Could NOT find PCL_COMPATIBILITY (missing: PCL_COMPATIBILITY_LIBRARY PCL_COMPATIBILITY_INCLUDE_DIR) 
+-- looking for PCL_COMMON
+-- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+-- looking for PCL_GEOMETRY
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+-- looking for PCL_KDTREE
+-- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+-- looking for PCL_OCTREE
+-- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;Boost::system;Boost::filesystem;Boost::iostreams;Boost::serialization;FLANN::FLANN  
+-- Found OpenCV: /usr (found version "4.6.0") found components: core imgproc 
+-- nanoflann version: 1.7.1
+-- Found Threads: TRUE  
+-- Found GTest: /usr/lib/aarch64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.14.0")  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (3.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/siny/hydra_ws/build/hydra
+[  0%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/backend/backend_utilities.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/active_window/reconstruction_module.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/active_window/volumetric_window.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/active_window/active_window_output.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/active_window/active_window_module.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/backend/association_strategies.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/backend/dsg_updater.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/backend/backend_module.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/backend/deformation_interpolator.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/backend/external_loop_closure_receiver.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/backend/update_functions.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/backend/update_buildings_functor.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/backend/update_frontiers_functor.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/backend/update_agents_functor.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/backend/pgmo_configs.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/backend/surface_place_utilities.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/backend/mst_factors.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/backend/merge_proposer.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/backend/merge_tracker.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/backend/mesh_clustering.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/backend/update_objects_functor.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/backend/update_places_functor.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/backend/update_rooms_functor.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/backend/update_surface_places_functor.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/backend/zmq_interfaces.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/common/batch_pipeline.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/common/config_utilities.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/common/global_info.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/common/graph_update.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/common/hydra_pipeline.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/common/label_remapper.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/common/label_space_config.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/common/pipeline_queues.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/common/robot_prefix_config.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/common/semantic_color_map.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/common/shared_dsg_info.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/common/shared_module_state.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/frontend/graph_builder.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/frontend/graph_connector.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/frontend/gvd_place_extractor.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/frontend/frontier_extractor.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/frontend/mesh_segmenter.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/frontend/place_mesh_connector.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/frontend/place_2d_segmenter.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/frontend/place_2d_split_logic.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/frontend/view_database.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/frontend/view_selector.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/input/camera.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/input/data_receiver.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/input/input_conversion.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/input/input_module.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/input/input_packet.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/input/lidar.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/input/sensor_extrinsics.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/input/sensor_input_packet.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/input/sensor_utilities.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/input/sensor.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/loop_closure/descriptor_matching.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/loop_closure/detector.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/loop_closure/loop_closure_config.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/loop_closure/loop_closure_module.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/loop_closure/registration.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/loop_closure/scene_graph_descriptors.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/loop_closure/subgraph_extraction.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/odometry/pose_graph_from_odom.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/odometry/pose_graph_tracker.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/openset/embedding_distances.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/openset/embedding_group.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/openset/embedding_pooling.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/places/graph_extractor.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/places/graph_extractor_utilities.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/places/gvd_graph.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/places/gvd_integrator.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/places/gvd_integrator_config.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/places/gvd_merge_policies.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/places/gvd_parent_tracker.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/places/gvd_utilities.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/places/gvd_voxel.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/places/robot_footprint_integrator.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/places/update_statistics.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/reconstruction/integration_masking.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/reconstruction/marching_cubes.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/reconstruction/mesh_integrator.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/reconstruction/mesh_integrator_config.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/reconstruction/projection_interpolators.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/reconstruction/projective_integrator.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/reconstruction/semantic_integrator.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/reconstruction/tsdf_interpolators.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/reconstruction/volumetric_map.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/rooms/graph_clustering.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/rooms/graph_filtration.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/rooms/room_finder.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/rooms/room_finder_config.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/rooms/room_utilities.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/utils/active_window_tracker.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/utils/csv_reader.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/utils/data_directory.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/utils/disjoint_set.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/utils/display_utilities.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/utils/id_tracker.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/utils/mesh_utilities.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/utils/minimum_spanning_tree.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/utils/nearest_neighbor_utilities.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/utils/pgmo_glog_sink.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/utils/pgmo_mesh_interface.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/utils/pgmo_mesh_traits.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/utils/place_2d_ellipsoid_math.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/hydra.dir/src/utils/timing_utilities.cpp.o[0m
+[ 63%] [32m[1mLinking CXX shared library libhydra.so[0m
+[ 63%] Built target hydra
+[ 64%] [32mBuilding CXX object eval/CMakeFiles/hydra_eval.dir/src/graph_utilities.cpp.o[0m
+[ 65%] [32mBuilding CXX object eval/CMakeFiles/hydra_eval.dir/src/room_io.cpp.o[0m
+[ 65%] [32mBuilding CXX object eval/CMakeFiles/hydra_eval.dir/src/room_evaluator.cpp.o[0m
+[ 65%] [32mBuilding CXX object eval/CMakeFiles/hydra_eval.dir/src/place_evaluator.cpp.o[0m
+[ 66%] [32mBuilding CXX object eval/CMakeFiles/hydra_eval.dir/src/place_metrics.cpp.o[0m
+[ 66%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/backend/test_update_objects_functor.cpp.o[0m
+[ 68%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/backend/test_update_places_functor.cpp.o[0m
+[ 68%] [32mBuilding CXX object eval/CMakeFiles/hydra_eval.dir/src/room_metrics.cpp.o[0m
+[ 69%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/common/test_shared_dsg_info.cpp.o[0m
+[ 69%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/backend/test_update_buildings_functor.cpp.o[0m
+[ 70%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/src/resources.cpp.o[0m
+[ 72%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/backend/test_external_loop_closure.cpp.o[0m
+[ 72%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/src/place_fixtures.cpp.o[0m
+[ 72%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/main.cpp.o[0m
+[ 72%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/backend/test_update_agents_functor.cpp.o[0m
+[ 72%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/common/test_config_utilities.cpp.o[0m
+[ 72%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/input/test_lidar.cpp.o[0m
+[ 73%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/input/test_sensor.cpp.o[0m
+[ 73%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/input/test_sensor_utilities.cpp.o[0m
+[ 74%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/frontend/test_graph_connector.cpp.o[0m
+[ 74%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/frontend/test_mesh_segmenter.cpp.o[0m
+[ 76%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/input/test_camera.cpp.o[0m
+[ 76%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/input/test_input_packet.cpp.o[0m
+[01m[K/home/siny/hydra_ws/src/hydra/tests/input/test_lidar.cpp:[m[K In function ‘[01m[Kstd::shared_ptr<hydra::Lidar> hydra::[01;32m[KcreateLidar[m[K(double, double, std::pair<double, double>, std::optional<double>)[m[K’:
+[01m[K/home/siny/hydra_ws/src/hydra/tests/input/test_lidar.cpp:44:24:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+   44 | std::shared_ptr<Lidar> [01;36m[KcreateLidar[m[K(double vfov,
+      |                        [01;36m[K^~~~~~~~~~~[m[K
+[ 77%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/loop_closure/test_descriptor_matching.cpp.o[0m
+[ 78%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/loop_closure/test_detector.cpp.o[0m
+[ 78%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/loop_closure/test_registration.cpp.o[0m
+[ 79%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/loop_closure/test_scene_graph_descriptors.cpp.o[0m
+[ 79%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/loop_closure/test_subgraph_extraction.cpp.o[0m
+[ 80%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/odometry/test_pose_graph_from_odom.cpp.o[0m
+[ 81%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/openset/test_embedding_distances.cpp.o[0m
+[01m[K/home/siny/hydra_ws/src/hydra/tests/input/test_camera.cpp:[m[K In function ‘[01m[Kstd::shared_ptr<hydra::Camera> hydra::[01;32m[KcreateCamera[m[K(double, double, std::pair<double, double>, std::pair<int, int>)[m[K’:
+[01m[K/home/siny/hydra_ws/src/hydra/tests/input/test_camera.cpp:45:25:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+   45 | std::shared_ptr<Camera> [01;36m[KcreateCamera[m[K(double vfov,
+      |                         [01;36m[K^~~~~~~~~~~~[m[K
+[ 81%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/places/test_graph_extractor.cpp.o[0m
+[ 82%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/places/test_graph_extractor_utilities.cpp.o[0m
+[ 82%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/places/test_gvd_integrator.cpp.o[0m
+[ 82%] [32m[1mLinking CXX shared library libhydra_eval.so[0m
+[ 83%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/places/test_gvd_utilities.cpp.o[0m
+[ 83%] Built target hydra_eval
+[ 83%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/reconstruction/test_integration_masking.cpp.o[0m
+[ 84%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/reconstruction/test_marching_cubes.cpp.o[0m
+[ 84%] [32mBuilding CXX object eval/CMakeFiles/compress_graph.dir/tools/compress_graph.cpp.o[0m
+[ 84%] [32mBuilding CXX object eval/CMakeFiles/compute_filtrations.dir/tools/compute_filtrations.cpp.o[0m
+[ 85%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/reconstruction/test_projection_interpolators.cpp.o[0m
+[ 85%] [32mBuilding CXX object eval/CMakeFiles/evaluate_places.dir/tools/evaluate_places.cpp.o[0m
+[ 86%] [32mBuilding CXX object eval/CMakeFiles/evaluate_rooms.dir/tools/evaluate_rooms.cpp.o[0m
+[ 87%] [32mBuilding CXX object eval/CMakeFiles/gt_trajectory_optimizer.dir/tools/gt_trajectory_optimizer.cpp.o[0m
+[ 88%] [32mBuilding CXX object eval/CMakeFiles/merge_graphs.dir/tools/merge_graphs.cpp.o[0m
+[ 89%] [32mBuilding CXX object eval/CMakeFiles/optimize_graph.dir/tools/optimize_graph.cpp.o[0m
+[ 89%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/reconstruction/test_semantic_integrator.cpp.o[0m
+[ 90%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/reconstruction/test_tsdf_interpolators.cpp.o[0m
+[ 90%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/reconstruction/test_volumetric_map.cpp.o[0m
+[ 91%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/rooms/test_graph_clustering.cpp.o[0m
+[ 91%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/rooms/test_graph_filtration.cpp.o[0m
+[ 92%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/rooms/test_room_utilities.cpp.o[0m
+[ 93%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/rooms/test_room_finder.cpp.o[0m
+[ 93%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/utils/test_active_window_tracker.cpp.o[0m
+[ 94%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/utils/test_minimum_spanning_tree.cpp.o[0m
+[ 94%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/utils/test_nearest_neighbor_utilities.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable merge_graphs[0m
+[ 94%] Built target merge_graphs
+[ 95%] [32mBuilding CXX object tests/CMakeFiles/test_hydra.dir/utils/test_timing_utilities.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable evaluate_rooms[0m
+[ 95%] Built target evaluate_rooms
+[ 96%] [32m[1mLinking CXX executable evaluate_places[0m
+[ 96%] Built target evaluate_places
+[ 97%] [32m[1mLinking CXX executable compute_filtrations[0m
+[ 97%] Built target compute_filtrations
+In file included from [01m[K/usr/include/boost/math/distributions/chi_squared.hpp:13[m[K,
+                 from [01m[K/opt/ros/jazzy/include/gtsam/nonlinear/GncOptimizer.h:31[m[K,
+                 from [01m[K/home/siny/hydra_ws/src/hydra/eval/tools/gt_trajectory_optimizer.cpp:38[m[K:
+/usr/include/boost/math/special_functions/gamma.hpp: In instantiation of ‘[01m[Kboost::math::detail::upper_incomplete_gamma_fract<T>::result_type boost::math::detail::upper_incomplete_gamma_fract<T>::[01;32m[Koperator()[m[K() [35m[K[with T = long double; result_type = std::pair<long double, long double>][m[K[m[K’:
+[01m[K/usr/include/boost/math/tools/fraction.hpp:217:20:[m[K   required from ‘[01m[Ktypename boost::math::tools::detail::fraction_traits<Gen>::result_type boost::math::tools::[01;32m[Kcontinued_fraction_a[m[K(Gen&, const U&, uintmax_t&) [35m[K[with Gen = boost::math::detail::upper_incomplete_gamma_fract<long double>; U = long double; typename detail::fraction_traits<Gen>::result_type = long double; uintmax_t = long unsigned int][m[K[m[K’
+[01m[K/usr/include/boost/math/tools/fraction.hpp:252:31:[m[K   required from ‘[01m[Ktypename boost::math::tools::detail::fraction_traits<Gen>::result_type boost::math::tools::[01;32m[Kcontinued_fraction_a[m[K(Gen&, const U&) [35m[K[with Gen = boost::math::detail::upper_incomplete_gamma_fract<long double>; U = long double; typename detail::fraction_traits<Gen>::result_type = long double][m[K[m[K’
+[01m[K/usr/include/boost/math/special_functions/gamma.hpp:314:68:[m[K   required from ‘[01m[KT boost::math::detail::[01;32m[Kupper_gamma_fraction[m[K(T, T, T) [35m[K[with T = long double][m[K[m[K’
+[01m[K/usr/include/boost/math/special_functions/gamma.hpp:1176:44:[m[K   required from ‘[01m[KT boost::math::detail::[01;32m[Kgamma_incomplete_imp[m[K(T, T, bool, bool, const Policy&, T*) [35m[K[with T = long double; Policy = boost::math::policies::policy<boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>][m[K[m[K’
+[01m[K/usr/include/boost/math/special_functions/detail/igamma_inverse.hpp:356:67:[m[K   required from ‘[01m[Kstd::tuple<T, T, T> boost::math::detail::gamma_p_inverse_func<T, Policy>::[01;32m[Koperator()[m[K(const T&) const [35m[K[with T = double; Policy = boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>][m[K[m[K’
+[01m[K/usr/include/boost/math/tools/roots.hpp:550:35:[m[K   required from ‘[01m[KT boost::math::tools::detail::[01;32m[Ksecond_order_root_finder[m[K(F, T, T, T, int, uintmax_t&) [35m[K[with Stepper = halley_step; F = boost::math::detail::gamma_p_inverse_func<double, boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy> >; T = double; uintmax_t = long unsigned int][m[K[m[K’
+[01m[K/usr/include/boost/math/tools/roots.hpp:723:64:[m[K   required from ‘[01m[KT boost::math::tools::[01;32m[Khalley_iterate[m[K(F, T, T, T, int, uintmax_t&) [35m[K[with F = boost::math::detail::gamma_p_inverse_func<double, boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy> >; T = double; uintmax_t = long unsigned int][m[K[m[K’
+[01m[K/usr/include/boost/math/special_functions/detail/igamma_inverse.hpp:446:33:[m[K   required from ‘[01m[KT boost::math::detail::[01;32m[Kgamma_p_inv_imp[m[K(T, T, const Policy&) [35m[K[with T = double; Policy = boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>][m[K[m[K’
+[01m[K/usr/include/boost/math/special_functions/detail/igamma_inverse.hpp:525:34:[m[K   required from ‘[01m[Kboost::math::tools::promote_args_t<RT1, RT2> boost::math::[01;32m[Kgamma_p_inv[m[K(T1, T2, const Policy&) [35m[K[with T1 = double; T2 = double; Policy = policies::policy<policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy>; tools::promote_args_t<RT1, RT2> = double][m[K[m[K’
+[01m[K/usr/include/boost/math/distributions/chi_squared.hpp:169:39:[m[K   required from ‘[01m[KRealType boost::math::[01;32m[Kquantile[m[K(const chi_squared_distribution<RealType, Policy>&, const RealType&) [35m[K[with RealType = double; Policy = policies::policy<policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy>][m[K[m[K’
+[01m[K/opt/ros/jazzy/include/gtsam/nonlinear/GncOptimizer.h:40:31:[m[K   required from here
+[01m[K/usr/include/boost/math/special_functions/gamma.hpp:299:16:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<long double, long double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+  299 |    result_type [01;36m[Koperator[m[K()()
+      |                [01;36m[K^~~~~~~~[m[K
+[ 98%] [32m[1mLinking CXX executable test_hydra[0m
+[ 98%] Built target test_hydra
+[ 99%] [32m[1mLinking CXX executable compress_graph[0m
+[ 99%] Built target compress_graph
+[100%] [32m[1mLinking CXX executable optimize_graph[0m
+[100%] Built target optimize_graph
+[100%] [32m[1mLinking CXX executable gt_trajectory_optimizer[0m
+[100%] Built target gt_trajectory_optimizer
+-- Install configuration: "Release"
+-- Installing: /home/siny/hydra_ws/install/hydra/lib/libhydra_eval.so
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra/lib/libhydra_eval.so" to ""
+-- Installing: /home/siny/hydra_ws/install/hydra/lib/hydra/compress_graph
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra/lib/hydra/compress_graph" to ""
+-- Installing: /home/siny/hydra_ws/install/hydra/lib/hydra/compute_filtrations
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra/lib/hydra/compute_filtrations" to ""
+-- Installing: /home/siny/hydra_ws/install/hydra/lib/hydra/evaluate_places
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra/lib/hydra/evaluate_places" to ""
+-- Installing: /home/siny/hydra_ws/install/hydra/lib/hydra/evaluate_rooms
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra/lib/hydra/evaluate_rooms" to ""
+-- Installing: /home/siny/hydra_ws/install/hydra/lib/hydra/gt_trajectory_optimizer
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra/lib/hydra/gt_trajectory_optimizer" to ""
+-- Installing: /home/siny/hydra_ws/install/hydra/lib/hydra/merge_graphs
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra/lib/hydra/merge_graphs" to ""
+-- Installing: /home/siny/hydra_ws/install/hydra/lib/hydra/optimize_graph
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra/lib/hydra/optimize_graph" to ""
+-- Installing: /home/siny/hydra_ws/install/hydra/lib/hydra/test_hydra
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra/lib/hydra/test_hydra" to ""
+-- Installing: /home/siny/hydra_ws/install/hydra/lib/libhydra.so
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra/lib/libhydra.so" to ""
+-- Installing: /home/siny/hydra_ws/install/hydra/include
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/places
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/places/gvd_utilities.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/places/gvd_integrator.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/places/gvd_integrator_config.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/places/robot_footprint_integrator.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/places/gvd_merge_policies.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/places/gvd_graph.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/places/graph_extractor.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/places/graph_extractor_utilities.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/places/update_statistics.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/places/gvd_voxel.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/places/gvd_parent_tracker.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/common
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/common/config_utilities.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/common/graph_update.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/common/pipeline_queues.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/common/common_types.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/common/batch_pipeline.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/common/dsg_types.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/common/hydra_pipeline.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/common/global_info.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/common/message_queue.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/common/label_space_config.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/common/shared_module_state.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/common/output_sink.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/common/label_remapper.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/common/semantic_color_map.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/common/module.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/common/launch_callbacks.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/common/shared_dsg_info.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/common/robot_prefix_config.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/input
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/input/sensor_extrinsics.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/input/camera.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/input/sensor_utilities.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/input/sensor_input_packet.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/input/sensor.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/input/data_receiver.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/input/input_data.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/input/input_packet.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/input/input_conversion.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/input/input_module.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/input/lidar.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/backend
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/backend/update_buildings_functor.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/backend/merge_proposer.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/backend/merge_tracker.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/backend/external_loop_closure_receiver.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/backend/zmq_interfaces.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/backend/backend_input.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/backend/pgmo_configs.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/backend/update_frontiers_functor.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/backend/association_strategies.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/backend/update_agents_functor.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/backend/backend_module.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/backend/backend_utilities.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/backend/deformation_interpolator.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/backend/update_rooms_functor.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/backend/update_functions.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/backend/update_surface_places_functor.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/backend/surface_place_utilities.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/backend/mst_factors.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/backend/update_objects_functor.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/backend/update_places_functor.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/backend/mesh_clustering.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/backend/dsg_updater.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/utils
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/utils/pgmo_mesh_traits.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/utils/nearest_neighbor_utilities.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/utils/data_directory.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/utils/display_utilities.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/utils/bucket_queue.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/utils/pgmo_mesh_interface.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/utils/minimum_spanning_tree.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/utils/id_tracker.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/utils/disjoint_set.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/utils/active_window_tracker.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/utils/pgmo_glog_sink.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/utils/timing_utilities.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/utils/mesh_utilities.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/utils/layer_io.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/utils/place_2d_ellipsoid_math.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/utils/csv_reader.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/utils/printing.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/odometry
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/odometry/pose_graph_from_odom.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/odometry/pose_graph_tracker.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/active_window
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/active_window/active_window_module.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/active_window/active_window_output.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/active_window/reconstruction_module.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/active_window/volumetric_window.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure/descriptor_matching.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure/registration.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure/loop_closure_config.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure/lcd_input.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure/loop_closure_module.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure/subgraph_extraction.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure/registration_solution.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure/detector.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure/scene_graph_descriptors.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure/gnn_descriptors.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/rooms
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/rooms/room_finder.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/rooms/graph_filtration.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/rooms/graph_clustering.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/rooms/room_finder_config.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/rooms/room_utilities.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/openset
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/openset/openset_types.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/openset/embedding_distances.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/openset/embedding_pooling.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/openset/embedding_group.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction/volumetric_map.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction/marching_cubes.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction/projection_interpolators.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction/semantic_integrator.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction/tsdf_interpolators.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction/integration_masking.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction/mesh_integrator.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction/index_getter.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction/voxel_types.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction/projective_integrator.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction/mesh_integrator_config.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/gnn
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/gnn/gnn_interface.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/gnn/tensor.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/gnn/ort_utilities.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/frontend
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/place_2d_segmenter.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/place_2d_split_logic.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/place_mesh_connector.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/view_database.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/graph_connector.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/freespace_places_interface.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/mesh_segmenter.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/view_selector.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/surface_places_interface.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/frontier_extractor.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/gvd_place_extractor.h
+-- Installing: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/graph_builder.h
+-- Installing: /home/siny/hydra_ws/install/hydra/lib/cmake/hydra/hydraTargets.cmake
+-- Installing: /home/siny/hydra_ws/install/hydra/lib/cmake/hydra/hydraTargets-release.cmake
+-- Installing: /home/siny/hydra_ws/install/hydra/lib/cmake/hydra/hydraConfig.cmake
+-- Installing: /home/siny/hydra_ws/install/hydra/lib/cmake/hydra/hydraConfigVersion.cmake
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/lcd
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/lcd/default.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/lcd/default_gnn.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/lcd/uhumans2.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/lcd/uhumans2_gnn.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_remaps
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_remaps/uhumans2_apartment.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_remaps/uhumans2_neighborhood.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_remaps/uhumans2_subway.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_remaps/uhumans2_office.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_remaps/tesse_cd_office.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_remaps/tesse_cd_apartment.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/sidpac.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/kimera_multi_velodyne16.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/simmons_a1.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/kimera_multi_ouster64.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/spot.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/d455_outdoor.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/uhumans2.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/habitat.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/kitti_360.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/pennquad.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/simmons_jackal.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/kimera_multi_rgbd.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/tesse_cd_office_label_space.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/tesse_cd_apartment_label_space.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/kitti_360_label_space.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/phoenix_label_space.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/ade20k_full_label_space.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/uhumans2_subway_label_space.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/uhumans2_apartment_label_space.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/ade20k_mp3d_label_space.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/ade20k_mit_label_space.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/uhumans2_office_label_space.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/ade20k_outdoor_label_space.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/mpcat40_label_space.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/ade20k_indoor_label_space.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra/share/ament_index/resource_index/package_run_dependencies/hydra
+-- Installing: /home/siny/hydra_ws/install/hydra/share/ament_index/resource_index/parent_prefix_path/hydra
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/environment/ament_prefix_path.sh
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/environment/ament_prefix_path.dsv
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/environment/path.sh
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/environment/path.dsv
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/local_setup.bash
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/local_setup.sh
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/local_setup.zsh
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/local_setup.dsv
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/package.dsv
+-- Installing: /home/siny/hydra_ws/install/hydra/share/ament_index/resource_index/packages/hydra
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/cmake/hydraConfig.cmake
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/cmake/hydraConfig-version.cmake
+-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/package.xml

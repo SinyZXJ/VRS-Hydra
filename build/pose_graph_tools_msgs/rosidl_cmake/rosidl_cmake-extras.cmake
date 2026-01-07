@@ -1,0 +1,4 @@
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(pose_graph_tools_msgs_IDL_FILES "msg/BowQueries.idl;msg/BowQuery.idl;msg/BowRequests.idl;msg/BowVector.idl;msg/LoopClosures.idl;msg/LoopClosuresAck.idl;msg/PoseGraph.idl;msg/PoseGraphEdge.idl;msg/PoseGraphNode.idl;msg/TimeRangeQuery.idl;msg/VLCFrameMsg.idl;msg/VLCFrames.idl;msg/VLCRequests.idl;srv/LcdFrameRegistration.idl;srv/PoseGraphQuery.idl;srv/VLCFrameQuery.idl")
+set(pose_graph_tools_msgs_INTERFACE_FILES "msg/BowQueries.msg;msg/BowQuery.msg;msg/BowRequests.msg;msg/BowVector.msg;msg/LoopClosures.msg;msg/LoopClosuresAck.msg;msg/PoseGraph.msg;msg/PoseGraphEdge.msg;msg/PoseGraphNode.msg;msg/TimeRangeQuery.msg;msg/VLCFrameMsg.msg;msg/VLCFrames.msg;msg/VLCRequests.msg;srv/LcdFrameRegistration.srv;srv/PoseGraphQuery.srv;srv/VLCFrameQuery.srv")

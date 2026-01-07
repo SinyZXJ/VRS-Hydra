@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hydra_msgs/msg/detail/active_layer__type_support.c.o"
+  "CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hydra_msgs/msg/detail/active_layer__type_support.c.o.d"
+  "CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hydra_msgs/msg/detail/dsg_update__type_support.c.o"
+  "CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hydra_msgs/msg/detail/dsg_update__type_support.c.o.d"
+  "CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hydra_msgs/srv/detail/get_dsg__type_support.c.o"
+  "CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hydra_msgs/srv/detail/get_dsg__type_support.c.o.d"
+  "libhydra_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libhydra_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/hydra_msgs/msg/detail/active_layer__type_support.c"
+  "rosidl_typesupport_introspection_c/hydra_msgs/msg/detail/dsg_update__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/hydra_msgs/msg/detail/dsg_update__type_support.c"
+  "rosidl_typesupport_introspection_c/hydra_msgs/srv/detail/get_dsg__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/hydra_msgs/srv/detail/get_dsg__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

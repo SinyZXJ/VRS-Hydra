@@ -1,0 +1,29 @@
+{
+  "package_name": "pose_graph_tools_msgs",
+  "output_dir": "/home/siny/hydra_ws/build/pose_graph_tools_msgs/rosidl_generator_type_description/pose_graph_tools_msgs",
+  "idl_tuples": [
+    "/home/siny/hydra_ws/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/BowQueries.idl",
+    "/home/siny/hydra_ws/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/BowQuery.idl",
+    "/home/siny/hydra_ws/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/BowRequests.idl",
+    "/home/siny/hydra_ws/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/BowVector.idl",
+    "/home/siny/hydra_ws/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/LoopClosures.idl",
+    "/home/siny/hydra_ws/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/LoopClosuresAck.idl",
+    "/home/siny/hydra_ws/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/PoseGraph.idl",
+    "/home/siny/hydra_ws/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/PoseGraphEdge.idl",
+    "/home/siny/hydra_ws/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/PoseGraphNode.idl",
+    "/home/siny/hydra_ws/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/TimeRangeQuery.idl",
+    "/home/siny/hydra_ws/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/VLCFrameMsg.idl",
+    "/home/siny/hydra_ws/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/VLCFrames.idl",
+    "/home/siny/hydra_ws/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:msg/VLCRequests.idl",
+    "/home/siny/hydra_ws/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:srv/LcdFrameRegistration.idl",
+    "/home/siny/hydra_ws/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:srv/PoseGraphQuery.idl",
+    "/home/siny/hydra_ws/build/pose_graph_tools_msgs/rosidl_adapter/pose_graph_tools_msgs:srv/VLCFrameQuery.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "sensor_msgs:/opt/ros/jazzy/share/sensor_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

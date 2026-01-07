@@ -1,0 +1,13 @@
+setup.py
+semantic_inference_msgs/__init__.py
+semantic_inference_msgs.egg-info/PKG-INFO
+semantic_inference_msgs.egg-info/SOURCES.txt
+semantic_inference_msgs.egg-info/dependency_links.txt
+semantic_inference_msgs.egg-info/top_level.txt
+semantic_inference_msgs/msg/__init__.py
+semantic_inference_msgs/msg/_feature_image.py
+semantic_inference_msgs/msg/_feature_vector.py
+semantic_inference_msgs/msg/_feature_vector_stamped.py
+semantic_inference_msgs/msg/_feature_vectors.py
+semantic_inference_msgs/srv/__init__.py
+semantic_inference_msgs/srv/_encode_feature.py

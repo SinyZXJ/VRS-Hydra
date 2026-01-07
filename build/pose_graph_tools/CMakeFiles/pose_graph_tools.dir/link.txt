@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libpose_graph_tools.so -o libpose_graph_tools.so CMakeFiles/pose_graph_tools.dir/src/ostream.cpp.o 

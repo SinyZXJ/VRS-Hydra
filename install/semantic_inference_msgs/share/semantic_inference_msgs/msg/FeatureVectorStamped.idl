@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from semantic_inference_msgs/msg/FeatureVectorStamped.msg
+// generated code does not contain a copyright notice
+
+#include "semantic_inference_msgs/msg/FeatureVector.idl"
+#include "std_msgs/msg/Header.idl"
+
+module semantic_inference_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message contains a stamped arbitrary vector of feature data")
+    struct FeatureVectorStamped {
+      @verbatim (language="comment", text=
+        "source header where the feature was extracted from")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "underlying feature vector")
+      semantic_inference_msgs::msg::FeatureVector feature;
+    };
+  };
+};

@@ -1,0 +1,861 @@
+[0.122s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test', '--packages-select', 'semantic_inference']
+[0.122s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='test', build_base='build', install_base='install', merge_install=False, test_result_base=None, retest_until_fail=0, retest_until_pass=0, abort_on_error=False, return_code_on_test_failure=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['semantic_inference'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], ctest_args=None, python_testing=None, pytest_args=None, pytest_with_coverage=False, unittest_args=None, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xfd1bc30aec00>, verb_extension=<colcon_core.verb.test.TestVerb object at 0xfd1bc3027890>, main=<bound method TestVerb.main of <colcon_core.verb.test.TestVerb object at 0xfd1bc3027890>>, mixin_verb=('test',))
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.140s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/siny/hydra_ws'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extension 'ros'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extensions ['cmake', 'python']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extension 'cmake'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extension 'python'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extensions ['python_setup_py']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extension 'python_setup_py'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities) by extension 'ros'
+[0.154s] DEBUG:colcon.colcon_core.package_identification:Package 'src/config_utilities/config_utilities' with type 'ros.cmake' and name 'config_utilities'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_msgs) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_msgs) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_msgs) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_msgs) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_msgs) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_msgs) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_msgs) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_msgs) by extension 'ros'
+[0.154s] DEBUG:colcon.colcon_core.package_identification:Package 'src/config_utilities/config_utilities_msgs' with type 'ros.ament_cmake' and name 'config_utilities_msgs'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_ros) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_ros) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_ros) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_ros) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_ros) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_ros) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_ros) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_ros) by extension 'ros'
+[0.155s] DEBUG:colcon.colcon_core.package_identification:Package 'src/config_utilities/config_utilities_ros' with type 'ros.ament_cmake' and name 'config_utilities_ros'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extension 'ros'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extensions ['cmake', 'python']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extension 'cmake'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extension 'python'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extensions ['python_setup_py']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extension 'python_setup_py'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra) by extension 'colcon_pkg'
+[0.155s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'hydra' of package 'src/hydra' from colcon.pkg
+[0.155s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hydra' with type 'None' and name 'hydra'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra) by extension 'ros'
+[0.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hydra' with type 'ros.cmake' and name 'hydra'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extension 'ros'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extensions ['cmake', 'python']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extension 'cmake'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extension 'python'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extension 'ros'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extensions ['cmake', 'python']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extension 'cmake'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extension 'python'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extension 'ros'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extensions ['cmake', 'python']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extension 'cmake'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extension 'python'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_msgs) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_msgs) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_msgs) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_msgs) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_msgs) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_msgs) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_msgs) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_msgs) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hydra_ros/hydra_msgs' with type 'ros.ament_cmake' and name 'hydra_msgs'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_ros) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_ros) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_ros) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_ros) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_ros) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_ros) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_ros) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_ros) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hydra_ros/hydra_ros' with type 'ros.ament_cmake' and name 'hydra_ros'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_visualizer) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_visualizer) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_visualizer) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_visualizer) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_visualizer) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_visualizer) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_visualizer) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_visualizer) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_visualizer) by extension 'ros'
+[0.166s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hydra_ros/hydra_visualizer' with type 'ros.ament_cmake' and name 'hydra_visualizer'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs/ianvs) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs/ianvs) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs/ianvs) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs/ianvs) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs/ianvs) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs/ianvs) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs/ianvs) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs/ianvs) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs/ianvs) by extension 'ros'
+[0.167s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ianvs/ianvs' with type 'ros.ament_cmake' and name 'ianvs'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extension 'ros'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extensions ['cmake', 'python']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extension 'cmake'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extension 'python'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extensions ['python_setup_py']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extension 'python_setup_py'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extension 'ros'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extensions ['cmake', 'python']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extension 'cmake'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extension 'python'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extensions ['python_setup_py']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extension 'python_setup_py'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extension 'ros'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extensions ['cmake', 'python']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extension 'cmake'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extension 'python'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extensions ['python_setup_py']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extension 'python_setup_py'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kimera_pgmo/kimera_pgmo' with type 'ros.cmake' and name 'kimera_pgmo'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_msgs) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_msgs) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_msgs) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_msgs) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_msgs) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_msgs) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_msgs) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_msgs) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kimera_pgmo/kimera_pgmo_msgs' with type 'ros.ament_cmake' and name 'kimera_pgmo_msgs'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_ros) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_ros) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_ros) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_ros) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_ros) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_ros) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_ros) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_ros) by extension 'ros'
+[0.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kimera_pgmo/kimera_pgmo_ros' with type 'ros.ament_cmake' and name 'kimera_pgmo_ros'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_rviz) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_rviz) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_rviz) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_rviz) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_rviz) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_rviz) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_rviz) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_rviz) by extension 'ros'
+[0.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kimera_pgmo/kimera_pgmo_rviz' with type 'ros.ament_cmake' and name 'kimera_pgmo_rviz'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_rpgo) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_rpgo) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_rpgo) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_rpgo) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_rpgo) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_rpgo) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_rpgo) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_rpgo) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_rpgo) by extension 'ros'
+[0.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kimera_rpgo' with type 'ros.cmake' and name 'kimera_rpgo'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extension 'ros'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extensions ['cmake', 'python']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extension 'cmake'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extension 'python'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extensions ['python_setup_py']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extension 'python_setup_py'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pose_graph_tools/pose_graph_tools' with type 'ros.cmake' and name 'pose_graph_tools'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_msgs) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_msgs) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_msgs) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_msgs) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_msgs) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_msgs) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_msgs) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_msgs) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pose_graph_tools/pose_graph_tools_msgs' with type 'ros.ament_cmake' and name 'pose_graph_tools_msgs'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_ros) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_ros) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_ros) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_ros) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_ros) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_ros) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_ros) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_ros) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pose_graph_tools/pose_graph_tools_ros' with type 'ros.ament_cmake' and name 'pose_graph_tools_ros'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extensions ['python_setup_py']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extension 'python_setup_py'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extensions ['python_setup_py']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extension 'python_setup_py'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extensions ['python_setup_py']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extension 'python_setup_py'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extensions ['python_setup_py']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extension 'python_setup_py'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extensions ['python_setup_py']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extension 'python_setup_py'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras/semantic_inference_closed_set_zoo) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras/semantic_inference_closed_set_zoo) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras/semantic_inference_closed_set_zoo) ignored
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extensions ['python_setup_py']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/semantic_inference/semantic_inference' with type 'ros.cmake' and name 'semantic_inference'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_msgs) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_msgs) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_msgs) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_msgs) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_msgs) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_msgs) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_msgs) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_msgs) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/semantic_inference/semantic_inference_msgs' with type 'ros.ament_cmake' and name 'semantic_inference_msgs'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_ros) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_ros) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_ros) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_ros) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_ros) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_ros) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_ros) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_ros) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/semantic_inference/semantic_inference_ros' with type 'ros.ament_cmake' and name 'semantic_inference_ros'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/spark_dsg) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/spark_dsg) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/spark_dsg) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/spark_dsg) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/spark_dsg) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/spark_dsg) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/spark_dsg) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/spark_dsg) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/spark_dsg) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spark_dsg' with type 'ros.cmake' and name 'spark_dsg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/spatial_hash) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/spatial_hash) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/spatial_hash) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/spatial_hash) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/spatial_hash) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/spatial_hash) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/spatial_hash) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/spatial_hash) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/spatial_hash) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spatial_hash' with type 'ros.cmake' and name 'spatial_hash'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/teaser_plusplus) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/teaser_plusplus) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/teaser_plusplus) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/teaser_plusplus) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/teaser_plusplus) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/teaser_plusplus) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/teaser_plusplus) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/teaser_plusplus) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/teaser_plusplus) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teaser_plusplus' with type 'ros.cmake' and name 'teaserpp'
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.175s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/hydra' from colcon.pkg: {'name': 'hydra', 'hooks': ['share/hydra/local_setup.bash', 'share/hydra/local_setup.dsv', 'share/hydra/local_setup.sh', 'share/hydra/local_setup.zsh']}
+[0.177s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'config_utilities' in 'src/config_utilities/config_utilities'
+[0.177s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'config_utilities_msgs' in 'src/config_utilities/config_utilities_msgs'
+[0.177s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hydra_msgs' in 'src/hydra_ros/hydra_msgs'
+[0.177s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ianvs' in 'src/ianvs/ianvs'
+[0.177s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kimera_pgmo_msgs' in 'src/kimera_pgmo/kimera_pgmo_msgs'
+[0.177s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kimera_rpgo' in 'src/kimera_rpgo'
+[0.177s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pose_graph_tools' in 'src/pose_graph_tools/pose_graph_tools'
+[0.177s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pose_graph_tools_msgs' in 'src/pose_graph_tools/pose_graph_tools_msgs'
+[0.177s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'semantic_inference_msgs' in 'src/semantic_inference/semantic_inference_msgs'
+[0.177s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'spark_dsg' in 'src/spark_dsg'
+[0.177s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'spatial_hash' in 'src/spatial_hash'
+[0.177s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'teaserpp' in 'src/teaser_plusplus'
+[0.177s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'config_utilities_ros' in 'src/config_utilities/config_utilities_ros'
+[0.177s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kimera_pgmo' in 'src/kimera_pgmo/kimera_pgmo'
+[0.177s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kimera_pgmo_rviz' in 'src/kimera_pgmo/kimera_pgmo_rviz'
+[0.177s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pose_graph_tools_ros' in 'src/pose_graph_tools/pose_graph_tools_ros'
+[0.177s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hydra' in 'src/hydra'
+[0.177s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hydra_visualizer' in 'src/hydra_ros/hydra_visualizer'
+[0.177s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kimera_pgmo_ros' in 'src/kimera_pgmo/kimera_pgmo_ros'
+[0.177s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'semantic_inference_ros' in 'src/semantic_inference/semantic_inference_ros'
+[0.177s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hydra_ros' in 'src/hydra_ros/hydra_ros'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'semantic_inference' test argument 'ctest_args' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'semantic_inference' test argument 'python_testing' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'semantic_inference' test argument 'pytest_args' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'semantic_inference' test argument 'pytest_with_coverage' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'semantic_inference' test argument 'unittest_args' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'semantic_inference' test argument 'retest_until_pass' from command line to '0'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'semantic_inference' test argument 'retest_until_fail' from command line to '0'
+[0.177s] DEBUG:colcon.colcon_core.verb.test:Testing package 'semantic_inference' with the following arguments: {'build_base': '/home/siny/hydra_ws/build/semantic_inference', 'ctest_args': None, 'install_base': '/home/siny/hydra_ws/install/semantic_inference', 'path': '/home/siny/hydra_ws/src/semantic_inference/semantic_inference', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.177s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.178s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.178s] INFO:colcon.colcon_ros.task.cmake.test:Testing ROS package in '/home/siny/hydra_ws/src/semantic_inference/semantic_inference' with build type 'cmake'
+[0.178s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/siny/hydra_ws/src/semantic_inference/semantic_inference'
+[0.179s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.179s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.179s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.179s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/siny/ros2_jazzy/ros2-linux' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.179s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/siny/ros2_jazzy/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.179s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/ros2-linux' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/mcap_vendor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/zstd_vendor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/yaml_cpp_vendor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/urdf_parser_plugin' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_lint_common' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_uncrustify' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_uncrustify' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/uncrustify_vendor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/tracetools_trace' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/tracetools_read' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/tracetools' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/tlsf' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/tinyxml2_vendor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/test_launch_testing' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/test_interface_files' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/qt_gui_app' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/qt_gui' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/tango_icons_vendor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/sqlite3_vendor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/spdlog_vendor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/shared_queues_vendor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/rviz_ogre_vendor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/rviz_assimp_vendor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/rttest' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/rti_connext_dds_cmake_module' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/lttngpy' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/rpyutils' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/rosidl_typesupport_interface' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/rosidl_generator_dds_idl' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/rosidl_cmake' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/rosidl_pycommon' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/rosidl_generator_type_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/rosidl_parser' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/rosidl_adapter' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/rosidl_cli' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ros_environment' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/rmw_implementation_cmake' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/resource_retriever' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/qt_gui_py_common' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/qt_dotgraph' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/python_qt_binding' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/launch_testing_ament_cmake' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/python_cmake_module' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/pybind11_vendor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/performance_test_fixture' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/launch_pytest' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/launch_testing' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/launch_yaml' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/launch_xml' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/launch' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/osrf_pycommon' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/orocos_kdl_vendor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/mimick_vendor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/libyaml_vendor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/liblz4_vendor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/libcurl_vendor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/keyboard_handler' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/gz_math_vendor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/gz_utils_vendor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/gz_cmake_vendor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_ros' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_auto' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_gmock' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_gtest' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_google_benchmark' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/fastrtps_cmake_module' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/eigen3_cmake_module' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/domain_coordinator' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/console_bridge_vendor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_xmllint' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_xmllint' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_pyflakes' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_pyflakes' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_pycodestyle' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_pycodestyle' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_pep257' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_pep257' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_pclint' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_pclint' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_lint_auto' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_version' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_vendor_package' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_pytest' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_mypy' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_lint_cmake' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_flake8' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_cpplint' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_cppcheck' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_copyright' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_clang_tidy' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_clang_format' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_test' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_target_dependencies' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_python' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_export_dependencies' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_libraries' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_include_directories' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_gen_version_h' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_export_targets' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_export_link_flags' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_export_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_export_libraries' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_export_include_directories' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_export_definitions' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cmake_core' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_package' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_mypy' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_lint_cmake' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_flake8' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_copyright' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_lint' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_index_python' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_index_cpp' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cpplint' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_cppcheck' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_clang_tidy' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/siny/ros2_jazzy/install/ament_clang_format' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/ros2-linux/opt/gz_math_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/ros2-linux/opt/gz_utils_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/ros2-linux/opt/gz_cmake_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/ros2-linux' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/mcap_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/zstd_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/yaml_cpp_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/urdfdom' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/urdf_parser_plugin' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/urdfdom_headers' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_lint_common' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_uncrustify' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/uncrustify_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/tracetools' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/tlsf' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/tinyxml2_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/test_launch_testing' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/test_interface_files' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/qt_gui_app' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/qt_gui' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/tango_icons_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/sqlite3_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/spdlog_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/shared_queues_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/rviz_ogre_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/rviz_assimp_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/rttest' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/rti_connext_dds_cmake_module' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/lttngpy' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/rosidl_typesupport_interface' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/rosidl_generator_dds_idl' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/rosidl_cmake' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/rosidl_generator_type_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/rosidl_parser' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/rosidl_adapter' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ros_environment' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/rmw_implementation_cmake' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/resource_retriever' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/qt_gui_py_common' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/qt_dotgraph' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/python_qt_binding' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/launch_testing_ament_cmake' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/python_cmake_module' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/pybind11_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/performance_test_fixture' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/osrf_testing_tools_cpp' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/orocos_kdl_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/mimick_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/libyaml_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/liblz4_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/libcurl_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/keyboard_handler' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/iceoryx_introspection' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/cyclonedds' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/iceoryx_posh' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/iceoryx_hoofs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/iceoryx_binding_c' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/gz_math_vendor/opt/gz_math_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/gz_math_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/gz_utils_vendor/opt/gz_utils_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/gz_utils_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/gz_cmake_vendor/opt/gz_cmake_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/gz_cmake_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_ros' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_auto' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_gmock' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/gmock_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_gtest' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/gtest_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_google_benchmark' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/google_benchmark_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/foonathan_memory_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/fastrtps_cmake_module' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/fastcdr' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/eigen3_cmake_module' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/console_bridge_vendor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_xmllint' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_pyflakes' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_pycodestyle' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_pep257' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_pclint' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_lint_auto' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_version' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_vendor_package' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_pytest' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_mypy' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_lint_cmake' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_flake8' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_cpplint' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_cppcheck' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_copyright' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_clang_tidy' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_clang_format' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_test' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_target_dependencies' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_python' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_export_dependencies' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_libraries' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_include_directories' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_gen_version_h' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_export_targets' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_export_link_flags' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_export_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_export_libraries' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_export_include_directories' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_export_definitions' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_cmake_core' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/siny/ros2_jazzy/install/ament_index_cpp' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siny/hydra_ws/build/semantic_inference': CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/semantic_inference:/home/siny/hydra_ws/install/config_utilities:/home/siny/hydra_ws/install/hydra_ros:/home/siny/hydra_ws/install/hydra:/home/siny/hydra_ws/install/teaserpp:/home/siny/hydra_ws/install/kimera_pgmo_ros:/home/siny/hydra_ws/install/kimera_pgmo:/home/siny/hydra_ws/install/spatial_hash:/home/siny/hydra_ws/install/hydra_visualizer:/home/siny/hydra_ws/install/spark_dsg:/home/siny/hydra_ws/install/semantic_inference_ros:/home/siny/hydra_ws/install/semantic_inference_msgs:/home/siny/hydra_ws/install/pose_graph_tools_ros:/home/siny/hydra_ws/install/pose_graph_tools_msgs:/home/siny/hydra_ws/install/pose_graph_tools:/home/siny/hydra_ws/install/kimera_rpgo:/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/kimera_pgmo_msgs:/home/siny/hydra_ws/install/ianvs:/home/siny/hydra_ws/install/hydra_msgs:/home/siny/hydra_ws/install/config_utilities_ros:/home/siny/hydra_ws/install/config_utilities_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/siny/ros2_jazzy/ros2-linux/opt/gz_math_vendor:/home/siny/ros2_jazzy/ros2-linux/opt/gz_utils_vendor:/home/siny/ros2_jazzy/ros2-linux/opt/gz_cmake_vendor:/home/siny/ros2_jazzy/ros2-linux:/home/siny/ros2_jazzy/install/mcap_vendor:/home/siny/ros2_jazzy/install/zstd_vendor:/home/siny/ros2_jazzy/install/yaml_cpp_vendor:/home/siny/ros2_jazzy/install/urdfdom:/home/siny/ros2_jazzy/install/urdf_parser_plugin:/home/siny/ros2_jazzy/install/urdfdom_headers:/home/siny/ros2_jazzy/install/ament_lint_common:/home/siny/ros2_jazzy/install/ament_cmake_uncrustify:/home/siny/ros2_jazzy/install/uncrustify_vendor:/home/siny/ros2_jazzy/install/tracetools:/home/siny/ros2_jazzy/install/tlsf:/home/siny/ros2_jazzy/install/tinyxml2_vendor:/home/siny/ros2_jazzy/install/test_launch_testing:/home/siny/ros2_jazzy/install/test_interface_files:/home/siny/ros2_jazzy/install/qt_gui_app:/home/siny/ros2_jazzy/install/qt_gui:/home/siny/ros2_jazzy/install/tango_icons_vendor:/home/siny/ros2_jazzy/install/sqlite3_vendor:/home/siny/ros2_jazzy/install/spdlog_vendor:/home/siny/ros2_jazzy/install/shared_queues_vendor:/home/siny/ros2_jazzy/install/rviz_ogre_vendor:/home/siny/ros2_jazzy/install/rviz_assimp_vendor:/home/siny/ros2_jazzy/install/rttest:/home/siny/ros2_jazzy/install/rti_connext_dds_cmake_module:/home/siny/ros2_jazzy/install/lttngpy:/home/siny/ros2_jazzy/install/rosidl_typesupport_interface:/home/siny/ros2_jazzy/install/rosidl_generator_dds_idl:/home/siny/ros2_jazzy/install/rosidl_cmake:/home/siny/ros2_jazzy/install/rosidl_generator_type_description:/home/siny/ros2_jazzy/install/rosidl_parser:/home/siny/ros2_jazzy/install/rosidl_adapter:/home/siny/ros2_jazzy/install/ros_environment:/home/siny/ros2_jazzy/install/rmw_implementation_cmake:/home/siny/ros2_jazzy/install/resource_retriever:/home/siny/ros2_jazzy/install/qt_gui_py_common:/home/siny/ros2_jazzy/install/qt_dotgraph:/home/siny/ros2_jazzy/install/python_qt_binding:/home/siny/ros2_jazzy/install/launch_testing_ament_cmake:/home/siny/ros2_jazzy/install/python_cmake_module:/home/siny/ros2_jazzy/install/pybind11_vendor:/home/siny/ros2_jazzy/install/performance_test_fixture:/home/siny/ros2_jazzy/install/osrf_testing_tools_cpp:/home/siny/ros2_jazzy/install/orocos_kdl_vendor:/home/siny/ros2_jazzy/install/mimick_vendor:/home/siny/ros2_jazzy/install/libyaml_vendor:/home/siny/ros2_jazzy/install/liblz4_vendor:/home/siny/ros2_jazzy/install/libcurl_vendor:/home/siny/ros2_jazzy/install/keyboard_handler:/home/siny/ros2_jazzy/install/iceoryx_introspection:/home/siny/ros2_jazzy/install/cyclonedds:/home/siny/ros2_jazzy/install/iceoryx_posh:/home/siny/ros2_jazzy/install/iceoryx_hoofs:/home/siny/ros2_jazzy/install/iceoryx_binding_c:/home/siny/ros2_jazzy/install/gz_math_vendor/opt/gz_math_vendor:/home/siny/ros2_jazzy/install/gz_math_vendor:/home/siny/ros2_jazzy/install/gz_utils_vendor/opt/gz_utils_vendor:/home/siny/ros2_jazzy/install/gz_utils_vendor:/home/siny/ros2_jazzy/install/gz_cmake_vendor/opt/gz_cmake_vendor:/home/siny/ros2_jazzy/install/gz_cmake_vendor:/home/siny/ros2_jazzy/install/ament_cmake_ros:/home/siny/ros2_jazzy/install/ament_cmake_auto:/home/siny/ros2_jazzy/install/ament_cmake_gmock:/home/siny/ros2_jazzy/install/gmock_vendor:/home/siny/ros2_jazzy/install/ament_cmake_gtest:/home/siny/ros2_jazzy/install/gtest_vendor:/home/siny/ros2_jazzy/install/ament_cmake_google_benchmark:/home/siny/ros2_jazzy/install/google_benchmark_vendor:/home/siny/ros2_jazzy/install/foonathan_memory_vendor:/home/siny/ros2_jazzy/install/fastrtps_cmake_module:/home/siny/ros2_jazzy/install/fastcdr:/home/siny/ros2_jazzy/install/eigen3_cmake_module:/home/siny/ros2_jazzy/install/console_bridge_vendor:/home/siny/ros2_jazzy/install/ament_cmake_xmllint:/home/siny/ros2_jazzy/install/ament_cmake_pyflakes:/home/siny/ros2_jazzy/install/ament_cmake_pycodestyle:/home/siny/ros2_jazzy/install/ament_cmake_pep257:/home/siny/ros2_jazzy/install/ament_cmake_pclint:/home/siny/ros2_jazzy/install/ament_lint_auto:/home/siny/ros2_jazzy/install/ament_cmake:/home/siny/ros2_jazzy/install/ament_cmake_version:/home/siny/ros2_jazzy/install/ament_cmake_vendor_package:/home/siny/ros2_jazzy/install/ament_cmake_pytest:/home/siny/ros2_jazzy/install/ament_cmake_mypy:/home/siny/ros2_jazzy/install/ament_cmake_lint_cmake:/home/siny/ros2_jazzy/install/ament_cmake_flake8:/home/siny/ros2_jazzy/install/ament_cmake_cpplint:/home/siny/ros2_jazzy/install/ament_cmake_cppcheck:/home/siny/ros2_jazzy/install/ament_cmake_copyright:/home/siny/ros2_jazzy/install/ament_cmake_clang_tidy:/home/siny/ros2_jazzy/install/ament_cmake_clang_format:/home/siny/ros2_jazzy/install/ament_cmake_test:/home/siny/ros2_jazzy/install/ament_cmake_target_dependencies:/home/siny/ros2_jazzy/install/ament_cmake_python:/home/siny/ros2_jazzy/install/ament_cmake_export_dependencies:/home/siny/ros2_jazzy/install/ament_cmake_libraries:/home/siny/ros2_jazzy/install/ament_cmake_include_directories:/home/siny/ros2_jazzy/install/ament_cmake_gen_version_h:/home/siny/ros2_jazzy/install/ament_cmake_export_targets:/home/siny/ros2_jazzy/install/ament_cmake_export_link_flags:/home/siny/ros2_jazzy/install/ament_cmake_export_interfaces:/home/siny/ros2_jazzy/install/ament_cmake_export_libraries:/home/siny/ros2_jazzy/install/ament_cmake_export_include_directories:/home/siny/ros2_jazzy/install/ament_cmake_export_definitions:/home/siny/ros2_jazzy/install/ament_cmake_core:/home/siny/ros2_jazzy/install/ament_index_cpp DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/semantic_inference/lib:/home/siny/hydra_ws/install/config_utilities/lib:/home/siny/hydra_ws/install/hydra_ros/lib:/home/siny/hydra_ws/install/hydra/lib:/home/siny/hydra_ws/install/teaserpp/lib:/home/siny/hydra_ws/install/kimera_pgmo_ros/lib:/home/siny/hydra_ws/install/kimera_pgmo/lib:/home/siny/hydra_ws/install/hydra_visualizer/lib:/home/siny/hydra_ws/install/spark_dsg/lib:/home/siny/hydra_ws/install/semantic_inference_ros/lib:/home/siny/hydra_ws/install/semantic_inference_msgs/lib:/home/siny/hydra_ws/install/pose_graph_tools_ros/lib:/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib:/home/siny/hydra_ws/install/pose_graph_tools/lib:/home/siny/hydra_ws/install/kimera_rpgo/lib:/home/siny/hydra_ws/install/kimera_pgmo_rviz/lib:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib:/home/siny/hydra_ws/install/ianvs/lib:/home/siny/hydra_ws/install/hydra_msgs/lib:/home/siny/hydra_ws/install/config_utilities_ros/lib:/home/siny/hydra_ws/install/config_utilities_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/siny/ros2_jazzy/ros2-linux/opt/rviz_ogre_vendor/lib:/home/siny/ros2_jazzy/ros2-linux/opt/mimick_vendor/lib:/home/siny/ros2_jazzy/ros2-linux/opt/gz_math_vendor/lib:/home/siny/ros2_jazzy/ros2-linux/opt/gz_utils_vendor/lib:/home/siny/ros2_jazzy/ros2-linux/opt/gz_cmake_vendor/lib:/home/siny/ros2_jazzy/ros2-linux/lib:/home/siny/ros2_jazzy/install/mcap_vendor/lib:/home/siny/ros2_jazzy/install/urdfdom/lib:/home/siny/ros2_jazzy/install/tracetools/lib:/home/siny/ros2_jazzy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:/home/siny/ros2_jazzy/install/rttest/lib:/home/siny/ros2_jazzy/install/resource_retriever/lib:/home/siny/ros2_jazzy/install/performance_test_fixture/lib:/home/siny/ros2_jazzy/install/osrf_testing_tools_cpp/lib:/home/siny/ros2_jazzy/install/mimick_vendor/opt/mimick_vendor/lib:/home/siny/ros2_jazzy/install/keyboard_handler/lib:/home/siny/ros2_jazzy/install/iceoryx_introspection/lib:/home/siny/ros2_jazzy/install/cyclonedds/lib:/home/siny/ros2_jazzy/install/iceoryx_posh/lib:/home/siny/ros2_jazzy/install/iceoryx_hoofs/lib:/home/siny/ros2_jazzy/install/iceoryx_binding_c/lib:/home/siny/ros2_jazzy/install/gz_math_vendor/opt/gz_math_vendor/lib:/home/siny/ros2_jazzy/install/gz_utils_vendor/opt/gz_utils_vendor/lib:/home/siny/ros2_jazzy/install/gz_cmake_vendor/opt/gz_cmake_vendor/lib:/home/siny/ros2_jazzy/install/google_benchmark_vendor/lib:/home/siny/ros2_jazzy/install/fastcdr/lib:/home/siny/ros2_jazzy/install/ament_index_cpp/lib PATH=/home/siny/hydra_ws/install/semantic_inference/bin:/home/siny/hydra_ws/install/config_utilities/bin:/home/siny/hydra_ws/install/kimera_pgmo/bin:/home/siny/hydra_ws/install/spark_dsg/bin:/opt/ros/jazzy/bin:/home/siny/ros2_jazzy/ros2-linux/bin:/home/siny/ros2_jazzy/install/urdfdom/bin:/home/siny/ros2_jazzy/install/ament_uncrustify/bin:/home/siny/ros2_jazzy/install/rosidl_cli/bin:/home/siny/ros2_jazzy/install/launch_testing/bin:/home/siny/ros2_jazzy/install/iceoryx_introspection/bin:/home/siny/ros2_jazzy/install/cyclonedds/bin:/home/siny/ros2_jazzy/install/iceoryx_posh/bin:/home/siny/ros2_jazzy/install/foonathan_memory_vendor/bin:/home/siny/ros2_jazzy/install/ament_xmllint/bin:/home/siny/ros2_jazzy/install/ament_pyflakes/bin:/home/siny/ros2_jazzy/install/ament_pycodestyle/bin:/home/siny/ros2_jazzy/install/ament_pep257/bin:/home/siny/ros2_jazzy/install/ament_pclint/bin:/home/siny/ros2_jazzy/install/ament_mypy/bin:/home/siny/ros2_jazzy/install/ament_lint_cmake/bin:/home/siny/ros2_jazzy/install/ament_flake8/bin:/home/siny/ros2_jazzy/install/ament_copyright/bin:/home/siny/ros2_jazzy/install/ament_index_python/bin:/home/siny/ros2_jazzy/install/ament_cpplint/bin:/home/siny/ros2_jazzy/install/ament_cppcheck/bin:/home/siny/ros2_jazzy/install/ament_clang_tidy/bin:/home/siny/ros2_jazzy/install/ament_clang_format/bin:/home/siny/anaconda3/condabin:/home/siny/.local/bin:/usr/local/cuda/bin:/opt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin PKG_CONFIG_PATH=/home/siny/hydra_ws/install/semantic_inference/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/semantic_inference/lib/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig:/home/siny/hydra_ws/install/hydra/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/hydra/lib/pkgconfig:/home/siny/hydra_ws/install/teaserpp/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/teaserpp/lib/pkgconfig:/home/siny/hydra_ws/install/kimera_pgmo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_pgmo/lib/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/pkgconfig:/home/siny/hydra_ws/install/spark_dsg/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spark_dsg/lib/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/pkgconfig:/home/siny/ros2_jazzy/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/ros2-linux/lib/pkgconfig:/home/siny/ros2_jazzy/install/urdfdom/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/urdfdom/lib/pkgconfig:/home/siny/ros2_jazzy/install/urdfdom_headers/lib/pkgconfig:/home/siny/ros2_jazzy/install/test_osrf_testing_tools_cpp/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/test_osrf_testing_tools_cpp/lib/pkgconfig:/home/siny/ros2_jazzy/install/osrf_testing_tools_cpp/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/osrf_testing_tools_cpp/lib/pkgconfig:/home/siny/ros2_jazzy/install/iceoryx_introspection/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/iceoryx_introspection/lib/pkgconfig:/home/siny/ros2_jazzy/install/cyclonedds/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/cyclonedds/lib/pkgconfig:/home/siny/ros2_jazzy/install/iceoryx_posh/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/iceoryx_posh/lib/pkgconfig:/home/siny/ros2_jazzy/install/iceoryx_hoofs/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/iceoryx_hoofs/lib/pkgconfig:/home/siny/ros2_jazzy/install/iceoryx_binding_c/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/iceoryx_binding_c/lib/pkgconfig:/home/siny/ros2_jazzy/install/gmock_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/gmock_vendor/lib/pkgconfig:/home/siny/ros2_jazzy/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/gtest_vendor/lib/pkgconfig:/home/siny/ros2_jazzy/install/google_benchmark_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/google_benchmark_vendor/lib/pkgconfig:/home/siny/ros2_jazzy/install/foonathan_memory_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/foonathan_memory_vendor/lib/pkgconfig /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[1.096s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.096s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.096s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.096s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siny/hydra_ws/build/semantic_inference' returned '0': CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/semantic_inference:/home/siny/hydra_ws/install/config_utilities:/home/siny/hydra_ws/install/hydra_ros:/home/siny/hydra_ws/install/hydra:/home/siny/hydra_ws/install/teaserpp:/home/siny/hydra_ws/install/kimera_pgmo_ros:/home/siny/hydra_ws/install/kimera_pgmo:/home/siny/hydra_ws/install/spatial_hash:/home/siny/hydra_ws/install/hydra_visualizer:/home/siny/hydra_ws/install/spark_dsg:/home/siny/hydra_ws/install/semantic_inference_ros:/home/siny/hydra_ws/install/semantic_inference_msgs:/home/siny/hydra_ws/install/pose_graph_tools_ros:/home/siny/hydra_ws/install/pose_graph_tools_msgs:/home/siny/hydra_ws/install/pose_graph_tools:/home/siny/hydra_ws/install/kimera_rpgo:/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/kimera_pgmo_msgs:/home/siny/hydra_ws/install/ianvs:/home/siny/hydra_ws/install/hydra_msgs:/home/siny/hydra_ws/install/config_utilities_ros:/home/siny/hydra_ws/install/config_utilities_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/siny/ros2_jazzy/ros2-linux/opt/gz_math_vendor:/home/siny/ros2_jazzy/ros2-linux/opt/gz_utils_vendor:/home/siny/ros2_jazzy/ros2-linux/opt/gz_cmake_vendor:/home/siny/ros2_jazzy/ros2-linux:/home/siny/ros2_jazzy/install/mcap_vendor:/home/siny/ros2_jazzy/install/zstd_vendor:/home/siny/ros2_jazzy/install/yaml_cpp_vendor:/home/siny/ros2_jazzy/install/urdfdom:/home/siny/ros2_jazzy/install/urdf_parser_plugin:/home/siny/ros2_jazzy/install/urdfdom_headers:/home/siny/ros2_jazzy/install/ament_lint_common:/home/siny/ros2_jazzy/install/ament_cmake_uncrustify:/home/siny/ros2_jazzy/install/uncrustify_vendor:/home/siny/ros2_jazzy/install/tracetools:/home/siny/ros2_jazzy/install/tlsf:/home/siny/ros2_jazzy/install/tinyxml2_vendor:/home/siny/ros2_jazzy/install/test_launch_testing:/home/siny/ros2_jazzy/install/test_interface_files:/home/siny/ros2_jazzy/install/qt_gui_app:/home/siny/ros2_jazzy/install/qt_gui:/home/siny/ros2_jazzy/install/tango_icons_vendor:/home/siny/ros2_jazzy/install/sqlite3_vendor:/home/siny/ros2_jazzy/install/spdlog_vendor:/home/siny/ros2_jazzy/install/shared_queues_vendor:/home/siny/ros2_jazzy/install/rviz_ogre_vendor:/home/siny/ros2_jazzy/install/rviz_assimp_vendor:/home/siny/ros2_jazzy/install/rttest:/home/siny/ros2_jazzy/install/rti_connext_dds_cmake_module:/home/siny/ros2_jazzy/install/lttngpy:/home/siny/ros2_jazzy/install/rosidl_typesupport_interface:/home/siny/ros2_jazzy/install/rosidl_generator_dds_idl:/home/siny/ros2_jazzy/install/rosidl_cmake:/home/siny/ros2_jazzy/install/rosidl_generator_type_description:/home/siny/ros2_jazzy/install/rosidl_parser:/home/siny/ros2_jazzy/install/rosidl_adapter:/home/siny/ros2_jazzy/install/ros_environment:/home/siny/ros2_jazzy/install/rmw_implementation_cmake:/home/siny/ros2_jazzy/install/resource_retriever:/home/siny/ros2_jazzy/install/qt_gui_py_common:/home/siny/ros2_jazzy/install/qt_dotgraph:/home/siny/ros2_jazzy/install/python_qt_binding:/home/siny/ros2_jazzy/install/launch_testing_ament_cmake:/home/siny/ros2_jazzy/install/python_cmake_module:/home/siny/ros2_jazzy/install/pybind11_vendor:/home/siny/ros2_jazzy/install/performance_test_fixture:/home/siny/ros2_jazzy/install/osrf_testing_tools_cpp:/home/siny/ros2_jazzy/install/orocos_kdl_vendor:/home/siny/ros2_jazzy/install/mimick_vendor:/home/siny/ros2_jazzy/install/libyaml_vendor:/home/siny/ros2_jazzy/install/liblz4_vendor:/home/siny/ros2_jazzy/install/libcurl_vendor:/home/siny/ros2_jazzy/install/keyboard_handler:/home/siny/ros2_jazzy/install/iceoryx_introspection:/home/siny/ros2_jazzy/install/cyclonedds:/home/siny/ros2_jazzy/install/iceoryx_posh:/home/siny/ros2_jazzy/install/iceoryx_hoofs:/home/siny/ros2_jazzy/install/iceoryx_binding_c:/home/siny/ros2_jazzy/install/gz_math_vendor/opt/gz_math_vendor:/home/siny/ros2_jazzy/install/gz_math_vendor:/home/siny/ros2_jazzy/install/gz_utils_vendor/opt/gz_utils_vendor:/home/siny/ros2_jazzy/install/gz_utils_vendor:/home/siny/ros2_jazzy/install/gz_cmake_vendor/opt/gz_cmake_vendor:/home/siny/ros2_jazzy/install/gz_cmake_vendor:/home/siny/ros2_jazzy/install/ament_cmake_ros:/home/siny/ros2_jazzy/install/ament_cmake_auto:/home/siny/ros2_jazzy/install/ament_cmake_gmock:/home/siny/ros2_jazzy/install/gmock_vendor:/home/siny/ros2_jazzy/install/ament_cmake_gtest:/home/siny/ros2_jazzy/install/gtest_vendor:/home/siny/ros2_jazzy/install/ament_cmake_google_benchmark:/home/siny/ros2_jazzy/install/google_benchmark_vendor:/home/siny/ros2_jazzy/install/foonathan_memory_vendor:/home/siny/ros2_jazzy/install/fastrtps_cmake_module:/home/siny/ros2_jazzy/install/fastcdr:/home/siny/ros2_jazzy/install/eigen3_cmake_module:/home/siny/ros2_jazzy/install/console_bridge_vendor:/home/siny/ros2_jazzy/install/ament_cmake_xmllint:/home/siny/ros2_jazzy/install/ament_cmake_pyflakes:/home/siny/ros2_jazzy/install/ament_cmake_pycodestyle:/home/siny/ros2_jazzy/install/ament_cmake_pep257:/home/siny/ros2_jazzy/install/ament_cmake_pclint:/home/siny/ros2_jazzy/install/ament_lint_auto:/home/siny/ros2_jazzy/install/ament_cmake:/home/siny/ros2_jazzy/install/ament_cmake_version:/home/siny/ros2_jazzy/install/ament_cmake_vendor_package:/home/siny/ros2_jazzy/install/ament_cmake_pytest:/home/siny/ros2_jazzy/install/ament_cmake_mypy:/home/siny/ros2_jazzy/install/ament_cmake_lint_cmake:/home/siny/ros2_jazzy/install/ament_cmake_flake8:/home/siny/ros2_jazzy/install/ament_cmake_cpplint:/home/siny/ros2_jazzy/install/ament_cmake_cppcheck:/home/siny/ros2_jazzy/install/ament_cmake_copyright:/home/siny/ros2_jazzy/install/ament_cmake_clang_tidy:/home/siny/ros2_jazzy/install/ament_cmake_clang_format:/home/siny/ros2_jazzy/install/ament_cmake_test:/home/siny/ros2_jazzy/install/ament_cmake_target_dependencies:/home/siny/ros2_jazzy/install/ament_cmake_python:/home/siny/ros2_jazzy/install/ament_cmake_export_dependencies:/home/siny/ros2_jazzy/install/ament_cmake_libraries:/home/siny/ros2_jazzy/install/ament_cmake_include_directories:/home/siny/ros2_jazzy/install/ament_cmake_gen_version_h:/home/siny/ros2_jazzy/install/ament_cmake_export_targets:/home/siny/ros2_jazzy/install/ament_cmake_export_link_flags:/home/siny/ros2_jazzy/install/ament_cmake_export_interfaces:/home/siny/ros2_jazzy/install/ament_cmake_export_libraries:/home/siny/ros2_jazzy/install/ament_cmake_export_include_directories:/home/siny/ros2_jazzy/install/ament_cmake_export_definitions:/home/siny/ros2_jazzy/install/ament_cmake_core:/home/siny/ros2_jazzy/install/ament_index_cpp DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/semantic_inference/lib:/home/siny/hydra_ws/install/config_utilities/lib:/home/siny/hydra_ws/install/hydra_ros/lib:/home/siny/hydra_ws/install/hydra/lib:/home/siny/hydra_ws/install/teaserpp/lib:/home/siny/hydra_ws/install/kimera_pgmo_ros/lib:/home/siny/hydra_ws/install/kimera_pgmo/lib:/home/siny/hydra_ws/install/hydra_visualizer/lib:/home/siny/hydra_ws/install/spark_dsg/lib:/home/siny/hydra_ws/install/semantic_inference_ros/lib:/home/siny/hydra_ws/install/semantic_inference_msgs/lib:/home/siny/hydra_ws/install/pose_graph_tools_ros/lib:/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib:/home/siny/hydra_ws/install/pose_graph_tools/lib:/home/siny/hydra_ws/install/kimera_rpgo/lib:/home/siny/hydra_ws/install/kimera_pgmo_rviz/lib:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib:/home/siny/hydra_ws/install/ianvs/lib:/home/siny/hydra_ws/install/hydra_msgs/lib:/home/siny/hydra_ws/install/config_utilities_ros/lib:/home/siny/hydra_ws/install/config_utilities_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/siny/ros2_jazzy/ros2-linux/opt/rviz_ogre_vendor/lib:/home/siny/ros2_jazzy/ros2-linux/opt/mimick_vendor/lib:/home/siny/ros2_jazzy/ros2-linux/opt/gz_math_vendor/lib:/home/siny/ros2_jazzy/ros2-linux/opt/gz_utils_vendor/lib:/home/siny/ros2_jazzy/ros2-linux/opt/gz_cmake_vendor/lib:/home/siny/ros2_jazzy/ros2-linux/lib:/home/siny/ros2_jazzy/install/mcap_vendor/lib:/home/siny/ros2_jazzy/install/urdfdom/lib:/home/siny/ros2_jazzy/install/tracetools/lib:/home/siny/ros2_jazzy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:/home/siny/ros2_jazzy/install/rttest/lib:/home/siny/ros2_jazzy/install/resource_retriever/lib:/home/siny/ros2_jazzy/install/performance_test_fixture/lib:/home/siny/ros2_jazzy/install/osrf_testing_tools_cpp/lib:/home/siny/ros2_jazzy/install/mimick_vendor/opt/mimick_vendor/lib:/home/siny/ros2_jazzy/install/keyboard_handler/lib:/home/siny/ros2_jazzy/install/iceoryx_introspection/lib:/home/siny/ros2_jazzy/install/cyclonedds/lib:/home/siny/ros2_jazzy/install/iceoryx_posh/lib:/home/siny/ros2_jazzy/install/iceoryx_hoofs/lib:/home/siny/ros2_jazzy/install/iceoryx_binding_c/lib:/home/siny/ros2_jazzy/install/gz_math_vendor/opt/gz_math_vendor/lib:/home/siny/ros2_jazzy/install/gz_utils_vendor/opt/gz_utils_vendor/lib:/home/siny/ros2_jazzy/install/gz_cmake_vendor/opt/gz_cmake_vendor/lib:/home/siny/ros2_jazzy/install/google_benchmark_vendor/lib:/home/siny/ros2_jazzy/install/fastcdr/lib:/home/siny/ros2_jazzy/install/ament_index_cpp/lib PATH=/home/siny/hydra_ws/install/semantic_inference/bin:/home/siny/hydra_ws/install/config_utilities/bin:/home/siny/hydra_ws/install/kimera_pgmo/bin:/home/siny/hydra_ws/install/spark_dsg/bin:/opt/ros/jazzy/bin:/home/siny/ros2_jazzy/ros2-linux/bin:/home/siny/ros2_jazzy/install/urdfdom/bin:/home/siny/ros2_jazzy/install/ament_uncrustify/bin:/home/siny/ros2_jazzy/install/rosidl_cli/bin:/home/siny/ros2_jazzy/install/launch_testing/bin:/home/siny/ros2_jazzy/install/iceoryx_introspection/bin:/home/siny/ros2_jazzy/install/cyclonedds/bin:/home/siny/ros2_jazzy/install/iceoryx_posh/bin:/home/siny/ros2_jazzy/install/foonathan_memory_vendor/bin:/home/siny/ros2_jazzy/install/ament_xmllint/bin:/home/siny/ros2_jazzy/install/ament_pyflakes/bin:/home/siny/ros2_jazzy/install/ament_pycodestyle/bin:/home/siny/ros2_jazzy/install/ament_pep257/bin:/home/siny/ros2_jazzy/install/ament_pclint/bin:/home/siny/ros2_jazzy/install/ament_mypy/bin:/home/siny/ros2_jazzy/install/ament_lint_cmake/bin:/home/siny/ros2_jazzy/install/ament_flake8/bin:/home/siny/ros2_jazzy/install/ament_copyright/bin:/home/siny/ros2_jazzy/install/ament_index_python/bin:/home/siny/ros2_jazzy/install/ament_cpplint/bin:/home/siny/ros2_jazzy/install/ament_cppcheck/bin:/home/siny/ros2_jazzy/install/ament_clang_tidy/bin:/home/siny/ros2_jazzy/install/ament_clang_format/bin:/home/siny/anaconda3/condabin:/home/siny/.local/bin:/usr/local/cuda/bin:/opt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin PKG_CONFIG_PATH=/home/siny/hydra_ws/install/semantic_inference/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/semantic_inference/lib/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig:/home/siny/hydra_ws/install/hydra/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/hydra/lib/pkgconfig:/home/siny/hydra_ws/install/teaserpp/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/teaserpp/lib/pkgconfig:/home/siny/hydra_ws/install/kimera_pgmo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_pgmo/lib/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/pkgconfig:/home/siny/hydra_ws/install/spark_dsg/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spark_dsg/lib/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/pkgconfig:/home/siny/ros2_jazzy/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/ros2-linux/lib/pkgconfig:/home/siny/ros2_jazzy/install/urdfdom/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/urdfdom/lib/pkgconfig:/home/siny/ros2_jazzy/install/urdfdom_headers/lib/pkgconfig:/home/siny/ros2_jazzy/install/test_osrf_testing_tools_cpp/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/test_osrf_testing_tools_cpp/lib/pkgconfig:/home/siny/ros2_jazzy/install/osrf_testing_tools_cpp/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/osrf_testing_tools_cpp/lib/pkgconfig:/home/siny/ros2_jazzy/install/iceoryx_introspection/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/iceoryx_introspection/lib/pkgconfig:/home/siny/ros2_jazzy/install/cyclonedds/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/cyclonedds/lib/pkgconfig:/home/siny/ros2_jazzy/install/iceoryx_posh/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/iceoryx_posh/lib/pkgconfig:/home/siny/ros2_jazzy/install/iceoryx_hoofs/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/iceoryx_hoofs/lib/pkgconfig:/home/siny/ros2_jazzy/install/iceoryx_binding_c/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/iceoryx_binding_c/lib/pkgconfig:/home/siny/ros2_jazzy/install/gmock_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/gmock_vendor/lib/pkgconfig:/home/siny/ros2_jazzy/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/gtest_vendor/lib/pkgconfig:/home/siny/ros2_jazzy/install/google_benchmark_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/google_benchmark_vendor/lib/pkgconfig:/home/siny/ros2_jazzy/install/foonathan_memory_vendor/lib/aarch64-linux-gnu/pkgconfig:/home/siny/ros2_jazzy/install/foonathan_memory_vendor/lib/pkgconfig /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[1.102s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.102s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.103s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.120s] DEBUG:colcon.colcon_core.event_reactor:joined thread

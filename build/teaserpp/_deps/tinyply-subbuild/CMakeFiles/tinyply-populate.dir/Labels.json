@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/siny/hydra_ws/build/teaserpp/_deps/tinyply-subbuild/CMakeFiles/tinyply-populate"
+		},
+		{
+			"file" : "/home/siny/hydra_ws/build/teaserpp/_deps/tinyply-subbuild/CMakeFiles/tinyply-populate.rule"
+		},
+		{
+			"file" : "/home/siny/hydra_ws/build/teaserpp/_deps/tinyply-subbuild/CMakeFiles/tinyply-populate-complete.rule"
+		},
+		{
+			"file" : "/home/siny/hydra_ws/build/teaserpp/_deps/tinyply-subbuild/tinyply-populate-prefix/src/tinyply-populate-stamp/tinyply-populate-build.rule"
+		},
+		{
+			"file" : "/home/siny/hydra_ws/build/teaserpp/_deps/tinyply-subbuild/tinyply-populate-prefix/src/tinyply-populate-stamp/tinyply-populate-configure.rule"
+		},
+		{
+			"file" : "/home/siny/hydra_ws/build/teaserpp/_deps/tinyply-subbuild/tinyply-populate-prefix/src/tinyply-populate-stamp/tinyply-populate-download.rule"
+		},
+		{
+			"file" : "/home/siny/hydra_ws/build/teaserpp/_deps/tinyply-subbuild/tinyply-populate-prefix/src/tinyply-populate-stamp/tinyply-populate-install.rule"
+		},
+		{
+			"file" : "/home/siny/hydra_ws/build/teaserpp/_deps/tinyply-subbuild/tinyply-populate-prefix/src/tinyply-populate-stamp/tinyply-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/siny/hydra_ws/build/teaserpp/_deps/tinyply-subbuild/tinyply-populate-prefix/src/tinyply-populate-stamp/tinyply-populate-patch.rule"
+		},
+		{
+			"file" : "/home/siny/hydra_ws/build/teaserpp/_deps/tinyply-subbuild/tinyply-populate-prefix/src/tinyply-populate-stamp/tinyply-populate-test.rule"
+		},
+		{
+			"file" : "/home/siny/hydra_ws/build/teaserpp/_deps/tinyply-subbuild/tinyply-populate-prefix/src/tinyply-populate-stamp/tinyply-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tinyply-populate"
+		],
+		"name" : "tinyply-populate"
+	}
+}

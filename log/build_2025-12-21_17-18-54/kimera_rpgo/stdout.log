@@ -1,0 +1,33 @@
+[ 73%] Built target kimera_rpgo
+[ 80%] Built target _kimera_rpgo_bindings
+[100%] Built target test_kimera_rpgo
+-- Install configuration: "Release"
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/lib/libkimera_rpgo.so
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/pcm
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/pcm/max_clique_finder
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/pcm/max_clique_finder/README.md
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/pcm/max_clique_finder/COPYRIGHT
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/pcm/max_clique_finder/findClique.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/pcm/max_clique_finder/graphIO.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/pcm/graph_utils.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/pcm/geometry_utils.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/pcm/pcm.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/rpgo.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/utils
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/utils/utils.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/utils/g2o.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/utils/loss_functions.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/utils/types.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/utils/pose_4dof.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/solver
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/solver/gnc_solver.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/solver/solver.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/solver/gradient_solver.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/solver/solver_config.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/solver/least_squares_solver.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/lib/cmake/kimera_rpgo/kimera_rpgoTargets.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/lib/cmake/kimera_rpgo/kimera_rpgoTargets-release.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/lib/cmake/kimera_rpgo/kimera_rpgoConfig.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_rpgo/lib/cmake/kimera_rpgo/kimera_rpgoConfigVersion.cmake

@@ -1,0 +1,18 @@
+[ 64%] Built target semantic_inference
+[ 78%] Built target demo_segmentation
+[100%] Built target test_semantic_inference
+-- Install configuration: "Release"
+-- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/lib/libsemantic_inference.so
+-- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/bin/demo_segmentation
+-- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/include
+-- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/include/semantic_inference
+-- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/segmenter.h
+-- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/image_recolor.h
+-- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/model_config.h
+-- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/image_rotator.h
+-- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/image_utilities.h
+-- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/logging.h
+-- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/lib/cmake/semantic_inference/semantic_inferenceTargets.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/lib/cmake/semantic_inference/semantic_inferenceTargets-release.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/lib/cmake/semantic_inference/semantic_inferenceConfig.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/lib/cmake/semantic_inference/semantic_inferenceConfigVersion.cmake

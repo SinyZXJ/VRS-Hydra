@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "hydra_msgs__py",
+		"source" : "/home/siny/hydra_ws/build/hydra_msgs/hydra_msgs__py"
+	}
+}

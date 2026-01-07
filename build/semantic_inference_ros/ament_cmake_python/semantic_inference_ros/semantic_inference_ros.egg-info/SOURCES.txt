@@ -1,0 +1,10 @@
+setup.py
+semantic_inference_ros/__init__.py
+semantic_inference_ros/image_worker.py
+semantic_inference_ros/prompt_encoder.py
+semantic_inference_ros/ros_conversions.py
+semantic_inference_ros/ros_logging.py
+semantic_inference_ros.egg-info/PKG-INFO
+semantic_inference_ros.egg-info/SOURCES.txt
+semantic_inference_ros.egg-info/dependency_links.txt
+semantic_inference_ros.egg-info/top_level.txt

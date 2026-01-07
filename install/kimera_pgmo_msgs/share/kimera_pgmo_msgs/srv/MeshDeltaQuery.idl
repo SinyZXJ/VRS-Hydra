@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from kimera_pgmo_msgs/srv/MeshDeltaQuery.srv
+// generated code does not contain a copyright notice
+
+#include "kimera_pgmo_msgs/msg/MeshDelta.idl"
+
+module kimera_pgmo_msgs {
+  module srv {
+    struct MeshDeltaQuery_Request {
+      sequence<uint16> sequence_numbers;
+    };
+    struct MeshDeltaQuery_Response {
+      sequence<kimera_pgmo_msgs::msg::MeshDelta> deltas;
+    };
+  };
+};

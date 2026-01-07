@@ -1,0 +1,188 @@
+[
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/teaser",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -Dteaser_io_EXPORTS -I/home/siny/hydra_ws/build/teaserpp/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/teaser/include -I/home/siny/hydra_ws/build/teaserpp/_deps/tinyply-src/source -O3 -DNDEBUG -std=gnu++14 -fPIC -o CMakeFiles/teaser_io.dir/src/ply_io.cc.o -c /home/siny/hydra_ws/src/teaser_plusplus/teaser/src/ply_io.cc",
+  "file": "/home/siny/hydra_ws/src/teaser_plusplus/teaser/src/ply_io.cc",
+  "output": "teaser/CMakeFiles/teaser_io.dir/src/ply_io.cc.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/teaser",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -Dteaser_registration_EXPORTS -I/home/siny/hydra_ws/build/teaserpp/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/teaser/include -I/home/siny/hydra_ws/build/teaserpp/_deps/spectra-src/include -I/home/siny/hydra_ws/src/teaser_plusplus/teaser/src -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -fopenmp -o CMakeFiles/teaser_registration.dir/src/certification.cc.o -c /home/siny/hydra_ws/src/teaser_plusplus/teaser/src/certification.cc",
+  "file": "/home/siny/hydra_ws/src/teaser_plusplus/teaser/src/certification.cc",
+  "output": "teaser/CMakeFiles/teaser_registration.dir/src/certification.cc.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/teaser",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -Dteaser_registration_EXPORTS -I/home/siny/hydra_ws/build/teaserpp/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/teaser/include -I/home/siny/hydra_ws/build/teaserpp/_deps/spectra-src/include -I/home/siny/hydra_ws/src/teaser_plusplus/teaser/src -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -fopenmp -o CMakeFiles/teaser_registration.dir/src/registration.cc.o -c /home/siny/hydra_ws/src/teaser_plusplus/teaser/src/registration.cc",
+  "file": "/home/siny/hydra_ws/src/teaser_plusplus/teaser/src/registration.cc",
+  "output": "teaser/CMakeFiles/teaser_registration.dir/src/registration.cc.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/teaser",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -Dteaser_registration_EXPORTS -I/home/siny/hydra_ws/build/teaserpp/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/teaser/include -I/home/siny/hydra_ws/build/teaserpp/_deps/spectra-src/include -I/home/siny/hydra_ws/src/teaser_plusplus/teaser/src -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -isystem /usr/include/eigen3 -O3 -DNDEBUG -std=gnu++14 -fPIC -fopenmp -o CMakeFiles/teaser_registration.dir/src/graph.cc.o -c /home/siny/hydra_ws/src/teaser_plusplus/teaser/src/graph.cc",
+  "file": "/home/siny/hydra_ws/src/teaser_plusplus/teaser/src/graph.cc",
+  "output": "teaser/CMakeFiles/teaser_registration.dir/src/graph.cc.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Werror -Wextra -Wno-format -Wno-sign-compare -Wno-unused-function -fopenmp -o CMakeFiles/pmc.dir/pmc_heu.cpp.o -c /home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/pmc_heu.cpp",
+  "file": "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/pmc_heu.cpp",
+  "output": "_deps/pmc-build/CMakeFiles/pmc.dir/pmc_heu.cpp.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Werror -Wextra -Wno-format -Wno-sign-compare -Wno-unused-function -fopenmp -o CMakeFiles/pmc.dir/pmc_maxclique.cpp.o -c /home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/pmc_maxclique.cpp",
+  "file": "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/pmc_maxclique.cpp",
+  "output": "_deps/pmc-build/CMakeFiles/pmc.dir/pmc_maxclique.cpp.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Werror -Wextra -Wno-format -Wno-sign-compare -Wno-unused-function -fopenmp -o CMakeFiles/pmc.dir/pmcx_maxclique.cpp.o -c /home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/pmcx_maxclique.cpp",
+  "file": "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/pmcx_maxclique.cpp",
+  "output": "_deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique.cpp.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Werror -Wextra -Wno-format -Wno-sign-compare -Wno-unused-function -fopenmp -o CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.o -c /home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/pmcx_maxclique_basic.cpp",
+  "file": "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/pmcx_maxclique_basic.cpp",
+  "output": "_deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Werror -Wextra -Wno-format -Wno-sign-compare -Wno-unused-function -fopenmp -o CMakeFiles/pmc.dir/pmc_cores.cpp.o -c /home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/pmc_cores.cpp",
+  "file": "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/pmc_cores.cpp",
+  "output": "_deps/pmc-build/CMakeFiles/pmc.dir/pmc_cores.cpp.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Werror -Wextra -Wno-format -Wno-sign-compare -Wno-unused-function -fopenmp -o CMakeFiles/pmc.dir/pmc_utils.cpp.o -c /home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/pmc_utils.cpp",
+  "file": "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/pmc_utils.cpp",
+  "output": "_deps/pmc-build/CMakeFiles/pmc.dir/pmc_utils.cpp.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Werror -Wextra -Wno-format -Wno-sign-compare -Wno-unused-function -fopenmp -o CMakeFiles/pmc.dir/pmc_graph.cpp.o -c /home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/pmc_graph.cpp",
+  "file": "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/pmc_graph.cpp",
+  "output": "_deps/pmc-build/CMakeFiles/pmc.dir/pmc_graph.cpp.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -O3 -DNDEBUG -std=gnu++14 -fPIC -Wall -Werror -Wextra -Wno-format -Wno-sign-compare -Wno-unused-function -fopenmp -o CMakeFiles/pmc.dir/pmc_clique_utils.cpp.o -c /home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/pmc_clique_utils.cpp",
+  "file": "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/pmc_clique_utils.cpp",
+  "output": "_deps/pmc-build/CMakeFiles/pmc.dir/pmc_clique_utils.cpp.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -O3 -DNDEBUG -std=gnu++14 -fopenmp -o CMakeFiles/pmc_main.dir/pmc_driver.cpp.o -c /home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/pmc_driver.cpp",
+  "file": "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/pmc_driver.cpp",
+  "output": "_deps/pmc-build/CMakeFiles/pmc_main.dir/pmc_driver.cpp.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++ -DGTEST_CREATE_SHARED_LIBRARY=1 -DTEASER_DIAG_PRINT -Dgmock_EXPORTS -I/home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock/include -I/home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++17 -fPIC -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++ -DGTEST_CREATE_SHARED_LIBRARY=1 -DTEASER_DIAG_PRINT -Dgmock_main_EXPORTS -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++17 -fPIC -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++ -DGTEST_CREATE_SHARED_LIBRARY=1 -DTEASER_DIAG_PRINT -Dgtest_EXPORTS -I/home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest/include -I/home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++17 -fPIC -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++ -DGTEST_CREATE_SHARED_LIBRARY=1 -DTEASER_DIAG_PRINT -Dgtest_main_EXPORTS -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++17 -fPIC -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/test/teaser",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -I/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/../../teaser/src -I/home/siny/hydra_ws/build/teaserpp/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/test/test-tools/. -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -isystem /usr/include/eigen3 -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock -O3 -DNDEBUG -std=gnu++17 -fopenmp -o CMakeFiles/all_tests.dir/main.cc.o -c /home/siny/hydra_ws/src/teaser_plusplus/test/teaser/main.cc",
+  "file": "/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/main.cc",
+  "output": "test/teaser/CMakeFiles/all_tests.dir/main.cc.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/test/teaser",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -I/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/../../teaser/src -I/home/siny/hydra_ws/build/teaserpp/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/test/test-tools/. -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -isystem /usr/include/eigen3 -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock -O3 -DNDEBUG -std=gnu++17 -fopenmp -o CMakeFiles/all_tests.dir/utils-test.cc.o -c /home/siny/hydra_ws/src/teaser_plusplus/test/teaser/utils-test.cc",
+  "file": "/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/utils-test.cc",
+  "output": "test/teaser/CMakeFiles/all_tests.dir/utils-test.cc.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/test/teaser",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -I/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/../../teaser/src -I/home/siny/hydra_ws/build/teaserpp/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/test/test-tools/. -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -isystem /usr/include/eigen3 -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock -O3 -DNDEBUG -std=gnu++17 -fopenmp -o CMakeFiles/all_tests.dir/io-test.cc.o -c /home/siny/hydra_ws/src/teaser_plusplus/test/teaser/io-test.cc",
+  "file": "/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/io-test.cc",
+  "output": "test/teaser/CMakeFiles/all_tests.dir/io-test.cc.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/test/teaser",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -I/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/../../teaser/src -I/home/siny/hydra_ws/build/teaserpp/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/test/test-tools/. -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -isystem /usr/include/eigen3 -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock -O3 -DNDEBUG -std=gnu++17 -fopenmp -o CMakeFiles/all_tests.dir/geometry-test.cc.o -c /home/siny/hydra_ws/src/teaser_plusplus/test/teaser/geometry-test.cc",
+  "file": "/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/geometry-test.cc",
+  "output": "test/teaser/CMakeFiles/all_tests.dir/geometry-test.cc.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/test/teaser",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -I/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/../../teaser/src -I/home/siny/hydra_ws/build/teaserpp/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/test/test-tools/. -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -isystem /usr/include/eigen3 -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock -O3 -DNDEBUG -std=gnu++17 -fopenmp -o CMakeFiles/all_tests.dir/tls-test.cc.o -c /home/siny/hydra_ws/src/teaser_plusplus/test/teaser/tls-test.cc",
+  "file": "/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/tls-test.cc",
+  "output": "test/teaser/CMakeFiles/all_tests.dir/tls-test.cc.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/test/teaser",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -I/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/../../teaser/src -I/home/siny/hydra_ws/build/teaserpp/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/test/test-tools/. -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -isystem /usr/include/eigen3 -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock -O3 -DNDEBUG -std=gnu++17 -fopenmp -o CMakeFiles/all_tests.dir/scale-solver-test.cc.o -c /home/siny/hydra_ws/src/teaser_plusplus/test/teaser/scale-solver-test.cc",
+  "file": "/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/scale-solver-test.cc",
+  "output": "test/teaser/CMakeFiles/all_tests.dir/scale-solver-test.cc.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/test/teaser",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -I/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/../../teaser/src -I/home/siny/hydra_ws/build/teaserpp/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/test/test-tools/. -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -isystem /usr/include/eigen3 -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock -O3 -DNDEBUG -std=gnu++17 -fopenmp -o CMakeFiles/all_tests.dir/rotation-solver-test.cc.o -c /home/siny/hydra_ws/src/teaser_plusplus/test/teaser/rotation-solver-test.cc",
+  "file": "/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/rotation-solver-test.cc",
+  "output": "test/teaser/CMakeFiles/all_tests.dir/rotation-solver-test.cc.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/test/teaser",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -I/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/../../teaser/src -I/home/siny/hydra_ws/build/teaserpp/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/test/test-tools/. -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -isystem /usr/include/eigen3 -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock -O3 -DNDEBUG -std=gnu++17 -fopenmp -o CMakeFiles/all_tests.dir/translation-solver-test.cc.o -c /home/siny/hydra_ws/src/teaser_plusplus/test/teaser/translation-solver-test.cc",
+  "file": "/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/translation-solver-test.cc",
+  "output": "test/teaser/CMakeFiles/all_tests.dir/translation-solver-test.cc.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/test/teaser",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -I/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/../../teaser/src -I/home/siny/hydra_ws/build/teaserpp/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/test/test-tools/. -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -isystem /usr/include/eigen3 -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock -O3 -DNDEBUG -std=gnu++17 -fopenmp -o CMakeFiles/all_tests.dir/registration-test.cc.o -c /home/siny/hydra_ws/src/teaser_plusplus/test/teaser/registration-test.cc",
+  "file": "/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/registration-test.cc",
+  "output": "test/teaser/CMakeFiles/all_tests.dir/registration-test.cc.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/test/teaser",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -I/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/../../teaser/src -I/home/siny/hydra_ws/build/teaserpp/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/test/test-tools/. -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -isystem /usr/include/eigen3 -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock -O3 -DNDEBUG -std=gnu++17 -fopenmp -o CMakeFiles/all_tests.dir/graph-test.cc.o -c /home/siny/hydra_ws/src/teaser_plusplus/test/teaser/graph-test.cc",
+  "file": "/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/graph-test.cc",
+  "output": "test/teaser/CMakeFiles/all_tests.dir/graph-test.cc.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/test/teaser",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -I/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/../../teaser/src -I/home/siny/hydra_ws/build/teaserpp/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/test/test-tools/. -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -isystem /usr/include/eigen3 -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock -O3 -DNDEBUG -std=gnu++17 -fopenmp -o CMakeFiles/all_tests.dir/certification-test.cc.o -c /home/siny/hydra_ws/src/teaser_plusplus/test/teaser/certification-test.cc",
+  "file": "/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/certification-test.cc",
+  "output": "test/teaser/CMakeFiles/all_tests.dir/certification-test.cc.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/test/teaser",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -I/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/../../teaser/src -I/home/siny/hydra_ws/build/teaserpp/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/test/test-tools/. -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-build/include -I/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include -isystem /usr/include/eigen3 -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock -O3 -DNDEBUG -std=gnu++17 -fopenmp -o CMakeFiles/all_tests.dir/linalg-test.cc.o -c /home/siny/hydra_ws/src/teaser_plusplus/test/teaser/linalg-test.cc",
+  "file": "/home/siny/hydra_ws/src/teaser_plusplus/test/teaser/linalg-test.cc",
+  "output": "test/teaser/CMakeFiles/all_tests.dir/linalg-test.cc.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/test/benchmark",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -I/home/siny/hydra_ws/build/teaserpp/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/test/test-tools/. -isystem /usr/include/eigen3 -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock -O3 -DNDEBUG -std=gnu++17 -fopenmp -o CMakeFiles/all_benchmarks.dir/main.cc.o -c /home/siny/hydra_ws/src/teaser_plusplus/test/benchmark/main.cc",
+  "file": "/home/siny/hydra_ws/src/teaser_plusplus/test/benchmark/main.cc",
+  "output": "test/benchmark/CMakeFiles/all_benchmarks.dir/main.cc.o"
+},
+{
+  "directory": "/home/siny/hydra_ws/build/teaserpp/test/benchmark",
+  "command": "/usr/bin/c++ -DTEASER_DIAG_PRINT -I/home/siny/hydra_ws/build/teaserpp/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/teaser/include -I/home/siny/hydra_ws/src/teaser_plusplus/test/test-tools/. -isystem /usr/include/eigen3 -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googletest -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock/include -isystem /home/siny/hydra_ws/build/teaserpp/_deps/googletest-src/googlemock -O3 -DNDEBUG -std=gnu++17 -fopenmp -o CMakeFiles/all_benchmarks.dir/registration-benchmark.cc.o -c /home/siny/hydra_ws/src/teaser_plusplus/test/benchmark/registration-benchmark.cc",
+  "file": "/home/siny/hydra_ws/src/teaser_plusplus/test/benchmark/registration-benchmark.cc",
+  "output": "test/benchmark/CMakeFiles/all_benchmarks.dir/registration-benchmark.cc.o"
+}
+]

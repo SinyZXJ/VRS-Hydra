@@ -1,0 +1,104 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"teaser/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 125,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 131,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"teaser/libteaser_io.so"
+			],
+			"targetId" : "teaser_io::@379faf8cbd0a042b8dbf",
+			"targetIndex" : 37,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"teaser/libteaser_registration.so"
+			],
+			"targetId" : "teaser_registration::@379faf8cbd0a042b8dbf",
+			"targetIndex" : 38,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/teaserpp",
+			"exportName" : "teaserpp-export",
+			"exportTargets" : 
+			[
+				{
+					"id" : "teaser_io::@379faf8cbd0a042b8dbf",
+					"index" : 37
+				},
+				{
+					"id" : "teaser_registration::@379faf8cbd0a042b8dbf",
+					"index" : 38
+				}
+			],
+			"paths" : 
+			[
+				"teaser/CMakeFiles/Export/686be5af9897b00132e84fd768aecc0e/teaserppTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "teaser/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "teaser",
+		"source" : "teaser"
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "config_utilities_msgs/srv/SetConfig_Request",
+      "fields": [
+        {
+          "name": "data",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "config_utilities_msgs/srv/SetConfig_Request",
+      "hash_string": "RIHS01_812bb4a2e8445cf3cd78c7873f1836bde1975cea8015b8dbb035c9a0be3d410b"
+    }
+  ]
+}

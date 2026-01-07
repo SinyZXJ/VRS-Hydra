@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -flto=auto -fno-fat-lto-objects CMakeFiles/dsg_repeater.dir/dsg_repeater.cpp.o -o dsg_repeater  -Wl,-rpath,/home/siny/hydra_ws/build/spark_dsg: ../libspark_dsg.so 

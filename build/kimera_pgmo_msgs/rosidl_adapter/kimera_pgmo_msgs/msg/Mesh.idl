@@ -1,0 +1,41 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kimera_pgmo_msgs/msg/Mesh.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "geometry_msgs/msg/Point.idl"
+#include "kimera_pgmo_msgs/msg/TriangleIndices.idl"
+#include "std_msgs/msg/ColorRGBA.idl"
+#include "std_msgs/msg/Header.idl"
+
+module kimera_pgmo_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message encodes Triangle mesh message")
+    struct Mesh {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "namespace of the mesh used to identify the corresponding robot and visual. Separating hierarchical namespaces with '/' is supported (e.g. robot0/mesh123)")
+      string ns;
+
+      @verbatim (language="comment", text=
+        "list of triangles; the index values refer to positions in vertices (and vertex_normals, if given)")
+      sequence<kimera_pgmo_msgs::msg::TriangleIndices> triangles;
+
+      @verbatim (language="comment", text=
+        "the actual vertices that make up the mesh")
+      sequence<geometry_msgs::msg::Point> vertices;
+
+      @verbatim (language="comment", text=
+        "time stamps associated to each of the vertices")
+      sequence<builtin_interfaces::msg::Time> vertex_stamps;
+
+      @verbatim (language="comment", text=
+        "index of mesh graph vertex associated to each of the vertices")
+      sequence<int32> vertex_indices;
+
+      sequence<std_msgs::msg::ColorRGBA> vertex_colors;
+    };
+  };
+};

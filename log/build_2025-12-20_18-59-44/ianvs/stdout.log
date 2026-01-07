@@ -1,0 +1,142 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found message_filters: 4.11.9 (/opt/ros/jazzy/share/message_filters/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found pluginlib: 5.4.3 (/opt/ros/jazzy/share/pluginlib/cmake)
+-- Found rosbag2_transport: 0.26.9 (/opt/ros/jazzy/share/rosbag2_transport/cmake)
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found tf2_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_msgs/cmake)
+-- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found Python: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development Development.Module Development.Embed 
+-- Found pybind11: /usr/include (found version "2.11.1")
+-- Configuring done (3.4s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/siny/hydra_ws/build/ianvs
+[  4%] [32mBuilding CXX object CMakeFiles/ianvs.dir/src/detail/string_transforms.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/ianvs.dir/src/image_publisher.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/ianvs.dir/src/node_handle.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/ianvs.dir/src/spin_functions.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/ianvs.dir/src/image_subscription.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/ianvs.dir/src/node_handle_factory.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/ianvs.dir/src/node_init.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/ianvs_rosbag.dir/src/bag_reader.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/transform_file_broadcaster.dir/app/transform_file_broadcaster.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/_ianvs_bindings.dir/src/bindings/image_encodings.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/_ianvs_bindings.dir/src/bindings/module.cpp.o[0m
+[ 47%] Built target ament_cmake_python_copy_ianvs_setup
+[ 47%] Built target ament_cmake_python_copy_ianvs
+running egg_info
+creating ianvs.egg-info
+writing ianvs.egg-info/PKG-INFO
+writing dependency_links to ianvs.egg-info/dependency_links.txt
+writing entry points to ianvs.egg-info/entry_points.txt
+writing top-level names to ianvs.egg-info/top_level.txt
+writing manifest file 'ianvs.egg-info/SOURCES.txt'
+reading manifest file 'ianvs.egg-info/SOURCES.txt'
+writing manifest file 'ianvs.egg-info/SOURCES.txt'
+[ 47%] Built target ament_cmake_python_build_ianvs_egg
+[ 52%] [32m[1mLinking CXX shared module _ianvs_bindings.cpython-312-aarch64-linux-gnu.so[0m
+[ 56%] [32m[1mLinking CXX shared library libianvs_rosbag.so[0m
+[ 60%] [32m[1mLinking CXX executable transform_file_broadcaster[0m
+[ 60%] Built target ianvs_rosbag
+[ 60%] Built target _ianvs_bindings
+[ 60%] Built target transform_file_broadcaster
+[ 65%] [32m[1mLinking CXX shared library libianvs.so[0m
+[ 65%] Built target ianvs
+[ 69%] [32mBuilding CXX object CMakeFiles/ianvs_plugins.dir/src/app/signal_stop_plugin.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/ianvs_plugins.dir/src/app/topic_remap_plugin.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/ianvs_plugins.dir/src/app/tf_plugin.cpp.o[0m
+[ 82%] [32m[1mLinking CXX shared library libianvs_plugins.so[0m
+[ 82%] Built target ianvs_plugins
+[ 91%] [32mBuilding CXX object CMakeFiles/play_rosbag.dir/app/play_rosbag.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/merge_rosbags.dir/app/merge_rosbags.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable merge_rosbags[0m
+[100%] [32m[1mLinking CXX executable play_rosbag[0m
+[100%] Built target merge_rosbags
+[100%] Built target play_rosbag
+-- Install configuration: "Release"
+-- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs/
+-- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs
+-- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/image_subscription.h
+-- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/node_handle.h
+-- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/app
+-- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/app/rosbag_play_plugins.h
+-- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/node_handle_factory.h
+-- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/image_publisher.h
+-- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/bag_reader.h
+-- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/lazy_publisher_group.h
+-- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/spin_functions.h
+-- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/detail
+-- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/detail/string_transforms.h
+-- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/visibility_control.h
+-- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/message_wait_functor.h
+-- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/node_init.h
+-- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/bindings
+-- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/bindings/image_encodings.h
+-- Installing: /home/siny/hydra_ws/install/ianvs/lib/libianvs.so
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/ianvs/lib/libianvs.so" to ""
+-- Installing: /home/siny/hydra_ws/install/ianvs/lib/libianvs_plugins.so
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/ianvs/lib/libianvs_plugins.so" to ""
+-- Installing: /home/siny/hydra_ws/install/ianvs/lib/libianvs_rosbag.so
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/ianvs/lib/libianvs_rosbag.so" to ""
+-- Installing: /home/siny/hydra_ws/install/ianvs/lib/ianvs/play_rosbag
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/ianvs/lib/ianvs/play_rosbag" to ""
+-- Installing: /home/siny/hydra_ws/install/ianvs/lib/ianvs/merge_rosbags
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/ianvs/lib/ianvs/merge_rosbags" to ""
+-- Installing: /home/siny/hydra_ws/install/ianvs/lib/ianvs/transform_file_broadcaster
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/ianvs/lib/ianvs/transform_file_broadcaster" to ""
+-- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs/_ianvs_bindings.cpython-312-aarch64-linux-gnu.so
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs/_ianvs_bindings.cpython-312-aarch64-linux-gnu.so" to ""
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/pythonpath.sh
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/pythonpath.dsv
+-- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info
+-- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/entry_points.txt
+-- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs
+-- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs/__init__.py
+-- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs/launch.py
+Listing '/home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs'...
+Compiling '/home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs/__init__.py'...
+Compiling '/home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs/launch.py'...
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/plugins.xml
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/library_path.sh
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/library_path.dsv
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ament_index/resource_index/package_run_dependencies/ianvs
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ament_index/resource_index/parent_prefix_path/ianvs
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/ament_prefix_path.sh
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/ament_prefix_path.dsv
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/path.sh
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/path.dsv
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/local_setup.bash
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/local_setup.sh
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/local_setup.zsh
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/local_setup.dsv
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/package.dsv
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ament_index/resource_index/packages/ianvs
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ament_index/resource_index/ianvs__pluginlib__plugin/ianvs
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ianvs-exportsExport.cmake
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ianvs-exportsExport-release.cmake
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ianvsConfig.cmake
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ianvsConfig-version.cmake
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/package.xml

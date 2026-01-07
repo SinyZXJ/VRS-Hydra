@@ -1,0 +1,104 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/pmc-build/libpmc.a"
+			],
+			"targetId" : "pmc::@a54a2f25651ca955a6e5",
+			"targetIndex" : 35,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/pmc",
+			"exportName" : "pmc-export",
+			"exportTargets" : 
+			[
+				{
+					"id" : "pmc::@a54a2f25651ca955a6e5",
+					"index" : 35
+				}
+			],
+			"paths" : 
+			[
+				"_deps/pmc-build/CMakeFiles/Export/af2eaf13897716f12981eb4b10f7ec48/pmcTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/pmc",
+			"paths" : 
+			[
+				"/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src/cmake/pmcConfig.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/pmc-build",
+		"source" : "/home/siny/hydra_ws/build/teaserpp/_deps/pmc-src"
+	}
+}

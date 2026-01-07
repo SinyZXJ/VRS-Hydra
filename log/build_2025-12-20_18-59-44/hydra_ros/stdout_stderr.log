@@ -1,0 +1,221 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex 
+-- GTSAM include directory:  /opt/ros/jazzy/lib/cmake/GTSAM/../../../include
+-- Found nlohmann_json: /usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.11.3") 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- Checking for module 'libglog'
+--   Found libglog, version 0.6.0
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization 
+-- Found flann version 1.9.2
+-- looking for PCL_COMPATIBILITY
+-- Could NOT find PCL_COMPATIBILITY (missing: PCL_COMPATIBILITY_LIBRARY PCL_COMPATIBILITY_INCLUDE_DIR) 
+-- looking for PCL_COMMON
+-- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+-- looking for PCL_GEOMETRY
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+-- looking for PCL_KDTREE
+-- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+-- looking for PCL_OCTREE
+-- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;Boost::system;Boost::filesystem;Boost::iostreams;Boost::serialization;FLANN::FLANN  
+-- Found OpenCV: /usr (found version "4.6.0") found components: core imgproc 
+-- Found hydra_msgs: 0.0.1 (/home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake)
+-- Found hydra_visualizer: 1.0.0 (/home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/cmake)
+-- Found kimera_pgmo_ros: 0.0.1 (/home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/cmake)
+-- Found tf2_eigen: 0.36.16 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+-- Found semantic_inference_msgs: 0.0.1 (/home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake)
+-- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found Threads: TRUE  
+-- Configuring done (1.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/siny/hydra_ws/build/hydra_ros
+[  2%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/active_window/tsdf_occupancy_publisher.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/active_window/reconstruction_visualizer.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/frontend/gvd_occupancy_publisher.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/frontend/object_visualizer.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/frontend/ros_frontend_publisher.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/input/feature_receiver.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/input/image_receiver.cpp.o[0m
+[ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/hydra_ros_pipeline.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/backend/ros_backend_publisher.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/frontend/gvd_visualization_utilities.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/scene_graph_logger.dir/rclcpp_components/node_main_scene_graph_logger.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/frontend/places_visualizer.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/input/pointcloud_adaptor.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/input/pointcloud_receiver.cpp.o[0m
+[ 41%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 41%] Built target ament_cmake_python_copy_hydra_ros
+[ 43%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 43%] Built target gtest_main
+running egg_info
+creating hydra_ros.egg-info
+writing hydra_ros.egg-info/PKG-INFO
+writing dependency_links to hydra_ros.egg-info/dependency_links.txt
+writing top-level names to hydra_ros.egg-info/top_level.txt
+writing manifest file 'hydra_ros.egg-info/SOURCES.txt'
+reading manifest file 'hydra_ros.egg-info/SOURCES.txt'
+writing manifest file 'hydra_ros.egg-info/SOURCES.txt'
+[ 43%] Built target ament_cmake_python_build_hydra_ros_egg
+[ 48%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/odometry/ros_pose_graph_tracker.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/input/ros_sensors.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/input/ros_data_receiver.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/input/ros_input_module.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/openset/ros_embedding_group.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable scene_graph_logger[0m
+[ 58%] Built target scene_graph_logger
+[ 61%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/utils/bow_subscriber.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/utils/dsg_streaming_interface.cpp.o[0m
+[ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 66%] Built target gtest
+[ 69%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/utils/external_loop_closure_subscriber.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/utils/input_data_to_messages.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/utils/occupancy_publisher.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/utils/scene_graph_logger.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/utils/status_monitor.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/utils/tf_lookup.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/hydra_ros.dir/src/visualizer/feature_color_adaptors.cpp.o[0m
+[ 87%] [32m[1mLinking CXX shared library libhydra_ros.so[0m
+[ 87%] Built target hydra_ros
+[ 89%] [32mBuilding CXX object CMakeFiles/test_hydra_ros.dir/tests/test_ros_sensors.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/test_hydra_ros.dir/tests/main.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o[0m
+[ 97%] [32m[1mLinking CXX executable test_hydra_ros[0m
+[ 97%] Built target test_hydra_ros
+[100%] [32m[1mLinking CXX executable hydra_ros_node[0m
+[100%] Built target hydra_ros_node
+-- Install configuration: "Release"
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/environment/pythonpath.sh
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/environment/pythonpath.dsv
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/lib/python3.12/site-packages/hydra_ros-1.0.0-py3.12.egg-info
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/lib/python3.12/site-packages/hydra_ros-1.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/lib/python3.12/site-packages/hydra_ros-1.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/lib/python3.12/site-packages/hydra_ros-1.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/lib/python3.12/site-packages/hydra_ros-1.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/lib/python3.12/site-packages/hydra_ros
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/lib/python3.12/site-packages/hydra_ros/__init__.py
+Listing '/home/siny/hydra_ws/install/hydra_ros/lib/python3.12/site-packages/hydra_ros'...
+Compiling '/home/siny/hydra_ws/install/hydra_ros/lib/python3.12/site-packages/hydra_ros/__init__.py'...
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/lib/hydra_ros/scene_graph_logger
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_ros/lib/hydra_ros/scene_graph_logger" to ""
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/lib/libhydra_ros.so
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_ros/lib/libhydra_ros.so" to ""
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/lib/hydra_ros/hydra_ros_node
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_ros/lib/hydra_ros/hydra_ros_node" to ""
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/lib/hydra_ros/csv_to_tf
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/lib/hydra_ros/dsg_republisher
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/lib/hydra_ros/odom_to_tf
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/lib/hydra_ros/noisy_tf_publisher
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include/
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/input
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/input/image_receiver.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/input/pointcloud_adaptor.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/input/pointcloud_receiver.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/input/ros_data_receiver.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/input/ros_input_module.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/input/ros_sensors.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/input/feature_receiver.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/visualizer
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/visualizer/feature_color_adaptors.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/visualizer/voxel_drawing.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/backend
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/backend/ros_backend_publisher.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/utils
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/utils/dsg_streaming_interface.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/utils/status_monitor.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/utils/input_data_to_messages.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/utils/external_loop_closure_subscriber.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/utils/scene_graph_logger.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/utils/bow_subscriber.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/utils/occupancy_publisher.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/utils/tf_lookup.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/odometry
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/odometry/ros_pose_graph_tracker.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/active_window
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/active_window/tsdf_occupancy_publisher.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/active_window/reconstruction_visualizer.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/openset
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/openset/ros_embedding_group.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/frontend
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/frontend/object_visualizer.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/frontend/ros_frontend_publisher.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/frontend/gvd_occupancy_publisher.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/frontend/gvd_visualization_utilities.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/frontend/places_visualizer.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/hydra_ros_pipeline.h
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch/scene_graph_logger.launch.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch/datasets
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch/datasets/uhumans2.launch.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch/datasets/a1.launch.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch/datasets/zed2i.launch.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch/noisy_tf_publisher_node.launch.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch/hydra.launch.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/hydra_ros_visualizer_plugins.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/color
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/color/uhumans2_apartment.csv
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/color/uhumans2_office.csv
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/color/kitti_360.csv
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/color/uhumans2_subway.csv
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/color/phoenix.csv
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/sinks
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/sinks/active_window_sinks.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/sinks/gvd_places_sinks.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/sinks/mesh_segmenter_sinks.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/sidpac.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/a1.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/oakd.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/lis_spot.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/simmons.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/uhumans2.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/zed2i.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/kitti_360.yaml
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/environment/library_path.sh
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/environment/library_path.dsv
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/ament_index/resource_index/package_run_dependencies/hydra_ros
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/ament_index/resource_index/parent_prefix_path/hydra_ros
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/environment/ament_prefix_path.sh
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/environment/ament_prefix_path.dsv
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/environment/path.sh
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/environment/path.dsv
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/local_setup.bash
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/local_setup.sh
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/local_setup.zsh
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/local_setup.dsv
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/package.dsv
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/ament_index/resource_index/packages/hydra_ros
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/ament_index/resource_index/rclcpp_components/hydra_ros
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/cmake/hydra_ros-targetsExport.cmake
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/cmake/hydra_ros-targetsExport-release.cmake
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/cmake/hydra_rosConfig.cmake
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/cmake/hydra_rosConfig-version.cmake
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/package.xml

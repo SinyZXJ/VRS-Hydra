@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "kimera_pgmo_msgs/srv/LoadGraphMesh_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "kimera_pgmo_msgs/srv/LoadGraphMesh_Response",
+      "hash_string": "RIHS01_e14bce724a718df711f5f0614b0876d4613fbcb73c94ca9b454f90b60c4a12aa"
+    }
+  ]
+}

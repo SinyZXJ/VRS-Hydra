@@ -1,0 +1,28 @@
+[0.020s] Invoking command in '/home/siny/hydra_ws/build/teaserpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/teaserpp -- -j20 -l20
+[0.071s] [ 25%] Built target pmc
+[0.073s] [ 31%] Built target gtest
+[0.075s] [ 37%] Built target teaser_io
+[0.105s] [ 54%] Built target gmock
+[0.111s] [ 48%] Built target teaser_registration
+[0.134s] [ 62%] Built target all_benchmarks
+[0.160s] [100%] Built target all_tests
+[0.183s] Invoked command in '/home/siny/hydra_ws/build/teaserpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/teaserpp -- -j20 -l20
+[0.184s] Invoking command in '/home/siny/hydra_ws/build/teaserpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/teaserpp
+[0.192s] -- Install configuration: "Release"
+[0.192s] -- Up-to-date: /home/siny/hydra_ws/install/teaserpp/lib/libteaser_io.so
+[0.193s] -- Up-to-date: /home/siny/hydra_ws/install/teaserpp/lib/libteaser_registration.so
+[0.193s] -- Up-to-date: /home/siny/hydra_ws/install/teaserpp/lib/cmake/teaserpp/teaserppTargets.cmake
+[0.194s] -- Up-to-date: /home/siny/hydra_ws/install/teaserpp/lib/cmake/teaserpp/teaserppTargets-release.cmake
+[0.194s] -- Up-to-date: /home/siny/hydra_ws/install/teaserpp/include
+[0.194s] -- Up-to-date: /home/siny/hydra_ws/install/teaserpp/include/teaser
+[0.194s] -- Up-to-date: /home/siny/hydra_ws/install/teaserpp/include/teaser/graph.h
+[0.194s] -- Up-to-date: /home/siny/hydra_ws/install/teaserpp/include/teaser/geometry.h
+[0.194s] -- Up-to-date: /home/siny/hydra_ws/install/teaserpp/include/teaser/registration.h
+[0.194s] -- Up-to-date: /home/siny/hydra_ws/install/teaserpp/include/teaser/ply_io.h
+[0.194s] -- Up-to-date: /home/siny/hydra_ws/install/teaserpp/include/teaser/utils.h
+[0.194s] -- Up-to-date: /home/siny/hydra_ws/install/teaserpp/include/teaser/fpfh.h
+[0.194s] -- Up-to-date: /home/siny/hydra_ws/install/teaserpp/include/teaser/certification.h
+[0.194s] -- Up-to-date: /home/siny/hydra_ws/install/teaserpp/include/teaser/macros.h
+[0.194s] -- Up-to-date: /home/siny/hydra_ws/install/teaserpp/include/teaser/matcher.h
+[0.194s] -- Up-to-date: /home/siny/hydra_ws/install/teaserpp/lib/cmake/teaserpp/teaserppConfig.cmake
+[0.195s] Invoked command in '/home/siny/hydra_ws/build/teaserpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/teaserpp

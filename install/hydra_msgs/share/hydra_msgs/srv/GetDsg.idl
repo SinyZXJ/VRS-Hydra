@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from hydra_msgs/srv/GetDsg.srv
+// generated code does not contain a copyright notice
+
+#include "hydra_msgs/msg/DsgUpdate.idl"
+
+module hydra_msgs {
+  module srv {
+    struct GetDsg_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetDsg_Response {
+      hydra_msgs::msg::DsgUpdate graph;
+    };
+  };
+};

@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "pose_graph_tools_msgs/srv/VLCFrameQuery_Request",
+      "fields": [
+        {
+          "name": "robot_id",
+          "type": {
+            "type_id": 7,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "pose_ids",
+          "type": {
+            "type_id": 151,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "pose_graph_tools_msgs/srv/VLCFrameQuery_Request",
+      "hash_string": "RIHS01_b70d1c23c105654c1cbcf12035f3cfee9a63a83113dcc678f646cbf53aa4c32a"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+[launch.frontend.launch_extension]
+ianvs_launch = ianvs.launch

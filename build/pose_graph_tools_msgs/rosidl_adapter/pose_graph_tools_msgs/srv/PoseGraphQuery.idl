@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from pose_graph_tools_msgs/srv/PoseGraphQuery.srv
+// generated code does not contain a copyright notice
+
+#include "pose_graph_tools_msgs/msg/PoseGraph.idl"
+
+module pose_graph_tools_msgs {
+  module srv {
+    struct PoseGraphQuery_Request {
+      uint16 robot_id;
+    };
+    struct PoseGraphQuery_Response {
+      pose_graph_tools_msgs::msg::PoseGraph pose_graph;
+    };
+  };
+};

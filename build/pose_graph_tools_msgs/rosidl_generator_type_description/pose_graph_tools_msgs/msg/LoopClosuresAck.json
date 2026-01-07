@@ -1,0 +1,76 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "pose_graph_tools_msgs/msg/LoopClosuresAck",
+      "fields": [
+        {
+          "name": "publishing_robot_id",
+          "type": {
+            "type_id": 5,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "destination_robot_id",
+          "type": {
+            "type_id": 5,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "robot_src",
+          "type": {
+            "type_id": 151,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "frame_src",
+          "type": {
+            "type_id": 151,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "robot_dst",
+          "type": {
+            "type_id": 151,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "frame_dst",
+          "type": {
+            "type_id": 151,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "pose_graph_tools_msgs/msg/LoopClosuresAck",
+      "hash_string": "RIHS01_4b195d19b92a7ac21355e282a38acd3893bf8c06c532ef845c35874a2612e64e"
+    }
+  ]
+}

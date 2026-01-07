@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "kimera_pgmo_msgs/msg/TriangleIndices",
+      "fields": [
+        {
+          "name": "vertex_indices",
+          "type": {
+            "type_id": 55,
+            "capacity": 3,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "kimera_pgmo_msgs/msg/TriangleIndices",
+      "hash_string": "RIHS01_e2023fd1ace625ff25e70bf602b74ced6a9aecc33d4725e2053d1e9ab342883c"
+    }
+  ]
+}

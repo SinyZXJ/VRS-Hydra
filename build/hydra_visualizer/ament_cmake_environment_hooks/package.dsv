@@ -1,0 +1,4 @@
+source;share/hydra_visualizer/local_setup.bash
+source;share/hydra_visualizer/local_setup.dsv
+source;share/hydra_visualizer/local_setup.sh
+source;share/hydra_visualizer/local_setup.zsh

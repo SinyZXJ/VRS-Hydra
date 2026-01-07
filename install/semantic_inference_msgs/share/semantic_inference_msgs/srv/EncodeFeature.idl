@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from semantic_inference_msgs/srv/EncodeFeature.srv
+// generated code does not contain a copyright notice
+
+#include "semantic_inference_msgs/msg/FeatureVectorStamped.idl"
+
+module semantic_inference_msgs {
+  module srv {
+    struct EncodeFeature_Request {
+      string prompt;
+    };
+    struct EncodeFeature_Response {
+      semantic_inference_msgs::msg::FeatureVectorStamped feature;
+    };
+  };
+};

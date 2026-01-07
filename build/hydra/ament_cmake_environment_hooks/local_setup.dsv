@@ -1,0 +1,2 @@
+source;share/hydra/environment/ament_prefix_path.sh
+source;share/hydra/environment/path.sh

@@ -1,0 +1,11 @@
+{
+  "package_name": "kimera_pgmo_msgs",
+  "non_idl_tuples": [
+    "/home/siny/hydra_ws/src/kimera_pgmo/kimera_pgmo_msgs:msg/AbsolutePoseStamped.msg",
+    "/home/siny/hydra_ws/src/kimera_pgmo/kimera_pgmo_msgs:msg/Mesh.msg",
+    "/home/siny/hydra_ws/src/kimera_pgmo/kimera_pgmo_msgs:msg/MeshDelta.msg",
+    "/home/siny/hydra_ws/src/kimera_pgmo/kimera_pgmo_msgs:msg/TriangleIndices.msg",
+    "/home/siny/hydra_ws/src/kimera_pgmo/kimera_pgmo_msgs:srv/LoadGraphMesh.srv",
+    "/home/siny/hydra_ws/src/kimera_pgmo/kimera_pgmo_msgs:srv/MeshDeltaQuery.srv"
+  ]
+}

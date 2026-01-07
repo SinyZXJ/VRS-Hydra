@@ -1,0 +1,2 @@
+/usr/bin/ar qc libspatial_hash.a CMakeFiles/spatial_hash.dir/src/block.cpp.o CMakeFiles/spatial_hash.dir/src/grid.cpp.o CMakeFiles/spatial_hash.dir/src/neighbor_utils.cpp.o
+/usr/bin/ranlib libspatial_hash.a

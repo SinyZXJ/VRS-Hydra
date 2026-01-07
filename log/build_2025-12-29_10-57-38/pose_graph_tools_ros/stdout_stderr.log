@@ -1,0 +1,30 @@
+[ 66%] Built target pose_graph_tools_ros
+[100%] Built target visualizer_node
+-- Install configuration: "Release"
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/lib/pose_graph_tools_ros/visualizer_node
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/lib/libpose_graph_tools_ros.so
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/include/pose_graph_tools_ros/pose_graph_tools_ros
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/include/pose_graph_tools_ros/pose_graph_tools_ros/conversions.h
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/include/pose_graph_tools_ros/pose_graph_tools_ros/utils.h
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/launch
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/launch/posegraph_view.launch.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/ament_index/resource_index/package_run_dependencies/pose_graph_tools_ros
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/ament_index/resource_index/parent_prefix_path/pose_graph_tools_ros
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/environment/ament_prefix_path.sh
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/environment/path.sh
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/environment/path.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/local_setup.bash
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/local_setup.sh
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/local_setup.zsh
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/local_setup.dsv
+-- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/package.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/ament_index/resource_index/packages/pose_graph_tools_ros
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/ament_index/resource_index/rclcpp_components/pose_graph_tools_ros
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/cmake/pose_graph_tools_ros-targetsExport.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/cmake/pose_graph_tools_ros-targetsExport-release.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/cmake/pose_graph_tools_rosConfig.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/cmake/pose_graph_tools_rosConfig-version.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/package.xml

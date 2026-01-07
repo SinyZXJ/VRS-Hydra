@@ -1,0 +1,45 @@
+[  9%] Built target gtest_main
+[ 19%] Built target gtest
+[ 52%] Built target kimera_pgmo_ros
+[ 61%] Built target mesh_publisher_node
+[ 80%] Built target kimera_pgmo_ros-test
+[ 90%] Built target mesh_frontend_node
+[100%] Built target kimera_pgmo_node
+-- Install configuration: "Release"
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/lib/libkimera_pgmo_ros.so
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/lib/kimera_pgmo_ros/kimera_pgmo_node
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/lib/kimera_pgmo_ros/mesh_frontend_node
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/lib/kimera_pgmo_ros/mesh_publisher_node
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/include/kimera_pgmo_ros
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/include/kimera_pgmo_ros/kimera_pgmo_ros
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/include/kimera_pgmo_ros/kimera_pgmo_ros/kimera_pgmo.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/include/kimera_pgmo_ros/kimera_pgmo_ros/visualization_functions.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/include/kimera_pgmo_ros/kimera_pgmo_ros/mesh_frontend.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/include/kimera_pgmo_ros/kimera_pgmo_ros/ros_log_sink.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/include/kimera_pgmo_ros/kimera_pgmo_ros/conversion
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/include/kimera_pgmo_ros/kimera_pgmo_ros/conversion/mesh_delta.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/include/kimera_pgmo_ros/kimera_pgmo_ros/conversion/mesh.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/include/kimera_pgmo_ros/kimera_pgmo_ros/conversion/gtsam.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/launch
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/launch/mesh_deformer.launch
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/launch/kimera_pgmo_robot.launch
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/launch/kimera_pgmo.launch
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/ament_index/resource_index/package_run_dependencies/kimera_pgmo_ros
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/ament_index/resource_index/parent_prefix_path/kimera_pgmo_ros
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/environment/ament_prefix_path.sh
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/environment/path.sh
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/environment/path.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/local_setup.bash
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/local_setup.sh
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/local_setup.zsh
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/local_setup.dsv
+-- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/package.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/ament_index/resource_index/packages/kimera_pgmo_ros
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/cmake/kimera_pgmo_ros-targetsExport.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/cmake/kimera_pgmo_ros-targetsExport-release.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/cmake/kimera_pgmo_rosConfig.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/cmake/kimera_pgmo_rosConfig-version.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/package.xml

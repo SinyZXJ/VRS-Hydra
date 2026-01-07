@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "semantic_inference_msgs__py",
+		"source" : "/home/siny/hydra_ws/build/semantic_inference_msgs/semantic_inference_msgs__py"
+	}
+}

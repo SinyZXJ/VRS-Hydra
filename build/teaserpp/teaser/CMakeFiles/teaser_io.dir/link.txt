@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libteaser_io.so -o libteaser_io.so CMakeFiles/teaser_io.dir/src/ply_io.cc.o 

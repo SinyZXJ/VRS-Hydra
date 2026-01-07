@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hydra_msgs/msg/DsgUpdate.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module hydra_msgs {
+  module msg {
+    struct DsgUpdate {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "serialized nodes that are active")
+      sequence<uint8> layer_contents;
+
+      @verbatim (language="comment", text=
+        "node ids that were deleted")
+      sequence<uint64> deleted_nodes;
+
+      @verbatim (language="comment", text=
+        "node ids for edges that were deleted")
+      sequence<uint64> deleted_edges;
+
+      @verbatim (language="comment", text=
+        "whether or not the message contains the entire scene graph")
+      boolean full_update;
+
+      @verbatim (language="comment", text=
+        "update index")
+      int64 sequence_number;
+    };
+  };
+};

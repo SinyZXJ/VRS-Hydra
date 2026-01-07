@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-54cac0d7ae535bf16f48.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "config_utilities_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_config_utilities_ros_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_config_utilities_ros_egg-Release-1080f122dc17d1f1690e.json",
+					"name" : "ament_cmake_python_build_config_utilities_ros_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_config_utilities_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_config_utilities_ros-Release-035ff3a11366149d2973.json",
+					"name" : "ament_cmake_python_copy_config_utilities_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "config_utilities_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-config_utilities_ros-Release-1d798b9b2538a7e4614a.json",
+					"name" : "config_utilities_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "config_utilities_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-config_utilities_ros_uninstall-Release-242b2d840dd1d89db8ae.json",
+					"name" : "config_utilities_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_ros_dynamic_config_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_ros_dynamic_config_server-Release-be4eef5a3652966bc312.json",
+					"name" : "demo_ros_dynamic_config_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-c9409a663e5fe482fc9a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/siny/hydra_ws/build/config_utilities_ros",
+		"source" : "/home/siny/hydra_ws/src/config_utilities/config_utilities_ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

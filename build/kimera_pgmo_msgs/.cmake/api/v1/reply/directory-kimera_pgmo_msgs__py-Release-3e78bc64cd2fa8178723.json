@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "kimera_pgmo_msgs__py",
+		"source" : "/home/siny/hydra_ws/build/kimera_pgmo_msgs/kimera_pgmo_msgs__py"
+	}
+}

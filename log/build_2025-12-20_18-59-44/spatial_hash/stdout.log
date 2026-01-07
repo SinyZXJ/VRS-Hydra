@@ -1,0 +1,58 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- Checking for module 'libglog'
+--   Found libglog, version 0.6.0
+-- Found GTest: /usr/lib/aarch64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.14.0")  
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/siny/hydra_ws/build/spatial_hash
+[ 14%] [32mBuilding CXX object CMakeFiles/spatial_hash.dir/src/block.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/spatial_hash.dir/src/grid.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/spatial_hash.dir/src/neighbor_utils.cpp.o[0m
+[ 28%] [32m[1mLinking CXX static library libspatial_hash.a[0m
+[ 28%] Built target spatial_hash
+[ 35%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_main.cpp.o[0m
+[ 42%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_layer.cpp.o[0m
+[ 50%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_hash.cpp.o[0m
+[ 57%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_grid.cpp.o[0m
+[ 64%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_neighbor_utils.cpp.o[0m
+[ 71%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_block.cpp.o[0m
+[ 78%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_block_layer.cpp.o[0m
+[ 85%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_voxel_block.cpp.o[0m
+[ 92%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_voxel_layer.cpp.o[0m
+[100%] [32m[1mLinking CXX executable utest_spatial_hash[0m
+[100%] Built target utest_spatial_hash
+-- Install configuration: "Release"
+-- Installing: /home/siny/hydra_ws/install/spatial_hash/lib/libspatial_hash.a
+-- Installing: /home/siny/hydra_ws/install/spatial_hash/include
+-- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash
+-- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/neighbor_utils.h
+-- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/voxel_layer.h
+-- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/layer.h
+-- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/hash.h
+-- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/voxel_block.h
+-- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/impl
+-- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/impl/block_layer_impl.h
+-- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/impl/neighbor_utils_impl.h
+-- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/impl/voxel_block_impl.h
+-- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/impl/voxel_layer_impl.h
+-- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/impl/layer_impl.h
+-- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/types.h
+-- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/block.h
+-- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/grid.h
+-- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/block_layer.h
+-- Installing: /home/siny/hydra_ws/install/spatial_hash/lib/cmake/spatial_hash/spatial_hashTargets.cmake
+-- Installing: /home/siny/hydra_ws/install/spatial_hash/lib/cmake/spatial_hash/spatial_hashTargets-release.cmake
+-- Installing: /home/siny/hydra_ws/install/spatial_hash/lib/cmake/spatial_hash/spatial_hashConfig.cmake
+-- Installing: /home/siny/hydra_ws/install/spatial_hash/lib/cmake/spatial_hash/spatial_hashConfigVersion.cmake

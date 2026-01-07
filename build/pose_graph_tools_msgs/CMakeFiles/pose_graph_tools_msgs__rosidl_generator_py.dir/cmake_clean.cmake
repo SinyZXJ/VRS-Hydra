@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_bow_queries_s.c.o"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_bow_queries_s.c.o.d"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_bow_query_s.c.o"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_bow_query_s.c.o.d"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_bow_requests_s.c.o"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_bow_requests_s.c.o.d"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_bow_vector_s.c.o"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_bow_vector_s.c.o.d"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_loop_closures_ack_s.c.o"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_loop_closures_ack_s.c.o.d"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_loop_closures_s.c.o"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_loop_closures_s.c.o.d"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_pose_graph_edge_s.c.o"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_pose_graph_edge_s.c.o.d"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_pose_graph_node_s.c.o"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_pose_graph_node_s.c.o.d"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_pose_graph_s.c.o"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_pose_graph_s.c.o.d"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_time_range_query_s.c.o"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_time_range_query_s.c.o.d"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_vlc_frame_msg_s.c.o"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_vlc_frame_msg_s.c.o.d"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_vlc_frames_s.c.o"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_vlc_frames_s.c.o.d"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_vlc_requests_s.c.o"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/msg/_vlc_requests_s.c.o.d"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/srv/_lcd_frame_registration_s.c.o"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/srv/_lcd_frame_registration_s.c.o.d"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/srv/_pose_graph_query_s.c.o"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/srv/_pose_graph_query_s.c.o.d"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/srv/_vlc_frame_query_s.c.o"
+  "CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/rosidl_generator_py/pose_graph_tools_msgs/srv/_vlc_frame_query_s.c.o.d"
+  "libpose_graph_tools_msgs__rosidl_generator_py.pdb"
+  "libpose_graph_tools_msgs__rosidl_generator_py.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/pose_graph_tools_msgs__rosidl_generator_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pose_graph_tools_msgs/msg/LoopClosuresAck.msg
+// generated code does not contain a copyright notice
+
+
+module pose_graph_tools_msgs {
+  module msg {
+    struct LoopClosuresAck {
+      uint16 publishing_robot_id;
+
+      uint16 destination_robot_id;
+
+      sequence<uint32> robot_src;
+
+      sequence<uint32> frame_src;
+
+      sequence<uint32> robot_dst;
+
+      sequence<uint32> frame_dst;
+    };
+  };
+};

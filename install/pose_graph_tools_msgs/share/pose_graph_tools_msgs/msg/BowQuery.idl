@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pose_graph_tools_msgs/msg/BowQuery.msg
+// generated code does not contain a copyright notice
+
+#include "pose_graph_tools_msgs/msg/BowVector.idl"
+
+module pose_graph_tools_msgs {
+  module msg {
+    struct BowQuery {
+      uint32 robot_id;
+
+      uint32 pose_id;
+
+      pose_graph_tools_msgs::msg::BowVector bow_vector;
+    };
+  };
+};

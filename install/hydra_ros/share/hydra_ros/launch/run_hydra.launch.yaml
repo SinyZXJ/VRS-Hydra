@@ -1,0 +1,57 @@
+launch:
+  # [修复] value 必须加引号，变成字符串 'true'
+  - set_parameter: {name: use_sim_time, value: 'true'}
+  
+  - arg: {name: labelspace, default: ade20k_indoor}
+
+  # 1. 解压图像 (Compressed -> Raw)
+  - node:
+      pkg: image_transport
+      exec: republish
+      args: compressed raw
+      remap:
+        - {from: in/compressed, to: /acl_jackal2/forward/color/image_raw/compressed}
+        - {from: out, to: /acl_jackal2/forward/color/image_raw}
+
+  # 2. 语义推理节点
+  - group:
+      - push_ros_namespace: {namespace: semantic_inference}
+      - set_remap: {from: color/image_raw, to: /acl_jackal2/forward/color/image_raw}
+      - set_remap: {from: color/camera_info, to: /acl_jackal2/forward/color/camera_info}
+      - include:
+          file: $(find-pkg-share semantic_inference_ros)/launch/closed_set.launch.yaml
+          arg:
+            - {name: labelspace_name, value: $(var labelspace)}
+            - {name: model_id, value: '1'}
+
+  # 3. Hydra 主程序
+  - include:
+      file: $(find-pkg-share hydra_ros)/launch/hydra.launch.yaml
+      arg:
+        - {name: dataset, value: jackal} 
+        - {name: labelspace, value: $(var labelspace)}
+        # 显式指定 Frame
+        - {name: sensor_frame, value: acl_jackal2/forward_color_optical_frame}
+        - {name: robot_frame, value: acl_jackal2/base_link}
+        - {name: odom_frame, value: acl_jackal2/odom}
+        - {name: map_frame, value: map}
+        
+        # 强制覆盖 topic 订阅 (JSON 格式)
+        - name: extra_yaml
+          value: >-
+             {"input": {
+                "inputs": {
+                  "left_cam": {
+                    "sensor": {
+                      "topic": "/semantic_inference/semantic/image_raw",
+                      "extrinsics": {"robot_frame": "acl_jackal2/base_link"}
+                    }
+                  }
+                }
+             }}
+
+  # 4. Topic 映射
+  - set_remap: {from: hydra/input/left_cam/depth_registered/image_rect, to: /acl_jackal2/forward/depth/image_rect_raw}
+  - set_remap: {from: hydra/input/left_cam/rgb/image_raw, to: /acl_jackal2/forward/color/image_raw}
+  - set_remap: {from: hydra/input/left_cam/rgb/camera_info, to: /acl_jackal2/forward/color/camera_info}
+  - set_remap: {from: hydra/input/left_cam/semantic/image_raw, to: /semantic_inference/semantic/image_raw}

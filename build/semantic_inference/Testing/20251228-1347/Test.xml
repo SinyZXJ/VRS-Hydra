@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-c++"
+	BuildStamp="20251228-1347-Experimental"
+	Name="Sispark"
+	Generator="ctest-3.28.3"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="13.3.0"
+	OSName="Linux"
+	Hostname="Sispark"
+	OSRelease="6.14.0-1015-nvidia"
+	OSVersion="#15-Ubuntu SMP PREEMPT_DYNAMIC Tue Nov 25 18:02:16 UTC 2025"
+	OSPlatform="aarch64"
+	Is64Bits="1"
+	VendorString=""
+	VendorID="Unknown Manufacturer"
+	FamilyID="8"
+	ModelID="0"
+	ProcessorCacheSize="0"
+	NumberOfLogicalCPU="20"
+	NumberOfPhysicalCPU="1"
+	TotalVirtualMemory="16383"
+	TotalPhysicalMemory="122570"
+	LogicalProcessorsPerPhysical="20"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>Dec 28 21:47 +08</StartDateTime>
+		<StartTestTime>1766929671</StartTestTime>
+		<TestList>
+			<Test>./tests/*/ColorConversionFixture.FillColorImageCorrect/*</Test>
+			<Test>./tests/ImageUtilities.FillDepthImage</Test>
+			<Test>./tests/ImageUtilities.ConvertColorCorrect</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>*/ColorConversionFixture.FillColorImageCorrect/*</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/*/ColorConversionFixture.FillColorImageCorrect/*</FullName>
+			<FullCommandLine>/home/siny/hydra_ws/build/semantic_inference/tests/test_semantic_inference "--gtest_filter=*/ColorConversionFixture.FillColorImageCorrect/*"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0517023</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/siny/hydra_ws/build/semantic_inference/tests/test_semantic_inference "--gtest_filter=*/ColorConversionFixture.FillColorImageCorrect/*"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Note: Google Test filter = */ColorConversionFixture.FillColorImageCorrect/*
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from ImageUtilities/ColorConversionFixture
+[ RUN      ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/RGBChannelsFirst
+[       OK ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/RGBChannelsFirst (0 ms)
+[ RUN      ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/BGRChannelsFirst
+[       OK ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/BGRChannelsFirst (0 ms)
+[ RUN      ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/RGBChannelsLast
+[       OK ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/RGBChannelsLast (0 ms)
+[ RUN      ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/BGRChannelsLast
+[       OK ] ImageUtilities/ColorConversionFixture.FillColorImageCorrect/BGRChannelsLast (0 ms)
+[----------] 4 tests from ImageUtilities/ColorC...
+[This part of the test output was removed since it exceeds the threshold of 1024 bytes.]
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>ImageUtilities.FillDepthImage</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/ImageUtilities.FillDepthImage</FullName>
+			<FullCommandLine>/home/siny/hydra_ws/build/semantic_inference/tests/test_semantic_inference "--gtest_filter=ImageUtilities.FillDepthImage"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0512207</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/siny/hydra_ws/build/semantic_inference/tests/test_semantic_inference "--gtest_filter=ImageUtilities.FillDepthImage"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Note: Google Test filter = ImageUtilities.FillDepthImage
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ImageUtilities
+[ RUN      ] ImageUtilities.FillDepthImage
+[       OK ] ImageUtilities.FillDepthImage (0 ms)
+[----------] 1 test from ImageUtilities (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>ImageUtilities.ConvertColorCorrect</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/ImageUtilities.ConvertColorCorrect</FullName>
+			<FullCommandLine>/home/siny/hydra_ws/build/semantic_inference/tests/test_semantic_inference "--gtest_filter=ImageUtilities.ConvertColorCorrect"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0521776</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/siny/hydra_ws/build/semantic_inference/tests/test_semantic_inference "--gtest_filter=ImageUtilities.ConvertColorCorrect"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Note: Google Test filter = ImageUtilities.ConvertColorCorrect
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ImageUtilities
+[ RUN      ] ImageUtilities.ConvertColorCorrect
+[       OK ] ImageUtilities.ConvertColorCorrect (0 ms)
+[----------] 1 test from ImageUtilities (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Dec 28 21:47 +08</EndDateTime>
+		<EndTestTime>1766929671</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

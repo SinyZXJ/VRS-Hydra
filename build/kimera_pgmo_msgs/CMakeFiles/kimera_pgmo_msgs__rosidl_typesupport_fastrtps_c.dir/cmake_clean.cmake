@@ -1,0 +1,33 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__type_support_c.cpp.o"
+  "CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__type_support_c.cpp.o.d"
+  "CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/msg/detail/mesh__type_support_c.cpp.o"
+  "CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/msg/detail/mesh__type_support_c.cpp.o.d"
+  "CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/msg/detail/mesh_delta__type_support_c.cpp.o"
+  "CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/msg/detail/mesh_delta__type_support_c.cpp.o.d"
+  "CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/msg/detail/triangle_indices__type_support_c.cpp.o"
+  "CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/msg/detail/triangle_indices__type_support_c.cpp.o.d"
+  "CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/srv/detail/load_graph_mesh__type_support_c.cpp.o"
+  "CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/srv/detail/load_graph_mesh__type_support_c.cpp.o.d"
+  "CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/srv/detail/mesh_delta_query__type_support_c.cpp.o"
+  "CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/srv/detail/mesh_delta_query__type_support_c.cpp.o.d"
+  "libkimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.pdb"
+  "libkimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/msg/detail/mesh__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/msg/detail/mesh__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/msg/detail/mesh_delta__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/msg/detail/mesh_delta__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/msg/detail/triangle_indices__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/msg/detail/triangle_indices__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/srv/detail/load_graph_mesh__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/srv/detail/load_graph_mesh__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/srv/detail/mesh_delta_query__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/srv/detail/mesh_delta_query__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from pose_graph_tools_msgs/srv/VLCFrameQuery.srv
+// generated code does not contain a copyright notice
+
+#include "pose_graph_tools_msgs/msg/VLCFrameMsg.idl"
+
+module pose_graph_tools_msgs {
+  module srv {
+    struct VLCFrameQuery_Request {
+      uint32 robot_id;
+
+      sequence<uint32> pose_ids;
+    };
+    struct VLCFrameQuery_Response {
+      sequence<pose_graph_tools_msgs::msg::VLCFrameMsg> frames;
+    };
+  };
+};

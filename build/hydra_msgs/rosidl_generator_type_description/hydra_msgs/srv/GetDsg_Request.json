@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "hydra_msgs/srv/GetDsg_Request",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "hydra_msgs/srv/GetDsg_Request",
+      "hash_string": "RIHS01_5b5c1ca8514c6583d148643ed039400ea9f75df0ef9fe32b46215e7f0e0a534f"
+    }
+  ]
+}

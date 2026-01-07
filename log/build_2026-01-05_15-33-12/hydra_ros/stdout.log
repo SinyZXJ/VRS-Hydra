@@ -1,0 +1,124 @@
+[  5%] Built target gtest_main
+[ 10%] Built target gtest
+[ 10%] Built target ament_cmake_python_copy_hydra_ros
+[ 15%] Built target scene_graph_logger
+[ 87%] Built target hydra_ros
+[ 94%] Built target test_hydra_ros
+[100%] Built target hydra_ros_node
+running egg_info
+writing hydra_ros.egg-info/PKG-INFO
+writing dependency_links to hydra_ros.egg-info/dependency_links.txt
+writing top-level names to hydra_ros.egg-info/top_level.txt
+reading manifest file 'hydra_ros.egg-info/SOURCES.txt'
+writing manifest file 'hydra_ros.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_hydra_ros_egg
+-- Install configuration: "Release"
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/environment/pythonpath.sh
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/environment/pythonpath.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/lib/python3.12/site-packages/hydra_ros-1.0.0-py3.12.egg-info
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/lib/python3.12/site-packages/hydra_ros-1.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/lib/python3.12/site-packages/hydra_ros-1.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/lib/python3.12/site-packages/hydra_ros-1.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/lib/python3.12/site-packages/hydra_ros-1.0.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/lib/python3.12/site-packages/hydra_ros
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/lib/python3.12/site-packages/hydra_ros/__init__.py
+Listing '/home/siny/hydra_ws/install/hydra_ros/lib/python3.12/site-packages/hydra_ros'...
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/lib/hydra_ros/scene_graph_logger
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/lib/libhydra_ros.so
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/lib/hydra_ros/hydra_ros_node
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/lib/hydra_ros/csv_to_tf
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/lib/hydra_ros/dsg_republisher
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/lib/hydra_ros/odom_to_tf
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/lib/hydra_ros/noisy_tf_publisher
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include/
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/input
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/input/image_receiver.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/input/pointcloud_adaptor.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/input/pointcloud_receiver.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/input/ros_data_receiver.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/input/ros_input_module.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/input/ros_sensors.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/input/feature_receiver.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/visualizer
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/visualizer/feature_color_adaptors.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/visualizer/voxel_drawing.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/backend
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/backend/ros_backend_publisher.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/utils
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/utils/dsg_streaming_interface.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/utils/status_monitor.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/utils/input_data_to_messages.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/utils/external_loop_closure_subscriber.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/utils/scene_graph_logger.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/utils/bow_subscriber.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/utils/occupancy_publisher.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/utils/tf_lookup.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/odometry
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/odometry/ros_pose_graph_tracker.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/active_window
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/active_window/tsdf_occupancy_publisher.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/active_window/reconstruction_visualizer.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/openset
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/openset/ros_embedding_group.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/frontend
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/frontend/object_visualizer.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/frontend/ros_frontend_publisher.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/frontend/gvd_occupancy_publisher.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/frontend/gvd_visualization_utilities.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/frontend/places_visualizer.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/hydra_ros_pipeline.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch/scene_graph_logger.launch.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch/datasets
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch/datasets/uhumans2.launch.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch/datasets/jackal_real.launch.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch/datasets/a1.launch.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch/datasets/12uhumans1.launch.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch/datasets/zed2i.launch.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch/noisy_tf_publisher_node.launch.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch/hydra.launch.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/hydra_ros_visualizer_plugins.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/color
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/color/uhumans2_apartment.csv
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/color/uhumans2_office.csv
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/color/kitti_360.csv
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/color/uhumans2_subway.csv
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/color/phoenix.csv
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/sinks
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/sinks/active_window_sinks.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/sinks/gvd_places_sinks.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/sinks/mesh_segmenter_sinks.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/sidpac.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/a1.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/oakd.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/lis_spot.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/simmons.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/jackal.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/uhumans2.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/zed2i.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/kitti_360.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/environment/library_path.sh
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/environment/library_path.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/ament_index/resource_index/package_run_dependencies/hydra_ros
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/ament_index/resource_index/parent_prefix_path/hydra_ros
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/environment/ament_prefix_path.sh
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/environment/path.sh
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/environment/path.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/local_setup.bash
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/local_setup.sh
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/local_setup.zsh
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/local_setup.dsv
+-- Installing: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/package.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/ament_index/resource_index/packages/hydra_ros
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/ament_index/resource_index/rclcpp_components/hydra_ros
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/cmake/hydra_ros-targetsExport.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/cmake/hydra_ros-targetsExport-release.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/cmake/hydra_rosConfig.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/cmake/hydra_rosConfig-version.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/package.xml

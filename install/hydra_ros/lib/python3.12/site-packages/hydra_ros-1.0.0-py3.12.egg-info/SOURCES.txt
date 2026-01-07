@@ -1,0 +1,6 @@
+setup.py
+hydra_ros/__init__.py
+hydra_ros.egg-info/PKG-INFO
+hydra_ros.egg-info/SOURCES.txt
+hydra_ros.egg-info/dependency_links.txt
+hydra_ros.egg-info/top_level.txt

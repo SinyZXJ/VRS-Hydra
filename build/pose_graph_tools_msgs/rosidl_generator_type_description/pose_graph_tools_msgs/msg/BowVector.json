@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "pose_graph_tools_msgs/msg/BowVector",
+      "fields": [
+        {
+          "name": "word_ids",
+          "type": {
+            "type_id": 151,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "word_values",
+          "type": {
+            "type_id": 154,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "pose_graph_tools_msgs/msg/BowVector",
+      "hash_string": "RIHS01_83ce434b4c83488d80354d28c83964dcbb559de12727c3741adf3d2eb07479d4"
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+// generated from rosidl_typesupport_c/resource/idl__type_support.cpp.em
+// with input from kimera_pgmo_msgs:srv/MeshDeltaQuery.idl
+// generated code does not contain a copyright notice
+
+#include "cstddef"
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "kimera_pgmo_msgs/srv/detail/mesh_delta_query__struct.h"
+#include "kimera_pgmo_msgs/srv/detail/mesh_delta_query__type_support.h"
+#include "kimera_pgmo_msgs/srv/detail/mesh_delta_query__functions.h"
+#include "rosidl_typesupport_c/identifier.h"
+#include "rosidl_typesupport_c/message_type_support_dispatch.h"
+#include "rosidl_typesupport_c/type_support_map.h"
+#include "rosidl_typesupport_c/visibility_control.h"
+#include "rosidl_typesupport_interface/macros.h"
+
+namespace kimera_pgmo_msgs
+{
+
+namespace srv
+{
+
+namespace rosidl_typesupport_c
+{
+
+typedef struct _MeshDeltaQuery_Request_type_support_ids_t
+{
+  const char * typesupport_identifier[2];
+} _MeshDeltaQuery_Request_type_support_ids_t;
+
+static const _MeshDeltaQuery_Request_type_support_ids_t _MeshDeltaQuery_Request_message_typesupport_ids = {
+  {
+    "rosidl_typesupport_fastrtps_c",  // ::rosidl_typesupport_fastrtps_c::typesupport_identifier,
+    "rosidl_typesupport_introspection_c",  // ::rosidl_typesupport_introspection_c::typesupport_identifier,
+  }
+};
+
+typedef struct _MeshDeltaQuery_Request_type_support_symbol_names_t
+{
+  const char * symbol_name[2];
+} _MeshDeltaQuery_Request_type_support_symbol_names_t;
+
+#define STRINGIFY_(s) #s
+#define STRINGIFY(s) STRINGIFY_(s)
+
+static const _MeshDeltaQuery_Request_type_support_symbol_names_t _MeshDeltaQuery_Request_message_typesupport_symbol_names = {
+  {
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, kimera_pgmo_msgs, srv, MeshDeltaQuery_Request)),
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, kimera_pgmo_msgs, srv, MeshDeltaQuery_Request)),
+  }
+};
+
+typedef struct _MeshDeltaQuery_Request_type_support_data_t
+{
+  void * data[2];
+} _MeshDeltaQuery_Request_type_support_data_t;
+
+static _MeshDeltaQuery_Request_type_support_data_t _MeshDeltaQuery_Request_message_typesupport_data = {
+  {
+    0,  // will store the shared library later
+    0,  // will store the shared library later
+  }
+};
+
+static const type_support_map_t _MeshDeltaQuery_Request_message_typesupport_map = {
+  2,
+  "kimera_pgmo_msgs",
+  &_MeshDeltaQuery_Request_message_typesupport_ids.typesupport_identifier[0],
+  &_MeshDeltaQuery_Request_message_typesupport_symbol_names.symbol_name[0],
+  &_MeshDeltaQuery_Request_message_typesupport_data.data[0],
+};
+
+static const rosidl_message_type_support_t MeshDeltaQuery_Request_message_type_support_handle = {
+  rosidl_typesupport_c__typesupport_identifier,
+  reinterpret_cast<const type_support_map_t *>(&_MeshDeltaQuery_Request_message_typesupport_map),
+  rosidl_typesupport_c__get_message_typesupport_handle_function,
+  &kimera_pgmo_msgs__srv__MeshDeltaQuery_Request__get_type_hash,
+  &kimera_pgmo_msgs__srv__MeshDeltaQuery_Request__get_type_description,
+  &kimera_pgmo_msgs__srv__MeshDeltaQuery_Request__get_type_description_sources,
+};
+
+}  // namespace rosidl_typesupport_c
+
+}  // namespace srv
+
+}  // namespace kimera_pgmo_msgs
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_c, kimera_pgmo_msgs, srv, MeshDeltaQuery_Request)() {
+  return &::kimera_pgmo_msgs::srv::rosidl_typesupport_c::MeshDeltaQuery_Request_message_type_support_handle;
+}
+
+#ifdef __cplusplus
+}
+#endif
+
+// already included above
+// #include "cstddef"
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "kimera_pgmo_msgs/srv/detail/mesh_delta_query__struct.h"
+// already included above
+// #include "kimera_pgmo_msgs/srv/detail/mesh_delta_query__type_support.h"
+// already included above
+// #include "kimera_pgmo_msgs/srv/detail/mesh_delta_query__functions.h"
+// already included above
+// #include "rosidl_typesupport_c/identifier.h"
+// already included above
+// #include "rosidl_typesupport_c/message_type_support_dispatch.h"
+// already included above
+// #include "rosidl_typesupport_c/type_support_map.h"
+// already included above
+// #include "rosidl_typesupport_c/visibility_control.h"
+// already included above
+// #include "rosidl_typesupport_interface/macros.h"
+
+namespace kimera_pgmo_msgs
+{
+
+namespace srv
+{
+
+namespace rosidl_typesupport_c
+{
+
+typedef struct _MeshDeltaQuery_Response_type_support_ids_t
+{
+  const char * typesupport_identifier[2];
+} _MeshDeltaQuery_Response_type_support_ids_t;
+
+static const _MeshDeltaQuery_Response_type_support_ids_t _MeshDeltaQuery_Response_message_typesupport_ids = {
+  {
+    "rosidl_typesupport_fastrtps_c",  // ::rosidl_typesupport_fastrtps_c::typesupport_identifier,
+    "rosidl_typesupport_introspection_c",  // ::rosidl_typesupport_introspection_c::typesupport_identifier,
+  }
+};
+
+typedef struct _MeshDeltaQuery_Response_type_support_symbol_names_t
+{
+  const char * symbol_name[2];
+} _MeshDeltaQuery_Response_type_support_symbol_names_t;
+
+#define STRINGIFY_(s) #s
+#define STRINGIFY(s) STRINGIFY_(s)
+
+static const _MeshDeltaQuery_Response_type_support_symbol_names_t _MeshDeltaQuery_Response_message_typesupport_symbol_names = {
+  {
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, kimera_pgmo_msgs, srv, MeshDeltaQuery_Response)),
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, kimera_pgmo_msgs, srv, MeshDeltaQuery_Response)),
+  }
+};
+
+typedef struct _MeshDeltaQuery_Response_type_support_data_t
+{
+  void * data[2];
+} _MeshDeltaQuery_Response_type_support_data_t;
+
+static _MeshDeltaQuery_Response_type_support_data_t _MeshDeltaQuery_Response_message_typesupport_data = {
+  {
+    0,  // will store the shared library later
+    0,  // will store the shared library later
+  }
+};
+
+static const type_support_map_t _MeshDeltaQuery_Response_message_typesupport_map = {
+  2,
+  "kimera_pgmo_msgs",
+  &_MeshDeltaQuery_Response_message_typesupport_ids.typesupport_identifier[0],
+  &_MeshDeltaQuery_Response_message_typesupport_symbol_names.symbol_name[0],
+  &_MeshDeltaQuery_Response_message_typesupport_data.data[0],
+};
+
+static const rosidl_message_type_support_t MeshDeltaQuery_Response_message_type_support_handle = {
+  rosidl_typesupport_c__typesupport_identifier,
+  reinterpret_cast<const type_support_map_t *>(&_MeshDeltaQuery_Response_message_typesupport_map),
+  rosidl_typesupport_c__get_message_typesupport_handle_function,
+  &kimera_pgmo_msgs__srv__MeshDeltaQuery_Response__get_type_hash,
+  &kimera_pgmo_msgs__srv__MeshDeltaQuery_Response__get_type_description,
+  &kimera_pgmo_msgs__srv__MeshDeltaQuery_Response__get_type_description_sources,
+};
+
+}  // namespace rosidl_typesupport_c
+
+}  // namespace srv
+
+}  // namespace kimera_pgmo_msgs
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_c, kimera_pgmo_msgs, srv, MeshDeltaQuery_Response)() {
+  return &::kimera_pgmo_msgs::srv::rosidl_typesupport_c::MeshDeltaQuery_Response_message_type_support_handle;
+}
+
+#ifdef __cplusplus
+}
+#endif
+
+// already included above
+// #include "cstddef"
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "kimera_pgmo_msgs/srv/detail/mesh_delta_query__struct.h"
+// already included above
+// #include "kimera_pgmo_msgs/srv/detail/mesh_delta_query__type_support.h"
+// already included above
+// #include "kimera_pgmo_msgs/srv/detail/mesh_delta_query__functions.h"
+// already included above
+// #include "rosidl_typesupport_c/identifier.h"
+// already included above
+// #include "rosidl_typesupport_c/message_type_support_dispatch.h"
+// already included above
+// #include "rosidl_typesupport_c/type_support_map.h"
+// already included above
+// #include "rosidl_typesupport_c/visibility_control.h"
+// already included above
+// #include "rosidl_typesupport_interface/macros.h"
+
+namespace kimera_pgmo_msgs
+{
+
+namespace srv
+{
+
+namespace rosidl_typesupport_c
+{
+
+typedef struct _MeshDeltaQuery_Event_type_support_ids_t
+{
+  const char * typesupport_identifier[2];
+} _MeshDeltaQuery_Event_type_support_ids_t;
+
+static const _MeshDeltaQuery_Event_type_support_ids_t _MeshDeltaQuery_Event_message_typesupport_ids = {
+  {
+    "rosidl_typesupport_fastrtps_c",  // ::rosidl_typesupport_fastrtps_c::typesupport_identifier,
+    "rosidl_typesupport_introspection_c",  // ::rosidl_typesupport_introspection_c::typesupport_identifier,
+  }
+};
+
+typedef struct _MeshDeltaQuery_Event_type_support_symbol_names_t
+{
+  const char * symbol_name[2];
+} _MeshDeltaQuery_Event_type_support_symbol_names_t;
+
+#define STRINGIFY_(s) #s
+#define STRINGIFY(s) STRINGIFY_(s)
+
+static const _MeshDeltaQuery_Event_type_support_symbol_names_t _MeshDeltaQuery_Event_message_typesupport_symbol_names = {
+  {
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, kimera_pgmo_msgs, srv, MeshDeltaQuery_Event)),
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, kimera_pgmo_msgs, srv, MeshDeltaQuery_Event)),
+  }
+};
+
+typedef struct _MeshDeltaQuery_Event_type_support_data_t
+{
+  void * data[2];
+} _MeshDeltaQuery_Event_type_support_data_t;
+
+static _MeshDeltaQuery_Event_type_support_data_t _MeshDeltaQuery_Event_message_typesupport_data = {
+  {
+    0,  // will store the shared library later
+    0,  // will store the shared library later
+  }
+};
+
+static const type_support_map_t _MeshDeltaQuery_Event_message_typesupport_map = {
+  2,
+  "kimera_pgmo_msgs",
+  &_MeshDeltaQuery_Event_message_typesupport_ids.typesupport_identifier[0],
+  &_MeshDeltaQuery_Event_message_typesupport_symbol_names.symbol_name[0],
+  &_MeshDeltaQuery_Event_message_typesupport_data.data[0],
+};
+
+static const rosidl_message_type_support_t MeshDeltaQuery_Event_message_type_support_handle = {
+  rosidl_typesupport_c__typesupport_identifier,
+  reinterpret_cast<const type_support_map_t *>(&_MeshDeltaQuery_Event_message_typesupport_map),
+  rosidl_typesupport_c__get_message_typesupport_handle_function,
+  &kimera_pgmo_msgs__srv__MeshDeltaQuery_Event__get_type_hash,
+  &kimera_pgmo_msgs__srv__MeshDeltaQuery_Event__get_type_description,
+  &kimera_pgmo_msgs__srv__MeshDeltaQuery_Event__get_type_description_sources,
+};
+
+}  // namespace rosidl_typesupport_c
+
+}  // namespace srv
+
+}  // namespace kimera_pgmo_msgs
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_c, kimera_pgmo_msgs, srv, MeshDeltaQuery_Event)() {
+  return &::kimera_pgmo_msgs::srv::rosidl_typesupport_c::MeshDeltaQuery_Event_message_type_support_handle;
+}
+
+#ifdef __cplusplus
+}
+#endif
+
+// already included above
+// #include "cstddef"
+#include "rosidl_runtime_c/service_type_support_struct.h"
+// already included above
+// #include "kimera_pgmo_msgs/srv/detail/mesh_delta_query__type_support.h"
+// already included above
+// #include "rosidl_typesupport_c/identifier.h"
+#include "rosidl_typesupport_c/service_type_support_dispatch.h"
+// already included above
+// #include "rosidl_typesupport_c/type_support_map.h"
+// already included above
+// #include "rosidl_typesupport_interface/macros.h"
+#include "service_msgs/msg/service_event_info.h"
+#include "builtin_interfaces/msg/time.h"
+
+namespace kimera_pgmo_msgs
+{
+
+namespace srv
+{
+
+namespace rosidl_typesupport_c
+{
+typedef struct _MeshDeltaQuery_type_support_ids_t
+{
+  const char * typesupport_identifier[2];
+} _MeshDeltaQuery_type_support_ids_t;
+
+static const _MeshDeltaQuery_type_support_ids_t _MeshDeltaQuery_service_typesupport_ids = {
+  {
+    "rosidl_typesupport_fastrtps_c",  // ::rosidl_typesupport_fastrtps_c::typesupport_identifier,
+    "rosidl_typesupport_introspection_c",  // ::rosidl_typesupport_introspection_c::typesupport_identifier,
+  }
+};
+
+typedef struct _MeshDeltaQuery_type_support_symbol_names_t
+{
+  const char * symbol_name[2];
+} _MeshDeltaQuery_type_support_symbol_names_t;
+
+#define STRINGIFY_(s) #s
+#define STRINGIFY(s) STRINGIFY_(s)
+
+static const _MeshDeltaQuery_type_support_symbol_names_t _MeshDeltaQuery_service_typesupport_symbol_names = {
+  {
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, kimera_pgmo_msgs, srv, MeshDeltaQuery)),
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_introspection_c, kimera_pgmo_msgs, srv, MeshDeltaQuery)),
+  }
+};
+
+typedef struct _MeshDeltaQuery_type_support_data_t
+{
+  void * data[2];
+} _MeshDeltaQuery_type_support_data_t;
+
+static _MeshDeltaQuery_type_support_data_t _MeshDeltaQuery_service_typesupport_data = {
+  {
+    0,  // will store the shared library later
+    0,  // will store the shared library later
+  }
+};
+
+static const type_support_map_t _MeshDeltaQuery_service_typesupport_map = {
+  2,
+  "kimera_pgmo_msgs",
+  &_MeshDeltaQuery_service_typesupport_ids.typesupport_identifier[0],
+  &_MeshDeltaQuery_service_typesupport_symbol_names.symbol_name[0],
+  &_MeshDeltaQuery_service_typesupport_data.data[0],
+};
+
+static const rosidl_service_type_support_t MeshDeltaQuery_service_type_support_handle = {
+  rosidl_typesupport_c__typesupport_identifier,
+  reinterpret_cast<const type_support_map_t *>(&_MeshDeltaQuery_service_typesupport_map),
+  rosidl_typesupport_c__get_service_typesupport_handle_function,
+  &MeshDeltaQuery_Request_message_type_support_handle,
+  &MeshDeltaQuery_Response_message_type_support_handle,
+  &MeshDeltaQuery_Event_message_type_support_handle,
+  ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_CREATE_EVENT_MESSAGE_SYMBOL_NAME(
+    rosidl_typesupport_c,
+    kimera_pgmo_msgs,
+    srv,
+    MeshDeltaQuery
+  ),
+  ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_DESTROY_EVENT_MESSAGE_SYMBOL_NAME(
+    rosidl_typesupport_c,
+    kimera_pgmo_msgs,
+    srv,
+    MeshDeltaQuery
+  ),
+  &kimera_pgmo_msgs__srv__MeshDeltaQuery__get_type_hash,
+  &kimera_pgmo_msgs__srv__MeshDeltaQuery__get_type_description,
+  &kimera_pgmo_msgs__srv__MeshDeltaQuery__get_type_description_sources,
+};
+
+}  // namespace rosidl_typesupport_c
+
+}  // namespace srv
+
+}  // namespace kimera_pgmo_msgs
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+const rosidl_service_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, kimera_pgmo_msgs, srv, MeshDeltaQuery)() {
+  return &::kimera_pgmo_msgs::srv::rosidl_typesupport_c::MeshDeltaQuery_service_type_support_handle;
+}
+
+#ifdef __cplusplus
+}
+#endif

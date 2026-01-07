@@ -1,0 +1,4 @@
+source;share/semantic_inference_ros/local_setup.bash
+source;share/semantic_inference_ros/local_setup.dsv
+source;share/semantic_inference_ros/local_setup.sh
+source;share/semantic_inference_ros/local_setup.zsh

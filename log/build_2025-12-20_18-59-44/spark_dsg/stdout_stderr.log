@@ -1,0 +1,136 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found nlohmann_json: /usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.11.3") 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- Checking for module 'libzmq'
+--   Found libzmq, version 4.3.5
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found GTest: /usr/lib/aarch64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.14.0")  
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/siny/hydra_ws/build/spark_dsg
+[  1%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/bounding_box_extraction.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/edge_attributes.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/colormaps.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/adjacency_matrix.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/color.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/dynamic_scene_graph.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/edge_container.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/bounding_box.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/mesh.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/labelspace.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/layer_view.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/metadata.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/node_attributes.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/printing.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/scene_graph_types.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/scene_graph_node.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/scene_graph_layer.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/node_symbol.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/scene_graph_logger.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/scene_graph_utilities.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/traversability_boundary.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/zmq_interface.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/attribute_serialization.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/binary_conversions.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/binary_serialization.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/file_io.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/graph_binary_serialization.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/graph_json_serialization.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/json_conversions.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/mesh_serialization.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/versioning.cpp.o[0m
+[ 52%] [32m[1mLinking CXX shared library libspark_dsg.so[0m
+[ 52%] Built target spark_dsg
+[ 54%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_bounding_box_extraction.cpp.o[0m
+[ 55%] [32mBuilding CXX object examples/CMakeFiles/dsg_repeater.dir/dsg_repeater.cpp.o[0m
+[ 57%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_bounding_box.cpp.o[0m
+[ 59%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_edge_container.cpp.o[0m
+[ 60%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_adjacency_matrix.cpp.o[0m
+[ 62%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_dynamic_scene_graph.cpp.o[0m
+[ 63%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_graph_utilities_layer.cpp.o[0m
+[ 65%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_color.cpp.o[0m
+[ 67%] [32mBuilding CXX object examples/CMakeFiles/dsg_endpoint.dir/dsg_endpoint.cpp.o[0m
+[ 68%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_labelspace.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable dsg_repeater[0m
+[ 70%] Built target dsg_repeater
+[ 72%] [32m[1mLinking CXX executable dsg_endpoint[0m
+[ 72%] Built target dsg_endpoint
+[ 73%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_zmq_interface.cpp.o[0m
+[ 75%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_mesh_serialization.cpp.o[0m
+[ 77%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_json_conversions.cpp.o[0m
+[ 78%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_file_io.cpp.o[0m
+[ 80%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_graph_serialization.cpp.o[0m
+[ 81%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_binary_conversions.cpp.o[0m
+[ 83%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_traversability_boundary.cpp.o[0m
+[ 85%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_attribute_serialization.cpp.o[0m
+[ 86%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_binary_serialization.cpp.o[0m
+[ 88%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_scene_graph_utilities.cpp.o[0m
+[ 91%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_scene_graph_node.cpp.o[0m
+[ 91%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_scene_graph_layer.cpp.o[0m
+[ 93%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_node_symbol.cpp.o[0m
+[ 95%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_node_attributes.cpp.o[0m
+[ 98%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_mesh.cpp.o[0m
+[ 98%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_metadata.cpp.o[0m
+[100%] [32m[1mLinking CXX executable utest_spark_dsg[0m
+[100%] Built target utest_spark_dsg
+-- Install configuration: "Release"
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/bin/dsg_repeater
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/spark_dsg/bin/dsg_repeater" to ""
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/bin/dsg_endpoint
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/spark_dsg/bin/dsg_endpoint" to ""
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/lib/libspark_dsg.so
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/binary_conversions.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/file_io.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/binary_serialization.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/graph_binary_serialization.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/json_conversions.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/attribute_serialization.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/graph_json_serialization.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/versioning.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/attribute_registry.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/bounding_box.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/labelspace.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/dynamic_scene_graph.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/color.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/scene_graph_layer.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/bounding_box_extraction.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/edge_container.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/spark_dsg_fwd.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/spark_dsg.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/graph_utilities.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/scene_graph_types.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/colormaps.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/scene_graph_logger.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/scene_graph_utilities.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/scene_graph_node.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/metadata.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/mesh.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/edge_attributes.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/node_attributes.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/adjacency_matrix.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/logging.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/zmq_interface.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/node_symbol.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/traversability_boundary.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/layer_view.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/printing.h
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/lib/cmake/spark_dsg/spark_dsgTargets.cmake
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/lib/cmake/spark_dsg/spark_dsgTargets-release.cmake
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/lib/cmake/spark_dsg/spark_dsgConfig.cmake
+-- Installing: /home/siny/hydra_ws/install/spark_dsg/lib/cmake/spark_dsg/spark_dsgConfigVersion.cmake

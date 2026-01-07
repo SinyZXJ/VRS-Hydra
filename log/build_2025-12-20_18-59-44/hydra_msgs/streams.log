@@ -1,0 +1,315 @@
+[0.019s] Invoking command in '/home/siny/hydra_ws/build/hydra_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/siny/ros2_jazzy/install/ament_uncrustify:/home/siny/ros2_jazzy/install/tracetools_trace:/home/siny/ros2_jazzy/install/tracetools_read:/home/siny/ros2_jazzy/install/rpyutils:/home/siny/ros2_jazzy/install/rosidl_pycommon:/home/siny/ros2_jazzy/install/rosidl_cli:/home/siny/ros2_jazzy/install/launch_pytest:/home/siny/ros2_jazzy/install/launch_testing:/home/siny/ros2_jazzy/install/launch_yaml:/home/siny/ros2_jazzy/install/launch_xml:/home/siny/ros2_jazzy/install/launch:/home/siny/ros2_jazzy/install/osrf_pycommon:/home/siny/ros2_jazzy/install/domain_coordinator:/home/siny/ros2_jazzy/install/ament_xmllint:/home/siny/ros2_jazzy/install/ament_pyflakes:/home/siny/ros2_jazzy/install/ament_pycodestyle:/home/siny/ros2_jazzy/install/ament_pep257:/home/siny/ros2_jazzy/install/ament_pclint:/home/siny/ros2_jazzy/install/ament_package:/home/siny/ros2_jazzy/install/ament_mypy:/home/siny/ros2_jazzy/install/ament_lint_cmake:/home/siny/ros2_jazzy/install/ament_flake8:/home/siny/ros2_jazzy/install/ament_copyright:/home/siny/ros2_jazzy/install/ament_lint:/home/siny/ros2_jazzy/install/ament_index_python:/home/siny/ros2_jazzy/install/ament_cpplint:/home/siny/ros2_jazzy/install/ament_cppcheck:/home/siny/ros2_jazzy/install/ament_clang_tidy:/home/siny/ros2_jazzy/install/ament_clang_format DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/siny/hydra_ws/src/hydra_ros/hydra_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/hydra_msgs
+[0.065s] -- The C compiler identification is GNU 13.3.0
+[0.105s] -- The CXX compiler identification is GNU 13.3.0
+[0.119s] -- Detecting C compiler ABI info
+[0.191s] -- Detecting C compiler ABI info - done
+[0.199s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.200s] -- Detecting C compile features
+[0.200s] -- Detecting C compile features - done
+[0.207s] -- Detecting CXX compiler ABI info
+[0.287s] -- Detecting CXX compiler ABI info - done
+[0.292s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.292s] -- Detecting CXX compile features
+[0.292s] -- Detecting CXX compile features - done
+[0.293s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.440s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.553s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.610s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.633s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.659s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.690s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.725s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.770s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.778s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.456s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.011s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.140s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.146s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.594s] -- Found PythonExtra: /usr/bin/python3  
+[7.756s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.920s] -- Configuring done (7.9s)
+[7.997s] -- Generating done (0.1s)
+[8.023s] -- Build files have been written to: /home/siny/hydra_ws/build/hydra_msgs
+[8.064s] Invoked command in '/home/siny/hydra_ws/build/hydra_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/siny/ros2_jazzy/install/ament_uncrustify:/home/siny/ros2_jazzy/install/tracetools_trace:/home/siny/ros2_jazzy/install/tracetools_read:/home/siny/ros2_jazzy/install/rpyutils:/home/siny/ros2_jazzy/install/rosidl_pycommon:/home/siny/ros2_jazzy/install/rosidl_cli:/home/siny/ros2_jazzy/install/launch_pytest:/home/siny/ros2_jazzy/install/launch_testing:/home/siny/ros2_jazzy/install/launch_yaml:/home/siny/ros2_jazzy/install/launch_xml:/home/siny/ros2_jazzy/install/launch:/home/siny/ros2_jazzy/install/osrf_pycommon:/home/siny/ros2_jazzy/install/domain_coordinator:/home/siny/ros2_jazzy/install/ament_xmllint:/home/siny/ros2_jazzy/install/ament_pyflakes:/home/siny/ros2_jazzy/install/ament_pycodestyle:/home/siny/ros2_jazzy/install/ament_pep257:/home/siny/ros2_jazzy/install/ament_pclint:/home/siny/ros2_jazzy/install/ament_package:/home/siny/ros2_jazzy/install/ament_mypy:/home/siny/ros2_jazzy/install/ament_lint_cmake:/home/siny/ros2_jazzy/install/ament_flake8:/home/siny/ros2_jazzy/install/ament_copyright:/home/siny/ros2_jazzy/install/ament_lint:/home/siny/ros2_jazzy/install/ament_index_python:/home/siny/ros2_jazzy/install/ament_cpplint:/home/siny/ros2_jazzy/install/ament_cppcheck:/home/siny/ros2_jazzy/install/ament_clang_tidy:/home/siny/ros2_jazzy/install/ament_clang_format DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/siny/hydra_ws/src/hydra_ros/hydra_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/hydra_msgs
+[8.065s] Invoking command in '/home/siny/hydra_ws/build/hydra_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/siny/ros2_jazzy/install/ament_uncrustify:/home/siny/ros2_jazzy/install/tracetools_trace:/home/siny/ros2_jazzy/install/tracetools_read:/home/siny/ros2_jazzy/install/rpyutils:/home/siny/ros2_jazzy/install/rosidl_pycommon:/home/siny/ros2_jazzy/install/rosidl_cli:/home/siny/ros2_jazzy/install/launch_pytest:/home/siny/ros2_jazzy/install/launch_testing:/home/siny/ros2_jazzy/install/launch_yaml:/home/siny/ros2_jazzy/install/launch_xml:/home/siny/ros2_jazzy/install/launch:/home/siny/ros2_jazzy/install/osrf_pycommon:/home/siny/ros2_jazzy/install/domain_coordinator:/home/siny/ros2_jazzy/install/ament_xmllint:/home/siny/ros2_jazzy/install/ament_pyflakes:/home/siny/ros2_jazzy/install/ament_pycodestyle:/home/siny/ros2_jazzy/install/ament_pep257:/home/siny/ros2_jazzy/install/ament_pclint:/home/siny/ros2_jazzy/install/ament_package:/home/siny/ros2_jazzy/install/ament_mypy:/home/siny/ros2_jazzy/install/ament_lint_cmake:/home/siny/ros2_jazzy/install/ament_flake8:/home/siny/ros2_jazzy/install/ament_copyright:/home/siny/ros2_jazzy/install/ament_lint:/home/siny/ros2_jazzy/install/ament_index_python:/home/siny/ros2_jazzy/install/ament_cpplint:/home/siny/ros2_jazzy/install/ament_cppcheck:/home/siny/ros2_jazzy/install/ament_clang_tidy:/home/siny/ros2_jazzy/install/ament_clang_format DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/hydra_msgs -- -j20 -l20
+[8.202s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[8.222s] [  1%] Built target ament_cmake_python_copy_hydra_msgs
+[8.512s] running egg_info
+[8.513s] creating hydra_msgs.egg-info
+[8.544s] writing hydra_msgs.egg-info/PKG-INFO
+[8.544s] writing dependency_links to hydra_msgs.egg-info/dependency_links.txt
+[8.545s] writing top-level names to hydra_msgs.egg-info/top_level.txt
+[8.545s] writing manifest file 'hydra_msgs.egg-info/SOURCES.txt'
+[8.619s] reading manifest file 'hydra_msgs.egg-info/SOURCES.txt'
+[8.619s] writing manifest file 'hydra_msgs.egg-info/SOURCES.txt'
+[8.667s] [  1%] Built target ament_cmake_python_build_hydra_msgs_egg
+[8.828s] [  1%] Built target hydra_msgs__rosidl_generator_type_description
+[8.853s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.874s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.638s] [  7%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/active_layer__type_support.c.o[0m
+[9.642s] [  9%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/active_layer__description.c.o[0m
+[9.642s] [ 11%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/dsg_update__type_support.c.o[0m
+[9.648s] [ 12%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/active_layer__functions.c.o[0m
+[9.648s] [ 14%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/dsg_update__functions.c.o[0m
+[9.648s] [ 16%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/srv/detail/get_dsg__functions.c.o[0m
+[9.648s] [ 18%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/dsg_update__description.c.o[0m
+[9.658s] [ 20%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/srv/detail/get_dsg__description.c.o[0m
+[9.670s] [ 22%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/srv/detail/get_dsg__type_support.c.o[0m
+[9.783s] [ 22%] Built target hydra_msgs__cpp
+[10.240s] [ 24%] [32m[1mLinking C shared library libhydra_msgs__rosidl_generator_c.so[0m
+[10.340s] [ 24%] Built target hydra_msgs__rosidl_generator_c
+[10.360s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.362s] [ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.362s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.368s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.370s] [ 33%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.379s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.863s] [ 37%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hydra_msgs/msg/detail/dsg_update__type_support.c.o[0m
+[10.872s] [ 38%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hydra_msgs/srv/detail/get_dsg__type_support.c.o[0m
+[10.874s] [ 40%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hydra_msgs/msg/detail/active_layer__type_support.c.o[0m
+[11.048s] [ 42%] [32m[1mLinking C shared library libhydra_msgs__rosidl_typesupport_introspection_c.so[0m
+[11.058s] [ 44%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hydra_msgs/msg/active_layer__type_support.cpp.o[0m
+[11.058s] [ 46%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hydra_msgs/msg/dsg_update__type_support.cpp.o[0m
+[11.070s] [ 48%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hydra_msgs/srv/get_dsg__type_support.cpp.o[0m
+[11.117s] [ 48%] Built target hydra_msgs__rosidl_typesupport_introspection_c
+[11.200s] [ 50%] [32m[1mLinking CXX shared library libhydra_msgs__rosidl_typesupport_c.so[0m
+[11.213s] [ 51%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hydra_msgs/msg/detail/dds_fastrtps/active_layer__type_support.cpp.o[0m
+[11.224s] [ 53%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hydra_msgs/msg/detail/dds_fastrtps/dsg_update__type_support.cpp.o[0m
+[11.227s] [ 55%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hydra_msgs/srv/detail/dds_fastrtps/get_dsg__type_support.cpp.o[0m
+[11.324s] [ 55%] Built target hydra_msgs__rosidl_typesupport_c
+[11.385s] [ 57%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hydra_msgs/srv/get_dsg__type_support.cpp.o[0m
+[11.385s] [ 59%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hydra_msgs/msg/active_layer__type_support.cpp.o[0m
+[11.392s] [ 61%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hydra_msgs/msg/dsg_update__type_support.cpp.o[0m
+[11.527s] [ 62%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hydra_msgs/msg/detail/active_layer__type_support.cpp.o[0m
+[11.530s] [ 64%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hydra_msgs/msg/detail/dsg_update__type_support.cpp.o[0m
+[11.534s] [ 66%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hydra_msgs/srv/detail/get_dsg__type_support.cpp.o[0m
+[11.768s] [ 68%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__type_support_c.cpp.o[0m
+[11.779s] [ 72%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/dsg_update__type_support_c.cpp.o[0m
+[11.779s] [ 72%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/srv/detail/get_dsg__type_support_c.cpp.o[0m
+[12.538s] [ 74%] [32m[1mLinking CXX shared library libhydra_msgs__rosidl_typesupport_cpp.so[0m
+[12.711s] [ 74%] Built target hydra_msgs__rosidl_typesupport_cpp
+[13.024s] [ 75%] [32m[1mLinking CXX shared library libhydra_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[13.213s] [ 75%] Built target hydra_msgs__rosidl_typesupport_fastrtps_c
+[13.515s] [ 77%] [32m[1mLinking CXX shared library libhydra_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[13.699s] [ 79%] [32m[1mLinking CXX shared library libhydra_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.742s] [ 79%] Built target hydra_msgs__rosidl_typesupport_introspection_cpp
+[13.823s] [ 79%] Built target hydra_msgs__rosidl_typesupport_fastrtps_cpp
+[13.840s] [ 79%] Built target hydra_msgs
+[13.910s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.977s] [ 81%] Built target hydra_msgs__py
+[15.018s] [ 83%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_py.dir/rosidl_generator_py/hydra_msgs/msg/_active_layer_s.c.o[0m
+[15.021s] [ 85%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_py.dir/rosidl_generator_py/hydra_msgs/msg/_dsg_update_s.c.o[0m
+[15.023s] [ 87%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_py.dir/rosidl_generator_py/hydra_msgs/srv/_get_dsg_s.c.o[0m
+[15.534s] [ 88%] [32m[1mLinking C shared library libhydra_msgs__rosidl_generator_py.so[0m
+[15.642s] [ 88%] Built target hydra_msgs__rosidl_generator_py
+[15.698s] [ 90%] [32mBuilding C object CMakeFiles/hydra_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[15.700s] [ 92%] [32mBuilding C object CMakeFiles/hydra_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.700s] [ 94%] [32mBuilding C object CMakeFiles/hydra_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.869s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/hydra_msgs/hydra_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[15.974s] [ 96%] Built target hydra_msgs_s__rosidl_typesupport_introspection_c
+[16.231s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/hydra_msgs/hydra_msgs_s__rosidl_typesupport_c.so[0m
+[16.263s] [100%] [32m[1mLinking C shared module rosidl_generator_py/hydra_msgs/hydra_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[16.310s] [100%] Built target hydra_msgs_s__rosidl_typesupport_c
+[16.353s] [100%] Built target hydra_msgs_s__rosidl_typesupport_fastrtps_c
+[16.406s] Invoked command in '/home/siny/hydra_ws/build/hydra_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/siny/ros2_jazzy/install/ament_uncrustify:/home/siny/ros2_jazzy/install/tracetools_trace:/home/siny/ros2_jazzy/install/tracetools_read:/home/siny/ros2_jazzy/install/rpyutils:/home/siny/ros2_jazzy/install/rosidl_pycommon:/home/siny/ros2_jazzy/install/rosidl_cli:/home/siny/ros2_jazzy/install/launch_pytest:/home/siny/ros2_jazzy/install/launch_testing:/home/siny/ros2_jazzy/install/launch_yaml:/home/siny/ros2_jazzy/install/launch_xml:/home/siny/ros2_jazzy/install/launch:/home/siny/ros2_jazzy/install/osrf_pycommon:/home/siny/ros2_jazzy/install/domain_coordinator:/home/siny/ros2_jazzy/install/ament_xmllint:/home/siny/ros2_jazzy/install/ament_pyflakes:/home/siny/ros2_jazzy/install/ament_pycodestyle:/home/siny/ros2_jazzy/install/ament_pep257:/home/siny/ros2_jazzy/install/ament_pclint:/home/siny/ros2_jazzy/install/ament_package:/home/siny/ros2_jazzy/install/ament_mypy:/home/siny/ros2_jazzy/install/ament_lint_cmake:/home/siny/ros2_jazzy/install/ament_flake8:/home/siny/ros2_jazzy/install/ament_copyright:/home/siny/ros2_jazzy/install/ament_lint:/home/siny/ros2_jazzy/install/ament_index_python:/home/siny/ros2_jazzy/install/ament_cpplint:/home/siny/ros2_jazzy/install/ament_cppcheck:/home/siny/ros2_jazzy/install/ament_clang_tidy:/home/siny/ros2_jazzy/install/ament_clang_format DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/hydra_msgs -- -j20 -l20
+[16.406s] Invoking command in '/home/siny/hydra_ws/build/hydra_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/siny/ros2_jazzy/install/ament_uncrustify:/home/siny/ros2_jazzy/install/tracetools_trace:/home/siny/ros2_jazzy/install/tracetools_read:/home/siny/ros2_jazzy/install/rpyutils:/home/siny/ros2_jazzy/install/rosidl_pycommon:/home/siny/ros2_jazzy/install/rosidl_cli:/home/siny/ros2_jazzy/install/launch_pytest:/home/siny/ros2_jazzy/install/launch_testing:/home/siny/ros2_jazzy/install/launch_yaml:/home/siny/ros2_jazzy/install/launch_xml:/home/siny/ros2_jazzy/install/launch:/home/siny/ros2_jazzy/install/osrf_pycommon:/home/siny/ros2_jazzy/install/domain_coordinator:/home/siny/ros2_jazzy/install/ament_xmllint:/home/siny/ros2_jazzy/install/ament_pyflakes:/home/siny/ros2_jazzy/install/ament_pycodestyle:/home/siny/ros2_jazzy/install/ament_pep257:/home/siny/ros2_jazzy/install/ament_pclint:/home/siny/ros2_jazzy/install/ament_package:/home/siny/ros2_jazzy/install/ament_mypy:/home/siny/ros2_jazzy/install/ament_lint_cmake:/home/siny/ros2_jazzy/install/ament_flake8:/home/siny/ros2_jazzy/install/ament_copyright:/home/siny/ros2_jazzy/install/ament_lint:/home/siny/ros2_jazzy/install/ament_index_python:/home/siny/ros2_jazzy/install/ament_cpplint:/home/siny/ros2_jazzy/install/ament_cppcheck:/home/siny/ros2_jazzy/install/ament_clang_tidy:/home/siny/ros2_jazzy/install/ament_clang_format DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/hydra_msgs
+[16.415s] -- Install configuration: "Release"
+[16.418s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/ament_index/resource_index/rosidl_interfaces/hydra_msgs
+[16.418s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/ActiveLayer.json
+[16.418s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/DsgUpdate.json
+[16.418s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/srv/GetDsg.json
+[16.418s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs
+[16.418s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv
+[16.419s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/get_dsg.h
+[16.419s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail
+[16.419s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__functions.h
+[16.419s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__functions.c
+[16.419s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__type_support.c
+[16.419s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__struct.h
+[16.419s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__description.c
+[16.419s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__type_support.h
+[16.420s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg
+[16.420s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/rosidl_generator_c__visibility_control.h
+[16.420s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/active_layer.h
+[16.420s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/dsg_update.h
+[16.420s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail
+[16.420s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__description.c
+[16.420s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__functions.c
+[16.420s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__type_support.h
+[16.420s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__functions.c
+[16.420s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__type_support.h
+[16.420s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__description.c
+[16.420s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__struct.h
+[16.420s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__type_support.c
+[16.421s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__functions.h
+[16.422s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__type_support.c
+[16.422s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__struct.h
+[16.422s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__functions.h
+[16.422s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/environment/library_path.sh
+[16.422s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/environment/library_path.dsv
+[16.422s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_generator_c.so
+[16.422s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_generator_c.so" to ""
+[16.422s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs
+[16.422s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv
+[16.422s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail
+[16.422s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__rosidl_typesupport_fastrtps_c.h
+[16.422s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg
+[16.422s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.422s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail
+[16.422s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h
+[16.423s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__rosidl_typesupport_fastrtps_c.h
+[16.423s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_fastrtps_c.so
+[16.423s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[16.423s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs
+[16.423s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv
+[16.423s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/get_dsg.hpp
+[16.423s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail
+[16.423s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__struct.hpp
+[16.423s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__traits.hpp
+[16.423s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__builder.hpp
+[16.423s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__type_support.hpp
+[16.423s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg
+[16.423s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/dsg_update.hpp
+[16.423s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/active_layer.hpp
+[16.423s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail
+[16.423s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__builder.hpp
+[16.423s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__type_support.hpp
+[16.425s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__struct.hpp
+[16.425s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__builder.hpp
+[16.425s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__type_support.hpp
+[16.425s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__traits.hpp
+[16.426s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__traits.hpp
+[16.433s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__struct.hpp
+[16.433s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[16.433s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs
+[16.433s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv
+[16.433s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail
+[16.433s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/dds_fastrtps
+[16.433s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__rosidl_typesupport_fastrtps_cpp.hpp
+[16.433s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg
+[16.433s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.433s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail
+[16.433s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dds_fastrtps
+[16.433s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_cpp.hpp
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__rosidl_typesupport_fastrtps_cpp.hpp
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_fastrtps_cpp.so
+[16.434s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.434s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs
+[16.434s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv
+[16.434s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__rosidl_typesupport_introspection_c.h
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__type_support.c
+[16.434s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg
+[16.434s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__type_support.c
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__rosidl_typesupport_introspection_c.h
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_introspection_c.h
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__type_support.c
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_introspection_c.so
+[16.434s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_introspection_c.so" to ""
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_c.so
+[16.434s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_c.so" to ""
+[16.434s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs
+[16.434s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv
+[16.434s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__rosidl_typesupport_introspection_cpp.hpp
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__type_support.cpp
+[16.434s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg
+[16.434s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__type_support.cpp
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_introspection_cpp.hpp
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__rosidl_typesupport_introspection_cpp.hpp
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__type_support.cpp
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_introspection_cpp.so
+[16.434s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_cpp.so
+[16.434s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_cpp.so" to ""
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/environment/pythonpath.sh
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/environment/pythonpath.dsv
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs-0.0.1-py3.12.egg-info
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs-0.0.1-py3.12.egg-info/top_level.txt
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs-0.0.1-py3.12.egg-info/PKG-INFO
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs-0.0.1-py3.12.egg-info/SOURCES.txt
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs-0.0.1-py3.12.egg-info/dependency_links.txt
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/hydra_msgs_s__rosidl_typesupport_introspection_c.so
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/srv
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/srv/_get_dsg_s.c
+[16.435s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/srv/__init__.py
+[16.435s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/srv/_get_dsg.py
+[16.435s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg
+[16.435s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_active_layer_s.c
+[16.435s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_dsg_update_s.c
+[16.435s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_active_layer.py
+[16.435s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_dsg_update.py
+[16.435s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/__init__.py
+[16.435s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_c.c
+[16.435s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/__init__.py
+[16.435s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/hydra_msgs_s__rosidl_typesupport_c.so
+[16.435s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.435s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/hydra_msgs_s__rosidl_typesupport_fastrtps_c.so
+[16.486s] Listing '/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs'...
+[16.486s] Compiling '/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/__init__.py'...
+[16.486s] Listing '/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg'...
+[16.486s] Compiling '/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/__init__.py'...
+[16.486s] Compiling '/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_active_layer.py'...
+[16.486s] Compiling '/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_dsg_update.py'...
+[16.486s] Listing '/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/srv'...
+[16.486s] Compiling '/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/srv/__init__.py'...
+[16.486s] Compiling '/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/srv/_get_dsg.py'...
+[16.495s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/hydra_msgs_s__rosidl_typesupport_fastrtps_c.so
+[16.495s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/hydra_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[16.496s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/hydra_msgs_s__rosidl_typesupport_introspection_c.so
+[16.496s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/hydra_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[16.496s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/hydra_msgs_s__rosidl_typesupport_c.so
+[16.501s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/hydra_msgs_s__rosidl_typesupport_c.so" to ""
+[16.501s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_generator_py.so
+[16.501s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_generator_py.so" to ""
+[16.501s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/ActiveLayer.idl
+[16.501s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/DsgUpdate.idl
+[16.501s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/srv/GetDsg.idl
+[16.501s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/ActiveLayer.msg
+[16.501s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/DsgUpdate.msg
+[16.501s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/srv/GetDsg.srv
+[16.501s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/ament_index/resource_index/package_run_dependencies/hydra_msgs
+[16.501s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/ament_index/resource_index/parent_prefix_path/hydra_msgs
+[16.501s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/environment/ament_prefix_path.sh
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/environment/ament_prefix_path.dsv
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/environment/path.sh
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/environment/path.dsv
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/local_setup.bash
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/local_setup.sh
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/local_setup.zsh
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/local_setup.dsv
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/package.dsv
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/ament_index/resource_index/packages/hydra_msgs
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/export_hydra_msgs__rosidl_generator_cExport.cmake
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/export_hydra_msgs__rosidl_generator_cExport-release.cmake
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/export_hydra_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/export_hydra_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/export_hydra_msgs__rosidl_generator_cppExport.cmake
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/export_hydra_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/export_hydra_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/hydra_msgs__rosidl_typesupport_introspection_cExport.cmake
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/hydra_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/hydra_msgs__rosidl_typesupport_cExport.cmake
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/hydra_msgs__rosidl_typesupport_cExport-release.cmake
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/hydra_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/hydra_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/hydra_msgs__rosidl_typesupport_cppExport.cmake
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/hydra_msgs__rosidl_typesupport_cppExport-release.cmake
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/export_hydra_msgs__rosidl_generator_pyExport.cmake
+[16.502s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/export_hydra_msgs__rosidl_generator_pyExport-release.cmake
+[16.506s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/rosidl_cmake-extras.cmake
+[16.506s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.506s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.506s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[16.506s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[16.506s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.506s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.506s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/hydra_msgsConfig.cmake
+[16.506s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/hydra_msgsConfig-version.cmake
+[16.506s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/package.xml
+[16.509s] Invoked command in '/home/siny/hydra_ws/build/hydra_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/siny/ros2_jazzy/install/ament_uncrustify:/home/siny/ros2_jazzy/install/tracetools_trace:/home/siny/ros2_jazzy/install/tracetools_read:/home/siny/ros2_jazzy/install/rpyutils:/home/siny/ros2_jazzy/install/rosidl_pycommon:/home/siny/ros2_jazzy/install/rosidl_cli:/home/siny/ros2_jazzy/install/launch_pytest:/home/siny/ros2_jazzy/install/launch_testing:/home/siny/ros2_jazzy/install/launch_yaml:/home/siny/ros2_jazzy/install/launch_xml:/home/siny/ros2_jazzy/install/launch:/home/siny/ros2_jazzy/install/osrf_pycommon:/home/siny/ros2_jazzy/install/domain_coordinator:/home/siny/ros2_jazzy/install/ament_xmllint:/home/siny/ros2_jazzy/install/ament_pyflakes:/home/siny/ros2_jazzy/install/ament_pycodestyle:/home/siny/ros2_jazzy/install/ament_pep257:/home/siny/ros2_jazzy/install/ament_pclint:/home/siny/ros2_jazzy/install/ament_package:/home/siny/ros2_jazzy/install/ament_mypy:/home/siny/ros2_jazzy/install/ament_lint_cmake:/home/siny/ros2_jazzy/install/ament_flake8:/home/siny/ros2_jazzy/install/ament_copyright:/home/siny/ros2_jazzy/install/ament_lint:/home/siny/ros2_jazzy/install/ament_index_python:/home/siny/ros2_jazzy/install/ament_cpplint:/home/siny/ros2_jazzy/install/ament_cppcheck:/home/siny/ros2_jazzy/install/ament_clang_tidy:/home/siny/ros2_jazzy/install/ament_clang_format DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/hydra_msgs

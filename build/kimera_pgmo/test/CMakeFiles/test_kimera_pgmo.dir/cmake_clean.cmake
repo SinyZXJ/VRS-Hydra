@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/test_kimera_pgmo.dir/pgmo_fixtures.cpp.o"
+  "CMakeFiles/test_kimera_pgmo.dir/pgmo_fixtures.cpp.o.d"
+  "CMakeFiles/test_kimera_pgmo.dir/pgmo_unit_tests.cpp.o"
+  "CMakeFiles/test_kimera_pgmo.dir/pgmo_unit_tests.cpp.o.d"
+  "CMakeFiles/test_kimera_pgmo.dir/test_block_compression.cpp.o"
+  "CMakeFiles/test_kimera_pgmo.dir/test_block_compression.cpp.o.d"
+  "CMakeFiles/test_kimera_pgmo.dir/test_common_functions.cpp.o"
+  "CMakeFiles/test_kimera_pgmo.dir/test_common_functions.cpp.o.d"
+  "CMakeFiles/test_kimera_pgmo.dir/test_common_structs.cpp.o"
+  "CMakeFiles/test_kimera_pgmo.dir/test_common_structs.cpp.o.d"
+  "CMakeFiles/test_kimera_pgmo.dir/test_deformation_edge_factor.cpp.o"
+  "CMakeFiles/test_kimera_pgmo.dir/test_deformation_edge_factor.cpp.o.d"
+  "CMakeFiles/test_kimera_pgmo.dir/test_deformation_graph.cpp.o"
+  "CMakeFiles/test_kimera_pgmo.dir/test_deformation_graph.cpp.o.d"
+  "CMakeFiles/test_kimera_pgmo.dir/test_delta_compression.cpp.o"
+  "CMakeFiles/test_kimera_pgmo.dir/test_delta_compression.cpp.o.d"
+  "CMakeFiles/test_kimera_pgmo.dir/test_graph.cpp.o"
+  "CMakeFiles/test_kimera_pgmo.dir/test_graph.cpp.o.d"
+  "CMakeFiles/test_kimera_pgmo.dir/test_mesh_deformation.cpp.o"
+  "CMakeFiles/test_kimera_pgmo.dir/test_mesh_deformation.cpp.o.d"
+  "CMakeFiles/test_kimera_pgmo.dir/test_mesh_delta.cpp.o"
+  "CMakeFiles/test_kimera_pgmo.dir/test_mesh_delta.cpp.o.d"
+  "CMakeFiles/test_kimera_pgmo.dir/test_mesh_frontend_interface.cpp.o"
+  "CMakeFiles/test_kimera_pgmo.dir/test_mesh_frontend_interface.cpp.o.d"
+  "CMakeFiles/test_kimera_pgmo.dir/test_mesh_io.cpp.o"
+  "CMakeFiles/test_kimera_pgmo.dir/test_mesh_io.cpp.o.d"
+  "CMakeFiles/test_kimera_pgmo.dir/test_octree_compression.cpp.o"
+  "CMakeFiles/test_kimera_pgmo.dir/test_octree_compression.cpp.o.d"
+  "CMakeFiles/test_kimera_pgmo.dir/test_traits.cpp.o"
+  "CMakeFiles/test_kimera_pgmo.dir/test_traits.cpp.o.d"
+  "CMakeFiles/test_kimera_pgmo.dir/test_voxel_clearing_compression.cpp.o"
+  "CMakeFiles/test_kimera_pgmo.dir/test_voxel_clearing_compression.cpp.o.d"
+  "test_kimera_pgmo"
+  "test_kimera_pgmo.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/test_kimera_pgmo.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

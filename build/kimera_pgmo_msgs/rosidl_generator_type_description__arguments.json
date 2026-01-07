@@ -1,0 +1,18 @@
+{
+  "package_name": "kimera_pgmo_msgs",
+  "output_dir": "/home/siny/hydra_ws/build/kimera_pgmo_msgs/rosidl_generator_type_description/kimera_pgmo_msgs",
+  "idl_tuples": [
+    "/home/siny/hydra_ws/build/kimera_pgmo_msgs/rosidl_adapter/kimera_pgmo_msgs:msg/AbsolutePoseStamped.idl",
+    "/home/siny/hydra_ws/build/kimera_pgmo_msgs/rosidl_adapter/kimera_pgmo_msgs:msg/Mesh.idl",
+    "/home/siny/hydra_ws/build/kimera_pgmo_msgs/rosidl_adapter/kimera_pgmo_msgs:msg/MeshDelta.idl",
+    "/home/siny/hydra_ws/build/kimera_pgmo_msgs/rosidl_adapter/kimera_pgmo_msgs:msg/TriangleIndices.idl",
+    "/home/siny/hydra_ws/build/kimera_pgmo_msgs/rosidl_adapter/kimera_pgmo_msgs:srv/LoadGraphMesh.idl",
+    "/home/siny/hydra_ws/build/kimera_pgmo_msgs/rosidl_adapter/kimera_pgmo_msgs:srv/MeshDeltaQuery.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

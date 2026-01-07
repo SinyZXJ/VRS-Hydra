@@ -1,0 +1,68 @@
+[ 50%] Built target config_utilities_ros
+[ 50%] Built target ament_cmake_python_copy_config_utilities_ros
+[100%] Built target demo_ros_dynamic_config_server
+running egg_info
+writing config_utilities_ros.egg-info/PKG-INFO
+writing dependency_links to config_utilities_ros.egg-info/dependency_links.txt
+writing top-level names to config_utilities_ros.egg-info/top_level.txt
+reading manifest file 'config_utilities_ros.egg-info/SOURCES.txt'
+writing manifest file 'config_utilities_ros.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_config_utilities_ros_egg
+-- Install configuration: "Release"
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/environment/pythonpath.sh
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/environment/pythonpath.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros-2.0.0-py3.12.egg-info
+-- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros-2.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros-2.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros-2.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros-2.0.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/__init__.py
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/README.md
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/dynamic_config_gui.py
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/templates
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/templates/index.html
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/__init__.py
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/js
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/js/build_fields.js
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/js/selection_panes.js
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/js/config_table.js
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/css
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/css/style.css
+Listing '/home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros'...
+Listing '/home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui'...
+Listing '/home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static'...
+Listing '/home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/css'...
+Listing '/home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/js'...
+Listing '/home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/templates'...
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/lib/libconfig_utilities_ros.so
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/lib/config_utilities_ros/demo_ros_dynamic_config_server
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/include/config_utilities_ros/
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/include/config_utilities_ros//config_utilities_ros
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/include/config_utilities_ros//config_utilities_ros/ros_dynamic_config_server.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros//launch
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros//launch/demo_ros_dynamic_config.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/lib/config_utilities_ros/gui
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/environment/library_path.sh
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/environment/library_path.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/ament_index/resource_index/package_run_dependencies/config_utilities_ros
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/ament_index/resource_index/parent_prefix_path/config_utilities_ros
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/environment/ament_prefix_path.sh
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/environment/path.sh
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/environment/path.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/local_setup.bash
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/local_setup.sh
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/local_setup.zsh
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/local_setup.dsv
+-- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/package.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/ament_index/resource_index/packages/config_utilities_ros
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/cmake/config_utilities_ros-targetsExport.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/cmake/config_utilities_ros-targetsExport-release.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/cmake/config_utilities_rosConfig.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/cmake/config_utilities_rosConfig-version.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/package.xml

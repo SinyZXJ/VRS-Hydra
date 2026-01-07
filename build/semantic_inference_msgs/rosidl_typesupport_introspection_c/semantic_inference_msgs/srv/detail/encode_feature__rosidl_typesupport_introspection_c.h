@@ -1,0 +1,58 @@
+// generated from rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em
+// with input from semantic_inference_msgs:srv/EncodeFeature.idl
+// generated code does not contain a copyright notice
+
+#ifndef SEMANTIC_INFERENCE_MSGS__SRV__DETAIL__ENCODE_FEATURE__ROSIDL_TYPESUPPORT_INTROSPECTION_C_H_
+#define SEMANTIC_INFERENCE_MSGS__SRV__DETAIL__ENCODE_FEATURE__ROSIDL_TYPESUPPORT_INTROSPECTION_C_H_
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "semantic_inference_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h"
+
+ROSIDL_TYPESUPPORT_INTROSPECTION_C_PUBLIC_semantic_inference_msgs
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, semantic_inference_msgs, srv, EncodeFeature_Request)();
+
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "rosidl_typesupport_interface/macros.h"
+// already included above
+// #include "semantic_inference_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h"
+
+ROSIDL_TYPESUPPORT_INTROSPECTION_C_PUBLIC_semantic_inference_msgs
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, semantic_inference_msgs, srv, EncodeFeature_Response)();
+
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "rosidl_typesupport_interface/macros.h"
+// already included above
+// #include "semantic_inference_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h"
+
+ROSIDL_TYPESUPPORT_INTROSPECTION_C_PUBLIC_semantic_inference_msgs
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, semantic_inference_msgs, srv, EncodeFeature_Event)();
+
+#include "rosidl_runtime_c/service_type_support_struct.h"
+// already included above
+// #include "rosidl_typesupport_interface/macros.h"
+// already included above
+// #include "semantic_inference_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h"
+
+ROSIDL_TYPESUPPORT_INTROSPECTION_C_PUBLIC_semantic_inference_msgs
+const rosidl_service_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_introspection_c, semantic_inference_msgs, srv, EncodeFeature)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // SEMANTIC_INFERENCE_MSGS__SRV__DETAIL__ENCODE_FEATURE__ROSIDL_TYPESUPPORT_INTROSPECTION_C_H_

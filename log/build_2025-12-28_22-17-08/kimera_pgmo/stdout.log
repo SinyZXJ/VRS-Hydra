@@ -1,0 +1,58 @@
+[ 50%] Built target kimera_pgmo
+[ 57%] Built target mesh_trajectory_deformer
+[ 59%] Built target offline_deformation
+[100%] Built target test_kimera_pgmo
+-- Install configuration: "Release"
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/lib/libkimera_pgmo.so
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/bin/mesh_trajectory_deformer
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/pcl_mesh_traits.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/compression
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/compression/mesh_compression.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/compression/voxel_clearing_compression.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/compression/octree_compression.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/compression/block_compression.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/compression/delta_compression.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/compression/redundancy_checker.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/mesh_frontend_interface.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/hashing.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/mesh_deformation.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/deformation_graph.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/common_functions.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/pcl_mesh_interface.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/range_generator.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/mesh_io.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/mesh_interface.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/logging.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/common_structs.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/happly
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/happly/README.md
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/happly/.gitignore
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/happly/happly.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/happly/.travis.yml
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/happly/.clang-format
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/happly/happly_logo.jpg
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/happly/LICENSE
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/happly/test
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/happly/test/sampledata
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/happly/test/sampledata/platonic_shelf_big_endian.ply
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/happly/test/sampledata/platonic_shelf.ply
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/happly/test/sampledata/platonic_shelf_ascii.ply
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/happly/test/CMakeLists.txt
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/happly/test/main_test.cpp
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/happly/test/CMakeLists.txt.in
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/mesh_delta.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/mesh_types.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/kimera_pgmo_interface.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/mesh_traits.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/optimizer
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/optimizer/kimera_rpgo_optimizer.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/optimizer/optimizer_interface.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/sparse_keyframe.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/deformation_graph_4dof.h
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/lib/cmake/kimera_pgmo/kimera_pgmoTargets.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/lib/cmake/kimera_pgmo/kimera_pgmoTargets-release.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/lib/cmake/kimera_pgmo/kimera_pgmoConfig.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo/lib/cmake/kimera_pgmo/kimera_pgmoConfigVersion.cmake

@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from semantic_inference_msgs/msg/FeatureImage.msg
+// generated code does not contain a copyright notice
+
+#include "semantic_inference_msgs/msg/FeatureVector.idl"
+#include "sensor_msgs/msg/Image.idl"
+#include "std_msgs/msg/Header.idl"
+
+module semantic_inference_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Message containing an image masked by instance ids and associated feature vectors")
+    struct FeatureImage {
+      @verbatim (language="comment", text=
+        "Header of image that the features were sourced from")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Mask IDs if non-sequential (should be empty otherwise)")
+      sequence<int32> mask_ids;
+
+      @verbatim (language="comment", text=
+        "Masked image by segment/feature ID")
+      sensor_msgs::msg::Image image;
+
+      @verbatim (language="comment", text=
+        "Feature vectors for each segment. Size must be equal to the number of masks")
+      sequence<semantic_inference_msgs::msg::FeatureVector> features;
+    };
+  };
+};

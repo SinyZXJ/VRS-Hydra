@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pose_graph_tools_msgs/msg/BowVector.msg
+// generated code does not contain a copyright notice
+
+
+module pose_graph_tools_msgs {
+  module msg {
+    struct BowVector {
+      sequence<uint32> word_ids;
+
+      sequence<float> word_values;
+    };
+  };
+};

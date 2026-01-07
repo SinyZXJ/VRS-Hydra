@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from kimera_pgmo_msgs/msg/AbsolutePoseStamped.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "std_msgs/msg/Header.idl"
+
+module kimera_pgmo_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message encodes a relative SE(3) measurement")
+    struct AbsolutePoseStamped {
+      @verbatim (language="comment", text=
+        "Used for timestamp")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "ID of first node")
+      uint32 idx;
+
+      @verbatim (language="comment", text=
+        "absolute pose")
+      geometry_msgs::msg::Pose pose;
+    };
+  };
+};

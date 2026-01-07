@@ -1,0 +1,4 @@
+Invoking command in '/home/siny/hydra_ws/build/kimera_pgmo_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/kimera_pgmo_msgs -- -j20 -l20
+Invoked command in '/home/siny/hydra_ws/build/kimera_pgmo_msgs' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/kimera_pgmo_msgs -- -j20 -l20
+Invoking command in '/home/siny/hydra_ws/build/kimera_pgmo_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/kimera_pgmo_msgs
+Invoked command in '/home/siny/hydra_ws/build/kimera_pgmo_msgs' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/kimera_pgmo_msgs
