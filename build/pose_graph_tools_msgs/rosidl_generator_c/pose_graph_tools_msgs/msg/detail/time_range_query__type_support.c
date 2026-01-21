@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "pose_graph_tools_msgs/msg/detail/time_range_query__type_support.h"
-#include "pose_graph_tools_msgs/msg/detail/time_range_query__functions.h"
-#include "pose_graph_tools_msgs/msg/detail/time_range_query__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "pose_graph_tools_msgs/msg/detail/time_range_query__struct.h"
+#include "pose_graph_tools_msgs/msg/detail/time_range_query__functions.h"
+#include "pose_graph_tools_msgs/msg/detail/time_range_query__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

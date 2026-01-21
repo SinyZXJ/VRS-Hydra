@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "pose_graph_tools_msgs/msg/detail/bow_vector__type_support.h"
-#include "pose_graph_tools_msgs/msg/detail/bow_vector__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "pose_graph_tools_msgs/msg/detail/bow_vector__struct.h"
+#include "pose_graph_tools_msgs/msg/detail/bow_vector__type_support.h"
+#include "pose_graph_tools_msgs/msg/detail/bow_vector__functions.h"
 
 #ifdef __cplusplus
 extern "C"

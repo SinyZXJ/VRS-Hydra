@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "kimera_pgmo_msgs/msg/detail/mesh_delta__functions.h"
-#include "kimera_pgmo_msgs/msg/detail/mesh_delta__type_support.h"
-#include "kimera_pgmo_msgs/msg/detail/mesh_delta__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "kimera_pgmo_msgs/msg/detail/mesh_delta__functions.h"
+#include "kimera_pgmo_msgs/msg/detail/mesh_delta__struct.h"
+#include "kimera_pgmo_msgs/msg/detail/mesh_delta__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

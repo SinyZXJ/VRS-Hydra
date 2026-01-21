@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-c01994ac8c5ac19b600c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "kimera_pgmo_msgs__py",
+					"jsonFile" : "directory-kimera_pgmo_msgs__py-Release-3e78bc64cd2fa8178723.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/siny/hydra_ws/build/kimera_pgmo_msgs/kimera_pgmo_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "kimera_pgmo_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_kimera_pgmo_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_kimera_pgmo_msgs_egg-Release-d9e9a7bf19708f114a7d.json",
+					"name" : "ament_cmake_python_build_kimera_pgmo_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_kimera_pgmo_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_kimera_pgmo_msgs-Release-bb0919bffb2b7d694df0.json",
+					"name" : "ament_cmake_python_copy_kimera_pgmo_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kimera_pgmo_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kimera_pgmo_msgs-Release-417437fef54467300a43.json",
+					"name" : "kimera_pgmo_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kimera_pgmo_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kimera_pgmo_msgs__cpp-Release-f9ecfbbc9d6d0e54a454.json",
+					"name" : "kimera_pgmo_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kimera_pgmo_msgs__py::@e53f245d98389fa178e0",
+					"jsonFile" : "target-kimera_pgmo_msgs__py-Release-f46538d0d8705376f08f.json",
+					"name" : "kimera_pgmo_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kimera_pgmo_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kimera_pgmo_msgs__rosidl_generator_c-Release-3a1983b5b7cb28f148df.json",
+					"name" : "kimera_pgmo_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kimera_pgmo_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kimera_pgmo_msgs__rosidl_generator_py-Release-bb5f2ae507564014d082.json",
+					"name" : "kimera_pgmo_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kimera_pgmo_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kimera_pgmo_msgs__rosidl_generator_type_description-Release-fc07e9e049d800e7fcfc.json",
+					"name" : "kimera_pgmo_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kimera_pgmo_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kimera_pgmo_msgs__rosidl_typesupport_c-Release-25eab6ac59cbc416e6e2.json",
+					"name" : "kimera_pgmo_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kimera_pgmo_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kimera_pgmo_msgs__rosidl_typesupport_cpp-Release-5862989d01631cca7638.json",
+					"name" : "kimera_pgmo_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kimera_pgmo_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kimera_pgmo_msgs__rosidl_typesupport_fastrtps_c-Release-1d9204bea3c421b976ab.json",
+					"name" : "kimera_pgmo_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kimera_pgmo_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kimera_pgmo_msgs__rosidl_typesupport_fastrtps_cpp-Release-a8df7acd060ef5f62b13.json",
+					"name" : "kimera_pgmo_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kimera_pgmo_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kimera_pgmo_msgs__rosidl_typesupport_introspection_c-Release-78b65ba4ff4f96ef725b.json",
+					"name" : "kimera_pgmo_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kimera_pgmo_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kimera_pgmo_msgs__rosidl_typesupport_introspection_cpp-Release-190dc86717dc1ac43aae.json",
+					"name" : "kimera_pgmo_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kimera_pgmo_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kimera_pgmo_msgs_s__rosidl_typesupport_c-Release-8c963dd287e52fdee9ff.json",
+					"name" : "kimera_pgmo_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kimera_pgmo_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kimera_pgmo_msgs_s__rosidl_typesupport_fastrtps_c-Release-462cac9efdae1c96e175.json",
+					"name" : "kimera_pgmo_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kimera_pgmo_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kimera_pgmo_msgs_s__rosidl_typesupport_introspection_c-Release-e59882466e4ec0a67d6c.json",
+					"name" : "kimera_pgmo_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kimera_pgmo_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kimera_pgmo_msgs_uninstall-Release-b6797d9e23c964ef13c1.json",
+					"name" : "kimera_pgmo_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-58a783e1526068e45450.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/siny/hydra_ws/build/kimera_pgmo_msgs",
+		"source" : "/home/siny/hydra_ws/src/kimera_pgmo/kimera_pgmo_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

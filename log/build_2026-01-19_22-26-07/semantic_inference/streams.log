@@ -1,0 +1,22 @@
+[0.016s] Invoking command in '/home/siny/hydra_ws/build/semantic_inference': CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/config_utilities CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/config_utilities/lib PATH=/home/siny/hydra_ws/install/config_utilities/bin:${PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig /usr/bin/cmake --build /home/siny/hydra_ws/build/semantic_inference -- -j20 -l20
+[0.060s] [ 64%] Built target semantic_inference
+[0.076s] [ 78%] Built target demo_segmentation
+[0.087s] [100%] Built target test_semantic_inference
+[0.128s] Invoked command in '/home/siny/hydra_ws/build/semantic_inference' returned '0': CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/config_utilities CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/config_utilities/lib PATH=/home/siny/hydra_ws/install/config_utilities/bin:${PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig /usr/bin/cmake --build /home/siny/hydra_ws/build/semantic_inference -- -j20 -l20
+[0.128s] Invoking command in '/home/siny/hydra_ws/build/semantic_inference': CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/config_utilities CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/config_utilities/lib PATH=/home/siny/hydra_ws/install/config_utilities/bin:${PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig /usr/bin/cmake --install /home/siny/hydra_ws/build/semantic_inference
+[0.130s] -- Install configuration: "Release"
+[0.130s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/lib/libsemantic_inference.so
+[0.131s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/bin/demo_segmentation
+[0.131s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/include
+[0.131s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/include/semantic_inference
+[0.132s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/segmenter.h
+[0.132s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/image_recolor.h
+[0.132s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/model_config.h
+[0.132s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/image_rotator.h
+[0.132s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/image_utilities.h
+[0.133s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/logging.h
+[0.133s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/lib/cmake/semantic_inference/semantic_inferenceTargets.cmake
+[0.133s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/lib/cmake/semantic_inference/semantic_inferenceTargets-release.cmake
+[0.134s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/lib/cmake/semantic_inference/semantic_inferenceConfig.cmake
+[0.134s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference/lib/cmake/semantic_inference/semantic_inferenceConfigVersion.cmake
+[0.152s] Invoked command in '/home/siny/hydra_ws/build/semantic_inference' returned '0': CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/config_utilities CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/config_utilities/lib PATH=/home/siny/hydra_ws/install/config_utilities/bin:${PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig /usr/bin/cmake --install /home/siny/hydra_ws/build/semantic_inference

@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "hydra_msgs/srv/detail/get_dsg__functions.h"
+#include "hydra_msgs/srv/detail/get_dsg__struct.h"
 #include "hydra_msgs/srv/detail/get_dsg__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "hydra_msgs/srv/detail/get_dsg__struct.h"
 
 #ifdef __cplusplus
 extern "C"

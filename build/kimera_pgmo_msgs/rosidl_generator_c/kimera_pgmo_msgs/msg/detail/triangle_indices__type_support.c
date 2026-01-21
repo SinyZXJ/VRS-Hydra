@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "kimera_pgmo_msgs/msg/detail/triangle_indices__type_support.h"
-#include "kimera_pgmo_msgs/msg/detail/triangle_indices__struct.h"
-#include "kimera_pgmo_msgs/msg/detail/triangle_indices__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "kimera_pgmo_msgs/msg/detail/triangle_indices__functions.h"
+#include "kimera_pgmo_msgs/msg/detail/triangle_indices__struct.h"
 
 #ifdef __cplusplus
 extern "C"

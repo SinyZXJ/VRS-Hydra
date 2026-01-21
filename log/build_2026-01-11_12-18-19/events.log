@@ -1,0 +1,300 @@
+[0.000000] (-) TimerEvent: {}
+[0.000183] (-) JobUnselected: {'identifier': 'config_utilities'}
+[0.000198] (-) JobUnselected: {'identifier': 'config_utilities_msgs'}
+[0.000207] (-) JobUnselected: {'identifier': 'config_utilities_ros'}
+[0.000213] (-) JobUnselected: {'identifier': 'hydra_msgs'}
+[0.000219] (-) JobUnselected: {'identifier': 'hydra_ros'}
+[0.000226] (-) JobUnselected: {'identifier': 'hydra_visualizer'}
+[0.000231] (-) JobUnselected: {'identifier': 'ianvs'}
+[0.000237] (-) JobUnselected: {'identifier': 'kimera_pgmo'}
+[0.000243] (-) JobUnselected: {'identifier': 'kimera_pgmo_msgs'}
+[0.000248] (-) JobUnselected: {'identifier': 'kimera_pgmo_ros'}
+[0.000254] (-) JobUnselected: {'identifier': 'kimera_pgmo_rviz'}
+[0.000259] (-) JobUnselected: {'identifier': 'kimera_rpgo'}
+[0.000265] (-) JobUnselected: {'identifier': 'pose_graph_tools'}
+[0.000270] (-) JobUnselected: {'identifier': 'pose_graph_tools_msgs'}
+[0.000276] (-) JobUnselected: {'identifier': 'pose_graph_tools_ros'}
+[0.000281] (-) JobUnselected: {'identifier': 'semantic_inference'}
+[0.000287] (-) JobUnselected: {'identifier': 'semantic_inference_msgs'}
+[0.000293] (-) JobUnselected: {'identifier': 'semantic_inference_ros'}
+[0.000298] (-) JobUnselected: {'identifier': 'spatial_hash'}
+[0.000305] (-) JobUnselected: {'identifier': 'teaserpp'}
+[0.000313] (spark_dsg) JobQueued: {'identifier': 'spark_dsg', 'dependencies': OrderedDict()}
+[0.000321] (hydra) JobQueued: {'identifier': 'hydra', 'dependencies': OrderedDict({'config_utilities': '/home/siny/hydra_ws/install/config_utilities', 'kimera_rpgo': '/home/siny/hydra_ws/install/kimera_rpgo', 'pose_graph_tools': '/home/siny/hydra_ws/install/pose_graph_tools', 'spark_dsg': '/home/siny/hydra_ws/install/spark_dsg', 'spatial_hash': '/home/siny/hydra_ws/install/spatial_hash', 'teaserpp': '/home/siny/hydra_ws/install/teaserpp', 'kimera_pgmo': '/home/siny/hydra_ws/install/kimera_pgmo'})}
+[0.000590] (spark_dsg) JobStarted: {'identifier': 'spark_dsg'}
+[0.004514] (spark_dsg) JobProgress: {'identifier': 'spark_dsg', 'progress': 'cmake'}
+[0.005252] (spark_dsg) Command: {'cmd': ['/usr/bin/cmake', '/home/siny/hydra_ws/src/spark_dsg', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/spark_dsg'], 'cwd': '/home/siny/hydra_ws/build/spark_dsg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3482-1-Sispark_TIME3618338', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '', 'USER': 'siny', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/siny', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/siny/hydra_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3161', 'SYSTEMD_EXEC_PID': '3482', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', '_CONDA_ROOT': '/home/siny/anaconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '11739', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'siny', 'JOURNAL_STREAM': '9:11200', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'siny', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/siny/anaconda3/condabin:/home/siny/.local/bin:/usr/local/cuda/bin:/opt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Sispark:@/tmp/.ICE-unix/3445,unix/Sispark:/tmp/.ICE-unix/3445', 'INVOCATION_ID': 'a5b037e742164c68972483f2b1c0d4c5', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/siny/anaconda3/bin/python', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:50312dca-ca46-43cd-8bf8-08e8f4821d54', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/siny/anaconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/siny/hydra_ws/build/spark_dsg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/siny/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.060688] (spark_dsg) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099738] (-) TimerEvent: {}
+[0.104390] (spark_dsg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.117911] (spark_dsg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.189623] (spark_dsg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.198117] (spark_dsg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.198274] (spark_dsg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.198586] (spark_dsg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.199796] (-) TimerEvent: {}
+[0.204269] (spark_dsg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.274592] (spark_dsg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.279171] (spark_dsg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.279627] (spark_dsg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.279725] (spark_dsg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.282309] (spark_dsg) StdoutLine: {'line': b'-- Found nlohmann_json: /usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.11.3") \n'}
+[0.288797] (spark_dsg) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") \n'}
+[0.289377] (spark_dsg) StdoutLine: {'line': b"-- Checking for module 'libzmq'\n"}
+[0.299983] (-) TimerEvent: {}
+[0.302062] (spark_dsg) StdoutLine: {'line': b'--   Found libzmq, version 4.3.5\n'}
+[0.333850] (spark_dsg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.400080] (-) TimerEvent: {}
+[0.401508] (spark_dsg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.402107] (spark_dsg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.407550] (spark_dsg) StdoutLine: {'line': b'-- Found GTest: /usr/lib/aarch64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.14.0")  \n'}
+[0.414328] (spark_dsg) StdoutLine: {'line': b'-- Configuring done (0.4s)\n'}
+[0.424557] (spark_dsg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.427675] (spark_dsg) StdoutLine: {'line': b'-- Build files have been written to: /home/siny/hydra_ws/build/spark_dsg\n'}
+[0.432962] (spark_dsg) CommandEnded: {'returncode': 0}
+[0.433177] (spark_dsg) JobProgress: {'identifier': 'spark_dsg', 'progress': 'build'}
+[0.433187] (spark_dsg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/siny/hydra_ws/build/spark_dsg', '--', '-j20', '-l20'], 'cwd': '/home/siny/hydra_ws/build/spark_dsg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3482-1-Sispark_TIME3618338', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '', 'USER': 'siny', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/siny', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/siny/hydra_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3161', 'SYSTEMD_EXEC_PID': '3482', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', '_CONDA_ROOT': '/home/siny/anaconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '11739', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'siny', 'JOURNAL_STREAM': '9:11200', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'siny', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/siny/anaconda3/condabin:/home/siny/.local/bin:/usr/local/cuda/bin:/opt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Sispark:@/tmp/.ICE-unix/3445,unix/Sispark:/tmp/.ICE-unix/3445', 'INVOCATION_ID': 'a5b037e742164c68972483f2b1c0d4c5', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/siny/anaconda3/bin/python', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:50312dca-ca46-43cd-8bf8-08e8f4821d54', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/siny/anaconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/siny/hydra_ws/build/spark_dsg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/siny/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.464915] (spark_dsg) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/bounding_box_extraction.cpp.o\x1b[0m\n'}
+[0.465290] (spark_dsg) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/colormaps.cpp.o\x1b[0m\n'}
+[0.465325] (spark_dsg) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/dynamic_scene_graph.cpp.o\x1b[0m\n'}
+[0.465351] (spark_dsg) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/labelspace.cpp.o\x1b[0m\n'}
+[0.465374] (spark_dsg) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/mesh.cpp.o\x1b[0m\n'}
+[0.465559] (spark_dsg) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/metadata.cpp.o\x1b[0m\n'}
+[0.465830] (spark_dsg) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/node_attributes.cpp.o\x1b[0m\n'}
+[0.465889] (spark_dsg) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/adjacency_matrix.cpp.o\x1b[0m\n'}
+[0.465913] (spark_dsg) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/bounding_box.cpp.o\x1b[0m\n'}
+[0.466110] (spark_dsg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/color.cpp.o\x1b[0m\n'}
+[0.466211] (spark_dsg) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/printing.cpp.o\x1b[0m\n'}
+[0.466393] (spark_dsg) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/scene_graph_layer.cpp.o\x1b[0m\n'}
+[0.467039] (spark_dsg) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/edge_container.cpp.o\x1b[0m\n'}
+[0.467142] (spark_dsg) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/edge_attributes.cpp.o\x1b[0m\n'}
+[0.467169] (spark_dsg) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/layer_view.cpp.o\x1b[0m\n'}
+[0.468508] (spark_dsg) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/node_symbol.cpp.o\x1b[0m\n'}
+[0.469041] (spark_dsg) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/scene_graph_node.cpp.o\x1b[0m\n'}
+[0.469178] (spark_dsg) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/scene_graph_logger.cpp.o\x1b[0m\n'}
+[0.469288] (spark_dsg) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/scene_graph_types.cpp.o\x1b[0m\n'}
+[0.469752] (spark_dsg) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/scene_graph_utilities.cpp.o\x1b[0m\n'}
+[0.500891] (-) TimerEvent: {}
+[0.601214] (-) TimerEvent: {}
+[0.701540] (-) TimerEvent: {}
+[0.705932] (spark_dsg) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/traversability_boundary.cpp.o\x1b[0m\n'}
+[0.769688] (spark_dsg) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/zmq_interface.cpp.o\x1b[0m\n'}
+[0.780864] (spark_dsg) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/attribute_serialization.cpp.o\x1b[0m\n'}
+[0.801660] (-) TimerEvent: {}
+[0.837553] (spark_dsg) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/binary_conversions.cpp.o\x1b[0m\n'}
+[0.901773] (-) TimerEvent: {}
+[1.005041] (-) TimerEvent: {}
+[1.105317] (-) TimerEvent: {}
+[1.205589] (-) TimerEvent: {}
+[1.305882] (-) TimerEvent: {}
+[1.327182] (spark_dsg) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/binary_serialization.cpp.o\x1b[0m\n'}
+[1.405988] (-) TimerEvent: {}
+[1.490766] (spark_dsg) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/file_io.cpp.o\x1b[0m\n'}
+[1.506097] (-) TimerEvent: {}
+[1.606360] (-) TimerEvent: {}
+[1.706629] (-) TimerEvent: {}
+[1.756925] (spark_dsg) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/graph_binary_serialization.cpp.o\x1b[0m\n'}
+[1.806735] (-) TimerEvent: {}
+[1.852821] (spark_dsg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/graph_json_serialization.cpp.o\x1b[0m\n'}
+[1.906859] (-) TimerEvent: {}
+[1.985508] (spark_dsg) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/json_conversions.cpp.o\x1b[0m\n'}
+[1.990789] (spark_dsg) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/mesh_serialization.cpp.o\x1b[0m\n'}
+[2.007906] (-) TimerEvent: {}
+[2.108189] (-) TimerEvent: {}
+[2.165311] (spark_dsg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/versioning.cpp.o\x1b[0m\n'}
+[2.208299] (-) TimerEvent: {}
+[2.308574] (-) TimerEvent: {}
+[2.408861] (-) TimerEvent: {}
+[2.509139] (-) TimerEvent: {}
+[2.609412] (-) TimerEvent: {}
+[2.709687] (-) TimerEvent: {}
+[2.809973] (-) TimerEvent: {}
+[2.910242] (-) TimerEvent: {}
+[3.010504] (-) TimerEvent: {}
+[3.110764] (-) TimerEvent: {}
+[3.211045] (-) TimerEvent: {}
+[3.311317] (-) TimerEvent: {}
+[3.411579] (-) TimerEvent: {}
+[3.511859] (-) TimerEvent: {}
+[3.612128] (-) TimerEvent: {}
+[3.712399] (-) TimerEvent: {}
+[3.812671] (-) TimerEvent: {}
+[3.912954] (-) TimerEvent: {}
+[4.013229] (-) TimerEvent: {}
+[4.113503] (-) TimerEvent: {}
+[4.213764] (-) TimerEvent: {}
+[4.314047] (-) TimerEvent: {}
+[4.414319] (-) TimerEvent: {}
+[4.514574] (-) TimerEvent: {}
+[4.614851] (-) TimerEvent: {}
+[4.715122] (-) TimerEvent: {}
+[4.815375] (-) TimerEvent: {}
+[4.915629] (-) TimerEvent: {}
+[4.994339] (spark_dsg) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library libspark_dsg.so\x1b[0m\n'}
+[5.015722] (-) TimerEvent: {}
+[5.115982] (-) TimerEvent: {}
+[5.216243] (-) TimerEvent: {}
+[5.316508] (-) TimerEvent: {}
+[5.416774] (-) TimerEvent: {}
+[5.517042] (-) TimerEvent: {}
+[5.617300] (-) TimerEvent: {}
+[5.717553] (-) TimerEvent: {}
+[5.817812] (-) TimerEvent: {}
+[5.918081] (-) TimerEvent: {}
+[6.018336] (-) TimerEvent: {}
+[6.118607] (-) TimerEvent: {}
+[6.218871] (-) TimerEvent: {}
+[6.319126] (-) TimerEvent: {}
+[6.327472] (spark_dsg) StdoutLine: {'line': b'[ 52%] Built target spark_dsg\n'}
+[6.341743] (spark_dsg) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_bounding_box.cpp.o\x1b[0m\n'}
+[6.342235] (spark_dsg) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_edge_container.cpp.o\x1b[0m\n'}
+[6.342275] (spark_dsg) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object examples/CMakeFiles/dsg_repeater.dir/dsg_repeater.cpp.o\x1b[0m\n'}
+[6.342308] (spark_dsg) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_labelspace.cpp.o\x1b[0m\n'}
+[6.342339] (spark_dsg) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object examples/CMakeFiles/dsg_endpoint.dir/dsg_endpoint.cpp.o\x1b[0m\n'}
+[6.342369] (spark_dsg) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_node_symbol.cpp.o\x1b[0m\n'}
+[6.342395] (spark_dsg) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_scene_graph_node.cpp.o\x1b[0m\n'}
+[6.342422] (spark_dsg) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_scene_graph_utilities.cpp.o\x1b[0m\n'}
+[6.342515] (spark_dsg) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_traversability_boundary.cpp.o\x1b[0m\n'}
+[6.342692] (spark_dsg) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_attribute_serialization.cpp.o\x1b[0m\n'}
+[6.342826] (spark_dsg) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_color.cpp.o\x1b[0m\n'}
+[6.342879] (spark_dsg) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_adjacency_matrix.cpp.o\x1b[0m\n'}
+[6.342905] (spark_dsg) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_bounding_box_extraction.cpp.o\x1b[0m\n'}
+[6.343425] (spark_dsg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_dynamic_scene_graph.cpp.o\x1b[0m\n'}
+[6.343576] (spark_dsg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_graph_utilities_layer.cpp.o\x1b[0m\n'}
+[6.343803] (spark_dsg) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_mesh.cpp.o\x1b[0m\n'}
+[6.343981] (spark_dsg) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_metadata.cpp.o\x1b[0m\n'}
+[6.344536] (spark_dsg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_scene_graph_layer.cpp.o\x1b[0m\n'}
+[6.344657] (spark_dsg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_binary_serialization.cpp.o\x1b[0m\n'}
+[6.344723] (spark_dsg) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_node_attributes.cpp.o\x1b[0m\n'}
+[6.419882] (-) TimerEvent: {}
+[6.520168] (-) TimerEvent: {}
+[6.620454] (-) TimerEvent: {}
+[6.720880] (-) TimerEvent: {}
+[6.821883] (-) TimerEvent: {}
+[6.922167] (-) TimerEvent: {}
+[6.926946] (spark_dsg) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_binary_conversions.cpp.o\x1b[0m\n'}
+[7.022279] (-) TimerEvent: {}
+[7.122882] (-) TimerEvent: {}
+[7.223168] (-) TimerEvent: {}
+[7.323884] (-) TimerEvent: {}
+[7.424199] (-) TimerEvent: {}
+[7.487194] (spark_dsg) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_graph_serialization.cpp.o\x1b[0m\n'}
+[7.524306] (-) TimerEvent: {}
+[7.624570] (-) TimerEvent: {}
+[7.714429] (spark_dsg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_file_io.cpp.o\x1b[0m\n'}
+[7.724683] (-) TimerEvent: {}
+[7.741569] (spark_dsg) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_json_conversions.cpp.o\x1b[0m\n'}
+[7.773865] (spark_dsg) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_mesh_serialization.cpp.o\x1b[0m\n'}
+[7.791734] (spark_dsg) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable dsg_repeater\x1b[0m\n'}
+[7.824879] (-) TimerEvent: {}
+[7.842948] (spark_dsg) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_zmq_interface.cpp.o\x1b[0m\n'}
+[7.925886] (-) TimerEvent: {}
+[7.990835] (spark_dsg) StdoutLine: {'line': b'[ 96%] Built target dsg_repeater\n'}
+[8.025995] (-) TimerEvent: {}
+[8.126290] (-) TimerEvent: {}
+[8.226576] (-) TimerEvent: {}
+[8.326881] (-) TimerEvent: {}
+[8.371842] (spark_dsg) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable dsg_endpoint\x1b[0m\n'}
+[8.426987] (-) TimerEvent: {}
+[8.527274] (-) TimerEvent: {}
+[8.550272] (spark_dsg) StdoutLine: {'line': b'[ 98%] Built target dsg_endpoint\n'}
+[8.627377] (-) TimerEvent: {}
+[8.727658] (-) TimerEvent: {}
+[8.827973] (-) TimerEvent: {}
+[8.928251] (-) TimerEvent: {}
+[9.028629] (-) TimerEvent: {}
+[9.128892] (-) TimerEvent: {}
+[9.229281] (-) TimerEvent: {}
+[9.329661] (-) TimerEvent: {}
+[9.430047] (-) TimerEvent: {}
+[9.530323] (-) TimerEvent: {}
+[9.630700] (-) TimerEvent: {}
+[9.731105] (-) TimerEvent: {}
+[9.831386] (-) TimerEvent: {}
+[9.931758] (-) TimerEvent: {}
+[10.032036] (-) TimerEvent: {}
+[10.132370] (-) TimerEvent: {}
+[10.232642] (-) TimerEvent: {}
+[10.332911] (-) TimerEvent: {}
+[10.433164] (-) TimerEvent: {}
+[10.533418] (-) TimerEvent: {}
+[10.633679] (-) TimerEvent: {}
+[10.733957] (-) TimerEvent: {}
+[10.834222] (-) TimerEvent: {}
+[10.934484] (-) TimerEvent: {}
+[11.034734] (-) TimerEvent: {}
+[11.069945] (spark_dsg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable utest_spark_dsg\x1b[0m\n'}
+[11.134849] (-) TimerEvent: {}
+[11.235106] (-) TimerEvent: {}
+[11.335366] (-) TimerEvent: {}
+[11.435631] (-) TimerEvent: {}
+[11.535888] (-) TimerEvent: {}
+[11.636935] (-) TimerEvent: {}
+[11.737225] (-) TimerEvent: {}
+[11.837509] (-) TimerEvent: {}
+[11.937788] (-) TimerEvent: {}
+[12.038081] (-) TimerEvent: {}
+[12.138368] (-) TimerEvent: {}
+[12.238654] (-) TimerEvent: {}
+[12.338975] (-) TimerEvent: {}
+[12.439245] (-) TimerEvent: {}
+[12.539509] (-) TimerEvent: {}
+[12.639768] (-) TimerEvent: {}
+[12.691320] (spark_dsg) StdoutLine: {'line': b'[100%] Built target utest_spark_dsg\n'}
+[12.702131] (spark_dsg) CommandEnded: {'returncode': 0}
+[12.702710] (spark_dsg) JobProgress: {'identifier': 'spark_dsg', 'progress': 'install'}
+[12.710258] (spark_dsg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/siny/hydra_ws/build/spark_dsg'], 'cwd': '/home/siny/hydra_ws/build/spark_dsg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3482-1-Sispark_TIME3618338', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '', 'USER': 'siny', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/siny', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/siny/hydra_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3161', 'SYSTEMD_EXEC_PID': '3482', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', '_CONDA_ROOT': '/home/siny/anaconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '11739', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'siny', 'JOURNAL_STREAM': '9:11200', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'siny', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/siny/anaconda3/condabin:/home/siny/.local/bin:/usr/local/cuda/bin:/opt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Sispark:@/tmp/.ICE-unix/3445,unix/Sispark:/tmp/.ICE-unix/3445', 'INVOCATION_ID': 'a5b037e742164c68972483f2b1c0d4c5', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/siny/anaconda3/bin/python', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:50312dca-ca46-43cd-8bf8-08e8f4821d54', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/siny/anaconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/siny/hydra_ws/build/spark_dsg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/siny/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[12.716848] (spark_dsg) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[12.717174] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/bin/dsg_repeater\n'}
+[12.717548] (spark_dsg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/spark_dsg/bin/dsg_repeater" to ""\n'}
+[12.717610] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/bin/dsg_endpoint\n'}
+[12.718015] (spark_dsg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/spark_dsg/bin/dsg_endpoint" to ""\n'}
+[12.718125] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/lib/libspark_dsg.so\n'}
+[12.719273] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include\n'}
+[12.719331] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg\n'}
+[12.719419] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization\n'}
+[12.719494] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/binary_conversions.h\n'}
+[12.719550] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/file_io.h\n'}
+[12.719618] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/binary_serialization.h\n'}
+[12.719705] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/graph_binary_serialization.h\n'}
+[12.719786] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/json_conversions.h\n'}
+[12.719871] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/attribute_serialization.h\n'}
+[12.719960] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/graph_json_serialization.h\n'}
+[12.720051] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/versioning.h\n'}
+[12.720109] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/attribute_registry.h\n'}
+[12.720201] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/bounding_box.h\n'}
+[12.720301] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/labelspace.h\n'}
+[12.720360] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/dynamic_scene_graph.h\n'}
+[12.720430] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/color.h\n'}
+[12.720512] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/scene_graph_layer.h\n'}
+[12.720593] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/bounding_box_extraction.h\n'}
+[12.720677] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/edge_container.h\n'}
+[12.720762] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/spark_dsg_fwd.h\n'}
+[12.720863] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/spark_dsg.h\n'}
+[12.720922] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/graph_utilities.h\n'}
+[12.721006] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/scene_graph_types.h\n'}
+[12.721080] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/colormaps.h\n'}
+[12.721163] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/scene_graph_logger.h\n'}
+[12.721221] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/scene_graph_utilities.h\n'}
+[12.721296] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/scene_graph_node.h\n'}
+[12.721384] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/metadata.h\n'}
+[12.721442] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/mesh.h\n'}
+[12.721525] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/edge_attributes.h\n'}
+[12.721581] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/node_attributes.h\n'}
+[12.721650] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/adjacency_matrix.h\n'}
+[12.721731] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/logging.h\n'}
+[12.721968] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/zmq_interface.h\n'}
+[12.722070] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/node_symbol.h\n'}
+[12.722133] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/traversability_boundary.h\n'}
+[12.722191] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/layer_view.h\n'}
+[12.722270] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/printing.h\n'}
+[12.722324] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/lib/cmake/spark_dsg/spark_dsgTargets.cmake\n'}
+[12.722396] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/lib/cmake/spark_dsg/spark_dsgTargets-release.cmake\n'}
+[12.722500] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/lib/cmake/spark_dsg/spark_dsgConfig.cmake\n'}
+[12.722585] (spark_dsg) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/spark_dsg/lib/cmake/spark_dsg/spark_dsgConfigVersion.cmake\n'}
+[12.724045] (spark_dsg) CommandEnded: {'returncode': 0}
+[12.731086] (spark_dsg) JobEnded: {'identifier': 'spark_dsg', 'rc': 0}
+[12.731955] (hydra) JobStarted: {'identifier': 'hydra'}
+[12.733547] (hydra) JobEnded: {'identifier': 'hydra', 'rc': 1}
+[12.739838] (-) TimerEvent: {}
+[12.743867] (-) EventReactorShutdown: {}

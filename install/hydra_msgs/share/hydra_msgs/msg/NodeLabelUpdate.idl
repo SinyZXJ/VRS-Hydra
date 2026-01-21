@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hydra_msgs/msg/NodeLabelUpdate.msg
+// generated code does not contain a copyright notice
+
+
+module hydra_msgs {
+  module msg {
+    struct NodeLabelUpdate {
+      uint64 node_id;
+
+      uint32 label;
+    };
+  };
+};

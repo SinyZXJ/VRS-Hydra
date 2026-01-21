@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "pose_graph_tools_msgs/msg/detail/loop_closures__type_support.h"
-#include "pose_graph_tools_msgs/msg/detail/loop_closures__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "pose_graph_tools_msgs/msg/detail/loop_closures__struct.h"
+#include "pose_graph_tools_msgs/msg/detail/loop_closures__type_support.h"
 #include "pose_graph_tools_msgs/msg/detail/loop_closures__functions.h"
 
 #ifdef __cplusplus

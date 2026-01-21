@@ -288,6 +288,10 @@ struct PlaceNodeAttributes : public SemanticNodeAttributes {
   std::vector<uint8_t> mesh_vertex_labels;
   //! deformation vertices that are closest to this place
   std::vector<size_t> deformation_connections;
+  //! Semantic label histogram for temporal VLM fusion
+  //! Key: label ID (e.g., 10=office, 11=living_room, 12=kitchen, 13=corridor)
+  //! Value: accumulated confidence/observation count
+  std::map<SemanticLabel, float> semantic_histogram;
 
   bool real_place = true;
   bool need_cleanup = false;

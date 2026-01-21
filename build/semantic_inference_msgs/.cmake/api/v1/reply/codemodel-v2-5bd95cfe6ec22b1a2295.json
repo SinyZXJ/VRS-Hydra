@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-65549272d20579630300.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "semantic_inference_msgs__py",
+					"jsonFile" : "directory-semantic_inference_msgs__py-Release-94ec4d58fda58e3cf104.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/siny/hydra_ws/build/semantic_inference_msgs/semantic_inference_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "semantic_inference_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_semantic_inference_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_semantic_inference_msgs_egg-Release-33518859b8775e6e2321.json",
+					"name" : "ament_cmake_python_build_semantic_inference_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_semantic_inference_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_semantic_inference_msgs-Release-b7a463e6c443d3291342.json",
+					"name" : "ament_cmake_python_copy_semantic_inference_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_inference_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_inference_msgs-Release-deb29be27e720b0153b9.json",
+					"name" : "semantic_inference_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_inference_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_inference_msgs__cpp-Release-054b8fa17ed0bec6507d.json",
+					"name" : "semantic_inference_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "semantic_inference_msgs__py::@9abf50d89748efee6d80",
+					"jsonFile" : "target-semantic_inference_msgs__py-Release-90a2f861a28f4876d4bc.json",
+					"name" : "semantic_inference_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_inference_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_inference_msgs__rosidl_generator_c-Release-3d18cc637ef27955f9e9.json",
+					"name" : "semantic_inference_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_inference_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_inference_msgs__rosidl_generator_py-Release-2abd5afef45a1abff364.json",
+					"name" : "semantic_inference_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_inference_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_inference_msgs__rosidl_generator_type_description-Release-3b1328b062528ae9afae.json",
+					"name" : "semantic_inference_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_inference_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_inference_msgs__rosidl_typesupport_c-Release-15cf9643526a38e8bfa9.json",
+					"name" : "semantic_inference_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_inference_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_inference_msgs__rosidl_typesupport_cpp-Release-a6b79b3df815ee696c69.json",
+					"name" : "semantic_inference_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_inference_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_inference_msgs__rosidl_typesupport_fastrtps_c-Release-67c76e0303497f683369.json",
+					"name" : "semantic_inference_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_inference_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_inference_msgs__rosidl_typesupport_fastrtps_cpp-Release-e63b2ce178adaabf02f6.json",
+					"name" : "semantic_inference_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_inference_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_inference_msgs__rosidl_typesupport_introspection_c-Release-f43a0efbab3312b1756d.json",
+					"name" : "semantic_inference_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_inference_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_inference_msgs__rosidl_typesupport_introspection_cpp-Release-5703a67723f0edd1a545.json",
+					"name" : "semantic_inference_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_inference_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_inference_msgs_s__rosidl_typesupport_c-Release-27b881321280fa77365d.json",
+					"name" : "semantic_inference_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_inference_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_inference_msgs_s__rosidl_typesupport_fastrtps_c-Release-490910b35251de8c3c8a.json",
+					"name" : "semantic_inference_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_inference_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_inference_msgs_s__rosidl_typesupport_introspection_c-Release-79fb12cabd5f1f2b8229.json",
+					"name" : "semantic_inference_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_inference_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_inference_msgs_uninstall-Release-133c5e2f09d61784ad16.json",
+					"name" : "semantic_inference_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-39e36e68c6e5d587fdac.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/siny/hydra_ws/build/semantic_inference_msgs",
+		"source" : "/home/siny/hydra_ws/src/semantic_inference/semantic_inference_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "rosidl_typesupport_interface/macros.h"
 #include "pose_graph_tools_msgs/msg/detail/pose_graph_node__type_support.h"
 #include "pose_graph_tools_msgs/msg/detail/pose_graph_node__functions.h"
 #include "pose_graph_tools_msgs/msg/detail/pose_graph_node__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

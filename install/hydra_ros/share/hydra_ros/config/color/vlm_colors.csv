@@ -1,0 +1,6 @@
+name,red,green,blue,alpha,id
+office,0,255,0,255,10
+living_room,0,0,255,255,11
+kitchen,255,0,0,255,12
+corridor,255,255,0,255,13
+unknown,100,100,100,255,0

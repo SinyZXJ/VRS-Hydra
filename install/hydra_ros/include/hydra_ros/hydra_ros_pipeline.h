@@ -45,6 +45,9 @@
 #include "hydra_ros/input/ros_input_module.h"
 #include "hydra_ros/utils/status_monitor.h"
 
+#include "hydra_msgs/msg/label_update_request.hpp"
+#include <rclcpp/rclcpp.hpp>
+
 namespace hydra {
 
 class BowSubscriber;
@@ -95,6 +98,7 @@ class HydraRosPipeline : public HydraPipeline {
   std::shared_ptr<GraphBuilder> frontend_;
   std::shared_ptr<BackendModule> backend_;
 
+  std::shared_ptr<rclcpp::Subscription<hydra_msgs::msg::LabelUpdateRequest>> label_update_sub_;
   std::unique_ptr<BowSubscriber> bow_sub_;
   std::unique_ptr<ExternalLoopClosureSubscriber> external_loop_closure_sub_;
 };

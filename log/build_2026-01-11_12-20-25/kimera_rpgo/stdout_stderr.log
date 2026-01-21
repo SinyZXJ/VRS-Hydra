@@ -1,0 +1,100 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex 
+-- GTSAM include directory:  /opt/ros/jazzy/lib/cmake/GTSAM/../../../include
+-- Found nlohmann_json: /usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.11.3") 
+-- Found GTest: /usr/lib/aarch64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.14.0")  
+-- RPGO-tools Python binding will be built.
+-- Found Python: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development Development.Module Development.Embed 
+-- Found pybind11: /usr/include (found version "2.11.1")
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/siny/hydra_ws/build/kimera_rpgo
+[  3%] [32mBuilding CXX object CMakeFiles/kimera_rpgo.dir/src/rpgo.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/kimera_rpgo.dir/src/utils/loss_functions.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/kimera_rpgo.dir/src/utils/utils.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/kimera_rpgo.dir/src/utils/types.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/kimera_rpgo.dir/src/utils/g2o.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/kimera_rpgo.dir/src/solver/gnc_solver.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/kimera_rpgo.dir/src/solver/solver.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/kimera_rpgo.dir/src/solver/gradient_solver.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/kimera_rpgo.dir/src/solver/least_squares_solver.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/kimera_rpgo.dir/src/utils/pose_4dof.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/kimera_rpgo.dir/src/pcm/geometry_utils.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/kimera_rpgo.dir/src/pcm/graph_utils.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/kimera_rpgo.dir/src/solver/solver_config.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/kimera_rpgo.dir/src/pcm/max_clique_finder/findClique.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/kimera_rpgo.dir/src/pcm/max_clique_finder/findCliqueHeu.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/kimera_rpgo.dir/src/pcm/pcm.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/kimera_rpgo.dir/src/pcm/max_clique_finder/graphIO.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/kimera_rpgo.dir/src/pcm/max_clique_finder/utils.cpp.o[0m
+In file included from [01m[K/usr/include/boost/math/distributions/chi_squared.hpp:13[m[K,
+                 from [01m[K/opt/ros/jazzy/include/gtsam/nonlinear/GncOptimizer.h:31[m[K,
+                 from [01m[K/home/siny/hydra_ws/src/kimera_rpgo/src/solver/gnc_solver.cpp:5[m[K:
+/usr/include/boost/math/special_functions/gamma.hpp: In instantiation of ‘[01m[Kboost::math::detail::upper_incomplete_gamma_fract<T>::result_type boost::math::detail::upper_incomplete_gamma_fract<T>::[01;32m[Koperator()[m[K() [35m[K[with T = long double; result_type = std::pair<long double, long double>][m[K[m[K’:
+[01m[K/usr/include/boost/math/tools/fraction.hpp:217:20:[m[K   required from ‘[01m[Ktypename boost::math::tools::detail::fraction_traits<Gen>::result_type boost::math::tools::[01;32m[Kcontinued_fraction_a[m[K(Gen&, const U&, uintmax_t&) [35m[K[with Gen = boost::math::detail::upper_incomplete_gamma_fract<long double>; U = long double; typename detail::fraction_traits<Gen>::result_type = long double; uintmax_t = long unsigned int][m[K[m[K’
+[01m[K/usr/include/boost/math/tools/fraction.hpp:252:31:[m[K   required from ‘[01m[Ktypename boost::math::tools::detail::fraction_traits<Gen>::result_type boost::math::tools::[01;32m[Kcontinued_fraction_a[m[K(Gen&, const U&) [35m[K[with Gen = boost::math::detail::upper_incomplete_gamma_fract<long double>; U = long double; typename detail::fraction_traits<Gen>::result_type = long double][m[K[m[K’
+[01m[K/usr/include/boost/math/special_functions/gamma.hpp:314:68:[m[K   required from ‘[01m[KT boost::math::detail::[01;32m[Kupper_gamma_fraction[m[K(T, T, T) [35m[K[with T = long double][m[K[m[K’
+[01m[K/usr/include/boost/math/special_functions/gamma.hpp:1176:44:[m[K   required from ‘[01m[KT boost::math::detail::[01;32m[Kgamma_incomplete_imp[m[K(T, T, bool, bool, const Policy&, T*) [35m[K[with T = long double; Policy = boost::math::policies::policy<boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>][m[K[m[K’
+[01m[K/usr/include/boost/math/special_functions/detail/igamma_inverse.hpp:356:67:[m[K   required from ‘[01m[Kstd::tuple<T, T, T> boost::math::detail::gamma_p_inverse_func<T, Policy>::[01;32m[Koperator()[m[K(const T&) const [35m[K[with T = double; Policy = boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>][m[K[m[K’
+[01m[K/usr/include/boost/math/tools/roots.hpp:550:35:[m[K   required from ‘[01m[KT boost::math::tools::detail::[01;32m[Ksecond_order_root_finder[m[K(F, T, T, T, int, uintmax_t&) [35m[K[with Stepper = halley_step; F = boost::math::detail::gamma_p_inverse_func<double, boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy> >; T = double; uintmax_t = long unsigned int][m[K[m[K’
+[01m[K/usr/include/boost/math/tools/roots.hpp:723:64:[m[K   required from ‘[01m[KT boost::math::tools::[01;32m[Khalley_iterate[m[K(F, T, T, T, int, uintmax_t&) [35m[K[with F = boost::math::detail::gamma_p_inverse_func<double, boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy> >; T = double; uintmax_t = long unsigned int][m[K[m[K’
+[01m[K/usr/include/boost/math/special_functions/detail/igamma_inverse.hpp:446:33:[m[K   required from ‘[01m[KT boost::math::detail::[01;32m[Kgamma_p_inv_imp[m[K(T, T, const Policy&) [35m[K[with T = double; Policy = boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>][m[K[m[K’
+[01m[K/usr/include/boost/math/special_functions/detail/igamma_inverse.hpp:525:34:[m[K   required from ‘[01m[Kboost::math::tools::promote_args_t<RT1, RT2> boost::math::[01;32m[Kgamma_p_inv[m[K(T1, T2, const Policy&) [35m[K[with T1 = double; T2 = double; Policy = policies::policy<policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy>; tools::promote_args_t<RT1, RT2> = double][m[K[m[K’
+[01m[K/usr/include/boost/math/distributions/chi_squared.hpp:169:39:[m[K   required from ‘[01m[KRealType boost::math::[01;32m[Kquantile[m[K(const chi_squared_distribution<RealType, Policy>&, const RealType&) [35m[K[with RealType = double; Policy = policies::policy<policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy, policies::default_policy>][m[K[m[K’
+[01m[K/opt/ros/jazzy/include/gtsam/nonlinear/GncOptimizer.h:40:31:[m[K   required from here
+[01m[K/usr/include/boost/math/special_functions/gamma.hpp:299:16:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<long double, long double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+  299 |    result_type [01;36m[Koperator[m[K()()
+      |                [01;36m[K^~~~~~~~[m[K
+[ 73%] [32m[1mLinking CXX shared library libkimera_rpgo.so[0m
+[ 73%] Built target kimera_rpgo
+[ 76%] [32mBuilding CXX object tests/CMakeFiles/test_kimera_rpgo.dir/test_gnc.cpp.o[0m
+[ 80%] [32mBuilding CXX object tests/CMakeFiles/test_kimera_rpgo.dir/test_pcm.cpp.o[0m
+[ 84%] [32mBuilding CXX object tests/CMakeFiles/test_kimera_rpgo.dir/test_least_squares.cpp.o[0m
+[ 88%] [32mBuilding CXX object tests/CMakeFiles/test_kimera_rpgo.dir/test_gradient_descent.cpp.o[0m
+[ 92%] [32m[1mLinking CXX executable test_kimera_rpgo[0m
+[ 92%] Built target test_kimera_rpgo
+[ 96%] [32mBuilding CXX object python/CMakeFiles/_kimera_rpgo_bindings.dir/bindings/kimera_rpgo_bindings.cpp.o[0m
+[100%] [32m[1mLinking CXX shared module _kimera_rpgo_bindings.cpython-312-aarch64-linux-gnu.so[0m
+[100%] Built target _kimera_rpgo_bindings
+-- Install configuration: "Release"
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/lib/libkimera_rpgo.so
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/kimera_rpgo/lib/libkimera_rpgo.so" to ""
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/pcm
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/pcm/max_clique_finder
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/pcm/max_clique_finder/README.md
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/pcm/max_clique_finder/COPYRIGHT
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/pcm/max_clique_finder/findClique.h
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/pcm/max_clique_finder/graphIO.h
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/pcm/graph_utils.h
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/pcm/geometry_utils.h
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/pcm/pcm.h
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/rpgo.h
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/utils
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/utils/utils.h
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/utils/g2o.h
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/utils/loss_functions.h
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/utils/types.h
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/utils/pose_4dof.h
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/solver
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/solver/gnc_solver.h
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/solver/solver.h
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/solver/gradient_solver.h
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/solver/solver_config.h
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/solver/least_squares_solver.h
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/lib/cmake/kimera_rpgo/kimera_rpgoTargets.cmake
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/lib/cmake/kimera_rpgo/kimera_rpgoTargets-release.cmake
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/lib/cmake/kimera_rpgo/kimera_rpgoConfig.cmake
+-- Installing: /home/siny/hydra_ws/install/kimera_rpgo/lib/cmake/kimera_rpgo/kimera_rpgoConfigVersion.cmake

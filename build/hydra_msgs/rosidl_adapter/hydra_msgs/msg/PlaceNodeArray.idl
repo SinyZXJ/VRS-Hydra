@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hydra_msgs/msg/PlaceNodeArray.msg
+// generated code does not contain a copyright notice
+
+#include "hydra_msgs/msg/PlaceNode.idl"
+#include "std_msgs/msg/Header.idl"
+
+module hydra_msgs {
+  module msg {
+    struct PlaceNodeArray {
+      std_msgs::msg::Header header;
+
+      sequence<hydra_msgs::msg::PlaceNode> nodes;
+    };
+  };
+};

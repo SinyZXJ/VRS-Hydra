@@ -1,0 +1,319 @@
+[0.000000] (-) TimerEvent: {}
+[0.000078] (-) JobUnselected: {'identifier': 'config_utilities'}
+[0.000261] (-) JobUnselected: {'identifier': 'config_utilities_msgs'}
+[0.000290] (-) JobUnselected: {'identifier': 'config_utilities_ros'}
+[0.000303] (-) JobUnselected: {'identifier': 'hydra_msgs'}
+[0.000314] (-) JobUnselected: {'identifier': 'hydra_ros'}
+[0.000323] (-) JobUnselected: {'identifier': 'hydra_visualizer'}
+[0.000334] (-) JobUnselected: {'identifier': 'ianvs'}
+[0.000343] (-) JobUnselected: {'identifier': 'kimera_pgmo'}
+[0.000351] (-) JobUnselected: {'identifier': 'kimera_pgmo_msgs'}
+[0.000361] (-) JobUnselected: {'identifier': 'kimera_pgmo_ros'}
+[0.000372] (-) JobUnselected: {'identifier': 'kimera_pgmo_rviz'}
+[0.000624] (-) JobUnselected: {'identifier': 'kimera_rpgo'}
+[0.000812] (-) JobUnselected: {'identifier': 'pose_graph_tools'}
+[0.000829] (-) JobUnselected: {'identifier': 'pose_graph_tools_msgs'}
+[0.000835] (-) JobUnselected: {'identifier': 'pose_graph_tools_ros'}
+[0.000839] (-) JobUnselected: {'identifier': 'semantic_inference'}
+[0.000844] (-) JobUnselected: {'identifier': 'semantic_inference_msgs'}
+[0.000849] (-) JobUnselected: {'identifier': 'semantic_inference_ros'}
+[0.000854] (-) JobUnselected: {'identifier': 'spark_dsg'}
+[0.000860] (-) JobUnselected: {'identifier': 'spatial_hash'}
+[0.000866] (-) JobUnselected: {'identifier': 'teaserpp'}
+[0.000874] (hydra) JobQueued: {'identifier': 'hydra', 'dependencies': OrderedDict({'config_utilities': '/home/siny/hydra_ws/install/config_utilities', 'kimera_rpgo': '/home/siny/hydra_ws/install/kimera_rpgo', 'pose_graph_tools': '/home/siny/hydra_ws/install/pose_graph_tools', 'spark_dsg': '/home/siny/hydra_ws/install/spark_dsg', 'spatial_hash': '/home/siny/hydra_ws/install/spatial_hash', 'teaserpp': '/home/siny/hydra_ws/install/teaserpp', 'kimera_pgmo': '/home/siny/hydra_ws/install/kimera_pgmo'})}
+[0.000888] (hydra) JobStarted: {'identifier': 'hydra'}
+[0.013548] (hydra) JobProgress: {'identifier': 'hydra', 'progress': 'cmake'}
+[0.013845] (hydra) JobProgress: {'identifier': 'hydra', 'progress': 'build'}
+[0.014178] (hydra) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/siny/hydra_ws/build/hydra', '--', '-j20', '-l20'], 'cwd': '/home/siny/hydra_ws/build/hydra', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'siny', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/siny/hydra_ws/install/kimera_pgmo/lib:/home/siny/hydra_ws/install/teaserpp/lib:/home/siny/hydra_ws/install/spark_dsg/lib:/home/siny/hydra_ws/install/pose_graph_tools/lib:/home/siny/hydra_ws/install/kimera_rpgo/lib:/home/siny/hydra_ws/install/config_utilities/lib', 'ANTIGRAVITY_CLI_ALIAS': 'agy', 'CONDA_BACKUP_QT_XCB_GL_INTEGRATION': '', 'HOME': '/home/siny', 'CHROME_DESKTOP': 'antigravity.desktop', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/siny/hydra_ws', 'TERM_PROGRAM_VERSION': '1.104.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/antigravity.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/antigravity/antigravity', 'MANAGERPID': '3099', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3407', 'BUNDLED_DEBUGPY_PATH': '/home/siny/.antigravity/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/siny/anaconda3', 'ANTIGRAVITY_AGENT': '1', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4224', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'siny', 'JOURNAL_STREAM': '9:40078', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/siny/hydra_ws/install/kimera_pgmo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_pgmo/lib/pkgconfig:/home/siny/hydra_ws/install/teaserpp/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/teaserpp/lib/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/pkgconfig:/home/siny/hydra_ws/install/spark_dsg/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spark_dsg/lib/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig', 'USERNAME': 'siny', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/home/siny/hydra_ws/install/kimera_pgmo/bin:/home/siny/hydra_ws/install/spark_dsg/bin:/home/siny/hydra_ws/install/config_utilities/bin:/home/siny/anaconda3/bin:/home/siny/anaconda3/condabin:/home/siny/.local/bin:/usr/local/cuda/bin:/opt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/siny/.antigravity/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/Sispark:@/tmp/.ICE-unix/3375,unix/Sispark:/tmp/.ICE-unix/3375', 'INVOCATION_ID': 'c59afe9ca4cc43bbaa3be0764075d4e7', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/siny/.antigravity/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-a12836897de72741.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/siny/.config/Antigravity/User/workspaceStorage/bb5209cb9424dd6ff2d7b1e1c0ee7f29/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SBX_CHROME_API_RQ': '1', 'QT_XCB_GL_INTEGRATION': 'none', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0d2242eade.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/siny/anaconda3/share/glib-2.0/schemas', 'CONDA_PYTHON_EXE': '/home/siny/anaconda3/bin/python', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/siny/anaconda3/bin/conda', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/siny/hydra_ws/build/hydra', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/siny/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'CONDA_PREFIX': '/home/siny/anaconda3', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/siny/hydra_ws/install/kimera_pgmo:/home/siny/hydra_ws/install/teaserpp:/home/siny/hydra_ws/install/spatial_hash:/home/siny/hydra_ws/install/spark_dsg:/home/siny/hydra_ws/install/pose_graph_tools:/home/siny/hydra_ws/install/kimera_rpgo:/home/siny/hydra_ws/install/config_utilities'}), 'shell': False}
+[0.099673] (-) TimerEvent: {}
+[0.150544] (hydra) StdoutLine: {'line': b'[  0%] Building CXX object CMakeFiles/hydra.dir/src/rooms/room_finder.cpp.o\n'}
+[0.199866] (-) TimerEvent: {}
+[0.300153] (-) TimerEvent: {}
+[0.400332] (-) TimerEvent: {}
+[0.500513] (-) TimerEvent: {}
+[0.600699] (-) TimerEvent: {}
+[0.700972] (-) TimerEvent: {}
+[0.801229] (-) TimerEvent: {}
+[0.901482] (-) TimerEvent: {}
+[1.001747] (-) TimerEvent: {}
+[1.101915] (-) TimerEvent: {}
+[1.202088] (-) TimerEvent: {}
+[1.302261] (-) TimerEvent: {}
+[1.402433] (-) TimerEvent: {}
+[1.502700] (-) TimerEvent: {}
+[1.602867] (-) TimerEvent: {}
+[1.703034] (-) TimerEvent: {}
+[1.803194] (-) TimerEvent: {}
+[1.903366] (-) TimerEvent: {}
+[2.003573] (-) TimerEvent: {}
+[2.103775] (-) TimerEvent: {}
+[2.204207] (-) TimerEvent: {}
+[2.304464] (-) TimerEvent: {}
+[2.404663] (-) TimerEvent: {}
+[2.505326] (-) TimerEvent: {}
+[2.605584] (-) TimerEvent: {}
+[2.706079] (-) TimerEvent: {}
+[2.806272] (-) TimerEvent: {}
+[2.820491] (hydra) StdoutLine: {'line': b'[  0%] Linking CXX shared library libhydra.so\n'}
+[2.906375] (-) TimerEvent: {}
+[3.006640] (-) TimerEvent: {}
+[3.106863] (-) TimerEvent: {}
+[3.130567] (hydra) StdoutLine: {'line': b'[ 63%] Built target hydra\n'}
+[3.154355] (hydra) StdoutLine: {'line': b'[ 63%] Linking CXX shared library libhydra_eval.so\n'}
+[3.199182] (hydra) StdoutLine: {'line': b'[ 64%] Linking CXX executable test_hydra\n'}
+[3.206969] (-) TimerEvent: {}
+[3.244340] (hydra) StdoutLine: {'line': b'[ 68%] Built target hydra_eval\n'}
+[3.259892] (hydra) StdoutLine: {'line': b'[ 69%] Linking CXX executable compute_filtrations\n'}
+[3.261359] (hydra) StdoutLine: {'line': b'[ 70%] Linking CXX executable merge_graphs\n'}
+[3.263519] (hydra) StdoutLine: {'line': b'[ 71%] Linking CXX executable evaluate_rooms\n'}
+[3.263622] (hydra) StdoutLine: {'line': b'[ 71%] Linking CXX executable evaluate_places\n'}
+[3.266369] (hydra) StdoutLine: {'line': b'[ 72%] Linking CXX executable compress_graph\n'}
+[3.272361] (hydra) StdoutLine: {'line': b'[ 73%] Linking CXX executable optimize_graph\n'}
+[3.277261] (hydra) StdoutLine: {'line': b'[ 73%] Linking CXX executable gt_trajectory_optimizer\n'}
+[3.307082] (-) TimerEvent: {}
+[3.367939] (hydra) StdoutLine: {'line': b'[ 74%] Built target merge_graphs\n'}
+[3.372032] (hydra) StdoutLine: {'line': b'[ 74%] Built target compute_filtrations\n'}
+[3.376172] (hydra) StdoutLine: {'line': b'[ 74%] Built target evaluate_places\n'}
+[3.385292] (hydra) StdoutLine: {'line': b'[ 75%] Built target gt_trajectory_optimizer\n'}
+[3.390142] (hydra) StdoutLine: {'line': b'[ 76%] Built target evaluate_rooms\n'}
+[3.396646] (hydra) StdoutLine: {'line': b'[ 76%] Built target compress_graph\n'}
+[3.407185] (-) TimerEvent: {}
+[3.414724] (hydra) StdoutLine: {'line': b'[ 76%] Built target optimize_graph\n'}
+[3.438476] (hydra) StdoutLine: {'line': b'[100%] Built target test_hydra\n'}
+[3.447824] (hydra) CommandEnded: {'returncode': 0}
+[3.448511] (hydra) JobProgress: {'identifier': 'hydra', 'progress': 'install'}
+[3.453493] (hydra) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/siny/hydra_ws/build/hydra'], 'cwd': '/home/siny/hydra_ws/build/hydra', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'siny', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/siny/hydra_ws/install/kimera_pgmo/lib:/home/siny/hydra_ws/install/teaserpp/lib:/home/siny/hydra_ws/install/spark_dsg/lib:/home/siny/hydra_ws/install/pose_graph_tools/lib:/home/siny/hydra_ws/install/kimera_rpgo/lib:/home/siny/hydra_ws/install/config_utilities/lib', 'ANTIGRAVITY_CLI_ALIAS': 'agy', 'CONDA_BACKUP_QT_XCB_GL_INTEGRATION': '', 'HOME': '/home/siny', 'CHROME_DESKTOP': 'antigravity.desktop', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/siny/hydra_ws', 'TERM_PROGRAM_VERSION': '1.104.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/antigravity.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/antigravity/antigravity', 'MANAGERPID': '3099', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3407', 'BUNDLED_DEBUGPY_PATH': '/home/siny/.antigravity/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/siny/anaconda3', 'ANTIGRAVITY_AGENT': '1', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4224', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'siny', 'JOURNAL_STREAM': '9:40078', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'PKG_CONFIG_PATH': '/home/siny/hydra_ws/install/kimera_pgmo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_pgmo/lib/pkgconfig:/home/siny/hydra_ws/install/teaserpp/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/teaserpp/lib/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/pkgconfig:/home/siny/hydra_ws/install/spark_dsg/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spark_dsg/lib/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig', 'USERNAME': 'siny', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/home/siny/hydra_ws/install/kimera_pgmo/bin:/home/siny/hydra_ws/install/spark_dsg/bin:/home/siny/hydra_ws/install/config_utilities/bin:/home/siny/anaconda3/bin:/home/siny/anaconda3/condabin:/home/siny/.local/bin:/usr/local/cuda/bin:/opt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/siny/.antigravity/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/Sispark:@/tmp/.ICE-unix/3375,unix/Sispark:/tmp/.ICE-unix/3375', 'INVOCATION_ID': 'c59afe9ca4cc43bbaa3be0764075d4e7', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/siny/.antigravity/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-a12836897de72741.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/siny/.config/Antigravity/User/workspaceStorage/bb5209cb9424dd6ff2d7b1e1c0ee7f29/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SBX_CHROME_API_RQ': '1', 'QT_XCB_GL_INTEGRATION': 'none', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0d2242eade.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/siny/anaconda3/share/glib-2.0/schemas', 'CONDA_PYTHON_EXE': '/home/siny/anaconda3/bin/python', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/siny/anaconda3/bin/conda', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/siny/hydra_ws/build/hydra', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/siny/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'CONDA_PREFIX': '/home/siny/anaconda3', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/siny/hydra_ws/install/kimera_pgmo:/home/siny/hydra_ws/install/teaserpp:/home/siny/hydra_ws/install/spatial_hash:/home/siny/hydra_ws/install/spark_dsg:/home/siny/hydra_ws/install/pose_graph_tools:/home/siny/hydra_ws/install/kimera_rpgo:/home/siny/hydra_ws/install/config_utilities'}), 'shell': False}
+[3.458040] (hydra) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[3.458652] (hydra) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/hydra/lib/libhydra_eval.so\n'}
+[3.459297] (hydra) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra/lib/libhydra_eval.so" to ""\n'}
+[3.459443] (hydra) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/hydra/lib/hydra/compress_graph\n'}
+[3.459762] (hydra) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra/lib/hydra/compress_graph" to ""\n'}
+[3.459849] (hydra) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/hydra/lib/hydra/compute_filtrations\n'}
+[3.460072] (hydra) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra/lib/hydra/compute_filtrations" to ""\n'}
+[3.460161] (hydra) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/hydra/lib/hydra/evaluate_places\n'}
+[3.460375] (hydra) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra/lib/hydra/evaluate_places" to ""\n'}
+[3.460473] (hydra) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/hydra/lib/hydra/evaluate_rooms\n'}
+[3.460585] (hydra) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra/lib/hydra/evaluate_rooms" to ""\n'}
+[3.460648] (hydra) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/hydra/lib/hydra/gt_trajectory_optimizer\n'}
+[3.461124] (hydra) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra/lib/hydra/gt_trajectory_optimizer" to ""\n'}
+[3.461218] (hydra) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/hydra/lib/hydra/merge_graphs\n'}
+[3.461315] (hydra) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra/lib/hydra/merge_graphs" to ""\n'}
+[3.461373] (hydra) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/hydra/lib/hydra/optimize_graph\n'}
+[3.461624] (hydra) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra/lib/hydra/optimize_graph" to ""\n'}
+[3.461751] (hydra) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/hydra/lib/hydra/test_hydra\n'}
+[3.463828] (hydra) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra/lib/hydra/test_hydra" to ""\n'}
+[3.463936] (hydra) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/hydra/lib/libhydra.so\n'}
+[3.467788] (hydra) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra/lib/libhydra.so" to ""\n'}
+[3.468065] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include\n'}
+[3.468387] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra\n'}
+[3.468474] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/places\n'}
+[3.468504] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/places/gvd_utilities.h\n'}
+[3.468532] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/places/gvd_integrator.h\n'}
+[3.468599] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/places/gvd_integrator_config.h\n'}
+[3.469038] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/places/robot_footprint_integrator.h\n'}
+[3.469066] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/places/gvd_merge_policies.h\n'}
+[3.469091] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/places/gvd_graph.h\n'}
+[3.469117] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/places/graph_extractor.h\n'}
+[3.469443] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/places/graph_extractor_utilities.h\n'}
+[3.469467] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/places/update_statistics.h\n'}
+[3.469493] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/places/gvd_voxel.h\n'}
+[3.469518] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/places/gvd_parent_tracker.h\n'}
+[3.469543] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/common\n'}
+[3.469567] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/common/config_utilities.h\n'}
+[3.469748] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/common/graph_update.h\n'}
+[3.469771] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/common/pipeline_queues.h\n'}
+[3.469797] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/common/common_types.h\n'}
+[3.469822] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/common/batch_pipeline.h\n'}
+[3.469846] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/common/dsg_types.h\n'}
+[3.469871] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/common/hydra_pipeline.h\n'}
+[3.469895] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/common/global_info.h\n'}
+[3.469919] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/common/message_queue.h\n'}
+[3.469943] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/common/label_space_config.h\n'}
+[3.469967] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/common/shared_module_state.h\n'}
+[3.469991] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/common/output_sink.h\n'}
+[3.470015] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/common/label_remapper.h\n'}
+[3.470041] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/common/semantic_color_map.h\n'}
+[3.470066] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/common/module.h\n'}
+[3.470090] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/common/launch_callbacks.h\n'}
+[3.470114] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/common/shared_dsg_info.h\n'}
+[3.470138] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/common/robot_prefix_config.h\n'}
+[3.470162] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/input\n'}
+[3.470187] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/input/sensor_extrinsics.h\n'}
+[3.470212] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/input/camera.h\n'}
+[3.470236] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/input/sensor_utilities.h\n'}
+[3.470260] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/input/sensor_input_packet.h\n'}
+[3.470310] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/input/sensor.h\n'}
+[3.470334] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/input/data_receiver.h\n'}
+[3.470355] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/input/input_data.h\n'}
+[3.470378] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/input/input_packet.h\n'}
+[3.470401] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/input/input_conversion.h\n'}
+[3.470423] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/input/input_module.h\n'}
+[3.470446] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/input/lidar.h\n'}
+[3.470467] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/backend\n'}
+[3.470489] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/backend/update_buildings_functor.h\n'}
+[3.470512] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/backend/merge_proposer.h\n'}
+[3.470534] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/backend/merge_tracker.h\n'}
+[3.470556] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/backend/external_loop_closure_receiver.h\n'}
+[3.470579] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/backend/zmq_interfaces.h\n'}
+[3.470600] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/backend/backend_input.h\n'}
+[3.470622] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/backend/pgmo_configs.h\n'}
+[3.470644] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/backend/update_frontiers_functor.h\n'}
+[3.470667] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/backend/association_strategies.h\n'}
+[3.470696] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/backend/update_agents_functor.h\n'}
+[3.470721] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/backend/backend_module.h\n'}
+[3.470745] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/backend/backend_utilities.h\n'}
+[3.470770] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/backend/deformation_interpolator.h\n'}
+[3.470814] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/backend/update_rooms_functor.h\n'}
+[3.470838] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/backend/update_functions.h\n'}
+[3.470863] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/backend/update_surface_places_functor.h\n'}
+[3.470887] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/backend/surface_place_utilities.h\n'}
+[3.470938] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/backend/mst_factors.h\n'}
+[3.470963] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/backend/update_objects_functor.h\n'}
+[3.470988] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/backend/update_places_functor.h\n'}
+[3.471012] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/backend/mesh_clustering.h\n'}
+[3.471038] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/backend/dsg_updater.h\n'}
+[3.471062] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/utils\n'}
+[3.471088] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/utils/pgmo_mesh_traits.h\n'}
+[3.471113] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/utils/nearest_neighbor_utilities.h\n'}
+[3.471144] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/utils/data_directory.h\n'}
+[3.471169] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/utils/display_utilities.h\n'}
+[3.471193] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/utils/bucket_queue.h\n'}
+[3.471218] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/utils/pgmo_mesh_interface.h\n'}
+[3.471243] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/utils/minimum_spanning_tree.h\n'}
+[3.471268] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/utils/id_tracker.h\n'}
+[3.471292] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/utils/disjoint_set.h\n'}
+[3.471317] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/utils/active_window_tracker.h\n'}
+[3.471341] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/utils/pgmo_glog_sink.h\n'}
+[3.471375] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/utils/timing_utilities.h\n'}
+[3.471400] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/utils/mesh_utilities.h\n'}
+[3.471424] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/utils/layer_io.h\n'}
+[3.471448] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/utils/place_2d_ellipsoid_math.h\n'}
+[3.471473] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/utils/csv_reader.h\n'}
+[3.471497] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/utils/printing.h\n'}
+[3.471521] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/odometry\n'}
+[3.471546] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/odometry/pose_graph_from_odom.h\n'}
+[3.471570] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/odometry/pose_graph_tracker.h\n'}
+[3.471595] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/active_window\n'}
+[3.471619] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/active_window/active_window_module.h\n'}
+[3.471650] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/active_window/active_window_output.h\n'}
+[3.471675] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/active_window/reconstruction_module.h\n'}
+[3.471702] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/active_window/volumetric_window.h\n'}
+[3.471727] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure\n'}
+[3.471751] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure/descriptor_matching.h\n'}
+[3.471775] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure/registration.h\n'}
+[3.471800] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure/loop_closure_config.h\n'}
+[3.471825] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure/lcd_input.h\n'}
+[3.471849] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure/loop_closure_module.h\n'}
+[3.471874] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure/subgraph_extraction.h\n'}
+[3.471899] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure/registration_solution.h\n'}
+[3.471931] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure/detector.h\n'}
+[3.471956] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure/scene_graph_descriptors.h\n'}
+[3.471981] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure/gnn_descriptors.h\n'}
+[3.472006] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/rooms\n'}
+[3.472030] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/rooms/room_finder.h\n'}
+[3.472055] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/rooms/graph_filtration.h\n'}
+[3.472080] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/rooms/semantic_smoothing.h\n'}
+[3.472235] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/rooms/graph_clustering.h\n'}
+[3.472261] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/rooms/room_finder_config.h\n'}
+[3.472287] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/rooms/room_utilities.h\n'}
+[3.472312] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/openset\n'}
+[3.472338] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/openset/openset_types.h\n'}
+[3.472364] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/openset/embedding_distances.h\n'}
+[3.472390] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/openset/embedding_pooling.h\n'}
+[3.472416] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/openset/embedding_group.h\n'}
+[3.472442] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction\n'}
+[3.472466] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction/volumetric_map.h\n'}
+[3.472493] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction/marching_cubes.h\n'}
+[3.472518] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction/projection_interpolators.h\n'}
+[3.472544] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction/semantic_integrator.h\n'}
+[3.472582] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction/tsdf_interpolators.h\n'}
+[3.472609] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction/integration_masking.h\n'}
+[3.472635] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction/mesh_integrator.h\n'}
+[3.472660] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction/index_getter.h\n'}
+[3.472685] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction/voxel_types.h\n'}
+[3.472715] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction/projective_integrator.h\n'}
+[3.472740] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction/mesh_integrator_config.h\n'}
+[3.472766] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/gnn\n'}
+[3.472790] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/gnn/gnn_interface.h\n'}
+[3.472815] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/gnn/tensor.h\n'}
+[3.472845] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/gnn/ort_utilities.h\n'}
+[3.472869] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/frontend\n'}
+[3.472894] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/place_2d_segmenter.h\n'}
+[3.472919] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/place_2d_split_logic.h\n'}
+[3.472944] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/place_mesh_connector.h\n'}
+[3.472968] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/view_database.h\n'}
+[3.472992] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/graph_connector.h\n'}
+[3.473016] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/freespace_places_interface.h\n'}
+[3.473040] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/mesh_segmenter.h\n'}
+[3.473065] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/view_selector.h\n'}
+[3.473089] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/surface_places_interface.h\n'}
+[3.473113] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/frontier_extractor.h\n'}
+[3.473138] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/gvd_place_extractor.h\n'}
+[3.473162] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/include/hydra/frontend/graph_builder.h\n'}
+[3.473186] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/lib/cmake/hydra/hydraTargets.cmake\n'}
+[3.473211] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/lib/cmake/hydra/hydraTargets-release.cmake\n'}
+[3.473236] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/lib/cmake/hydra/hydraConfig.cmake\n'}
+[3.473260] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/lib/cmake/hydra/hydraConfigVersion.cmake\n'}
+[3.473284] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config\n'}
+[3.473308] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/lcd\n'}
+[3.473337] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/lcd/default.yaml\n'}
+[3.473361] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/lcd/default_gnn.yaml\n'}
+[3.473386] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/lcd/uhumans2.yaml\n'}
+[3.473415] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/lcd/uhumans2_gnn.yaml\n'}
+[3.473440] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_remaps\n'}
+[3.473465] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_remaps/uhumans2_apartment.yaml\n'}
+[3.473490] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_remaps/uhumans2_neighborhood.yaml\n'}
+[3.473515] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_remaps/12uhumans1_color.yaml\n'}
+[3.473539] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_remaps/uhumans2_subway.yaml\n'}
+[3.473564] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_remaps/uhumans2_office.yaml\n'}
+[3.473591] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_remaps/tesse_cd_office.yaml\n'}
+[3.473618] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_remaps/tesse_cd_apartment.yaml\n'}
+[3.473643] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets\n'}
+[3.473667] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/sidpac.yaml\n'}
+[3.473696] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/kimera_multi_velodyne16.yaml\n'}
+[3.473722] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/simmons_a1.yaml\n'}
+[3.473747] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/kimera_multi_ouster64.yaml\n'}
+[3.473772] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/spot.yaml\n'}
+[3.473796] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/d455_outdoor.yaml\n'}
+[3.473822] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/uhumans2.yaml\n'}
+[3.473848] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/habitat.yaml\n'}
+[3.473873] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/kitti_360.yaml\n'}
+[3.473898] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/pennquad.yaml\n'}
+[3.473924] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/simmons_jackal.yaml\n'}
+[3.473948] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/kimera_multi_rgbd.yaml\n'}
+[3.473974] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces\n'}
+[3.473999] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/tesse_cd_office_label_space.yaml\n'}
+[3.474025] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/tesse_cd_apartment_label_space.yaml\n'}
+[3.474050] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/kitti_360_label_space.yaml\n'}
+[3.474075] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/vlm_label_space.yaml\n'}
+[3.474100] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/phoenix_label_space.yaml\n'}
+[3.474126] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/ade20k_full_label_space.yaml\n'}
+[3.474152] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/uhumans2_subway_label_space.yaml\n'}
+[3.474178] (hydra) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/uhumans2_apartment_label_space.yaml\n'}
+[3.474205] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/ade20k_mp3d_label_space.yaml\n'}
+[3.474230] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/ade20k_mit_label_space.yaml\n'}
+[3.474256] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/uhumans2_office_label_space.yaml\n'}
+[3.474281] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/tesse_ade20k_label_space.yaml\n'}
+[3.474309] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/ade20k_outdoor_label_space.yaml\n'}
+[3.474334] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/vlm_apartment_label_space.yaml\n'}
+[3.474360] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/mpcat40_label_space.yaml\n'}
+[3.474386] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/ade20k_indoor_label_space.yaml\n'}
+[3.474411] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/my_yolo_labels.yaml\n'}
+[3.474445] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/ament_index/resource_index/package_run_dependencies/hydra\n'}
+[3.474471] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/ament_index/resource_index/parent_prefix_path/hydra\n'}
+[3.474496] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/environment/ament_prefix_path.sh\n'}
+[3.474521] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/environment/ament_prefix_path.dsv\n'}
+[3.474550] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/environment/path.sh\n'}
+[3.474576] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/environment/path.dsv\n'}
+[3.474602] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/local_setup.bash\n'}
+[3.474627] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/local_setup.sh\n'}
+[3.474652] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/local_setup.zsh\n'}
+[3.474677] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/local_setup.dsv\n'}
+[3.474711] (hydra) StdoutLine: {'line': b'-- Installing: /home/siny/hydra_ws/install/hydra/share/hydra/package.dsv\n'}
+[3.474735] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/ament_index/resource_index/packages/hydra\n'}
+[3.474761] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/cmake/hydraConfig.cmake\n'}
+[3.474787] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/cmake/hydraConfig-version.cmake\n'}
+[3.474813] (hydra) StdoutLine: {'line': b'-- Up-to-date: /home/siny/hydra_ws/install/hydra/share/hydra/package.xml\n'}
+[3.474839] (hydra) CommandEnded: {'returncode': 0}
+[3.489662] (hydra) JobEnded: {'identifier': 'hydra', 'rc': 0}
+[3.490196] (-) EventReactorShutdown: {}

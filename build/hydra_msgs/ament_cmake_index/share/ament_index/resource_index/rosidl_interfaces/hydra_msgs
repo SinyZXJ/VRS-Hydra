@@ -2,5 +2,13 @@ msg/ActiveLayer.idl
 msg/ActiveLayer.msg
 msg/DsgUpdate.idl
 msg/DsgUpdate.msg
+msg/LabelUpdateRequest.idl
+msg/LabelUpdateRequest.msg
+msg/NodeLabelUpdate.idl
+msg/NodeLabelUpdate.msg
+msg/PlaceNode.idl
+msg/PlaceNode.msg
+msg/PlaceNodeArray.idl
+msg/PlaceNodeArray.msg
 srv/GetDsg.idl
 srv/GetDsg.srv

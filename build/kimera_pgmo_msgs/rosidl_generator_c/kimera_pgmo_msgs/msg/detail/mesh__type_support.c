@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "kimera_pgmo_msgs/msg/detail/mesh__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "kimera_pgmo_msgs/msg/detail/mesh__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "kimera_pgmo_msgs/msg/detail/mesh__functions.h"
+#include "kimera_pgmo_msgs/msg/detail/mesh__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

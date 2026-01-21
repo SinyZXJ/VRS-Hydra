@@ -1,0 +1,82 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Enable printing of diagnostic messages.
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Failed to find sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- Configuring done (15.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/siny/hydra_ws/build/teaserpp
+[  2%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_maxclique.cpp.o[0m
+[  5%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique.cpp.o[0m
+[  8%] [32mBuilding CXX object teaser/CMakeFiles/teaser_io.dir/src/ply_io.cc.o[0m
+[ 11%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_heu.cpp.o[0m
+[ 14%] [32mBuilding CXX object _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 17%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_cores.cpp.o[0m
+[ 20%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.o[0m
+[ 22%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_graph.cpp.o[0m
+[ 25%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_utils.cpp.o[0m
+[ 28%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_clique_utils.cpp.o[0m
+[ 31%] [32m[1mLinking CXX static library libpmc.a[0m
+[ 31%] Built target pmc
+[ 34%] [32mBuilding CXX object teaser/CMakeFiles/teaser_registration.dir/src/graph.cc.o[0m
+[ 37%] [32mBuilding CXX object teaser/CMakeFiles/teaser_registration.dir/src/certification.cc.o[0m
+[ 40%] [32mBuilding CXX object teaser/CMakeFiles/teaser_registration.dir/src/registration.cc.o[0m
+[ 42%] [32m[1mLinking CXX shared library libteaser_io.so[0m
+[ 42%] Built target teaser_io
+[ 45%] [32m[1mLinking CXX shared library ../../../lib/libgtest.so[0m
+[ 45%] Built target gtest
+[ 48%] [32m[1mLinking CXX shared library libteaser_registration.so[0m
+[ 48%] Built target teaser_registration
+[ 51%] [32mBuilding CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 54%] [32m[1mLinking CXX shared library ../../../lib/libgmock.so[0m
+[ 54%] Built target gmock
+[ 65%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/main.cc.o[0m
+[ 65%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/utils-test.cc.o[0m
+[ 65%] [32mBuilding CXX object test/benchmark/CMakeFiles/all_benchmarks.dir/registration-benchmark.cc.o[0m
+[ 65%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/io-test.cc.o[0m
+[ 71%] [32mBuilding CXX object test/benchmark/CMakeFiles/all_benchmarks.dir/main.cc.o[0m
+[ 71%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/geometry-test.cc.o[0m
+[ 74%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/tls-test.cc.o[0m
+[ 77%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/linalg-test.cc.o[0m
+[ 80%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/certification-test.cc.o[0m
+[ 82%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/graph-test.cc.o[0m
+[ 85%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/registration-test.cc.o[0m
+[ 88%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/rotation-solver-test.cc.o[0m
+[ 91%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/translation-solver-test.cc.o[0m
+[ 94%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/scale-solver-test.cc.o[0m
+[ 97%] [32m[1mLinking CXX executable all_benchmarks[0m
+[ 97%] Built target all_benchmarks
+[100%] [32m[1mLinking CXX executable all_tests[0m
+[100%] Built target all_tests
+-- Install configuration: "Release"
+-- Installing: /home/siny/hydra_ws/install/teaserpp/lib/libteaser_io.so
+-- Installing: /home/siny/hydra_ws/install/teaserpp/lib/libteaser_registration.so
+-- Installing: /home/siny/hydra_ws/install/teaserpp/lib/cmake/teaserpp/teaserppTargets.cmake
+-- Installing: /home/siny/hydra_ws/install/teaserpp/lib/cmake/teaserpp/teaserppTargets-release.cmake
+-- Installing: /home/siny/hydra_ws/install/teaserpp/include
+-- Installing: /home/siny/hydra_ws/install/teaserpp/include/teaser
+-- Installing: /home/siny/hydra_ws/install/teaserpp/include/teaser/graph.h
+-- Installing: /home/siny/hydra_ws/install/teaserpp/include/teaser/geometry.h
+-- Installing: /home/siny/hydra_ws/install/teaserpp/include/teaser/registration.h
+-- Installing: /home/siny/hydra_ws/install/teaserpp/include/teaser/ply_io.h
+-- Installing: /home/siny/hydra_ws/install/teaserpp/include/teaser/utils.h
+-- Installing: /home/siny/hydra_ws/install/teaserpp/include/teaser/fpfh.h
+-- Installing: /home/siny/hydra_ws/install/teaserpp/include/teaser/certification.h
+-- Installing: /home/siny/hydra_ws/install/teaserpp/include/teaser/macros.h
+-- Installing: /home/siny/hydra_ws/install/teaserpp/include/teaser/matcher.h
+-- Installing: /home/siny/hydra_ws/install/teaserpp/lib/cmake/teaserpp/teaserppConfig.cmake

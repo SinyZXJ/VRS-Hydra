@@ -1,0 +1,76 @@
+[  6%] Built target gtest_main
+[ 12%] Built target gtest
+[ 84%] Built target hydra_visualizer
+[ 93%] Built target test_hydra_visualizer
+[100%] Built target hydra_visualizer_node
+-- Install configuration: "Release"
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/lib/libhydra_visualizer.so
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/lib/hydra_visualizer/hydra_visualizer_node
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer/
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/drawing.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/visualizer_node.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/layer_info.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/plugins
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/plugins/basis_point_plugin.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/plugins/mesh_plugin.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/plugins/footprint_plugin.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/plugins/pose_plugin.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/plugins/khronos_object_plugin.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/plugins/places_freespace_plugin.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/plugins/visualizer_plugin.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/utils
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/utils/ear_clipping.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/utils/marker_group_pub.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/utils/marker_tracker.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/utils/polygon_utilities.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/color
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/color/colormap_utilities.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/color/color_parsing.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/adapters
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/adapters/graph_color.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/adapters/mesh_color.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/adapters/text.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/scene_graph_renderer.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/groundtruth
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/groundtruth/bounding_box_publisher.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/groundtruth/region_publisher.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/io
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/io/graph_ros_wrapper.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/io/graph_file_wrapper.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/io/graph_wrapper.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/io/graph_zmq_wrapper.h
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/launch
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/launch/streaming_visualizer.launch.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/launch/static_visualizer.launch.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/config
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/config/visualizer_plugins.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/config/visualizer_config_vlm.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/config/visualizer_config.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/config/external_plugins.yaml
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/rviz
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/rviz/static_visualizer.rviz
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/rviz/streaming_visualizer.rviz
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/rviz/zed.rviz
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/rviz/a1.rviz
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/environment/library_path.sh
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/environment/library_path.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/ament_index/resource_index/package_run_dependencies/hydra_visualizer
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/ament_index/resource_index/parent_prefix_path/hydra_visualizer
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/environment/ament_prefix_path.sh
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/environment/path.sh
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/environment/path.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/local_setup.bash
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/local_setup.sh
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/local_setup.zsh
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/local_setup.dsv
+-- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/package.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/ament_index/resource_index/packages/hydra_visualizer
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/cmake/hydra_visualizer-targetsExport.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/cmake/hydra_visualizer-targetsExport-release.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/cmake/hydra_visualizerConfig.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/cmake/hydra_visualizerConfig-version.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/package.xml

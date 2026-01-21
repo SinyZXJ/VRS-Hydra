@@ -1,0 +1,130 @@
+[0.021s] Invoking command in '/home/siny/hydra_ws/build/kimera_pgmo_ros': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_ros:/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/pose_graph_tools_msgs:/home/siny/hydra_ws/install/kimera_pgmo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_ros:/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/kimera_pgmo:/home/siny/hydra_ws/install/spatial_hash:/home/siny/hydra_ws/install/pose_graph_tools_msgs:/home/siny/hydra_ws/install/pose_graph_tools:/home/siny/hydra_ws/install/kimera_rpgo:/home/siny/hydra_ws/install/kimera_pgmo_msgs:/home/siny/hydra_ws/install/config_utilities:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/pose_graph_tools_ros/lib:/home/siny/hydra_ws/install/kimera_pgmo_rviz/lib:/home/siny/hydra_ws/install/kimera_pgmo/lib:/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib:/home/siny/hydra_ws/install/pose_graph_tools/lib:/home/siny/hydra_ws/install/kimera_rpgo/lib:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib:/home/siny/hydra_ws/install/config_utilities/lib:${LD_LIBRARY_PATH} PATH=/home/siny/hydra_ws/install/kimera_pgmo/bin:/home/siny/hydra_ws/install/config_utilities/bin:${PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/kimera_pgmo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_pgmo/lib/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/siny/hydra_ws/src/kimera_pgmo/kimera_pgmo_ros -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/kimera_pgmo_ros
+[0.055s] -- The C compiler identification is GNU 13.3.0
+[0.088s] -- The CXX compiler identification is GNU 13.3.0
+[0.100s] -- Detecting C compiler ABI info
+[0.174s] -- Detecting C compiler ABI info - done
+[0.178s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.179s] -- Detecting C compile features
+[0.179s] -- Detecting C compile features - done
+[0.186s] -- Detecting CXX compiler ABI info
+[0.267s] -- Detecting CXX compiler ABI info - done
+[0.276s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.276s] -- Detecting CXX compile features
+[0.277s] -- Detecting CXX compile features - done
+[0.279s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.402s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.573s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex 
+[0.575s] -- GTSAM include directory:  /opt/ros/jazzy/lib/cmake/GTSAM/../../../include
+[0.579s] -- Found nlohmann_json: /usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.11.3") 
+[0.585s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[0.586s] -- Checking for module 'libglog'
+[0.597s] --   Found libglog, version 0.6.0
+[0.640s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization 
+[0.642s] -- Found flann version 1.9.2
+[0.642s] -- looking for PCL_COMPATIBILITY
+[0.643s] -- Could NOT find PCL_COMPATIBILITY (missing: PCL_COMPATIBILITY_LIBRARY PCL_COMPATIBILITY_INCLUDE_DIR) 
+[0.643s] -- looking for PCL_COMMON
+[0.643s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[0.643s] -- looking for PCL_GEOMETRY
+[0.644s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[0.644s] -- looking for PCL_KDTREE
+[0.644s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[0.645s] -- looking for PCL_OCTREE
+[0.645s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[0.646s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;Boost::system;Boost::filesystem;Boost::iostreams;Boost::serialization;FLANN::FLANN  
+[0.647s] -- Found kimera_pgmo_msgs: 0.0.1 (/home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake)
+[0.670s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.676s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.684s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.692s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.738s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.754s] -- Found pose_graph_tools_ros: 1.0.0 (/home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/cmake)
+[0.798s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.800s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.854s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.864s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.877s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.908s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[0.914s] -- Found tf2_eigen: 0.36.16 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[0.969s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.993s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[0.994s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.996s] -- Found Threads: TRUE  
+[1.057s] -- Configuring done (1.0s)
+[1.091s] -- Generating done (0.0s)
+[1.100s] -- Build files have been written to: /home/siny/hydra_ws/build/kimera_pgmo_ros
+[1.112s] Invoked command in '/home/siny/hydra_ws/build/kimera_pgmo_ros' returned '0': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_ros:/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/pose_graph_tools_msgs:/home/siny/hydra_ws/install/kimera_pgmo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_ros:/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/kimera_pgmo:/home/siny/hydra_ws/install/spatial_hash:/home/siny/hydra_ws/install/pose_graph_tools_msgs:/home/siny/hydra_ws/install/pose_graph_tools:/home/siny/hydra_ws/install/kimera_rpgo:/home/siny/hydra_ws/install/kimera_pgmo_msgs:/home/siny/hydra_ws/install/config_utilities:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/pose_graph_tools_ros/lib:/home/siny/hydra_ws/install/kimera_pgmo_rviz/lib:/home/siny/hydra_ws/install/kimera_pgmo/lib:/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib:/home/siny/hydra_ws/install/pose_graph_tools/lib:/home/siny/hydra_ws/install/kimera_rpgo/lib:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib:/home/siny/hydra_ws/install/config_utilities/lib:${LD_LIBRARY_PATH} PATH=/home/siny/hydra_ws/install/kimera_pgmo/bin:/home/siny/hydra_ws/install/config_utilities/bin:${PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/kimera_pgmo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_pgmo/lib/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/siny/hydra_ws/src/kimera_pgmo/kimera_pgmo_ros -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/kimera_pgmo_ros
+[1.113s] Invoking command in '/home/siny/hydra_ws/build/kimera_pgmo_ros': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_ros:/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/pose_graph_tools_msgs:/home/siny/hydra_ws/install/kimera_pgmo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_ros:/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/kimera_pgmo:/home/siny/hydra_ws/install/spatial_hash:/home/siny/hydra_ws/install/pose_graph_tools_msgs:/home/siny/hydra_ws/install/pose_graph_tools:/home/siny/hydra_ws/install/kimera_rpgo:/home/siny/hydra_ws/install/kimera_pgmo_msgs:/home/siny/hydra_ws/install/config_utilities:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/pose_graph_tools_ros/lib:/home/siny/hydra_ws/install/kimera_pgmo_rviz/lib:/home/siny/hydra_ws/install/kimera_pgmo/lib:/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib:/home/siny/hydra_ws/install/pose_graph_tools/lib:/home/siny/hydra_ws/install/kimera_rpgo/lib:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib:/home/siny/hydra_ws/install/config_utilities/lib:${LD_LIBRARY_PATH} PATH=/home/siny/hydra_ws/install/kimera_pgmo/bin:/home/siny/hydra_ws/install/config_utilities/bin:${PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/kimera_pgmo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_pgmo/lib/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/siny/hydra_ws/build/kimera_pgmo_ros -- -j20 -l20
+[1.153s] [  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.154s] [  9%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_ros.dir/src/conversion/gtsam.cpp.o[0m
+[1.155s] [ 14%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_ros.dir/src/visualization_functions.cpp.o[0m
+[1.156s] [ 19%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.157s] [ 23%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_ros.dir/src/kimera_pgmo.cpp.o[0m
+[1.157s] [ 28%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_ros.dir/src/conversion/mesh.cpp.o[0m
+[1.157s] [ 38%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_ros.dir/src/conversion/mesh_delta.cpp.o[0m
+[1.157s] [ 38%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_ros.dir/src/mesh_frontend.cpp.o[0m
+[1.569s] [ 42%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.633s] [ 42%] Built target gtest_main
+[7.475s] [ 47%] [32m[1mLinking CXX static library libgtest.a[0m
+[7.577s] [ 47%] Built target gtest
+[27.641s] [ 52%] [32m[1mLinking CXX shared library libkimera_pgmo_ros.so[0m
+[28.080s] [ 52%] Built target kimera_pgmo_ros
+[28.109s] [ 57%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_node.dir/app/kimera_pgmo_node.cpp.o[0m
+[28.112s] [ 61%] [32mBuilding CXX object CMakeFiles/mesh_publisher_node.dir/app/mesh_publisher_node.cpp.o[0m
+[28.113s] [ 66%] [32mBuilding CXX object CMakeFiles/mesh_frontend_node.dir/app/mesh_frontend_node.cpp.o[0m
+[28.128s] [ 71%] [32mBuilding CXX object test/CMakeFiles/kimera_pgmo_ros-test.dir/pgmo_ros_unit_tests.cpp.o[0m
+[28.129s] [ 76%] [32mBuilding CXX object test/CMakeFiles/kimera_pgmo_ros-test.dir/test_mesh_conversion.cpp.o[0m
+[28.132s] [ 80%] [32mBuilding CXX object test/CMakeFiles/kimera_pgmo_ros-test.dir/test_gtsam_conversions.cpp.o[0m
+[32.634s] [ 85%] [32m[1mLinking CXX executable kimera_pgmo_ros-test[0m
+[32.794s] [ 85%] Built target kimera_pgmo_ros-test
+[33.066s] [ 90%] [32m[1mLinking CXX executable mesh_frontend_node[0m
+[33.180s] [ 90%] Built target mesh_frontend_node
+[34.014s] [ 95%] [32m[1mLinking CXX executable mesh_publisher_node[0m
+[34.137s] [ 95%] Built target mesh_publisher_node
+[34.934s] [100%] [32m[1mLinking CXX executable kimera_pgmo_node[0m
+[35.068s] [100%] Built target kimera_pgmo_node
+[35.081s] Invoked command in '/home/siny/hydra_ws/build/kimera_pgmo_ros' returned '0': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_ros:/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/pose_graph_tools_msgs:/home/siny/hydra_ws/install/kimera_pgmo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_ros:/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/kimera_pgmo:/home/siny/hydra_ws/install/spatial_hash:/home/siny/hydra_ws/install/pose_graph_tools_msgs:/home/siny/hydra_ws/install/pose_graph_tools:/home/siny/hydra_ws/install/kimera_rpgo:/home/siny/hydra_ws/install/kimera_pgmo_msgs:/home/siny/hydra_ws/install/config_utilities:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/pose_graph_tools_ros/lib:/home/siny/hydra_ws/install/kimera_pgmo_rviz/lib:/home/siny/hydra_ws/install/kimera_pgmo/lib:/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib:/home/siny/hydra_ws/install/pose_graph_tools/lib:/home/siny/hydra_ws/install/kimera_rpgo/lib:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib:/home/siny/hydra_ws/install/config_utilities/lib:${LD_LIBRARY_PATH} PATH=/home/siny/hydra_ws/install/kimera_pgmo/bin:/home/siny/hydra_ws/install/config_utilities/bin:${PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/kimera_pgmo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_pgmo/lib/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/siny/hydra_ws/build/kimera_pgmo_ros -- -j20 -l20
+[35.082s] Invoking command in '/home/siny/hydra_ws/build/kimera_pgmo_ros': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_ros:/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/pose_graph_tools_msgs:/home/siny/hydra_ws/install/kimera_pgmo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_ros:/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/kimera_pgmo:/home/siny/hydra_ws/install/spatial_hash:/home/siny/hydra_ws/install/pose_graph_tools_msgs:/home/siny/hydra_ws/install/pose_graph_tools:/home/siny/hydra_ws/install/kimera_rpgo:/home/siny/hydra_ws/install/kimera_pgmo_msgs:/home/siny/hydra_ws/install/config_utilities:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/pose_graph_tools_ros/lib:/home/siny/hydra_ws/install/kimera_pgmo_rviz/lib:/home/siny/hydra_ws/install/kimera_pgmo/lib:/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib:/home/siny/hydra_ws/install/pose_graph_tools/lib:/home/siny/hydra_ws/install/kimera_rpgo/lib:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib:/home/siny/hydra_ws/install/config_utilities/lib:${LD_LIBRARY_PATH} PATH=/home/siny/hydra_ws/install/kimera_pgmo/bin:/home/siny/hydra_ws/install/config_utilities/bin:${PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/kimera_pgmo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_pgmo/lib/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/siny/hydra_ws/build/kimera_pgmo_ros
+[35.087s] -- Install configuration: "Release"
+[35.087s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/lib/libkimera_pgmo_ros.so
+[35.089s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/kimera_pgmo_ros/lib/libkimera_pgmo_ros.so" to ""
+[35.089s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/lib/kimera_pgmo_ros/kimera_pgmo_node
+[35.089s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/kimera_pgmo_ros/lib/kimera_pgmo_ros/kimera_pgmo_node" to ""
+[35.090s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/lib/kimera_pgmo_ros/mesh_frontend_node
+[35.090s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/kimera_pgmo_ros/lib/kimera_pgmo_ros/mesh_frontend_node" to ""
+[35.090s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/lib/kimera_pgmo_ros/mesh_publisher_node
+[35.090s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/kimera_pgmo_ros/lib/kimera_pgmo_ros/mesh_publisher_node" to ""
+[35.090s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/include/kimera_pgmo_ros
+[35.090s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/include/kimera_pgmo_ros/kimera_pgmo_ros
+[35.090s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/include/kimera_pgmo_ros/kimera_pgmo_ros/kimera_pgmo.h
+[35.090s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/include/kimera_pgmo_ros/kimera_pgmo_ros/visualization_functions.h
+[35.090s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/include/kimera_pgmo_ros/kimera_pgmo_ros/mesh_frontend.h
+[35.090s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/include/kimera_pgmo_ros/kimera_pgmo_ros/ros_log_sink.h
+[35.090s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/include/kimera_pgmo_ros/kimera_pgmo_ros/conversion
+[35.090s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/include/kimera_pgmo_ros/kimera_pgmo_ros/conversion/mesh_delta.h
+[35.091s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/include/kimera_pgmo_ros/kimera_pgmo_ros/conversion/mesh.h
+[35.091s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/include/kimera_pgmo_ros/kimera_pgmo_ros/conversion/gtsam.h
+[35.091s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/launch
+[35.091s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/launch/mesh_deformer.launch
+[35.091s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/launch/kimera_pgmo_robot.launch
+[35.091s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/launch/kimera_pgmo.launch
+[35.091s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/ament_index/resource_index/package_run_dependencies/kimera_pgmo_ros
+[35.091s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/ament_index/resource_index/parent_prefix_path/kimera_pgmo_ros
+[35.091s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/environment/ament_prefix_path.sh
+[35.091s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/environment/ament_prefix_path.dsv
+[35.092s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/environment/path.sh
+[35.092s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/environment/path.dsv
+[35.092s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/local_setup.bash
+[35.092s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/local_setup.sh
+[35.092s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/local_setup.zsh
+[35.092s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/local_setup.dsv
+[35.092s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/package.dsv
+[35.092s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/ament_index/resource_index/packages/kimera_pgmo_ros
+[35.092s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/cmake/kimera_pgmo_ros-targetsExport.cmake
+[35.092s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/cmake/kimera_pgmo_ros-targetsExport-release.cmake
+[35.092s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/cmake/ament_cmake_export_targets-extras.cmake
+[35.092s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.092s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/cmake/kimera_pgmo_rosConfig.cmake
+[35.092s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/cmake/kimera_pgmo_rosConfig-version.cmake
+[35.092s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_ros/share/kimera_pgmo_ros/package.xml
+[35.094s] Invoked command in '/home/siny/hydra_ws/build/kimera_pgmo_ros' returned '0': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_ros:/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/pose_graph_tools_msgs:/home/siny/hydra_ws/install/kimera_pgmo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_ros:/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/kimera_pgmo:/home/siny/hydra_ws/install/spatial_hash:/home/siny/hydra_ws/install/pose_graph_tools_msgs:/home/siny/hydra_ws/install/pose_graph_tools:/home/siny/hydra_ws/install/kimera_rpgo:/home/siny/hydra_ws/install/kimera_pgmo_msgs:/home/siny/hydra_ws/install/config_utilities:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/pose_graph_tools_ros/lib:/home/siny/hydra_ws/install/kimera_pgmo_rviz/lib:/home/siny/hydra_ws/install/kimera_pgmo/lib:/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib:/home/siny/hydra_ws/install/pose_graph_tools/lib:/home/siny/hydra_ws/install/kimera_rpgo/lib:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib:/home/siny/hydra_ws/install/config_utilities/lib:${LD_LIBRARY_PATH} PATH=/home/siny/hydra_ws/install/kimera_pgmo/bin:/home/siny/hydra_ws/install/config_utilities/bin:${PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/kimera_pgmo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_pgmo/lib/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spatial_hash/lib/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/kimera_rpgo/lib/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/siny/hydra_ws/build/kimera_pgmo_ros

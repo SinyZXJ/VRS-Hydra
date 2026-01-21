@@ -4,9 +4,9 @@
 
 #include <string.h>
 
+#include "rosidl_typesupport_interface/macros.h"
 #include "kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__type_support.h"
 #include "kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__struct.h"
 
 #ifdef __cplusplus

@@ -68,9 +68,9 @@ hydra_msgs__srv__GetDsg_Event__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "hydra_msgs/msg/detail/dsg_update__functions.h"
 #include "builtin_interfaces/msg/detail/time__functions.h"
 #include "service_msgs/msg/detail/service_event_info__functions.h"
+#include "hydra_msgs/msg/detail/dsg_update__functions.h"
 #include "std_msgs/msg/detail/header__functions.h"
 
 // Hashes for external referenced types

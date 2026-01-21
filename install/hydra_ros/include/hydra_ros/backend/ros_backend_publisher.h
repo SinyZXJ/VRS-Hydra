@@ -40,6 +40,7 @@
 
 #include <rclcpp/publisher.hpp>
 #include <visualization_msgs/msg/marker.hpp>
+#include <hydra_msgs/msg/place_node_array.hpp>
 
 #include "hydra_ros/utils/dsg_streaming_interface.h"
 
@@ -88,6 +89,9 @@ class RosBackendPublisher : public BackendModule::Sink {
   virtual void publishTf(const DynamicSceneGraph& graph,
                          const kimera_pgmo::DeformationGraph& dgraph) const;
 
+  virtual void publishPlaceNodes(const DynamicSceneGraph& graph,
+                                 const uint64_t& stamp) const;
+
  protected:
   ianvs::NodeHandle nh_;
   rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr mesh_mesh_edges_pub_;
@@ -96,6 +100,7 @@ class RosBackendPublisher : public BackendModule::Sink {
   pose_graph_tools::PoseGraphPublisher mesh_graph_pub_;
   std::unique_ptr<DsgSender> dsg_sender_;
   mutable tf2_ros::TransformBroadcaster tf_br_;
+  rclcpp::Publisher<hydra_msgs::msg::PlaceNodeArray>::SharedPtr place_nodes_pub_;
 };
 
 }  // namespace hydra

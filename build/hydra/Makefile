@@ -2947,6 +2947,30 @@ src/rooms/room_utilities.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hydra.dir/build.make CMakeFiles/hydra.dir/src/rooms/room_utilities.cpp.s
 .PHONY : src/rooms/room_utilities.cpp.s
 
+src/rooms/semantic_smoothing.o: src/rooms/semantic_smoothing.cpp.o
+.PHONY : src/rooms/semantic_smoothing.o
+
+# target to build an object file
+src/rooms/semantic_smoothing.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hydra.dir/build.make CMakeFiles/hydra.dir/src/rooms/semantic_smoothing.cpp.o
+.PHONY : src/rooms/semantic_smoothing.cpp.o
+
+src/rooms/semantic_smoothing.i: src/rooms/semantic_smoothing.cpp.i
+.PHONY : src/rooms/semantic_smoothing.i
+
+# target to preprocess a source file
+src/rooms/semantic_smoothing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hydra.dir/build.make CMakeFiles/hydra.dir/src/rooms/semantic_smoothing.cpp.i
+.PHONY : src/rooms/semantic_smoothing.cpp.i
+
+src/rooms/semantic_smoothing.s: src/rooms/semantic_smoothing.cpp.s
+.PHONY : src/rooms/semantic_smoothing.s
+
+# target to generate assembly for a file
+src/rooms/semantic_smoothing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hydra.dir/build.make CMakeFiles/hydra.dir/src/rooms/semantic_smoothing.cpp.s
+.PHONY : src/rooms/semantic_smoothing.cpp.s
+
 src/utils/active_window_tracker.o: src/utils/active_window_tracker.cpp.o
 .PHONY : src/utils/active_window_tracker.o
 
@@ -3618,6 +3642,9 @@ help:
 	@echo "... src/rooms/room_utilities.o"
 	@echo "... src/rooms/room_utilities.i"
 	@echo "... src/rooms/room_utilities.s"
+	@echo "... src/rooms/semantic_smoothing.o"
+	@echo "... src/rooms/semantic_smoothing.i"
+	@echo "... src/rooms/semantic_smoothing.s"
 	@echo "... src/utils/active_window_tracker.o"
 	@echo "... src/utils/active_window_tracker.i"
 	@echo "... src/utils/active_window_tracker.s"

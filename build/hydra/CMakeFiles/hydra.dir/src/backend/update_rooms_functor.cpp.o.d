@@ -1163,4 +1163,5 @@ CMakeFiles/hydra.dir/src/backend/update_rooms_functor.cpp.o: \
  /usr/include/gflags/gflags.h /usr/include/gflags/gflags_declare.h \
  /usr/include/gflags/gflags_gflags.h /usr/include/glog/log_severity.h \
  /usr/include/glog/vlog_is_on.h \
+ /home/siny/hydra_ws/src/hydra/include/hydra/rooms/semantic_smoothing.h \
  /home/siny/hydra_ws/src/hydra/include/hydra/utils/timing_utilities.h

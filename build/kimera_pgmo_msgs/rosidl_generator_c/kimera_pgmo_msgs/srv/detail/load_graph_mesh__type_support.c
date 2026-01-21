@@ -5,8 +5,8 @@
 #include <string.h>
 
 #include "kimera_pgmo_msgs/srv/detail/load_graph_mesh__struct.h"
-#include "kimera_pgmo_msgs/srv/detail/load_graph_mesh__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "kimera_pgmo_msgs/srv/detail/load_graph_mesh__type_support.h"
 #include "kimera_pgmo_msgs/srv/detail/load_graph_mesh__functions.h"
 
 #ifdef __cplusplus

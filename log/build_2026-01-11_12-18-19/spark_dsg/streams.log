@@ -1,0 +1,142 @@
+[0.005s] Invoking command in '/home/siny/hydra_ws/build/spark_dsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/siny/hydra_ws/src/spark_dsg -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/spark_dsg
+[0.060s] -- The C compiler identification is GNU 13.3.0
+[0.104s] -- The CXX compiler identification is GNU 13.3.0
+[0.117s] -- Detecting C compiler ABI info
+[0.189s] -- Detecting C compiler ABI info - done
+[0.198s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.198s] -- Detecting C compile features
+[0.198s] -- Detecting C compile features - done
+[0.204s] -- Detecting CXX compiler ABI info
+[0.274s] -- Detecting CXX compiler ABI info - done
+[0.279s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.279s] -- Detecting CXX compile features
+[0.279s] -- Detecting CXX compile features - done
+[0.282s] -- Found nlohmann_json: /usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.11.3") 
+[0.288s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[0.289s] -- Checking for module 'libzmq'
+[0.302s] --   Found libzmq, version 4.3.5
+[0.333s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.401s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.402s] -- Found Threads: TRUE  
+[0.407s] -- Found GTest: /usr/lib/aarch64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.14.0")  
+[0.414s] -- Configuring done (0.4s)
+[0.424s] -- Generating done (0.0s)
+[0.427s] -- Build files have been written to: /home/siny/hydra_ws/build/spark_dsg
+[0.432s] Invoked command in '/home/siny/hydra_ws/build/spark_dsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/siny/hydra_ws/src/spark_dsg -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/spark_dsg
+[0.433s] Invoking command in '/home/siny/hydra_ws/build/spark_dsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/spark_dsg -- -j20 -l20
+[0.465s] [  1%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/bounding_box_extraction.cpp.o[0m
+[0.465s] [  3%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/colormaps.cpp.o[0m
+[0.465s] [  6%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/dynamic_scene_graph.cpp.o[0m
+[0.465s] [  6%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/labelspace.cpp.o[0m
+[0.465s] [  8%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/mesh.cpp.o[0m
+[0.465s] [  9%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/metadata.cpp.o[0m
+[0.465s] [ 14%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/node_attributes.cpp.o[0m
+[0.465s] [ 14%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/adjacency_matrix.cpp.o[0m
+[0.465s] [ 14%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/bounding_box.cpp.o[0m
+[0.466s] [ 16%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/color.cpp.o[0m
+[0.466s] [ 18%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/printing.cpp.o[0m
+[0.466s] [ 19%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/scene_graph_layer.cpp.o[0m
+[0.467s] [ 21%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/edge_container.cpp.o[0m
+[0.467s] [ 22%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/edge_attributes.cpp.o[0m
+[0.467s] [ 24%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/layer_view.cpp.o[0m
+[0.468s] [ 26%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/node_symbol.cpp.o[0m
+[0.469s] [ 29%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/scene_graph_node.cpp.o[0m
+[0.469s] [ 29%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/scene_graph_logger.cpp.o[0m
+[0.469s] [ 31%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/scene_graph_types.cpp.o[0m
+[0.469s] [ 32%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/scene_graph_utilities.cpp.o[0m
+[0.705s] [ 34%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/traversability_boundary.cpp.o[0m
+[0.769s] [ 36%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/zmq_interface.cpp.o[0m
+[0.780s] [ 37%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/attribute_serialization.cpp.o[0m
+[0.837s] [ 39%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/binary_conversions.cpp.o[0m
+[1.327s] [ 40%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/binary_serialization.cpp.o[0m
+[1.490s] [ 42%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/file_io.cpp.o[0m
+[1.756s] [ 44%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/graph_binary_serialization.cpp.o[0m
+[1.852s] [ 45%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/graph_json_serialization.cpp.o[0m
+[1.985s] [ 47%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/json_conversions.cpp.o[0m
+[1.990s] [ 49%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/mesh_serialization.cpp.o[0m
+[2.165s] [ 50%] [32mBuilding CXX object CMakeFiles/spark_dsg.dir/src/serialization/versioning.cpp.o[0m
+[4.994s] [ 52%] [32m[1mLinking CXX shared library libspark_dsg.so[0m
+[6.327s] [ 52%] Built target spark_dsg
+[6.342s] [ 54%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_bounding_box.cpp.o[0m
+[6.342s] [ 57%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_edge_container.cpp.o[0m
+[6.342s] [ 57%] [32mBuilding CXX object examples/CMakeFiles/dsg_repeater.dir/dsg_repeater.cpp.o[0m
+[6.342s] [ 60%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_labelspace.cpp.o[0m
+[6.342s] [ 59%] [32mBuilding CXX object examples/CMakeFiles/dsg_endpoint.dir/dsg_endpoint.cpp.o[0m
+[6.342s] [ 63%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_node_symbol.cpp.o[0m
+[6.342s] [ 63%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_scene_graph_node.cpp.o[0m
+[6.342s] [ 65%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_scene_graph_utilities.cpp.o[0m
+[6.342s] [ 67%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_traversability_boundary.cpp.o[0m
+[6.342s] [ 70%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_attribute_serialization.cpp.o[0m
+[6.342s] [ 73%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_color.cpp.o[0m
+[6.342s] [ 73%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_adjacency_matrix.cpp.o[0m
+[6.342s] [ 73%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_bounding_box_extraction.cpp.o[0m
+[6.343s] [ 75%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_dynamic_scene_graph.cpp.o[0m
+[6.343s] [ 77%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_graph_utilities_layer.cpp.o[0m
+[6.343s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_mesh.cpp.o[0m
+[6.343s] [ 80%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_metadata.cpp.o[0m
+[6.344s] [ 83%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_scene_graph_layer.cpp.o[0m
+[6.344s] [ 83%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_binary_serialization.cpp.o[0m
+[6.344s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_node_attributes.cpp.o[0m
+[6.927s] [ 86%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_binary_conversions.cpp.o[0m
+[7.487s] [ 88%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_graph_serialization.cpp.o[0m
+[7.714s] [ 90%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_file_io.cpp.o[0m
+[7.741s] [ 91%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_json_conversions.cpp.o[0m
+[7.773s] [ 93%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/serialization/utest_mesh_serialization.cpp.o[0m
+[7.791s] [ 95%] [32m[1mLinking CXX executable dsg_repeater[0m
+[7.842s] [ 96%] [32mBuilding CXX object tests/CMakeFiles/utest_spark_dsg.dir/utest_zmq_interface.cpp.o[0m
+[7.990s] [ 96%] Built target dsg_repeater
+[8.371s] [ 98%] [32m[1mLinking CXX executable dsg_endpoint[0m
+[8.550s] [ 98%] Built target dsg_endpoint
+[11.069s] [100%] [32m[1mLinking CXX executable utest_spark_dsg[0m
+[12.691s] [100%] Built target utest_spark_dsg
+[12.702s] Invoked command in '/home/siny/hydra_ws/build/spark_dsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/spark_dsg -- -j20 -l20
+[12.710s] Invoking command in '/home/siny/hydra_ws/build/spark_dsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/spark_dsg
+[12.716s] -- Install configuration: "Release"
+[12.717s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/bin/dsg_repeater
+[12.717s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/spark_dsg/bin/dsg_repeater" to ""
+[12.717s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/bin/dsg_endpoint
+[12.717s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/spark_dsg/bin/dsg_endpoint" to ""
+[12.718s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/lib/libspark_dsg.so
+[12.719s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include
+[12.719s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg
+[12.719s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization
+[12.719s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/binary_conversions.h
+[12.719s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/file_io.h
+[12.719s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/binary_serialization.h
+[12.719s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/graph_binary_serialization.h
+[12.719s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/json_conversions.h
+[12.719s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/attribute_serialization.h
+[12.719s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/graph_json_serialization.h
+[12.720s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/versioning.h
+[12.720s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/serialization/attribute_registry.h
+[12.720s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/bounding_box.h
+[12.720s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/labelspace.h
+[12.720s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/dynamic_scene_graph.h
+[12.720s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/color.h
+[12.720s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/scene_graph_layer.h
+[12.720s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/bounding_box_extraction.h
+[12.720s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/edge_container.h
+[12.720s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/spark_dsg_fwd.h
+[12.720s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/spark_dsg.h
+[12.720s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/graph_utilities.h
+[12.720s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/scene_graph_types.h
+[12.721s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/colormaps.h
+[12.721s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/scene_graph_logger.h
+[12.721s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/scene_graph_utilities.h
+[12.721s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/scene_graph_node.h
+[12.721s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/metadata.h
+[12.721s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/mesh.h
+[12.721s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/edge_attributes.h
+[12.721s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/node_attributes.h
+[12.721s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/adjacency_matrix.h
+[12.721s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/logging.h
+[12.721s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/zmq_interface.h
+[12.722s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/node_symbol.h
+[12.722s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/traversability_boundary.h
+[12.722s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/layer_view.h
+[12.722s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/printing.h
+[12.722s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/lib/cmake/spark_dsg/spark_dsgTargets.cmake
+[12.722s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/lib/cmake/spark_dsg/spark_dsgTargets-release.cmake
+[12.722s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/lib/cmake/spark_dsg/spark_dsgConfig.cmake
+[12.722s] -- Installing: /home/siny/hydra_ws/install/spark_dsg/lib/cmake/spark_dsg/spark_dsgConfigVersion.cmake
+[12.724s] Invoked command in '/home/siny/hydra_ws/build/spark_dsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/spark_dsg

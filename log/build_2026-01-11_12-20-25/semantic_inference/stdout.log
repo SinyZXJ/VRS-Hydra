@@ -1,0 +1,56 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenCV: /usr (found version "4.6.0") 
+-- Found CUDAToolkit: /usr/local/cuda/targets/sbsa-linux/include (found version "13.0.88") 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found TensorRT: /usr/lib/aarch64-linux-gnu/libnvinfer.so (found version "") found components: onnxparser infer_plugin 
+-- Found GTest: /usr/lib/aarch64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.14.0")  
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/siny/hydra_ws/build/semantic_inference
+[ 21%] [32mBuilding CXX object CMakeFiles/semantic_inference.dir/src/image_utilities.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/semantic_inference.dir/src/image_recolor.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/semantic_inference.dir/src/image_rotator.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/semantic_inference.dir/src/segmenter.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/semantic_inference.dir/src/model_config.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/semantic_inference.dir/src/logging.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/semantic_inference.dir/src/trt_utilities.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/semantic_inference.dir/src/model.cpp.o[0m
+[ 64%] [32m[1mLinking CXX shared library libsemantic_inference.so[0m
+[ 64%] Built target semantic_inference
+[ 71%] [32mBuilding CXX object CMakeFiles/demo_segmentation.dir/app/demo_segmentation.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable demo_segmentation[0m
+[ 78%] Built target demo_segmentation
+[ 85%] [32mBuilding CXX object tests/CMakeFiles/test_semantic_inference.dir/utest_image_utilities.cpp.o[0m
+[ 92%] [32mBuilding CXX object tests/CMakeFiles/test_semantic_inference.dir/utest_main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_semantic_inference[0m
+[100%] Built target test_semantic_inference
+-- Install configuration: "Release"
+-- Installing: /home/siny/hydra_ws/install/semantic_inference/lib/libsemantic_inference.so
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/semantic_inference/lib/libsemantic_inference.so" to ""
+-- Installing: /home/siny/hydra_ws/install/semantic_inference/bin/demo_segmentation
+-- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/semantic_inference/bin/demo_segmentation" to ""
+-- Installing: /home/siny/hydra_ws/install/semantic_inference/include
+-- Installing: /home/siny/hydra_ws/install/semantic_inference/include/semantic_inference
+-- Installing: /home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/segmenter.h
+-- Installing: /home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/image_recolor.h
+-- Installing: /home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/model_config.h
+-- Installing: /home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/image_rotator.h
+-- Installing: /home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/image_utilities.h
+-- Installing: /home/siny/hydra_ws/install/semantic_inference/include/semantic_inference/logging.h
+-- Installing: /home/siny/hydra_ws/install/semantic_inference/lib/cmake/semantic_inference/semantic_inferenceTargets.cmake
+-- Installing: /home/siny/hydra_ws/install/semantic_inference/lib/cmake/semantic_inference/semantic_inferenceTargets-release.cmake
+-- Installing: /home/siny/hydra_ws/install/semantic_inference/lib/cmake/semantic_inference/semantic_inferenceConfig.cmake
+-- Installing: /home/siny/hydra_ws/install/semantic_inference/lib/cmake/semantic_inference/semantic_inferenceConfigVersion.cmake

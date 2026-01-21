@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "hydra_msgs/msg/detail/active_layer__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
-#include "hydra_msgs/msg/detail/active_layer__type_support.h"
 #include "hydra_msgs/msg/detail/active_layer__struct.h"
+#include "hydra_msgs/msg/detail/active_layer__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

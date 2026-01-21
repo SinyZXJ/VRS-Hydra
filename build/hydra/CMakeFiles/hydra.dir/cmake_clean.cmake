@@ -187,6 +187,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/hydra.dir/src/rooms/room_finder_config.cpp.o.d"
   "CMakeFiles/hydra.dir/src/rooms/room_utilities.cpp.o"
   "CMakeFiles/hydra.dir/src/rooms/room_utilities.cpp.o.d"
+  "CMakeFiles/hydra.dir/src/rooms/semantic_smoothing.cpp.o"
+  "CMakeFiles/hydra.dir/src/rooms/semantic_smoothing.cpp.o.d"
   "CMakeFiles/hydra.dir/src/utils/active_window_tracker.cpp.o"
   "CMakeFiles/hydra.dir/src/utils/active_window_tracker.cpp.o.d"
   "CMakeFiles/hydra.dir/src/utils/csv_reader.cpp.o"

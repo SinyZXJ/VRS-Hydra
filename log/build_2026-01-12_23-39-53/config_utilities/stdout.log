@@ -1,0 +1,90 @@
+[  1%] [34m[1mTarget for test resources[0m
+[  2%] Built target copy_test_resources
+[ 40%] Built target config_utilities
+[ 43%] Built target demo_factory
+[ 46%] Built target composite-configs
+[ 49%] Built target demo_inheritance
+[ 52%] Built target test_config_utilities_plugins
+[ 55%] Built target demo_config
+[100%] Built target test_config_utilities
+-- Install configuration: "Release"
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/lib/libconfig_utilities.so
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/bin/composite-configs
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/bin
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/bin/introspection_viewer.py
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/bin/templates
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/bin/templates/index.html
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/bin/static
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/bin/static/js
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/bin/static/js/display.js
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/bin/static/js/general.js
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/bin/static/js/data.js
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/bin/static/js/summary_view.js
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/bin/static/css
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/bin/static/css/style_base.css
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/bin/static/css/style.css
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/bin/config-utilities-viewer
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/config_utilities.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/virtual_config.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/internal
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/internal/string_utils.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/internal/checks.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/internal/field_input_info.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/internal/visitor_impl.hpp
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/internal/introspection.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/internal/yaml_parser.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/internal/config_context.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/internal/dynamic_config_impl.hpp
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/internal/formatter.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/internal/logger.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/internal/visitor.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/internal/namespacing.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/internal/meta_data.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/internal/yaml_utils.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/logging
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/logging/log_to_stdout.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/logging/log_to_glog.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/types
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/types/enum.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/types/path.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/types/conversions.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/types/eigen_matrix.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/external_registry.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/getters.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/formatting
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/formatting/asl.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/validation.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/traits.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/parsing
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/parsing/context.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/parsing/yaml.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/parsing/commandline.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/factory.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/config.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/substitutions.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/settings.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/dynamic_config.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/substitution_parsers.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/update.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/include/config_utilities/printing.h
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/lib/cmake/config_utilities/config_utilitiesTargets.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/lib/cmake/config_utilities/config_utilitiesTargets-release.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/lib/cmake/config_utilities/config_utilitiesConfig.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/lib/cmake/config_utilities/config_utilitiesConfigVersion.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/share/ament_index/resource_index/package_run_dependencies/config_utilities
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/share/ament_index/resource_index/parent_prefix_path/config_utilities
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/share/config_utilities/environment/ament_prefix_path.sh
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/share/config_utilities/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/share/config_utilities/environment/path.sh
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/share/config_utilities/environment/path.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/share/config_utilities/local_setup.bash
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/share/config_utilities/local_setup.sh
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/share/config_utilities/local_setup.zsh
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/share/config_utilities/local_setup.dsv
+-- Installing: /home/siny/hydra_ws/install/config_utilities/share/config_utilities/package.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/share/ament_index/resource_index/packages/config_utilities
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/share/config_utilities/cmake/config_utilitiesConfig.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/share/config_utilities/cmake/config_utilitiesConfig-version.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/config_utilities/share/config_utilities/package.xml

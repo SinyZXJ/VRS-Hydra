@@ -105,6 +105,7 @@
 /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure/gnn_descriptors.h
 /home/siny/hydra_ws/install/hydra/include/hydra/rooms/room_finder.h
 /home/siny/hydra_ws/install/hydra/include/hydra/rooms/graph_filtration.h
+/home/siny/hydra_ws/install/hydra/include/hydra/rooms/semantic_smoothing.h
 /home/siny/hydra_ws/install/hydra/include/hydra/rooms/graph_clustering.h
 /home/siny/hydra_ws/install/hydra/include/hydra/rooms/room_finder_config.h
 /home/siny/hydra_ws/install/hydra/include/hydra/rooms/room_utilities.h
@@ -158,7 +159,6 @@
 /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/simmons_a1.yaml
 /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/kimera_multi_ouster64.yaml
 /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/spot.yaml
-/home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/jackal.yaml
 /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/d455_outdoor.yaml
 /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/uhumans2.yaml
 /home/siny/hydra_ws/install/hydra/share/hydra/config/datasets/habitat.yaml
@@ -169,6 +169,7 @@
 /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/tesse_cd_office_label_space.yaml
 /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/tesse_cd_apartment_label_space.yaml
 /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/kitti_360_label_space.yaml
+/home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/vlm_label_space.yaml
 /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/phoenix_label_space.yaml
 /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/ade20k_full_label_space.yaml
 /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/uhumans2_subway_label_space.yaml
@@ -178,6 +179,7 @@
 /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/uhumans2_office_label_space.yaml
 /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/tesse_ade20k_label_space.yaml
 /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/ade20k_outdoor_label_space.yaml
+/home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/vlm_apartment_label_space.yaml
 /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/mpcat40_label_space.yaml
 /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/ade20k_indoor_label_space.yaml
 /home/siny/hydra_ws/install/hydra/share/hydra/config/label_spaces/my_yolo_labels.yaml

@@ -41,9 +41,7 @@
 /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/frontend/places_visualizer.h
 /home/siny/hydra_ws/install/hydra_ros/include//hydra_ros/hydra_ros_pipeline.h
 /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch/scene_graph_logger.launch.yaml
-/home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch/run_hydra.launch.yaml
 /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch/datasets/uhumans2.launch.yaml
-/home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch/datasets/jackal_real.launch.yaml
 /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch/datasets/a1.launch.yaml
 /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch/datasets/12uhumans1.launch.yaml
 /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/launch/datasets/zed2i.launch.yaml
@@ -55,6 +53,8 @@
 /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/color/kitti_360.csv
 /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/color/uhumans2_subway.csv
 /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/color/phoenix.csv
+/home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/color/vlm_apartment_colors.csv
+/home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/color/vlm_colors.csv
 /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/sinks/active_window_sinks.yaml
 /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/sinks/gvd_places_sinks.yaml
 /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/sinks/mesh_segmenter_sinks.yaml
@@ -63,7 +63,6 @@
 /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/oakd.yaml
 /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/lis_spot.yaml
 /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/simmons.yaml
-/home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/jackal.yaml
 /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/uhumans2.yaml
 /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/zed2i.yaml
 /home/siny/hydra_ws/install/hydra_ros/share/hydra_ros/config/datasets/kitti_360.yaml

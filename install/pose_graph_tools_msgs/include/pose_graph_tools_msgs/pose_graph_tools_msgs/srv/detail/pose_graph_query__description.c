@@ -69,14 +69,14 @@ pose_graph_tools_msgs__srv__PoseGraphQuery_Event__get_type_hash(
 
 // Include directives for referenced types
 #include "geometry_msgs/msg/detail/point__functions.h"
-#include "geometry_msgs/msg/detail/quaternion__functions.h"
+#include "service_msgs/msg/detail/service_event_info__functions.h"
 #include "pose_graph_tools_msgs/msg/detail/pose_graph_node__functions.h"
+#include "geometry_msgs/msg/detail/quaternion__functions.h"
+#include "pose_graph_tools_msgs/msg/detail/pose_graph__functions.h"
 #include "builtin_interfaces/msg/detail/time__functions.h"
 #include "std_msgs/msg/detail/header__functions.h"
-#include "service_msgs/msg/detail/service_event_info__functions.h"
-#include "geometry_msgs/msg/detail/pose__functions.h"
 #include "pose_graph_tools_msgs/msg/detail/pose_graph_edge__functions.h"
-#include "pose_graph_tools_msgs/msg/detail/pose_graph__functions.h"
+#include "geometry_msgs/msg/detail/pose__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

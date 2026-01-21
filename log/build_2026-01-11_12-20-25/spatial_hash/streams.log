@@ -1,0 +1,64 @@
+[0.015s] Invoking command in '/home/siny/hydra_ws/build/spatial_hash': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/siny/hydra_ws/src/spatial_hash -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/spatial_hash
+[0.056s] -- The C compiler identification is GNU 13.3.0
+[0.091s] -- The CXX compiler identification is GNU 13.3.0
+[0.103s] -- Detecting C compiler ABI info
+[0.176s] -- Detecting C compiler ABI info - done
+[0.181s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.181s] -- Detecting C compile features
+[0.181s] -- Detecting C compile features - done
+[0.189s] -- Detecting CXX compiler ABI info
+[0.260s] -- Detecting CXX compiler ABI info - done
+[0.265s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.265s] -- Detecting CXX compile features
+[0.265s] -- Detecting CXX compile features - done
+[0.271s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[0.272s] -- Checking for module 'libglog'
+[0.280s] --   Found libglog, version 0.6.0
+[0.377s] -- Found GTest: /usr/lib/aarch64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.14.0")  
+[0.382s] -- Configuring done (0.4s)
+[0.390s] -- Generating done (0.0s)
+[0.393s] -- Build files have been written to: /home/siny/hydra_ws/build/spatial_hash
+[0.398s] Invoked command in '/home/siny/hydra_ws/build/spatial_hash' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/siny/hydra_ws/src/spatial_hash -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/spatial_hash
+[0.398s] Invoking command in '/home/siny/hydra_ws/build/spatial_hash': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/spatial_hash -- -j20 -l20
+[0.435s] [ 14%] [32mBuilding CXX object CMakeFiles/spatial_hash.dir/src/block.cpp.o[0m
+[0.435s] [ 21%] [32mBuilding CXX object CMakeFiles/spatial_hash.dir/src/neighbor_utils.cpp.o[0m
+[0.435s] [ 21%] [32mBuilding CXX object CMakeFiles/spatial_hash.dir/src/grid.cpp.o[0m
+[1.771s] [ 28%] [32m[1mLinking CXX static library libspatial_hash.a[0m
+[2.210s] [ 28%] Built target spatial_hash
+[2.270s] [ 35%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_block_layer.cpp.o[0m
+[2.273s] [ 42%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_block.cpp.o[0m
+[2.275s] [ 50%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_main.cpp.o[0m
+[2.280s] [ 57%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_grid.cpp.o[0m
+[2.289s] [ 64%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_hash.cpp.o[0m
+[2.292s] [ 71%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_layer.cpp.o[0m
+[2.300s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_neighbor_utils.cpp.o[0m
+[2.303s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_voxel_block.cpp.o[0m
+[2.315s] [ 92%] [32mBuilding CXX object tests/CMakeFiles/utest_spatial_hash.dir/utest_voxel_layer.cpp.o[0m
+[11.518s] [100%] [32m[1mLinking CXX executable utest_spatial_hash[0m
+[11.809s] [100%] Built target utest_spatial_hash
+[11.855s] Invoked command in '/home/siny/hydra_ws/build/spatial_hash' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/spatial_hash -- -j20 -l20
+[11.855s] Invoking command in '/home/siny/hydra_ws/build/spatial_hash': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/spatial_hash
+[11.871s] -- Install configuration: "Release"
+[11.872s] -- Installing: /home/siny/hydra_ws/install/spatial_hash/lib/libspatial_hash.a
+[11.876s] -- Installing: /home/siny/hydra_ws/install/spatial_hash/include
+[11.876s] -- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash
+[11.876s] -- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/neighbor_utils.h
+[11.876s] -- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/voxel_layer.h
+[11.876s] -- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/layer.h
+[11.876s] -- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/hash.h
+[11.876s] -- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/voxel_block.h
+[11.876s] -- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/impl
+[11.877s] -- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/impl/block_layer_impl.h
+[11.877s] -- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/impl/neighbor_utils_impl.h
+[11.877s] -- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/impl/voxel_block_impl.h
+[11.877s] -- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/impl/voxel_layer_impl.h
+[11.877s] -- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/impl/layer_impl.h
+[11.877s] -- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/types.h
+[11.877s] -- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/block.h
+[11.877s] -- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/grid.h
+[11.877s] -- Installing: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/block_layer.h
+[11.877s] -- Installing: /home/siny/hydra_ws/install/spatial_hash/lib/cmake/spatial_hash/spatial_hashTargets.cmake
+[11.877s] -- Installing: /home/siny/hydra_ws/install/spatial_hash/lib/cmake/spatial_hash/spatial_hashTargets-release.cmake
+[11.877s] -- Installing: /home/siny/hydra_ws/install/spatial_hash/lib/cmake/spatial_hash/spatial_hashConfig.cmake
+[11.877s] -- Installing: /home/siny/hydra_ws/install/spatial_hash/lib/cmake/spatial_hash/spatial_hashConfigVersion.cmake
+[11.882s] Invoked command in '/home/siny/hydra_ws/build/spatial_hash' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/spatial_hash

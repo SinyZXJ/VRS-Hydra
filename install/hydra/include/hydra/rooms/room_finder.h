@@ -61,6 +61,14 @@ class RoomFinder {
 
   void addRoomPlaceEdges(DynamicSceneGraph& graph) const;
 
+  /**
+   * @brief Update Room semantic labels by re-voting on child Place labels.
+   * 
+   * Called periodically to recalculate Room labels as more VLM labels arrive.
+   * Only considers valid VLM room labels (10=office, 11=living_room, 12=kitchen, 13=corridor).
+   */
+  void updateRoomLabels(DynamicSceneGraph& graph) const;
+
   void enableLogging(const std::string& log_path);
 
   void fillClusterMap(const SceneGraphLayer& places, ClusterMap& assignments) const;

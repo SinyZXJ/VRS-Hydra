@@ -1,0 +1,78 @@
+[  8%] Built target ianvs_rosbag
+[ 43%] Built target ianvs
+[ 43%] Built target ament_cmake_python_copy_ianvs
+[ 52%] Built target transform_file_broadcaster
+[ 65%] Built target _ianvs_bindings
+[ 65%] Built target ament_cmake_python_copy_ianvs_setup
+[ 73%] Built target play_rosbag
+[ 82%] Built target merge_rosbags
+[100%] Built target ianvs_plugins
+running egg_info
+writing ianvs.egg-info/PKG-INFO
+writing dependency_links to ianvs.egg-info/dependency_links.txt
+writing entry points to ianvs.egg-info/entry_points.txt
+writing top-level names to ianvs.egg-info/top_level.txt
+reading manifest file 'ianvs.egg-info/SOURCES.txt'
+writing manifest file 'ianvs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_ianvs_egg
+-- Install configuration: "Release"
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs/
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/image_subscription.h
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/node_handle.h
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/app
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/app/rosbag_play_plugins.h
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/node_handle_factory.h
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/image_publisher.h
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/bag_reader.h
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/lazy_publisher_group.h
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/spin_functions.h
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/detail
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/detail/string_transforms.h
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/visibility_control.h
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/message_wait_functor.h
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/node_init.h
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/bindings
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/bindings/image_encodings.h
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/libianvs.so
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/libianvs_plugins.so
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/libianvs_rosbag.so
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/ianvs/play_rosbag
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/ianvs/merge_rosbags
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/ianvs/transform_file_broadcaster
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs/_ianvs_bindings.cpython-312-aarch64-linux-gnu.so
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/pythonpath.sh
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/pythonpath.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info
+-- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/entry_points.txt
+-- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs/__init__.py
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs/launch.py
+Listing '/home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs'...
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/plugins.xml
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/library_path.sh
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/library_path.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ament_index/resource_index/package_run_dependencies/ianvs
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ament_index/resource_index/parent_prefix_path/ianvs
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/ament_prefix_path.sh
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/path.sh
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/path.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/local_setup.bash
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/local_setup.sh
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/local_setup.zsh
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/local_setup.dsv
+-- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/package.dsv
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ament_index/resource_index/packages/ianvs
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ament_index/resource_index/ianvs__pluginlib__plugin/ianvs
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ianvs-exportsExport.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ianvs-exportsExport-release.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ianvsConfig.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ianvsConfig-version.cmake
+-- Up-to-date: /home/siny/hydra_ws/install/ianvs/share/ianvs/package.xml

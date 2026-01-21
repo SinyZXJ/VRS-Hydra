@@ -7,5 +7,9 @@ hydra_msgs.egg-info/top_level.txt
 hydra_msgs/msg/__init__.py
 hydra_msgs/msg/_active_layer.py
 hydra_msgs/msg/_dsg_update.py
+hydra_msgs/msg/_label_update_request.py
+hydra_msgs/msg/_node_label_update.py
+hydra_msgs/msg/_place_node.py
+hydra_msgs/msg/_place_node_array.py
 hydra_msgs/srv/__init__.py
 hydra_msgs/srv/_get_dsg.py

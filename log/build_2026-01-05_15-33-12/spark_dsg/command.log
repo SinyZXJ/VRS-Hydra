@@ -1,4 +1,0 @@
-Invoking command in '/home/siny/hydra_ws/build/spark_dsg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/spark_dsg -- -j20 -l20
-Invoked command in '/home/siny/hydra_ws/build/spark_dsg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/spark_dsg -- -j20 -l20
-Invoking command in '/home/siny/hydra_ws/build/spark_dsg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/spark_dsg
-Invoked command in '/home/siny/hydra_ws/build/spark_dsg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/spark_dsg

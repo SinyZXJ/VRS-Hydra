@@ -1,0 +1,2 @@
+uint64 node_id
+geometry_msgs/Point position

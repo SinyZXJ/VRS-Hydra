@@ -76,6 +76,26 @@ CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/dsg_updat
 CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/dsg_update__struct.hpp
 CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/dsg_update__traits.hpp
 CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/dsg_update__type_support.hpp
+CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/node_label_update.hpp
+CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/node_label_update__builder.hpp
+CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/node_label_update__struct.hpp
+CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/node_label_update__traits.hpp
+CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/node_label_update__type_support.hpp
+CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/label_update_request.hpp
+CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/label_update_request__builder.hpp
+CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/label_update_request__struct.hpp
+CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/label_update_request__traits.hpp
+CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/label_update_request__type_support.hpp
+CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/place_node.hpp
+CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/place_node__builder.hpp
+CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/place_node__struct.hpp
+CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/place_node__traits.hpp
+CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/place_node__type_support.hpp
+CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/place_node_array.hpp
+CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/place_node_array__builder.hpp
+CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/place_node_array__struct.hpp
+CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/place_node_array__traits.hpp
+CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/place_node_array__type_support.hpp
 CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/srv/get_dsg.hpp
 CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/srv/detail/get_dsg__builder.hpp
 CMakeFiles/hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/srv/detail/get_dsg__struct.hpp
@@ -104,6 +124,10 @@ rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/rosid
 rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: rosidl_adapter/hydra_msgs/msg/ActiveLayer.idl
 rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: rosidl_adapter/hydra_msgs/msg/DsgUpdate.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: rosidl_adapter/hydra_msgs/msg/NodeLabelUpdate.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: rosidl_adapter/hydra_msgs/msg/LabelUpdateRequest.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: rosidl_adapter/hydra_msgs/msg/PlaceNode.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: rosidl_adapter/hydra_msgs/msg/PlaceNodeArray.idl
 rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: rosidl_adapter/hydra_msgs/srv/GetDsg.idl
 rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
@@ -137,6 +161,38 @@ rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/std_m
 rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/std_msgs/msg/UInt8.idl
 rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/Inertia.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/InertiaStamped.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/Point.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/Point32.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/PointStamped.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/Polygon.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/PolygonInstance.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/PolygonInstanceStamped.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/PolygonStamped.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/Pose.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/Pose2D.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/PoseArray.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/PoseStamped.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/PoseWithCovariance.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/Quaternion.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/QuaternionStamped.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/Transform.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/TransformStamped.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/Twist.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/TwistStamped.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/TwistWithCovariance.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/Vector3.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/Vector3Stamped.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/VelocityStamped.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/Wrench.idl
+rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl
 rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/siny/hydra_ws/build/hydra_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/siny/hydra_ws/build/hydra_msgs/rosidl_generator_cpp__arguments.json
@@ -168,6 +224,66 @@ rosidl_generator_cpp/hydra_msgs/msg/detail/dsg_update__traits.hpp: rosidl_genera
 rosidl_generator_cpp/hydra_msgs/msg/detail/dsg_update__type_support.hpp: rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hydra_msgs/msg/detail/dsg_update__type_support.hpp
 
+rosidl_generator_cpp/hydra_msgs/msg/node_label_update.hpp: rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hydra_msgs/msg/node_label_update.hpp
+
+rosidl_generator_cpp/hydra_msgs/msg/detail/node_label_update__builder.hpp: rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hydra_msgs/msg/detail/node_label_update__builder.hpp
+
+rosidl_generator_cpp/hydra_msgs/msg/detail/node_label_update__struct.hpp: rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hydra_msgs/msg/detail/node_label_update__struct.hpp
+
+rosidl_generator_cpp/hydra_msgs/msg/detail/node_label_update__traits.hpp: rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hydra_msgs/msg/detail/node_label_update__traits.hpp
+
+rosidl_generator_cpp/hydra_msgs/msg/detail/node_label_update__type_support.hpp: rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hydra_msgs/msg/detail/node_label_update__type_support.hpp
+
+rosidl_generator_cpp/hydra_msgs/msg/label_update_request.hpp: rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hydra_msgs/msg/label_update_request.hpp
+
+rosidl_generator_cpp/hydra_msgs/msg/detail/label_update_request__builder.hpp: rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hydra_msgs/msg/detail/label_update_request__builder.hpp
+
+rosidl_generator_cpp/hydra_msgs/msg/detail/label_update_request__struct.hpp: rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hydra_msgs/msg/detail/label_update_request__struct.hpp
+
+rosidl_generator_cpp/hydra_msgs/msg/detail/label_update_request__traits.hpp: rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hydra_msgs/msg/detail/label_update_request__traits.hpp
+
+rosidl_generator_cpp/hydra_msgs/msg/detail/label_update_request__type_support.hpp: rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hydra_msgs/msg/detail/label_update_request__type_support.hpp
+
+rosidl_generator_cpp/hydra_msgs/msg/place_node.hpp: rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hydra_msgs/msg/place_node.hpp
+
+rosidl_generator_cpp/hydra_msgs/msg/detail/place_node__builder.hpp: rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hydra_msgs/msg/detail/place_node__builder.hpp
+
+rosidl_generator_cpp/hydra_msgs/msg/detail/place_node__struct.hpp: rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hydra_msgs/msg/detail/place_node__struct.hpp
+
+rosidl_generator_cpp/hydra_msgs/msg/detail/place_node__traits.hpp: rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hydra_msgs/msg/detail/place_node__traits.hpp
+
+rosidl_generator_cpp/hydra_msgs/msg/detail/place_node__type_support.hpp: rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hydra_msgs/msg/detail/place_node__type_support.hpp
+
+rosidl_generator_cpp/hydra_msgs/msg/place_node_array.hpp: rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hydra_msgs/msg/place_node_array.hpp
+
+rosidl_generator_cpp/hydra_msgs/msg/detail/place_node_array__builder.hpp: rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hydra_msgs/msg/detail/place_node_array__builder.hpp
+
+rosidl_generator_cpp/hydra_msgs/msg/detail/place_node_array__struct.hpp: rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hydra_msgs/msg/detail/place_node_array__struct.hpp
+
+rosidl_generator_cpp/hydra_msgs/msg/detail/place_node_array__traits.hpp: rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hydra_msgs/msg/detail/place_node_array__traits.hpp
+
+rosidl_generator_cpp/hydra_msgs/msg/detail/place_node_array__type_support.hpp: rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hydra_msgs/msg/detail/place_node_array__type_support.hpp
+
 rosidl_generator_cpp/hydra_msgs/srv/get_dsg.hpp: rosidl_generator_cpp/hydra_msgs/msg/active_layer.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/hydra_msgs/srv/get_dsg.hpp
 
@@ -196,7 +312,27 @@ hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/dsg_update__builder.
 hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/dsg_update__struct.hpp
 hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/dsg_update__traits.hpp
 hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/dsg_update__type_support.hpp
+hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/label_update_request__builder.hpp
+hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/label_update_request__struct.hpp
+hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/label_update_request__traits.hpp
+hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/label_update_request__type_support.hpp
+hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/node_label_update__builder.hpp
+hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/node_label_update__struct.hpp
+hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/node_label_update__traits.hpp
+hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/node_label_update__type_support.hpp
+hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/place_node__builder.hpp
+hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/place_node__struct.hpp
+hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/place_node__traits.hpp
+hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/place_node__type_support.hpp
+hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/place_node_array__builder.hpp
+hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/place_node_array__struct.hpp
+hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/place_node_array__traits.hpp
+hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/detail/place_node_array__type_support.hpp
 hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/dsg_update.hpp
+hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/label_update_request.hpp
+hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/node_label_update.hpp
+hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/place_node.hpp
+hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/place_node_array.hpp
 hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/srv/detail/get_dsg__builder.hpp
 hydra_msgs__cpp: rosidl_generator_cpp/hydra_msgs/srv/detail/get_dsg__struct.hpp

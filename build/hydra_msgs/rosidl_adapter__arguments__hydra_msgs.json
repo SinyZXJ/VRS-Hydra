@@ -3,6 +3,10 @@
   "non_idl_tuples": [
     "/home/siny/hydra_ws/src/hydra_ros/hydra_msgs:msg/ActiveLayer.msg",
     "/home/siny/hydra_ws/src/hydra_ros/hydra_msgs:msg/DsgUpdate.msg",
+    "/home/siny/hydra_ws/src/hydra_ros/hydra_msgs:msg/NodeLabelUpdate.msg",
+    "/home/siny/hydra_ws/src/hydra_ros/hydra_msgs:msg/LabelUpdateRequest.msg",
+    "/home/siny/hydra_ws/src/hydra_ros/hydra_msgs:msg/PlaceNode.msg",
+    "/home/siny/hydra_ws/src/hydra_ros/hydra_msgs:msg/PlaceNodeArray.msg",
     "/home/siny/hydra_ws/src/hydra_ros/hydra_msgs:srv/GetDsg.srv"
   ]
 }

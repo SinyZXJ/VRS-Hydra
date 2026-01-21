@@ -4,9 +4,9 @@
 
 #include <string.h>
 
+#include "rosidl_typesupport_interface/macros.h"
 #include "pose_graph_tools_msgs/msg/detail/bow_queries__functions.h"
 #include "pose_graph_tools_msgs/msg/detail/bow_queries__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "pose_graph_tools_msgs/msg/detail/bow_queries__type_support.h"
 
 #ifdef __cplusplus

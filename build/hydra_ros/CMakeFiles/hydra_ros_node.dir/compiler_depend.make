@@ -92,6 +92,14 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
   /home/siny/hydra_ws/install/hydra/include/hydra/reconstruction/voxel_types.h \
   /home/siny/hydra_ws/install/hydra/include/hydra/utils/active_window_tracker.h \
   /home/siny/hydra_ws/install/hydra/include/hydra/utils/data_directory.h \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__builder.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__struct.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__traits.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__type_support.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__struct.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__traits.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/label_update_request.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /home/siny/hydra_ws/install/ianvs/include/ianvs/ianvs/node_handle.h \
   /home/siny/hydra_ws/install/ianvs/include/ianvs/ianvs/node_init.h \
   /home/siny/hydra_ws/install/ianvs/include/ianvs/ianvs/spin_functions.h \
@@ -2692,13 +2700,11 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /usr/include/nlohmann/detail/iterators/json_reverse_iterator.hpp:
 
-/usr/include/boost/mp11/function.hpp:
+/usr/include/nlohmann/detail/input/parser.hpp:
 
-/usr/include/boost/mp11/detail/mp_void.hpp:
+/usr/include/nlohmann/detail/input/json_sax.hpp:
 
-/usr/include/boost/detail/templated_streams.hpp:
-
-/usr/include/boost/ptr_container/ptr_map_adapter.hpp:
+/usr/include/nlohmann/detail/input/input_adapters.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp:
 
@@ -2760,7 +2766,11 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /usr/include/boost/config/user.hpp:
 
-/usr/include/boost/mp11/set.hpp:
+/usr/include/boost/detail/templated_streams.hpp:
+
+/usr/include/boost/mp11/detail/mp_void.hpp:
+
+/usr/include/boost/ptr_container/ptr_map_adapter.hpp:
 
 /usr/include/boost/detail/reference_content.hpp:
 
@@ -2823,8 +2833,6 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 /usr/include/eigen3/Eigen/src/Core/VectorBlock.h:
 
 /usr/include/boost/config.hpp:
-
-/usr/include/c++/13/bits/fs_path.h:
 
 /usr/include/boost/concept_check.hpp:
 
@@ -3008,8 +3016,6 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /usr/include/aarch64-linux-gnu/bits/uio_lim.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/message_info.hpp:
-
 /usr/include/eigen3/Eigen/src/Core/CommaInitializer.h:
 
 /usr/include/aarch64-linux-gnu/bits/typesizes.h:
@@ -3073,8 +3079,6 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h:
 
 /usr/include/aarch64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/nlohmann/detail/input/input_adapters.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/types/FILE.h:
 
@@ -3342,8 +3346,6 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /usr/include/c++/13/bits/std_function.h:
 
-/usr/include/boost/mp11/integer_sequence.hpp:
-
 /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
@@ -3390,12 +3392,6 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
 
-/usr/include/boost/smart_ptr/detail/yield_k.hpp:
-
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h:
-
-/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/dynamic_data.h:
-
 /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/uchar.h:
 
 /usr/include/c++/13/map:
@@ -3408,13 +3404,19 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h:
 
+/opt/ros/jazzy/include/rclcpp/rclcpp/message_info.hpp:
+
+/home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/dynamic_data.h:
+
+/usr/include/boost/smart_ptr/detail/yield_k.hpp:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h:
+
 /opt/ros/jazzy/include/rmw/rmw/visibility_control.h:
 
 /opt/ros/jazzy/include/rmw/rmw/topic_endpoint_info_array.h:
-
-/usr/include/boost/mp11/integral.hpp:
-
-/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/serialization_support.h:
 
 /usr/include/boost/type_traits/detail/has_binary_operator.hpp:
 
@@ -3538,29 +3540,21 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /usr/include/boost/preprocessor/facilities/overload.hpp:
 
-/usr/include/aarch64-linux-gnu/bits/select-decl.h:
+/opt/ros/jazzy/include/rmw/rmw/qos_string_conversions.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_result.hpp:
+/usr/include/boost/type_index/stl_type_index.hpp:
 
-/usr/include/nlohmann/detail/conversions/to_chars.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
 
-/opt/ros/jazzy/include/gtsam/linear/Scatter.h:
+/usr/include/boost/cstdint.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
+/usr/include/boost/mpl/list/list0.hpp:
 
-/usr/include/boost/integer_fwd.hpp:
+/usr/include/boost/type_traits/add_lvalue_reference.hpp:
 
-/home/siny/hydra_ws/install/config_utilities/include/config_utilities/types/path.h:
+/usr/include/aarch64-linux-gnu/bits/time.h:
 
-/usr/include/boost/timer/config.hpp:
-
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
-
-/usr/include/c++/13/ext/numeric_traits.h:
-
-/usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h:
-
-/opt/ros/jazzy/include/gtsam/linear/JacobianFactor.h:
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h:
 
@@ -3666,15 +3660,9 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:
 
-/usr/include/aarch64-linux-gnu/bits/errno.h:
-
-/opt/ros/jazzy/include/gtsam/linear/VectorValues.h:
-
 /opt/ros/jazzy/include/rmw/rmw/event.h:
 
 /opt/ros/jazzy/include/gtsam/base/SymmetricBlockMatrix.h:
-
-/opt/ros/jazzy/include/gtsam/linear/SubgraphBuilder.h:
 
 /usr/include/boost/preprocessor/facilities/limits/intercept_256.hpp:
 
@@ -3776,12 +3764,6 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/timer.hpp:
 
-/usr/include/boost/config/workaround.hpp:
-
-/usr/include/boost/mp11/list.hpp:
-
-/usr/include/boost/type_traits/has_trivial_destructor.hpp:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/create_timer.hpp:
 
 /usr/include/boost/optional/detail/optional_relops.hpp:
@@ -3790,9 +3772,9 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp:
 
-/usr/include/boost/mp11/detail/mp_with_index.hpp:
+/opt/ros/jazzy/include/rmw/rmw/event_callback_type.h:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/advance_backward.hpp:
+/opt/ros/jazzy/include/gtsam/inference/DotWriter.h:
 
 /usr/include/boost/mp11/detail/mp_list_v.hpp:
 
@@ -3813,14 +3795,6 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 /usr/include/boost/mpl/aux_/include_preprocessed.hpp:
 
 /usr/include/boost/mpl/aux_/adl_barrier.hpp:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
-
-/opt/ros/jazzy/include/gtsam/base/types.h:
-
-/home/siny/hydra_ws/install/config_utilities/include/config_utilities/internal/yaml_parser.h:
-
-/usr/include/aarch64-linux-gnu/c++/13/bits/os_defines.h:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:
 
@@ -3930,6 +3904,8 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/scene_graph_logger.h:
 
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_template.hpp:
+
 /opt/ros/jazzy/include/gtsam/inference/VariableIndex-inl.h:
 
 /usr/include/boost/make_shared.hpp:
@@ -3958,8 +3934,6 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/node_attributes.h:
 
-/usr/include/boost/preprocessor/control/if.hpp:
-
 /usr/include/boost/type_traits/is_arithmetic.hpp:
 
 /usr/include/alloca.h:
@@ -3976,6 +3950,12 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /usr/include/boost/mpl/begin_end_fwd.hpp:
 
+/usr/include/nlohmann/detail/input/lexer.hpp:
+
+/usr/include/aarch64-linux-gnu/c++/13/bits/gthr.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h:
+
 /usr/include/boost/mpl/aux_/traits_lambda_spec.hpp:
 
 /usr/include/boost/serialization/shared_ptr.hpp:
@@ -3985,6 +3965,38 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 /usr/include/boost/mp11/detail/mp_remove_if.hpp:
 
 /usr/include/boost/mpl/aux_/msvc_type.hpp:
+
+/usr/include/boost/predef/detail/test.h:
+
+/home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/dynamic_scene_graph.h:
+
+/usr/include/boost/bimap/relation/support/member_with_tag.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:
+
+/usr/include/c++/13/bits/cxxabi_init_exception.h:
+
+/usr/include/eigen3/Eigen/src/Core/Diagonal.h:
+
+/usr/include/eigen3/Eigen/src/Core/EigenBase.h:
+
+/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp:
+
+/home/siny/hydra_ws/install/pose_graph_tools/include/pose_graph_tools/pose_graph_node.h:
+
+/home/siny/hydra_ws/install/hydra/include/hydra/common/dsg_types.h:
+
+/usr/include/boost/smart_ptr/shared_ptr.hpp:
+
+/usr/include/c++/13/bits/hash_bytes.h:
+
+/usr/include/c++/13/iostream:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/create_publisher.hpp:
+
+/usr/include/boost/core/ref.hpp:
 
 /usr/include/boost/bimap/views/unconstrained_map_view.hpp:
 
@@ -4007,6 +4019,8 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 /usr/include/boost/preprocessor/punctuation/comma.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
+
+/usr/include/c++/13/bits/utility.h:
 
 /usr/include/aarch64-linux-gnu/bits/wchar2-decl.h:
 
@@ -4056,9 +4070,11 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /usr/include/boost/mp11/detail/config.hpp:
 
-/opt/ros/jazzy/include/gtsam/inference/DotWriter.h:
+/home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail/set_config__type_support.hpp:
 
-/opt/ros/jazzy/include/rmw/rmw/event_callback_type.h:
+/home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/color.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/generic_publisher.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_wait_set_mask.hpp:
 
@@ -4072,23 +4088,19 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/metadata.h:
 
-/usr/include/boost/bimap/relation/support/member_with_tag.hpp:
+/opt/ros/jazzy/include/gtsam/base/types.h:
 
-/usr/include/boost/predef/detail/test.h:
+/home/siny/hydra_ws/install/config_utilities/include/config_utilities/internal/yaml_parser.h:
 
-/home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/dynamic_scene_graph.h:
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
+
+/usr/include/aarch64-linux-gnu/c++/13/bits/os_defines.h:
 
 /usr/include/boost/smart_ptr/detail/sp_forward.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/types/timer_t.h:
-
-/home/siny/hydra_ws/install/config_utilities/include/config_utilities/factory.h:
-
-/opt/ros/jazzy/include/rmw/rmw/events_statuses/message_lost.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/loaned_message.hpp:
 
 /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/scene_graph_node.h:
 
@@ -4110,6 +4122,12 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /usr/include/boost/mpl/set/aux_/begin_end_impl.hpp:
 
+/usr/include/c++/13/bits/atomic_base.h:
+
+/home/siny/hydra_ws/install/pose_graph_tools/include/pose_graph_tools/pose_graph.h:
+
+/usr/include/boost/config/pragma_message.hpp:
+
 /home/siny/hydra_ws/install/hydra/include/hydra/active_window/volumetric_window.h:
 
 /usr/include/eigen3/Eigen/src/Core/DiagonalMatrix.h:
@@ -4127,6 +4145,10 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/util/MKL_support.h:
+
+/usr/include/boost/bimap/tags/support/value_type_of.hpp:
 
 /usr/include/c++/13/atomic:
 
@@ -4158,33 +4180,21 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /home/siny/hydra_ws/install/hydra/include/hydra/backend/backend_module.h:
 
-/usr/include/c++/13/bits/unique_ptr.h:
-
-/opt/ros/jazzy/include/gtsam/linear/SubgraphSolver.h:
-
-/usr/include/boost/mpl/list/aux_/empty.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:
-
-/home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/impl/voxel_block_impl.h:
-
-/usr/include/boost/iterator/filter_iterator.hpp:
-
-/usr/include/boost/type_traits/is_scalar.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/any_subscription_callback.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_serialization_support.hpp:
-
 /usr/include/c++/13/bits/forward_list.h:
 
 /usr/include/c++/13/tr1/bessel_function.tcc:
 
-/usr/include/boost/archive/detail/decl.hpp:
-
 /opt/ros/jazzy/include/gtsam/geometry/Rot3.h:
 
 /usr/include/boost/mpl/base.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/events_statuses/message_lost.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/loaned_message.hpp:
+
+/home/siny/hydra_ws/install/config_utilities/include/config_utilities/factory.h:
+
+/usr/include/boost/mp11/integer_sequence.hpp:
 
 /opt/ros/jazzy/include/gtsam/base/Group.h:
 
@@ -4203,20 +4213,6 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 /usr/include/boost/multi_index_container_fwd.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h:
-
-/home/siny/hydra_ws/install/config_utilities_msgs/include/config_utilities_msgs/config_utilities_msgs/srv/detail/set_config__type_support.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/generic_publisher.hpp:
-
-/home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/color.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:
-
-/usr/include/c++/13/bits/cxxabi_init_exception.h:
-
-/usr/include/eigen3/Eigen/src/Core/Diagonal.h:
-
-/usr/include/eigen3/Eigen/src/Core/EigenBase.h:
 
 /usr/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp:
 
@@ -4254,6 +4250,10 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /usr/include/c++/13/bits/node_handle.h:
 
+/usr/include/boost/assign/list_inserter.hpp:
+
+/home/siny/hydra_ws/install/hydra/include/hydra/common/label_space_config.h:
+
 /usr/include/boost/core/demangle.hpp:
 
 /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/impl/layer_impl.h:
@@ -4277,22 +4277,6 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 /usr/include/c++/13/bits/atomic_lockfree_defines.h:
 
 /usr/include/c++/13/cstdarg:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/storage_policy_common.hpp:
-
-/home/siny/hydra_ws/install/pose_graph_tools/include/pose_graph_tools/pose_graph_edge.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
-
-/usr/include/boost/limits.hpp:
-
-/usr/include/nlohmann/ordered_map.hpp:
-
-/opt/ros/jazzy/include/gtsam/linear/NoiseModel.h:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/endian.h:
 
@@ -4350,6 +4334,10 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /usr/include/boost/core/noncopyable.hpp:
 
+/usr/include/aarch64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/boost/mpl/aux_/at_impl.hpp:
+
 /usr/include/glog/export.h:
 
 /home/siny/hydra_ws/install/hydra/include/hydra/backend/dsg_updater.h:
@@ -4380,6 +4368,10 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_content_filter_options.hpp:
 
+/usr/include/boost/variant/static_visitor.hpp:
+
+/usr/include/boost/config/abi_suffix.hpp:
+
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:
 
 /home/siny/hydra_ws/install/config_utilities/include/config_utilities/config.h:
@@ -4398,6 +4390,10 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
 
+/usr/include/nlohmann/detail/input/position_t.hpp:
+
+/home/siny/hydra_ws/install/config_utilities/include/config_utilities/logging/log_to_glog.h:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp:
 
 /usr/include/boost/bind/placeholders.hpp:
@@ -4409,6 +4405,10 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/guard_condition.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
+
+/home/siny/hydra_ws/install/pose_graph_tools/include/pose_graph_tools/pose_graph_edge.h:
 
 /home/siny/hydra_ws/install/config_utilities/include/config_utilities/parsing/context.h:
 
@@ -4452,6 +4452,14 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /usr/include/boost/preprocessor/arithmetic/detail/maximum_number.hpp:
 
+/usr/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp:
+
+/home/siny/hydra_ws/install/hydra/include/hydra/common/robot_prefix_config.h:
+
+/opt/ros/jazzy/include/rcpputils/rcpputils/time.hpp:
+
+/usr/include/boost/preprocessor/arithmetic/add.hpp:
+
 /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
 /opt/ros/jazzy/include/rmw/rmw/dynamic_message_type_support.h:
@@ -4467,12 +4475,6 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 /usr/include/nlohmann/detail/json_custom_base_class.hpp:
 
 /usr/include/boost/type_traits/conditional.hpp:
-
-/usr/include/boost/core/ref.hpp:
-
-/usr/include/boost/bimap/tags/support/value_type_of.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/util/MKL_support.h:
 
 /usr/include/boost/detail/call_traits.hpp:
 
@@ -4524,8 +4526,6 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /home/siny/hydra_ws/install/hydra/include/hydra/frontend/graph_builder.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
-
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
 
 /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/pcl_mesh_traits.h:
@@ -4539,6 +4539,22 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 /home/siny/hydra_ws/install/hydra/include/hydra/frontend/view_selector.h:
 
 /usr/include/boost/preprocessor/enum_params.hpp:
+
+/usr/include/c++/13/bits/fs_path.h:
+
+/home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__traits.hpp:
+
+/usr/include/boost/bimap/support/value_type_by.hpp:
+
+/opt/ros/jazzy/include/std_srvs/std_srvs/srv/detail/empty__struct.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp:
+
+/usr/include/oneapi/tbb/detail/_assert.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/service.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/publisher_options.hpp:
 
@@ -4600,12 +4616,6 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /home/siny/hydra_ws/install/hydra/include/hydra/openset/openset_types.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_template.hpp:
-
-/usr/include/boost/mpl/bool_fwd.hpp:
-
-/home/siny/hydra_ws/install/hydra/include/hydra/places/gvd_voxel.h:
-
 /usr/include/c++/13/bits/stl_algobase.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/serialization.hpp:
@@ -4622,11 +4632,97 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /usr/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h:
 
-/home/siny/hydra_ws/install/ianvs/include/ianvs/ianvs/node_handle.h:
+/usr/include/boost/integer_fwd.hpp:
+
+/home/siny/hydra_ws/install/config_utilities/include/config_utilities/types/path.h:
+
+/home/siny/hydra_ws/install/hydra/include/hydra/places/gvd_voxel.h:
+
+/usr/include/boost/mpl/bool_fwd.hpp:
+
+/usr/include/boost/timer/config.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/select-decl.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_result.hpp:
+
+/usr/include/nlohmann/detail/conversions/to_chars.hpp:
+
+/opt/ros/jazzy/include/gtsam/linear/Scatter.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
+
+/usr/include/boost/archive/detail/decl.hpp:
+
+/home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__struct.hpp:
+
+/usr/include/boost/mpl/aux_/arity_spec.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:
+
+/usr/include/boost/preprocessor/control/limits/while_256.hpp:
+
+/usr/include/nlohmann/detail/iterators/iter_impl.hpp:
+
+/usr/include/boost/core/allocator_access.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/storage_policy_common.hpp:
+
+/usr/include/boost/limits.hpp:
+
+/usr/include/nlohmann/ordered_map.hpp:
+
+/opt/ros/jazzy/include/gtsam/linear/NoiseModel.h:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
+
+/usr/include/asm-generic/types.h:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h:
+
+/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
+
+/usr/include/c++/13/debug/debug.h:
+
+/home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/impl/voxel_block_impl.h:
+
+/usr/include/boost/iterator/filter_iterator.hpp:
+
+/usr/include/boost/type_traits/is_scalar.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/aarch64-linux-gnu/c++/13/bits/error_constants.h:
+
+/usr/include/features-time64.h:
+
+/home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/logging.h:
 
 /opt/ros/jazzy/include/gtsam/geometry/SO3.h:
 
-/usr/include/aarch64-linux-gnu/bits/xopen_lim.h:
+/home/siny/hydra_ws/install/ianvs/include/ianvs/ianvs/node_handle.h:
+
+/usr/include/boost/preprocessor/control/if.hpp:
+
+/home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__type_support.hpp:
+
+/usr/include/c++/13/bits/stl_iterator_base_types.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:
+
+/usr/include/opencv4/opencv2/core/traits.hpp:
+
+/usr/include/c++/13/bits/deque.tcc:
+
+/home/siny/hydra_ws/install/hydra/include/hydra/active_window/active_window_output.h:
+
+/home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/utils/types.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp:
 
@@ -4637,14 +4733,6 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 /opt/ros/jazzy/include/rcpputils/rcpputils/pointer_traits.hpp:
 
 /usr/include/boost/range/detail/has_member_size.hpp:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp:
-
-/home/siny/hydra_ws/install/hydra/include/hydra/common/robot_prefix_config.h:
-
-/opt/ros/jazzy/include/rcpputils/rcpputils/time.hpp:
-
-/usr/include/boost/preprocessor/arithmetic/add.hpp:
 
 /opt/ros/jazzy/include/gtsam/base/timing.h:
 
@@ -4676,53 +4764,19 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/grid.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:
-
-/usr/include/boost/preprocessor/control/limits/while_256.hpp:
-
-/usr/include/aarch64-linux-gnu/c++/13/bits/error_constants.h:
-
-/usr/include/features-time64.h:
-
-/home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/utils/logging.h:
-
 /usr/include/aarch64-linux-gnu/bits/setjmp.h:
 
 /opt/ros/jazzy/include/gtsam_unstable/dllexport.h:
 
 /usr/include/boost/serialization/wrapper.hpp:
 
-/home/siny/hydra_ws/install/hydra/include/hydra/common/dsg_types.h:
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
 
-/home/siny/hydra_ws/install/pose_graph_tools/include/pose_graph_tools/pose_graph_node.h:
+/usr/include/c++/13/ext/numeric_traits.h:
 
-/usr/include/asm-generic/types.h:
+/usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h:
 
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h:
-
-/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
-
-/usr/include/c++/13/debug/debug.h:
-
-/usr/include/c++/13/bits/stl_iterator_base_types.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:
-
-/usr/include/opencv4/opencv2/core/traits.hpp:
-
-/usr/include/c++/13/bits/deque.tcc:
-
-/home/siny/hydra_ws/install/hydra/include/hydra/active_window/active_window_output.h:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp:
-
-/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp:
-
-/home/siny/hydra_ws/install/kimera_rpgo/include/kimera_rpgo/utils/types.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
+/opt/ros/jazzy/include/gtsam/linear/JacobianFactor.h:
 
 /opt/ros/jazzy/include/gtsam/linear/LossFunctions.h:
 
@@ -4732,27 +4786,23 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:
 
-/usr/include/boost/mpl/aux_/at_impl.hpp:
+/opt/ros/jazzy/include/gtsam/linear/SubgraphBuilder.h:
 
-/usr/include/aarch64-linux-gnu/bits/stdio_lim.h:
+/usr/include/c++/13/bits/unique_ptr.h:
 
-/usr/include/c++/13/bits/atomic_base.h:
+/opt/ros/jazzy/include/gtsam/linear/SubgraphSolver.h:
 
-/usr/include/boost/config/pragma_message.hpp:
+/usr/include/boost/mpl/list/aux_/empty.hpp:
 
-/home/siny/hydra_ws/install/pose_graph_tools/include/pose_graph_tools/pose_graph.h:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/create_publisher.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/any_subscription_callback.hpp:
 
-/home/siny/hydra_ws/install/hydra/include/hydra/common/label_space_config.h:
+/opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_serialization_support.hpp:
 
-/usr/include/boost/assign/list_inserter.hpp:
+/usr/include/aarch64-linux-gnu/bits/errno.h:
 
-/usr/include/boost/smart_ptr/shared_ptr.hpp:
-
-/usr/include/c++/13/bits/hash_bytes.h:
-
-/usr/include/c++/13/iostream:
+/opt/ros/jazzy/include/gtsam/linear/VectorValues.h:
 
 /usr/include/aarch64-linux-gnu/gnu/stubs.h:
 
@@ -4831,6 +4881,8 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 /usr/include/boost/ptr_container/clone_allocator.hpp:
 
 /usr/include/c++/13/bits/postypes.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
 
 /opt/ros/jazzy/include/gtsam/base/Testable.h:
 
@@ -5020,6 +5072,8 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp:
 
+/home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__traits.hpp:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_factory.hpp:
 
 /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
@@ -5150,6 +5204,14 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /usr/include/boost/variant/detail/forced_return.hpp:
 
+/usr/include/boost/detail/indirect_traits.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h:
+
+/usr/include/boost/core/detail/sp_thread_pause.hpp:
+
+/usr/include/boost/core/checked_delete.hpp:
+
 /usr/include/aarch64-linux-gnu/bits/siginfo-arch.h:
 
 /opt/ros/jazzy/include/gtsam/inference/EliminateableFactorGraph.h:
@@ -5193,12 +5255,6 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 /opt/ros/jazzy/include/rclcpp/rclcpp/event_handler.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/endianness.h:
-
-/opt/ros/jazzy/include/std_srvs/std_srvs/srv/detail/empty__struct.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/function_traits.hpp:
-
-/usr/include/boost/bimap/support/value_type_by.hpp:
 
 /usr/include/boost/iterator/detail/enable_if.hpp:
 
@@ -5282,6 +5338,8 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/is_ros_compatible_type.hpp:
 
+/home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__struct.hpp:
+
 /usr/include/boost/preprocessor/list/detail/limits/fold_right_256.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp:
@@ -5339,14 +5397,6 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 /usr/include/c++/13/bits/memoryfwd.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_clock_interface_traits.hpp:
-
-/opt/ros/jazzy/include/rmw/rmw/qos_string_conversions.h:
-
-/usr/include/boost/type_index/stl_type_index.hpp:
-
-/usr/include/boost/config/abi_suffix.hpp:
-
-/usr/include/boost/variant/static_visitor.hpp:
 
 /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp:
 
@@ -5406,23 +5456,11 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /usr/include/boost/smart_ptr/detail/sp_convertible.hpp:
 
-/usr/include/oneapi/tbb/detail/_assert.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/service.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:
-
 /usr/include/opencv4/opencv2/core/cvdef.h:
 
 /usr/include/boost/pool/singleton_pool.hpp:
 
 /usr/include/c++/13/ext/aligned_buffer.h:
-
-/usr/include/aarch64-linux-gnu/c++/13/bits/gthr.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/nlohmann/detail/input/lexer.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:
 
@@ -5435,6 +5473,8 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 /opt/ros/jazzy/include/gtsam/inference/Ordering.h:
 
 /usr/include/c++/13/chrono:
+
+/home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__builder.hpp:
 
 /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/mesh_traits.h:
 
@@ -5462,25 +5502,23 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /usr/include/boost/type_traits/add_pointer.hpp:
 
-/usr/include/boost/cstdint.hpp:
+/usr/include/boost/mp11/detail/mp_with_index.hpp:
 
-/usr/include/boost/mpl/list/list0.hpp:
+/usr/include/boost/mpl/aux_/preprocessed/gcc/advance_backward.hpp:
 
-/usr/include/boost/type_traits/add_lvalue_reference.hpp:
+/usr/include/boost/mp11/function.hpp:
 
-/usr/include/aarch64-linux-gnu/bits/time.h:
+/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/serialization_support.h:
 
-/usr/include/boost/detail/indirect_traits.hpp:
+/usr/include/boost/mp11/integral.hpp:
 
-/usr/include/boost/core/detail/sp_thread_pause.hpp:
+/usr/include/boost/config/workaround.hpp:
 
-/usr/include/boost/core/checked_delete.hpp:
+/usr/include/boost/mp11/list.hpp:
 
-/usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h:
+/usr/include/boost/type_traits/has_trivial_destructor.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
+/usr/include/boost/mp11/set.hpp:
 
 /usr/include/boost/mp11/utility.hpp:
 
@@ -5526,8 +5564,6 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /usr/include/boost/mpl/aux_/arity.hpp:
 
-/usr/include/boost/mpl/aux_/arity_spec.hpp:
-
 /usr/include/boost/mpl/aux_/begin_end_impl.hpp:
 
 /usr/include/boost/preprocessor/arithmetic/detail/div_base.hpp:
@@ -5543,10 +5579,6 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 /usr/include/c++/13/any:
 
 /usr/include/eigen3/Eigen/src/Geometry/Translation.h:
-
-/usr/include/boost/core/allocator_access.hpp:
-
-/usr/include/nlohmann/detail/iterators/iter_impl.hpp:
 
 /usr/include/boost/mpl/aux_/config/gpu.hpp:
 
@@ -7108,8 +7140,6 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /usr/include/c++/13/bits/unordered_set.h:
 
-/usr/include/c++/13/bits/utility.h:
-
 /usr/include/c++/13/bits/valarray_after.h:
 
 /usr/lib/gcc/aarch64-linux-gnu/13/include/float.h:
@@ -7180,6 +7210,10 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 
 /usr/include/c++/13/iterator:
 
+/usr/include/nlohmann/detail/input/binary_reader.hpp:
+
+/usr/include/c++/13/list:
+
 /usr/include/c++/13/math.h:
 
 /usr/include/c++/13/memory:
@@ -7189,6 +7223,8 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 /usr/include/c++/13/optional:
 
 /usr/include/c++/13/ostream:
+
+/home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/label_update_request.hpp:
 
 /usr/include/c++/13/pstl/glue_algorithm_defs.h:
 
@@ -7499,15 +7535,3 @@ CMakeFiles/hydra_ros_node.dir/app/hydra_node.cpp.o: /home/siny/hydra_ws/src/hydr
 /usr/include/boost/mpl/list/aux_/front.hpp:
 
 /usr/include/nlohmann/detail/exceptions.hpp:
-
-/usr/include/c++/13/list:
-
-/usr/include/nlohmann/detail/input/binary_reader.hpp:
-
-/usr/include/nlohmann/detail/input/json_sax.hpp:
-
-/usr/include/nlohmann/detail/input/parser.hpp:
-
-/home/siny/hydra_ws/install/config_utilities/include/config_utilities/logging/log_to_glog.h:
-
-/usr/include/nlohmann/detail/input/position_t.hpp:

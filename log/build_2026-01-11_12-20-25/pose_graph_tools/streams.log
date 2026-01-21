@@ -1,0 +1,39 @@
+[0.017s] Invoking command in '/home/siny/hydra_ws/build/pose_graph_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/siny/hydra_ws/src/pose_graph_tools/pose_graph_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/pose_graph_tools
+[0.055s] -- The C compiler identification is GNU 13.3.0
+[0.101s] -- The CXX compiler identification is GNU 13.3.0
+[0.115s] -- Detecting C compiler ABI info
+[0.178s] -- Detecting C compiler ABI info - done
+[0.191s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.191s] -- Detecting C compile features
+[0.191s] -- Detecting C compile features - done
+[0.196s] -- Detecting CXX compiler ABI info
+[0.275s] -- Detecting CXX compiler ABI info - done
+[0.279s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.279s] -- Detecting CXX compile features
+[0.280s] -- Detecting CXX compile features - done
+[0.284s] -- Configuring done (0.3s)
+[0.286s] -- Generating done (0.0s)
+[0.286s] -- Build files have been written to: /home/siny/hydra_ws/build/pose_graph_tools
+[0.290s] Invoked command in '/home/siny/hydra_ws/build/pose_graph_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/siny/hydra_ws/src/pose_graph_tools/pose_graph_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/pose_graph_tools
+[0.290s] Invoking command in '/home/siny/hydra_ws/build/pose_graph_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/pose_graph_tools -- -j20 -l20
+[0.328s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_graph_tools.dir/src/ostream.cpp.o[0m
+[4.675s] [100%] [32m[1mLinking CXX shared library libpose_graph_tools.so[0m
+[4.884s] [100%] Built target pose_graph_tools
+[4.928s] Invoked command in '/home/siny/hydra_ws/build/pose_graph_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/pose_graph_tools -- -j20 -l20
+[4.928s] Invoking command in '/home/siny/hydra_ws/build/pose_graph_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/pose_graph_tools
+[4.943s] -- Install configuration: "Release"
+[4.943s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools/lib/libpose_graph_tools.so
+[4.943s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools/include
+[4.943s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools/include/pose_graph_tools
+[4.944s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools/include/pose_graph_tools/pose_graph_node.h
+[4.944s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools/include/pose_graph_tools/pose_graph.h
+[4.944s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools/include/pose_graph_tools/bow_queries.h
+[4.944s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools/include/pose_graph_tools/pose_graph_edge.h
+[4.944s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools/include/pose_graph_tools/all.h
+[4.944s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools/include/pose_graph_tools/bow_query.h
+[4.944s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools/include/pose_graph_tools/bow_vector.h
+[4.944s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools/lib/cmake/pose_graph_tools/pose_graph_toolsTargets.cmake
+[4.945s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools/lib/cmake/pose_graph_tools/pose_graph_toolsTargets-release.cmake
+[4.945s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools/lib/cmake/pose_graph_tools/pose_graph_toolsConfig.cmake
+[4.945s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools/lib/cmake/pose_graph_tools/pose_graph_toolsConfigVersion.cmake
+[4.966s] Invoked command in '/home/siny/hydra_ws/build/pose_graph_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/pose_graph_tools

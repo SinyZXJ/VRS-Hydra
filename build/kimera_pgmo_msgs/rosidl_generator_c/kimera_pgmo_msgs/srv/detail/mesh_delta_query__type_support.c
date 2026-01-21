@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "kimera_pgmo_msgs/srv/detail/mesh_delta_query__functions.h"
-#include "kimera_pgmo_msgs/srv/detail/mesh_delta_query__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "kimera_pgmo_msgs/srv/detail/mesh_delta_query__type_support.h"
+#include "kimera_pgmo_msgs/srv/detail/mesh_delta_query__functions.h"
 #include "kimera_pgmo_msgs/srv/detail/mesh_delta_query__struct.h"
 
 #ifdef __cplusplus

@@ -1,4 +1,0 @@
-Invoking command in '/home/siny/hydra_ws/build/pose_graph_tools': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/pose_graph_tools -- -j20 -l20
-Invoked command in '/home/siny/hydra_ws/build/pose_graph_tools' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/pose_graph_tools -- -j20 -l20
-Invoking command in '/home/siny/hydra_ws/build/pose_graph_tools': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/pose_graph_tools
-Invoked command in '/home/siny/hydra_ws/build/pose_graph_tools' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/pose_graph_tools

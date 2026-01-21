@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "semantic_inference_msgs/msg/detail/feature_image__struct.h"
-#include "semantic_inference_msgs/msg/detail/feature_image__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "semantic_inference_msgs/msg/detail/feature_image__type_support.h"
 #include "semantic_inference_msgs/msg/detail/feature_image__functions.h"
+#include "semantic_inference_msgs/msg/detail/feature_image__struct.h"
 
 #ifdef __cplusplus
 extern "C"

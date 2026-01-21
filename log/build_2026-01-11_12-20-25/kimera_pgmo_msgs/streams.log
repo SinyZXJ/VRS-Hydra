@@ -1,0 +1,417 @@
+[0.016s] Invoking command in '/home/siny/hydra_ws/build/kimera_pgmo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/siny/hydra_ws/src/kimera_pgmo/kimera_pgmo_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/kimera_pgmo_msgs
+[0.058s] -- The C compiler identification is GNU 13.3.0
+[0.100s] -- The CXX compiler identification is GNU 13.3.0
+[0.111s] -- Detecting C compiler ABI info
+[0.181s] -- Detecting C compiler ABI info - done
+[0.191s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.192s] -- Detecting C compile features
+[0.192s] -- Detecting C compile features - done
+[0.199s] -- Detecting CXX compiler ABI info
+[0.270s] -- Detecting CXX compiler ABI info - done
+[0.275s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.275s] -- Detecting CXX compile features
+[0.275s] -- Detecting CXX compile features - done
+[0.276s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.369s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.431s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.460s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.472s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.478s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.485s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.491s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.499s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.504s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.484s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.980s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.752s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.760s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.024s] -- Found PythonExtra: /usr/bin/python3  
+[5.718s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.862s] -- Configuring done (5.8s)
+[6.028s] -- Generating done (0.1s)
+[6.073s] -- Build files have been written to: /home/siny/hydra_ws/build/kimera_pgmo_msgs
+[6.117s] Invoked command in '/home/siny/hydra_ws/build/kimera_pgmo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/siny/hydra_ws/src/kimera_pgmo/kimera_pgmo_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/kimera_pgmo_msgs
+[6.117s] Invoking command in '/home/siny/hydra_ws/build/kimera_pgmo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/kimera_pgmo_msgs -- -j20 -l20
+[6.227s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.277s] [  1%] Built target ament_cmake_python_copy_kimera_pgmo_msgs
+[6.476s] running egg_info
+[6.477s] creating kimera_pgmo_msgs.egg-info
+[6.487s] writing kimera_pgmo_msgs.egg-info/PKG-INFO
+[6.487s] writing dependency_links to kimera_pgmo_msgs.egg-info/dependency_links.txt
+[6.487s] writing top-level names to kimera_pgmo_msgs.egg-info/top_level.txt
+[6.487s] writing manifest file 'kimera_pgmo_msgs.egg-info/SOURCES.txt'
+[6.514s] reading manifest file 'kimera_pgmo_msgs.egg-info/SOURCES.txt'
+[6.518s] writing manifest file 'kimera_pgmo_msgs.egg-info/SOURCES.txt'
+[6.554s] [  1%] Built target ament_cmake_python_build_kimera_pgmo_msgs_egg
+[6.864s] [  1%] Built target kimera_pgmo_msgs__rosidl_generator_type_description
+[6.898s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.924s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.870s] [  4%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_c.dir/rosidl_generator_c/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__description.c.o[0m
+[7.877s] [  5%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_c.dir/rosidl_generator_c/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__type_support.c.o[0m
+[7.878s] [  7%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_c.dir/rosidl_generator_c/kimera_pgmo_msgs/msg/detail/mesh__description.c.o[0m
+[7.879s] [  8%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_c.dir/rosidl_generator_c/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__functions.c.o[0m
+[7.880s] [  9%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_c.dir/rosidl_generator_c/kimera_pgmo_msgs/msg/detail/mesh__functions.c.o[0m
+[7.889s] [ 10%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_c.dir/rosidl_generator_c/kimera_pgmo_msgs/msg/detail/mesh_delta__description.c.o[0m
+[7.894s] [ 11%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_c.dir/rosidl_generator_c/kimera_pgmo_msgs/msg/detail/mesh__type_support.c.o[0m
+[7.896s] [ 13%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_c.dir/rosidl_generator_c/kimera_pgmo_msgs/msg/detail/mesh_delta__functions.c.o[0m
+[7.910s] [ 14%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_c.dir/rosidl_generator_c/kimera_pgmo_msgs/msg/detail/mesh_delta__type_support.c.o[0m
+[7.914s] [ 16%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_c.dir/rosidl_generator_c/kimera_pgmo_msgs/msg/detail/triangle_indices__functions.c.o[0m
+[7.917s] [ 16%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_c.dir/rosidl_generator_c/kimera_pgmo_msgs/msg/detail/triangle_indices__type_support.c.o[0m
+[7.922s] [ 17%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_c.dir/rosidl_generator_c/kimera_pgmo_msgs/srv/detail/load_graph_mesh__description.c.o[0m
+[7.922s] [ 19%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_c.dir/rosidl_generator_c/kimera_pgmo_msgs/srv/detail/mesh_delta_query__description.c.o[0m
+[7.925s] [ 20%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_c.dir/rosidl_generator_c/kimera_pgmo_msgs/srv/detail/load_graph_mesh__type_support.c.o[0m
+[7.926s] [ 21%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_c.dir/rosidl_generator_c/kimera_pgmo_msgs/srv/detail/mesh_delta_query__type_support.c.o[0m
+[7.926s] [ 22%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_c.dir/rosidl_generator_c/kimera_pgmo_msgs/msg/detail/triangle_indices__description.c.o[0m
+[7.934s] [ 23%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_c.dir/rosidl_generator_c/kimera_pgmo_msgs/srv/detail/load_graph_mesh__functions.c.o[0m
+[7.944s] [ 25%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_c.dir/rosidl_generator_c/kimera_pgmo_msgs/srv/detail/mesh_delta_query__functions.c.o[0m
+[8.341s] [ 25%] Built target kimera_pgmo_msgs__cpp
+[8.484s] [ 26%] [32m[1mLinking C shared library libkimera_pgmo_msgs__rosidl_generator_c.so[0m
+[8.582s] [ 26%] Built target kimera_pgmo_msgs__rosidl_generator_c
+[8.603s] [ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.609s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.609s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.609s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.609s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.616s] [ 33%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.200s] [ 34%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/kimera_pgmo_msgs/msg/absolute_pose_stamped__type_support.cpp.o[0m
+[9.210s] [ 35%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/kimera_pgmo_msgs/srv/load_graph_mesh__type_support.cpp.o[0m
+[9.211s] [ 36%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/kimera_pgmo_msgs/msg/mesh_delta__type_support.cpp.o[0m
+[9.216s] [ 38%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/kimera_pgmo_msgs/msg/mesh__type_support.cpp.o[0m
+[9.218s] [ 39%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/kimera_pgmo_msgs/srv/mesh_delta_query__type_support.cpp.o[0m
+[9.219s] [ 40%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/kimera_pgmo_msgs/msg/triangle_indices__type_support.cpp.o[0m
+[9.351s] [ 41%] [32m[1mLinking CXX shared library libkimera_pgmo_msgs__rosidl_typesupport_c.so[0m
+[9.408s] [ 42%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__type_support_c.cpp.o[0m
+[9.414s] [ 44%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/msg/detail/triangle_indices__type_support_c.cpp.o[0m
+[9.421s] [ 45%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/msg/detail/mesh__type_support_c.cpp.o[0m
+[9.421s] [ 46%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/srv/detail/load_graph_mesh__type_support_c.cpp.o[0m
+[9.422s] [ 47%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/msg/detail/mesh_delta__type_support_c.cpp.o[0m
+[9.424s] [ 48%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kimera_pgmo_msgs/srv/detail/mesh_delta_query__type_support_c.cpp.o[0m
+[9.473s] [ 48%] Built target kimera_pgmo_msgs__rosidl_typesupport_c
+[9.633s] [ 50%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__type_support.cpp.o[0m
+[9.637s] [ 51%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kimera_pgmo_msgs/srv/detail/load_graph_mesh__type_support.cpp.o[0m
+[9.637s] [ 52%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kimera_pgmo_msgs/msg/detail/mesh__type_support.cpp.o[0m
+[9.637s] [ 53%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kimera_pgmo_msgs/msg/detail/triangle_indices__type_support.cpp.o[0m
+[9.640s] [ 54%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kimera_pgmo_msgs/srv/detail/mesh_delta_query__type_support.cpp.o[0m
+[9.640s] [ 55%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kimera_pgmo_msgs/msg/detail/mesh_delta__type_support.cpp.o[0m
+[9.660s] [ 58%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kimera_pgmo_msgs/msg/absolute_pose_stamped__type_support.cpp.o[0m
+[9.665s] [ 58%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kimera_pgmo_msgs/msg/mesh__type_support.cpp.o[0m
+[9.672s] [ 59%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kimera_pgmo_msgs/msg/mesh_delta__type_support.cpp.o[0m
+[9.672s] [ 61%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kimera_pgmo_msgs/srv/load_graph_mesh__type_support.cpp.o[0m
+[9.672s] [ 61%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kimera_pgmo_msgs/srv/mesh_delta_query__type_support.cpp.o[0m
+[9.674s] [ 63%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kimera_pgmo_msgs/msg/triangle_indices__type_support.cpp.o[0m
+[10.030s] [ 64%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__type_support.c.o[0m
+[10.207s] [ 65%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kimera_pgmo_msgs/msg/detail/mesh__type_support.c.o[0m
+[10.328s] [ 66%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kimera_pgmo_msgs/msg/detail/mesh_delta__type_support.c.o[0m
+[10.396s] [ 67%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kimera_pgmo_msgs/msg/detail/triangle_indices__type_support.c.o[0m
+[10.449s] [ 69%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kimera_pgmo_msgs/srv/detail/load_graph_mesh__type_support.c.o[0m
+[10.506s] [ 70%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kimera_pgmo_msgs/srv/detail/mesh_delta_query__type_support.c.o[0m
+[10.605s] [ 71%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kimera_pgmo_msgs/msg/detail/dds_fastrtps/mesh_delta__type_support.cpp.o[0m
+[10.605s] [ 72%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kimera_pgmo_msgs/msg/detail/dds_fastrtps/absolute_pose_stamped__type_support.cpp.o[0m
+[10.612s] [ 73%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kimera_pgmo_msgs/msg/detail/dds_fastrtps/mesh__type_support.cpp.o[0m
+[10.619s] [ 75%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kimera_pgmo_msgs/msg/detail/dds_fastrtps/triangle_indices__type_support.cpp.o[0m
+[10.622s] [ 76%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kimera_pgmo_msgs/srv/detail/dds_fastrtps/load_graph_mesh__type_support.cpp.o[0m
+[10.645s] [ 77%] [32mBuilding CXX object CMakeFiles/kimera_pgmo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kimera_pgmo_msgs/srv/detail/dds_fastrtps/mesh_delta_query__type_support.cpp.o[0m
+[10.701s] [ 78%] [32m[1mLinking C shared library libkimera_pgmo_msgs__rosidl_typesupport_introspection_c.so[0m
+[10.804s] [ 78%] Built target kimera_pgmo_msgs__rosidl_typesupport_introspection_c
+[11.231s] [ 79%] [32m[1mLinking CXX shared library libkimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[11.381s] [ 79%] Built target kimera_pgmo_msgs__rosidl_typesupport_fastrtps_c
+[12.020s] [ 80%] [32m[1mLinking CXX shared library libkimera_pgmo_msgs__rosidl_typesupport_cpp.so[0m
+[12.140s] [ 80%] Built target kimera_pgmo_msgs__rosidl_typesupport_cpp
+[12.515s] [ 82%] [32m[1mLinking CXX shared library libkimera_pgmo_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[12.611s] [ 82%] Built target kimera_pgmo_msgs__rosidl_typesupport_introspection_cpp
+[12.622s] [ 83%] [32m[1mLinking CXX shared library libkimera_pgmo_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.689s] [ 83%] Built target kimera_pgmo_msgs__rosidl_typesupport_fastrtps_cpp
+[12.709s] [ 83%] Built target kimera_pgmo_msgs
+[12.729s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.050s] [ 84%] Built target kimera_pgmo_msgs__py
+[15.129s] [ 85%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_py.dir/rosidl_generator_py/kimera_pgmo_msgs/msg/_absolute_pose_stamped_s.c.o[0m
+[15.133s] [ 86%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_py.dir/rosidl_generator_py/kimera_pgmo_msgs/msg/_mesh_s.c.o[0m
+[15.147s] [ 89%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_py.dir/rosidl_generator_py/kimera_pgmo_msgs/srv/_load_graph_mesh_s.c.o[0m
+[15.147s] [ 89%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_py.dir/rosidl_generator_py/kimera_pgmo_msgs/msg/_mesh_delta_s.c.o[0m
+[15.151s] [ 90%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_py.dir/rosidl_generator_py/kimera_pgmo_msgs/msg/_triangle_indices_s.c.o[0m
+[15.170s] [ 91%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs__rosidl_generator_py.dir/rosidl_generator_py/kimera_pgmo_msgs/srv/_mesh_delta_query_s.c.o[0m
+[16.436s] [ 92%] [32m[1mLinking C shared library libkimera_pgmo_msgs__rosidl_generator_py.so[0m
+[16.581s] [ 92%] Built target kimera_pgmo_msgs__rosidl_generator_py
+[16.633s] [ 94%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/kimera_pgmo_msgs/_kimera_pgmo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.643s] [ 95%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/kimera_pgmo_msgs/_kimera_pgmo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.654s] [ 96%] [32mBuilding C object CMakeFiles/kimera_pgmo_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/kimera_pgmo_msgs/_kimera_pgmo_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[17.458s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/kimera_pgmo_msgs/kimera_pgmo_msgs_s__rosidl_typesupport_c.so[0m
+[17.552s] [ 97%] Built target kimera_pgmo_msgs_s__rosidl_typesupport_c
+[17.607s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/kimera_pgmo_msgs/kimera_pgmo_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[17.630s] [100%] [32m[1mLinking C shared module rosidl_generator_py/kimera_pgmo_msgs/kimera_pgmo_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[17.694s] [100%] Built target kimera_pgmo_msgs_s__rosidl_typesupport_introspection_c
+[17.729s] [100%] Built target kimera_pgmo_msgs_s__rosidl_typesupport_fastrtps_c
+[17.763s] Invoked command in '/home/siny/hydra_ws/build/kimera_pgmo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/kimera_pgmo_msgs -- -j20 -l20
+[17.764s] Invoking command in '/home/siny/hydra_ws/build/kimera_pgmo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/kimera_pgmo_msgs
+[17.790s] -- Install configuration: "Release"
+[17.790s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/ament_index/resource_index/rosidl_interfaces/kimera_pgmo_msgs
+[17.790s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/msg/AbsolutePoseStamped.json
+[17.790s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/msg/Mesh.json
+[17.790s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/msg/MeshDelta.json
+[17.794s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/msg/TriangleIndices.json
+[17.794s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/srv/LoadGraphMesh.json
+[17.794s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/srv/MeshDeltaQuery.json
+[17.794s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs
+[17.794s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv
+[17.794s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/load_graph_mesh.h
+[17.794s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail
+[17.794s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/mesh_delta_query__type_support.c
+[17.795s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/load_graph_mesh__description.c
+[17.795s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/load_graph_mesh__functions.c
+[17.795s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/load_graph_mesh__functions.h
+[17.795s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/mesh_delta_query__description.c
+[17.799s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/load_graph_mesh__type_support.c
+[17.799s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/mesh_delta_query__type_support.h
+[17.799s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/mesh_delta_query__functions.c
+[17.799s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/mesh_delta_query__functions.h
+[17.799s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/mesh_delta_query__struct.h
+[17.799s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/load_graph_mesh__type_support.h
+[17.799s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/load_graph_mesh__struct.h
+[17.799s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/mesh_delta_query.h
+[17.799s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg
+[17.799s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/rosidl_generator_c__visibility_control.h
+[17.800s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/absolute_pose_stamped.h
+[17.801s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/mesh_delta.h
+[17.801s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/triangle_indices.h
+[17.802s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/mesh.h
+[17.802s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail
+[17.802s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__description.c
+[17.802s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh__type_support.c
+[17.802s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh_delta__description.c
+[17.802s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh_delta__type_support.c
+[17.803s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/triangle_indices__functions.h
+[17.803s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh_delta__functions.c
+[17.803s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh__type_support.h
+[17.803s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh__functions.h
+[17.803s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__type_support.h
+[17.803s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/triangle_indices__type_support.h
+[17.803s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh_delta__struct.h
+[17.803s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh__struct.h
+[17.803s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__type_support.c
+[17.803s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__functions.c
+[17.803s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__functions.h
+[17.804s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/triangle_indices__description.c
+[17.808s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh_delta__type_support.h
+[17.808s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/triangle_indices__functions.c
+[17.808s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/triangle_indices__struct.h
+[17.808s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/triangle_indices__type_support.c
+[17.810s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh__description.c
+[17.810s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__struct.h
+[17.810s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh_delta__functions.h
+[17.810s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh__functions.c
+[17.811s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/environment/library_path.sh
+[17.811s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/environment/library_path.dsv
+[17.812s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/libkimera_pgmo_msgs__rosidl_generator_c.so
+[17.812s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/libkimera_pgmo_msgs__rosidl_generator_c.so" to ""
+[17.812s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs
+[17.812s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv
+[17.812s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail
+[17.812s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/load_graph_mesh__rosidl_typesupport_fastrtps_c.h
+[17.812s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/mesh_delta_query__rosidl_typesupport_fastrtps_c.h
+[17.812s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg
+[17.812s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.812s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail
+[17.812s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh__rosidl_typesupport_fastrtps_c.h
+[17.812s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__rosidl_typesupport_fastrtps_c.h
+[17.812s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/triangle_indices__rosidl_typesupport_fastrtps_c.h
+[17.812s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh_delta__rosidl_typesupport_fastrtps_c.h
+[17.816s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/libkimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.so
+[17.816s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/libkimera_pgmo_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[17.820s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs
+[17.820s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv
+[17.820s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/load_graph_mesh.hpp
+[17.820s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/mesh_delta_query.hpp
+[17.820s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail
+[17.820s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/load_graph_mesh__builder.hpp
+[17.820s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/load_graph_mesh__struct.hpp
+[17.820s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/mesh_delta_query__builder.hpp
+[17.820s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/load_graph_mesh__type_support.hpp
+[17.820s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/load_graph_mesh__traits.hpp
+[17.820s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/mesh_delta_query__traits.hpp
+[17.820s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/mesh_delta_query__struct.hpp
+[17.821s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/mesh_delta_query__type_support.hpp
+[17.821s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg
+[17.821s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/mesh.hpp
+[17.821s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/mesh_delta.hpp
+[17.821s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail
+[17.821s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__builder.hpp
+[17.821s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh__traits.hpp
+[17.821s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh_delta__struct.hpp
+[17.821s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh__type_support.hpp
+[17.821s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/triangle_indices__traits.hpp
+[17.821s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh_delta__type_support.hpp
+[17.822s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh__struct.hpp
+[17.822s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/triangle_indices__type_support.hpp
+[17.822s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh__builder.hpp
+[17.822s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__type_support.hpp
+[17.822s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh_delta__traits.hpp
+[17.823s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__traits.hpp
+[17.823s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/triangle_indices__struct.hpp
+[17.823s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/triangle_indices__builder.hpp
+[17.828s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__struct.hpp
+[17.828s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh_delta__builder.hpp
+[17.830s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/triangle_indices.hpp
+[17.830s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[17.830s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/absolute_pose_stamped.hpp
+[17.830s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs
+[17.830s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv
+[17.830s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail
+[17.830s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/dds_fastrtps
+[17.831s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/load_graph_mesh__rosidl_typesupport_fastrtps_cpp.hpp
+[17.831s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/mesh_delta_query__rosidl_typesupport_fastrtps_cpp.hpp
+[17.831s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg
+[17.831s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[17.831s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail
+[17.831s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[17.831s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/dds_fastrtps
+[17.831s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh_delta__rosidl_typesupport_fastrtps_cpp.hpp
+[17.831s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh__rosidl_typesupport_fastrtps_cpp.hpp
+[17.832s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/triangle_indices__rosidl_typesupport_fastrtps_cpp.hpp
+[17.832s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/libkimera_pgmo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[17.832s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/libkimera_pgmo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[17.832s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs
+[17.832s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv
+[17.832s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail
+[17.832s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/mesh_delta_query__type_support.c
+[17.832s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/mesh_delta_query__rosidl_typesupport_introspection_c.h
+[17.832s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/load_graph_mesh__rosidl_typesupport_introspection_c.h
+[17.832s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/load_graph_mesh__type_support.c
+[17.832s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg
+[17.832s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail
+[17.832s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh__type_support.c
+[17.832s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh_delta__type_support.c
+[17.836s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__type_support.c
+[17.836s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh__rosidl_typesupport_introspection_c.h
+[17.836s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__rosidl_typesupport_introspection_c.h
+[17.836s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/triangle_indices__type_support.c
+[17.836s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/triangle_indices__rosidl_typesupport_introspection_c.h
+[17.836s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh_delta__rosidl_typesupport_introspection_c.h
+[17.836s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.836s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/libkimera_pgmo_msgs__rosidl_typesupport_introspection_c.so
+[17.839s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/libkimera_pgmo_msgs__rosidl_typesupport_introspection_c.so" to ""
+[17.839s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/libkimera_pgmo_msgs__rosidl_typesupport_c.so
+[17.839s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/libkimera_pgmo_msgs__rosidl_typesupport_c.so" to ""
+[17.840s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs
+[17.841s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv
+[17.841s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail
+[17.841s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/load_graph_mesh__rosidl_typesupport_introspection_cpp.hpp
+[17.841s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/load_graph_mesh__type_support.cpp
+[17.841s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/mesh_delta_query__rosidl_typesupport_introspection_cpp.hpp
+[17.841s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/srv/detail/mesh_delta_query__type_support.cpp
+[17.841s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg
+[17.841s] -- Up-to-date: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail
+[17.841s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh_delta__rosidl_typesupport_introspection_cpp.hpp
+[17.842s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/triangle_indices__type_support.cpp
+[17.842s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__rosidl_typesupport_introspection_cpp.hpp
+[17.845s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh__rosidl_typesupport_introspection_cpp.hpp
+[17.845s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh__type_support.cpp
+[17.845s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/absolute_pose_stamped__type_support.cpp
+[17.845s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/triangle_indices__rosidl_typesupport_introspection_cpp.hpp
+[17.845s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh_delta__type_support.cpp
+[17.846s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/libkimera_pgmo_msgs__rosidl_typesupport_introspection_cpp.so
+[17.846s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/libkimera_pgmo_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[17.846s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/libkimera_pgmo_msgs__rosidl_typesupport_cpp.so
+[17.846s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/libkimera_pgmo_msgs__rosidl_typesupport_cpp.so" to ""
+[17.846s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/environment/pythonpath.sh
+[17.846s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/environment/pythonpath.dsv
+[17.846s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs-0.0.1-py3.12.egg-info
+[17.850s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs-0.0.1-py3.12.egg-info/top_level.txt
+[17.850s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs-0.0.1-py3.12.egg-info/PKG-INFO
+[17.850s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs-0.0.1-py3.12.egg-info/SOURCES.txt
+[17.850s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs-0.0.1-py3.12.egg-info/dependency_links.txt
+[17.850s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs
+[17.850s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/_kimera_pgmo_msgs_s.ep.rosidl_typesupport_c.c
+[17.850s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/_kimera_pgmo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[17.850s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/_kimera_pgmo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[17.851s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/kimera_pgmo_msgs_s__rosidl_typesupport_fastrtps_c.so
+[17.851s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/srv
+[17.851s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/srv/_mesh_delta_query_s.c
+[17.851s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/srv/_mesh_delta_query.py
+[17.855s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/srv/_load_graph_mesh_s.c
+[17.857s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/srv/__init__.py
+[17.857s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/srv/_load_graph_mesh.py
+[17.857s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/msg
+[17.858s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/msg/_mesh.py
+[17.858s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/msg/_triangle_indices.py
+[17.858s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/msg/_mesh_delta.py
+[17.858s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/msg/_absolute_pose_stamped_s.c
+[17.858s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/msg/_triangle_indices_s.c
+[17.858s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/msg/_absolute_pose_stamped.py
+[17.858s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/msg/_mesh_delta_s.c
+[17.858s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/msg/_mesh_s.c
+[17.858s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/msg/__init__.py
+[17.858s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/kimera_pgmo_msgs_s__rosidl_typesupport_c.so
+[17.858s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/__init__.py
+[17.858s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/kimera_pgmo_msgs_s__rosidl_typesupport_introspection_c.so
+[17.925s] Listing '/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs'...
+[17.925s] Compiling '/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/__init__.py'...
+[17.925s] Listing '/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/msg'...
+[17.925s] Compiling '/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/msg/__init__.py'...
+[17.925s] Compiling '/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/msg/_absolute_pose_stamped.py'...
+[17.925s] Compiling '/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/msg/_mesh.py'...
+[17.925s] Compiling '/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/msg/_mesh_delta.py'...
+[17.925s] Compiling '/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/msg/_triangle_indices.py'...
+[17.925s] Listing '/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/srv'...
+[17.925s] Compiling '/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/srv/__init__.py'...
+[17.925s] Compiling '/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/srv/_load_graph_mesh.py'...
+[17.925s] Compiling '/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/srv/_mesh_delta_query.py'...
+[17.940s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/kimera_pgmo_msgs_s__rosidl_typesupport_fastrtps_c.so
+[17.940s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/kimera_pgmo_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[17.940s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/kimera_pgmo_msgs_s__rosidl_typesupport_introspection_c.so
+[17.940s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/kimera_pgmo_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[17.940s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/kimera_pgmo_msgs_s__rosidl_typesupport_c.so
+[17.940s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages/kimera_pgmo_msgs/kimera_pgmo_msgs_s__rosidl_typesupport_c.so" to ""
+[17.940s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/libkimera_pgmo_msgs__rosidl_generator_py.so
+[17.940s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/libkimera_pgmo_msgs__rosidl_generator_py.so" to ""
+[17.940s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/msg/AbsolutePoseStamped.idl
+[17.940s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/msg/Mesh.idl
+[17.940s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/msg/MeshDelta.idl
+[17.940s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/msg/TriangleIndices.idl
+[17.940s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/srv/LoadGraphMesh.idl
+[17.940s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/srv/MeshDeltaQuery.idl
+[17.940s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/msg/AbsolutePoseStamped.msg
+[17.940s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/msg/Mesh.msg
+[17.940s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/msg/MeshDelta.msg
+[17.940s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/msg/TriangleIndices.msg
+[17.940s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/srv/LoadGraphMesh.srv
+[17.940s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/srv/MeshDeltaQuery.srv
+[17.940s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/ament_index/resource_index/package_run_dependencies/kimera_pgmo_msgs
+[17.941s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/ament_index/resource_index/parent_prefix_path/kimera_pgmo_msgs
+[17.941s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/environment/ament_prefix_path.sh
+[17.941s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/environment/ament_prefix_path.dsv
+[17.941s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/environment/path.sh
+[17.941s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/environment/path.dsv
+[17.941s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/local_setup.bash
+[17.941s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/local_setup.sh
+[17.941s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/local_setup.zsh
+[17.941s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/local_setup.dsv
+[17.941s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/package.dsv
+[17.941s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/ament_index/resource_index/packages/kimera_pgmo_msgs
+[17.942s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/export_kimera_pgmo_msgs__rosidl_generator_cExport.cmake
+[17.945s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/export_kimera_pgmo_msgs__rosidl_generator_cExport-release.cmake
+[17.945s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/export_kimera_pgmo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[17.945s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/export_kimera_pgmo_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[17.945s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/export_kimera_pgmo_msgs__rosidl_generator_cppExport.cmake
+[17.945s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/export_kimera_pgmo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[17.945s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/export_kimera_pgmo_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[17.945s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/kimera_pgmo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[17.945s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/kimera_pgmo_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[17.945s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/kimera_pgmo_msgs__rosidl_typesupport_cExport.cmake
+[17.945s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/kimera_pgmo_msgs__rosidl_typesupport_cExport-release.cmake
+[17.945s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/kimera_pgmo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[17.945s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/kimera_pgmo_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[17.945s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/kimera_pgmo_msgs__rosidl_typesupport_cppExport.cmake
+[17.945s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/kimera_pgmo_msgs__rosidl_typesupport_cppExport-release.cmake
+[17.945s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/export_kimera_pgmo_msgs__rosidl_generator_pyExport.cmake
+[17.945s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/export_kimera_pgmo_msgs__rosidl_generator_pyExport-release.cmake
+[17.945s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/rosidl_cmake-extras.cmake
+[17.945s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.945s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.945s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[17.945s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[17.946s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.946s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.946s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/kimera_pgmo_msgsConfig.cmake
+[17.946s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake/kimera_pgmo_msgsConfig-version.cmake
+[17.946s] -- Installing: /home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/package.xml
+[17.950s] Invoked command in '/home/siny/hydra_ws/build/kimera_pgmo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/kimera_pgmo_msgs

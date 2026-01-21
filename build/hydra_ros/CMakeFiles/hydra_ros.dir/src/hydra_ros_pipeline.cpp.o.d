@@ -2337,6 +2337,14 @@ CMakeFiles/hydra_ros.dir/src/hydra_ros_pipeline.cpp.o: \
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp \
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/label_update_request.hpp \
+ /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__struct.hpp \
+ /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__struct.hpp \
+ /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__builder.hpp \
+ /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__traits.hpp \
+ /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__traits.hpp \
+ /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__type_support.hpp \
+ /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /home/siny/hydra_ws/install/config_utilities/include/config_utilities/config.h \
  /home/siny/hydra_ws/install/config_utilities/include/config_utilities/parsing/context.h \
  /home/siny/hydra_ws/install/config_utilities/include/config_utilities/internal/config_context.h \
@@ -2399,13 +2407,19 @@ CMakeFiles/hydra_ros.dir/src/hydra_ros_pipeline.cpp.o: \
  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp \
  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.hpp \
  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/place_node_array.hpp \
+ /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__struct.hpp \
+ /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__struct.hpp \
+ /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__builder.hpp \
+ /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__traits.hpp \
+ /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__traits.hpp \
+ /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__type_support.hpp \
  /home/siny/hydra_ws/src/hydra_ros/hydra_ros/include/hydra_ros/utils/dsg_streaming_interface.h \
  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/dsg_update.hpp \
  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__struct.hpp \
  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__builder.hpp \
  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__traits.hpp \
  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__type_support.hpp \
- /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/mesh.hpp \
  /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh__struct.hpp \
  /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/triangle_indices__struct.hpp \

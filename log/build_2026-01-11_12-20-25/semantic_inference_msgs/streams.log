@@ -1,0 +1,383 @@
+[0.017s] Invoking command in '/home/siny/hydra_ws/build/semantic_inference_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/siny/hydra_ws/src/semantic_inference/semantic_inference_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/semantic_inference_msgs
+[0.056s] -- The C compiler identification is GNU 13.3.0
+[0.095s] -- The CXX compiler identification is GNU 13.3.0
+[0.106s] -- Detecting C compiler ABI info
+[0.171s] -- Detecting C compiler ABI info - done
+[0.181s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.182s] -- Detecting C compile features
+[0.182s] -- Detecting C compile features - done
+[0.188s] -- Detecting CXX compiler ABI info
+[0.251s] -- Detecting CXX compiler ABI info - done
+[0.256s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.256s] -- Detecting CXX compile features
+[0.257s] -- Detecting CXX compile features - done
+[0.258s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.353s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.403s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.421s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.435s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.450s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.466s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.478s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.488s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.493s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.462s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.092s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.921s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.929s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.226s] -- Found PythonExtra: /usr/bin/python3  
+[6.149s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.320s] -- Configuring done (6.3s)
+[6.371s] -- Generating done (0.0s)
+[6.384s] -- Build files have been written to: /home/siny/hydra_ws/build/semantic_inference_msgs
+[6.398s] Invoked command in '/home/siny/hydra_ws/build/semantic_inference_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/siny/hydra_ws/src/semantic_inference/semantic_inference_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/semantic_inference_msgs
+[6.399s] Invoking command in '/home/siny/hydra_ws/build/semantic_inference_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/semantic_inference_msgs -- -j20 -l20
+[6.513s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.548s] [  1%] Built target ament_cmake_python_copy_semantic_inference_msgs
+[7.093s] [  1%] Built target semantic_inference_msgs__rosidl_generator_type_description
+[7.124s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.128s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.210s] running egg_info
+[7.213s] creating semantic_inference_msgs.egg-info
+[7.265s] writing semantic_inference_msgs.egg-info/PKG-INFO
+[7.265s] writing dependency_links to semantic_inference_msgs.egg-info/dependency_links.txt
+[7.265s] writing top-level names to semantic_inference_msgs.egg-info/top_level.txt
+[7.265s] writing manifest file 'semantic_inference_msgs.egg-info/SOURCES.txt'
+[7.397s] reading manifest file 'semantic_inference_msgs.egg-info/SOURCES.txt'
+[7.398s] writing manifest file 'semantic_inference_msgs.egg-info/SOURCES.txt'
+[7.472s] [  4%] Built target ament_cmake_python_build_semantic_inference_msgs_egg
+[8.035s] [  4%] Built target semantic_inference_msgs__cpp
+[8.600s] [  5%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_generator_c.dir/rosidl_generator_c/semantic_inference_msgs/msg/detail/feature_vector__functions.c.o[0m
+[8.613s] [  6%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_generator_c.dir/rosidl_generator_c/semantic_inference_msgs/msg/detail/feature_vector__description.c.o[0m
+[8.613s] [  8%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_generator_c.dir/rosidl_generator_c/semantic_inference_msgs/msg/detail/feature_vector__type_support.c.o[0m
+[8.613s] [  9%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_generator_c.dir/rosidl_generator_c/semantic_inference_msgs/msg/detail/feature_vectors__description.c.o[0m
+[8.613s] [ 10%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_generator_c.dir/rosidl_generator_c/semantic_inference_msgs/msg/detail/feature_vectors__functions.c.o[0m
+[8.616s] [ 12%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_generator_c.dir/rosidl_generator_c/semantic_inference_msgs/msg/detail/feature_vector_stamped__functions.c.o[0m
+[8.618s] [ 13%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_generator_c.dir/rosidl_generator_c/semantic_inference_msgs/msg/detail/feature_vectors__type_support.c.o[0m
+[8.626s] [ 16%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_generator_c.dir/rosidl_generator_c/semantic_inference_msgs/msg/detail/feature_image__description.c.o[0m
+[8.626s] [ 16%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_generator_c.dir/rosidl_generator_c/semantic_inference_msgs/msg/detail/feature_image__type_support.c.o[0m
+[8.628s] [ 17%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_generator_c.dir/rosidl_generator_c/semantic_inference_msgs/srv/detail/encode_feature__functions.c.o[0m
+[8.632s] [ 18%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_generator_c.dir/rosidl_generator_c/semantic_inference_msgs/msg/detail/feature_vector_stamped__type_support.c.o[0m
+[8.632s] [ 20%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_generator_c.dir/rosidl_generator_c/semantic_inference_msgs/srv/detail/encode_feature__description.c.o[0m
+[8.632s] [ 21%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_generator_c.dir/rosidl_generator_c/semantic_inference_msgs/msg/detail/feature_vector_stamped__description.c.o[0m
+[8.640s] [ 22%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_generator_c.dir/rosidl_generator_c/semantic_inference_msgs/msg/detail/feature_image__functions.c.o[0m
+[8.646s] [ 24%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_generator_c.dir/rosidl_generator_c/semantic_inference_msgs/srv/detail/encode_feature__type_support.c.o[0m
+[9.192s] [ 25%] [32m[1mLinking C shared library libsemantic_inference_msgs__rosidl_generator_c.so[0m
+[9.267s] [ 25%] Built target semantic_inference_msgs__rosidl_generator_c
+[9.287s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.289s] [ 28%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.289s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.301s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.308s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.313s] [ 33%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.821s] [ 36%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/semantic_inference_msgs/srv/encode_feature__type_support.cpp.o[0m
+[9.821s] [ 36%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/semantic_inference_msgs/msg/feature_vector__type_support.cpp.o[0m
+[9.823s] [ 40%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/semantic_inference_msgs/msg/feature_image__type_support.cpp.o[0m
+[9.824s] [ 40%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/semantic_inference_msgs/msg/feature_vector_stamped__type_support.cpp.o[0m
+[9.825s] [ 40%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/semantic_inference_msgs/msg/feature_vectors__type_support.cpp.o[0m
+[9.914s] [ 41%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/semantic_inference_msgs/msg/detail/dds_fastrtps/feature_vector__type_support.cpp.o[0m
+[9.916s] [ 43%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/semantic_inference_msgs/msg/detail/dds_fastrtps/feature_vector_stamped__type_support.cpp.o[0m
+[9.925s] [ 44%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/semantic_inference_msgs/msg/detail/dds_fastrtps/feature_vectors__type_support.cpp.o[0m
+[9.925s] [ 45%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/semantic_inference_msgs/srv/detail/dds_fastrtps/encode_feature__type_support.cpp.o[0m
+[9.932s] [ 47%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/semantic_inference_msgs/msg/detail/dds_fastrtps/feature_image__type_support.cpp.o[0m
+[9.954s] [ 48%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/semantic_inference_msgs/msg/feature_vector__type_support.cpp.o[0m
+[9.961s] [ 50%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/semantic_inference_msgs/msg/feature_vectors__type_support.cpp.o[0m
+[9.976s] [ 51%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/semantic_inference_msgs/msg/feature_vector_stamped__type_support.cpp.o[0m
+[9.976s] [ 54%] [32m[1mLinking CXX shared library libsemantic_inference_msgs__rosidl_typesupport_c.so[0m
+[9.976s] [ 54%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/semantic_inference_msgs/srv/encode_feature__type_support.cpp.o[0m
+[9.976s] [ 55%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/semantic_inference_msgs/msg/feature_image__type_support.cpp.o[0m
+[10.116s] [ 55%] Built target semantic_inference_msgs__rosidl_typesupport_c
+[10.172s] [ 58%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/semantic_inference_msgs/msg/detail/feature_vector_stamped__type_support.cpp.o[0m
+[10.172s] [ 59%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/semantic_inference_msgs/msg/detail/feature_image__type_support.cpp.o[0m
+[10.177s] [ 60%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/semantic_inference_msgs/msg/detail/feature_vector__type_support.cpp.o[0m
+[10.177s] [ 62%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/semantic_inference_msgs/srv/detail/encode_feature__type_support.cpp.o[0m
+[10.180s] [ 62%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/semantic_inference_msgs/msg/detail/feature_vectors__type_support.cpp.o[0m
+[10.621s] [ 63%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/semantic_inference_msgs/msg/detail/feature_vector__type_support.c.o[0m
+[10.634s] [ 66%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/semantic_inference_msgs/msg/detail/feature_image__type_support.c.o[0m
+[10.634s] [ 66%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/semantic_inference_msgs/msg/detail/feature_vectors__type_support.c.o[0m
+[10.634s] [ 67%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/semantic_inference_msgs/msg/detail/feature_vector_stamped__type_support.c.o[0m
+[10.766s] [ 68%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/semantic_inference_msgs/srv/detail/encode_feature__type_support.c.o[0m
+[10.951s] [ 70%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/semantic_inference_msgs/msg/detail/feature_vector__type_support_c.cpp.o[0m
+[10.963s] [ 71%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/semantic_inference_msgs/msg/detail/feature_vectors__type_support_c.cpp.o[0m
+[10.963s] [ 72%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/semantic_inference_msgs/srv/detail/encode_feature__type_support_c.cpp.o[0m
+[10.968s] [ 74%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/semantic_inference_msgs/msg/detail/feature_image__type_support_c.cpp.o[0m
+[10.969s] [ 75%] [32mBuilding CXX object CMakeFiles/semantic_inference_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/semantic_inference_msgs/msg/detail/feature_vector_stamped__type_support_c.cpp.o[0m
+[10.987s] [ 77%] [32m[1mLinking C shared library libsemantic_inference_msgs__rosidl_typesupport_introspection_c.so[0m
+[11.092s] [ 77%] Built target semantic_inference_msgs__rosidl_typesupport_introspection_c
+[11.468s] [ 78%] [32m[1mLinking CXX shared library libsemantic_inference_msgs__rosidl_typesupport_cpp.so[0m
+[11.715s] [ 78%] Built target semantic_inference_msgs__rosidl_typesupport_cpp
+[11.922s] [ 79%] [32m[1mLinking CXX shared library libsemantic_inference_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.036s] [ 79%] Built target semantic_inference_msgs__rosidl_typesupport_fastrtps_cpp
+[12.162s] [ 81%] [32m[1mLinking CXX shared library libsemantic_inference_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[12.267s] [ 81%] Built target semantic_inference_msgs__rosidl_typesupport_introspection_cpp
+[12.269s] [ 82%] [32m[1mLinking CXX shared library libsemantic_inference_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[12.356s] [ 82%] Built target semantic_inference_msgs__rosidl_typesupport_fastrtps_c
+[12.379s] [ 82%] Built target semantic_inference_msgs
+[12.427s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.790s] [ 83%] Built target semantic_inference_msgs__py
+[13.842s] [ 85%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_generator_py.dir/rosidl_generator_py/semantic_inference_msgs/msg/_feature_vector_s.c.o[0m
+[13.850s] [ 87%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_generator_py.dir/rosidl_generator_py/semantic_inference_msgs/msg/_feature_vectors_s.c.o[0m
+[13.859s] [ 87%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_generator_py.dir/rosidl_generator_py/semantic_inference_msgs/msg/_feature_image_s.c.o[0m
+[13.860s] [ 89%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_generator_py.dir/rosidl_generator_py/semantic_inference_msgs/msg/_feature_vector_stamped_s.c.o[0m
+[13.860s] [ 90%] [32mBuilding C object CMakeFiles/semantic_inference_msgs__rosidl_generator_py.dir/rosidl_generator_py/semantic_inference_msgs/srv/_encode_feature_s.c.o[0m
+[14.523s] [ 91%] [32m[1mLinking C shared library libsemantic_inference_msgs__rosidl_generator_py.so[0m
+[14.667s] [ 91%] Built target semantic_inference_msgs__rosidl_generator_py
+[14.726s] [ 93%] [32mBuilding C object CMakeFiles/semantic_inference_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/semantic_inference_msgs/_semantic_inference_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[14.737s] [ 94%] [32mBuilding C object CMakeFiles/semantic_inference_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/semantic_inference_msgs/_semantic_inference_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.747s] [ 95%] [32mBuilding C object CMakeFiles/semantic_inference_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/semantic_inference_msgs/_semantic_inference_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.222s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/semantic_inference_msgs/semantic_inference_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[15.306s] [ 97%] Built target semantic_inference_msgs_s__rosidl_typesupport_introspection_c
+[15.306s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/semantic_inference_msgs/semantic_inference_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[15.355s] [ 98%] Built target semantic_inference_msgs_s__rosidl_typesupport_fastrtps_c
+[15.459s] [100%] [32m[1mLinking C shared module rosidl_generator_py/semantic_inference_msgs/semantic_inference_msgs_s__rosidl_typesupport_c.so[0m
+[15.541s] [100%] Built target semantic_inference_msgs_s__rosidl_typesupport_c
+[15.586s] Invoked command in '/home/siny/hydra_ws/build/semantic_inference_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/semantic_inference_msgs -- -j20 -l20
+[15.586s] Invoking command in '/home/siny/hydra_ws/build/semantic_inference_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/semantic_inference_msgs
+[15.600s] -- Install configuration: "Release"
+[15.607s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/ament_index/resource_index/rosidl_interfaces/semantic_inference_msgs
+[15.607s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/msg/FeatureVector.json
+[15.607s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/msg/FeatureVectors.json
+[15.607s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/msg/FeatureVectorStamped.json
+[15.607s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/msg/FeatureImage.json
+[15.607s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/srv/EncodeFeature.json
+[15.607s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs
+[15.607s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv
+[15.607s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/encode_feature.h
+[15.607s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/detail
+[15.607s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/detail/encode_feature__description.c
+[15.607s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/detail/encode_feature__functions.h
+[15.607s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/detail/encode_feature__type_support.h
+[15.607s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/detail/encode_feature__type_support.c
+[15.607s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/detail/encode_feature__functions.c
+[15.607s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/detail/encode_feature__struct.h
+[15.607s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg
+[15.607s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/feature_vector.h
+[15.608s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/rosidl_generator_c__visibility_control.h
+[15.608s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/feature_image.h
+[15.608s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/feature_vector_stamped.h
+[15.608s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/feature_vectors.h
+[15.608s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail
+[15.608s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_image__functions.h
+[15.608s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector_stamped__struct.h
+[15.612s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector_stamped__description.c
+[15.612s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector_stamped__functions.c
+[15.612s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector_stamped__functions.h
+[15.612s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_image__type_support.c
+[15.612s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector__type_support.h
+[15.612s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector__functions.h
+[15.612s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_image__functions.c
+[15.612s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector__struct.h
+[15.612s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_image__struct.h
+[15.613s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector_stamped__type_support.h
+[15.613s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector_stamped__type_support.c
+[15.613s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector__functions.c
+[15.613s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vectors__struct.h
+[15.613s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector__type_support.c
+[15.613s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vectors__description.c
+[15.613s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_image__type_support.h
+[15.613s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vectors__type_support.h
+[15.613s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vectors__type_support.c
+[15.613s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vectors__functions.c
+[15.613s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_image__description.c
+[15.613s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector__description.c
+[15.613s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vectors__functions.h
+[15.613s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/environment/library_path.sh
+[15.613s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/environment/library_path.dsv
+[15.613s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/libsemantic_inference_msgs__rosidl_generator_c.so
+[15.616s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/semantic_inference_msgs/lib/libsemantic_inference_msgs__rosidl_generator_c.so" to ""
+[15.616s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs
+[15.616s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv
+[15.616s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/detail
+[15.616s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/detail/encode_feature__rosidl_typesupport_fastrtps_c.h
+[15.616s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg
+[15.616s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.616s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail
+[15.616s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_image__rosidl_typesupport_fastrtps_c.h
+[15.616s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector__rosidl_typesupport_fastrtps_c.h
+[15.616s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector_stamped__rosidl_typesupport_fastrtps_c.h
+[15.616s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vectors__rosidl_typesupport_fastrtps_c.h
+[15.616s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/libsemantic_inference_msgs__rosidl_typesupport_fastrtps_c.so
+[15.617s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/semantic_inference_msgs/lib/libsemantic_inference_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[15.617s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs
+[15.617s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv
+[15.617s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/encode_feature.hpp
+[15.617s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/detail
+[15.617s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/detail/encode_feature__type_support.hpp
+[15.617s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/detail/encode_feature__traits.hpp
+[15.617s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/detail/encode_feature__builder.hpp
+[15.617s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/detail/encode_feature__struct.hpp
+[15.617s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg
+[15.617s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/feature_vectors.hpp
+[15.617s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/feature_vector_stamped.hpp
+[15.617s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/feature_image.hpp
+[15.617s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail
+[15.617s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_image__traits.hpp
+[15.617s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vectors__builder.hpp
+[15.617s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector_stamped__traits.hpp
+[15.617s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector__type_support.hpp
+[15.617s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_image__struct.hpp
+[15.618s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vectors__type_support.hpp
+[15.618s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vectors__struct.hpp
+[15.618s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector__builder.hpp
+[15.618s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector__traits.hpp
+[15.618s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_image__builder.hpp
+[15.618s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_image__type_support.hpp
+[15.618s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector__struct.hpp
+[15.618s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector_stamped__builder.hpp
+[15.618s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector_stamped__type_support.hpp
+[15.618s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vectors__traits.hpp
+[15.618s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector_stamped__struct.hpp
+[15.618s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/feature_vector.hpp
+[15.618s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[15.618s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs
+[15.618s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv
+[15.618s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/detail
+[15.618s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/detail/dds_fastrtps
+[15.619s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/detail/encode_feature__rosidl_typesupport_fastrtps_cpp.hpp
+[15.619s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg
+[15.619s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.619s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail
+[15.619s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_image__rosidl_typesupport_fastrtps_cpp.hpp
+[15.619s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/dds_fastrtps
+[15.619s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vectors__rosidl_typesupport_fastrtps_cpp.hpp
+[15.619s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector__rosidl_typesupport_fastrtps_cpp.hpp
+[15.619s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[15.619s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/libsemantic_inference_msgs__rosidl_typesupport_fastrtps_cpp.so
+[15.620s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/semantic_inference_msgs/lib/libsemantic_inference_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.628s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs
+[15.628s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv
+[15.628s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/detail
+[15.628s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/detail/encode_feature__rosidl_typesupport_introspection_c.h
+[15.628s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/detail/encode_feature__type_support.c
+[15.628s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg
+[15.628s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail
+[15.628s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_image__rosidl_typesupport_introspection_c.h
+[15.628s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_image__type_support.c
+[15.628s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector_stamped__type_support.c
+[15.628s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector__type_support.c
+[15.628s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector_stamped__rosidl_typesupport_introspection_c.h
+[15.628s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector__rosidl_typesupport_introspection_c.h
+[15.628s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vectors__type_support.c
+[15.628s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vectors__rosidl_typesupport_introspection_c.h
+[15.628s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.628s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/libsemantic_inference_msgs__rosidl_typesupport_introspection_c.so
+[15.628s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/semantic_inference_msgs/lib/libsemantic_inference_msgs__rosidl_typesupport_introspection_c.so" to ""
+[15.628s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/libsemantic_inference_msgs__rosidl_typesupport_c.so
+[15.628s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/semantic_inference_msgs/lib/libsemantic_inference_msgs__rosidl_typesupport_c.so" to ""
+[15.628s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs
+[15.628s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv
+[15.628s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/detail
+[15.628s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/detail/encode_feature__type_support.cpp
+[15.628s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/srv/detail/encode_feature__rosidl_typesupport_introspection_cpp.hpp
+[15.628s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg
+[15.628s] -- Up-to-date: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail
+[15.628s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vectors__rosidl_typesupport_introspection_cpp.hpp
+[15.628s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vectors__type_support.cpp
+[15.628s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_image__type_support.cpp
+[15.628s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector_stamped__rosidl_typesupport_introspection_cpp.hpp
+[15.629s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector__rosidl_typesupport_introspection_cpp.hpp
+[15.629s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector_stamped__type_support.cpp
+[15.629s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_vector__type_support.cpp
+[15.629s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/include/semantic_inference_msgs/semantic_inference_msgs/msg/detail/feature_image__rosidl_typesupport_introspection_cpp.hpp
+[15.629s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/libsemantic_inference_msgs__rosidl_typesupport_introspection_cpp.so
+[15.629s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/semantic_inference_msgs/lib/libsemantic_inference_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[15.629s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/libsemantic_inference_msgs__rosidl_typesupport_cpp.so
+[15.629s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/semantic_inference_msgs/lib/libsemantic_inference_msgs__rosidl_typesupport_cpp.so" to ""
+[15.629s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/environment/pythonpath.sh
+[15.629s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/environment/pythonpath.dsv
+[15.629s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs-0.0.1-py3.12.egg-info
+[15.629s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs-0.0.1-py3.12.egg-info/top_level.txt
+[15.633s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs-0.0.1-py3.12.egg-info/PKG-INFO
+[15.633s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs-0.0.1-py3.12.egg-info/SOURCES.txt
+[15.633s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs-0.0.1-py3.12.egg-info/dependency_links.txt
+[15.633s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs
+[15.633s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/semantic_inference_msgs_s__rosidl_typesupport_introspection_c.so
+[15.633s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/semantic_inference_msgs_s__rosidl_typesupport_c.so
+[15.633s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/_semantic_inference_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.634s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/srv
+[15.634s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/srv/_encode_feature.py
+[15.634s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/srv/_encode_feature_s.c
+[15.634s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/srv/__init__.py
+[15.634s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/msg
+[15.634s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/msg/_feature_vectors.py
+[15.634s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/msg/_feature_vector_stamped.py
+[15.634s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/msg/_feature_vector.py
+[15.634s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/msg/_feature_vector_s.c
+[15.634s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/msg/_feature_vector_stamped_s.c
+[15.634s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/msg/_feature_vectors_s.c
+[15.634s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/msg/__init__.py
+[15.634s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/msg/_feature_image_s.c
+[15.635s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/msg/_feature_image.py
+[15.635s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/semantic_inference_msgs_s__rosidl_typesupport_fastrtps_c.so
+[15.635s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/_semantic_inference_msgs_s.ep.rosidl_typesupport_c.c
+[15.635s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/__init__.py
+[15.635s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/_semantic_inference_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[15.796s] Listing '/home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs'...
+[15.796s] Compiling '/home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/__init__.py'...
+[15.796s] Listing '/home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/msg'...
+[15.796s] Compiling '/home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/msg/__init__.py'...
+[15.796s] Compiling '/home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/msg/_feature_image.py'...
+[15.796s] Compiling '/home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/msg/_feature_vector.py'...
+[15.796s] Compiling '/home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/msg/_feature_vector_stamped.py'...
+[15.796s] Compiling '/home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/msg/_feature_vectors.py'...
+[15.796s] Listing '/home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/srv'...
+[15.796s] Compiling '/home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/srv/__init__.py'...
+[15.796s] Compiling '/home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/srv/_encode_feature.py'...
+[15.816s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/semantic_inference_msgs_s__rosidl_typesupport_fastrtps_c.so
+[15.817s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/semantic_inference_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[15.817s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/semantic_inference_msgs_s__rosidl_typesupport_introspection_c.so
+[15.817s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/semantic_inference_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[15.817s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/semantic_inference_msgs_s__rosidl_typesupport_c.so
+[15.817s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/semantic_inference_msgs/lib/python3.12/site-packages/semantic_inference_msgs/semantic_inference_msgs_s__rosidl_typesupport_c.so" to ""
+[15.817s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/lib/libsemantic_inference_msgs__rosidl_generator_py.so
+[15.817s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/semantic_inference_msgs/lib/libsemantic_inference_msgs__rosidl_generator_py.so" to ""
+[15.817s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/msg/FeatureVector.idl
+[15.817s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/msg/FeatureVectors.idl
+[15.817s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/msg/FeatureVectorStamped.idl
+[15.817s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/msg/FeatureImage.idl
+[15.817s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/srv/EncodeFeature.idl
+[15.817s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/msg/FeatureVector.msg
+[15.817s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/msg/FeatureVectors.msg
+[15.817s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/msg/FeatureVectorStamped.msg
+[15.817s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/msg/FeatureImage.msg
+[15.818s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/srv/EncodeFeature.srv
+[15.818s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/ament_index/resource_index/package_run_dependencies/semantic_inference_msgs
+[15.818s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/ament_index/resource_index/parent_prefix_path/semantic_inference_msgs
+[15.818s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/environment/ament_prefix_path.sh
+[15.818s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/environment/ament_prefix_path.dsv
+[15.818s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/environment/path.sh
+[15.818s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/environment/path.dsv
+[15.818s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/local_setup.bash
+[15.818s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/local_setup.sh
+[15.818s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/local_setup.zsh
+[15.818s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/local_setup.dsv
+[15.818s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/package.dsv
+[15.818s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/ament_index/resource_index/packages/semantic_inference_msgs
+[15.818s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/export_semantic_inference_msgs__rosidl_generator_cExport.cmake
+[15.818s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/export_semantic_inference_msgs__rosidl_generator_cExport-release.cmake
+[15.818s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/export_semantic_inference_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[15.819s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/export_semantic_inference_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[15.819s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/export_semantic_inference_msgs__rosidl_generator_cppExport.cmake
+[15.819s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/export_semantic_inference_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.819s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/export_semantic_inference_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[15.819s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/semantic_inference_msgs__rosidl_typesupport_introspection_cExport.cmake
+[15.824s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/semantic_inference_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[15.824s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/semantic_inference_msgs__rosidl_typesupport_cExport.cmake
+[15.824s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/semantic_inference_msgs__rosidl_typesupport_cExport-release.cmake
+[15.824s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/semantic_inference_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[15.824s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/semantic_inference_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[15.824s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/semantic_inference_msgs__rosidl_typesupport_cppExport.cmake
+[15.824s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/semantic_inference_msgs__rosidl_typesupport_cppExport-release.cmake
+[15.824s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/export_semantic_inference_msgs__rosidl_generator_pyExport.cmake
+[15.824s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/export_semantic_inference_msgs__rosidl_generator_pyExport-release.cmake
+[15.824s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/rosidl_cmake-extras.cmake
+[15.824s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.824s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.824s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[15.824s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[15.824s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.825s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.825s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/semantic_inference_msgsConfig.cmake
+[15.825s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/cmake/semantic_inference_msgsConfig-version.cmake
+[15.825s] -- Installing: /home/siny/hydra_ws/install/semantic_inference_msgs/share/semantic_inference_msgs/package.xml
+[15.835s] Invoked command in '/home/siny/hydra_ws/build/semantic_inference_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/semantic_inference_msgs

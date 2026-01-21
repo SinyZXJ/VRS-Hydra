@@ -71,11 +71,19 @@ include /home/siny/hydra_ws/build/hydra_msgs/hydra_msgs__py/CMakeFiles/hydra_msg
 /home/siny/hydra_ws/build/hydra_msgs/hydra_msgs__py/CMakeFiles/hydra_msgs__py: rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_c.c
 /home/siny/hydra_ws/build/hydra_msgs/hydra_msgs__py/CMakeFiles/hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_active_layer.py
 /home/siny/hydra_ws/build/hydra_msgs/hydra_msgs__py/CMakeFiles/hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_dsg_update.py
+/home/siny/hydra_ws/build/hydra_msgs/hydra_msgs__py/CMakeFiles/hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_node_label_update.py
+/home/siny/hydra_ws/build/hydra_msgs/hydra_msgs__py/CMakeFiles/hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_label_update_request.py
+/home/siny/hydra_ws/build/hydra_msgs/hydra_msgs__py/CMakeFiles/hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_place_node.py
+/home/siny/hydra_ws/build/hydra_msgs/hydra_msgs__py/CMakeFiles/hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_place_node_array.py
 /home/siny/hydra_ws/build/hydra_msgs/hydra_msgs__py/CMakeFiles/hydra_msgs__py: rosidl_generator_py/hydra_msgs/srv/_get_dsg.py
 /home/siny/hydra_ws/build/hydra_msgs/hydra_msgs__py/CMakeFiles/hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/__init__.py
 /home/siny/hydra_ws/build/hydra_msgs/hydra_msgs__py/CMakeFiles/hydra_msgs__py: rosidl_generator_py/hydra_msgs/srv/__init__.py
 /home/siny/hydra_ws/build/hydra_msgs/hydra_msgs__py/CMakeFiles/hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_active_layer_s.c
 /home/siny/hydra_ws/build/hydra_msgs/hydra_msgs__py/CMakeFiles/hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_dsg_update_s.c
+/home/siny/hydra_ws/build/hydra_msgs/hydra_msgs__py/CMakeFiles/hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_node_label_update_s.c
+/home/siny/hydra_ws/build/hydra_msgs/hydra_msgs__py/CMakeFiles/hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_label_update_request_s.c
+/home/siny/hydra_ws/build/hydra_msgs/hydra_msgs__py/CMakeFiles/hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_place_node_s.c
+/home/siny/hydra_ws/build/hydra_msgs/hydra_msgs__py/CMakeFiles/hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_place_node_array_s.c
 /home/siny/hydra_ws/build/hydra_msgs/hydra_msgs__py/CMakeFiles/hydra_msgs__py: rosidl_generator_py/hydra_msgs/srv/_get_dsg_s.c
 
 rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
@@ -93,6 +101,10 @@ rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c:
 rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/hydra_msgs/msg/ActiveLayer.idl
 rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/hydra_msgs/msg/DsgUpdate.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/hydra_msgs/msg/NodeLabelUpdate.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/hydra_msgs/msg/LabelUpdateRequest.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/hydra_msgs/msg/PlaceNode.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/hydra_msgs/msg/PlaceNodeArray.idl
 rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/hydra_msgs/srv/GetDsg.idl
 rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
@@ -126,6 +138,38 @@ rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c:
 rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/UInt8.idl
 rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/Inertia.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/InertiaStamped.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/Point.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/Point32.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/PointStamped.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/Polygon.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/PolygonInstance.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/PolygonInstanceStamped.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/PolygonStamped.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/Pose.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/Pose2D.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/PoseArray.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/PoseStamped.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/PoseWithCovariance.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/Quaternion.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/QuaternionStamped.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/Transform.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/TransformStamped.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/Twist.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/TwistStamped.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/TwistWithCovariance.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/Vector3.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/Vector3Stamped.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/VelocityStamped.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/Wrench.idl
+rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl
 rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/siny/hydra_ws/build/hydra_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/siny/hydra_ws/build/hydra_msgs/hydra_msgs__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/siny/hydra_ws/build/hydra_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
@@ -142,6 +186,18 @@ rosidl_generator_py/hydra_msgs/msg/_active_layer.py: rosidl_generator_py/hydra_m
 rosidl_generator_py/hydra_msgs/msg/_dsg_update.py: rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hydra_msgs/msg/_dsg_update.py
 
+rosidl_generator_py/hydra_msgs/msg/_node_label_update.py: rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hydra_msgs/msg/_node_label_update.py
+
+rosidl_generator_py/hydra_msgs/msg/_label_update_request.py: rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hydra_msgs/msg/_label_update_request.py
+
+rosidl_generator_py/hydra_msgs/msg/_place_node.py: rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hydra_msgs/msg/_place_node.py
+
+rosidl_generator_py/hydra_msgs/msg/_place_node_array.py: rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hydra_msgs/msg/_place_node_array.py
+
 rosidl_generator_py/hydra_msgs/srv/_get_dsg.py: rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hydra_msgs/srv/_get_dsg.py
 
@@ -157,6 +213,18 @@ rosidl_generator_py/hydra_msgs/msg/_active_layer_s.c: rosidl_generator_py/hydra_
 rosidl_generator_py/hydra_msgs/msg/_dsg_update_s.c: rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hydra_msgs/msg/_dsg_update_s.c
 
+rosidl_generator_py/hydra_msgs/msg/_node_label_update_s.c: rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hydra_msgs/msg/_node_label_update_s.c
+
+rosidl_generator_py/hydra_msgs/msg/_label_update_request_s.c: rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hydra_msgs/msg/_label_update_request_s.c
+
+rosidl_generator_py/hydra_msgs/msg/_place_node_s.c: rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hydra_msgs/msg/_place_node_s.c
+
+rosidl_generator_py/hydra_msgs/msg/_place_node_array_s.c: rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hydra_msgs/msg/_place_node_array_s.c
+
 rosidl_generator_py/hydra_msgs/srv/_get_dsg_s.c: rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/hydra_msgs/srv/_get_dsg_s.c
 
@@ -169,6 +237,14 @@ hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_active_layer.py
 hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_active_layer_s.c
 hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_dsg_update.py
 hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_dsg_update_s.c
+hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_label_update_request.py
+hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_label_update_request_s.c
+hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_node_label_update.py
+hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_node_label_update_s.c
+hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_place_node.py
+hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_place_node_array.py
+hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_place_node_array_s.c
+hydra_msgs__py: rosidl_generator_py/hydra_msgs/msg/_place_node_s.c
 hydra_msgs__py: rosidl_generator_py/hydra_msgs/srv/__init__.py
 hydra_msgs__py: rosidl_generator_py/hydra_msgs/srv/_get_dsg.py
 hydra_msgs__py: rosidl_generator_py/hydra_msgs/srv/_get_dsg_s.c

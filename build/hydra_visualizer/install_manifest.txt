@@ -29,6 +29,7 @@
 /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/launch/streaming_visualizer.launch.yaml
 /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/launch/static_visualizer.launch.yaml
 /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/config/visualizer_plugins.yaml
+/home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/config/visualizer_config_vlm.yaml
 /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/config/visualizer_config.yaml
 /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/config/external_plugins.yaml
 /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/rviz/static_visualizer.rviz

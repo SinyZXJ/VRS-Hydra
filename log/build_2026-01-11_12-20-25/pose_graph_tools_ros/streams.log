@@ -1,0 +1,75 @@
+[0.010s] Invoking command in '/home/siny/hydra_ws/build/pose_graph_tools_ros': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs:/home/siny/hydra_ws/install/pose_graph_tools:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib:/home/siny/hydra_ws/install/pose_graph_tools/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/pose_graph_tools/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/siny/hydra_ws/src/pose_graph_tools/pose_graph_tools_ros -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/pose_graph_tools_ros
+[0.069s] -- The C compiler identification is GNU 13.3.0
+[0.120s] -- The CXX compiler identification is GNU 13.3.0
+[0.136s] -- Detecting C compiler ABI info
+[0.220s] -- Detecting C compiler ABI info - done
+[0.227s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.228s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.237s] -- Detecting CXX compiler ABI info
+[0.334s] -- Detecting CXX compiler ABI info - done
+[0.343s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.344s] -- Detecting CXX compile features
+[0.344s] -- Detecting CXX compile features - done
+[0.346s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.487s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.579s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.613s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.624s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.630s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.638s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.657s] -- Found interactive_markers: 2.5.5 (/opt/ros/jazzy/share/interactive_markers/cmake)
+[0.683s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.684s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.737s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.747s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.761s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.824s] -- Found pose_graph_tools_msgs: 1.0.0 (/home/siny/hydra_ws/install/pose_graph_tools_msgs/share/pose_graph_tools_msgs/cmake)
+[0.835s] -- Found rclcpp_components: 28.1.13 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.851s] -- Found tf2_eigen: 0.36.16 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[0.953s] -- Configuring done (0.9s)
+[0.964s] -- Generating done (0.0s)
+[0.967s] -- Build files have been written to: /home/siny/hydra_ws/build/pose_graph_tools_ros
+[0.976s] Invoked command in '/home/siny/hydra_ws/build/pose_graph_tools_ros' returned '0': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs:/home/siny/hydra_ws/install/pose_graph_tools:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib:/home/siny/hydra_ws/install/pose_graph_tools/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/pose_graph_tools/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/siny/hydra_ws/src/pose_graph_tools/pose_graph_tools_ros -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/pose_graph_tools_ros
+[0.976s] Invoking command in '/home/siny/hydra_ws/build/pose_graph_tools_ros': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs:/home/siny/hydra_ws/install/pose_graph_tools:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib:/home/siny/hydra_ws/install/pose_graph_tools/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/pose_graph_tools/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/siny/hydra_ws/build/pose_graph_tools_ros -- -j20 -l20
+[1.021s] [ 16%] [32mBuilding CXX object CMakeFiles/pose_graph_tools_ros.dir/src/conversions.cpp.o[0m
+[3.779s] [ 33%] [32mBuilding CXX object CMakeFiles/pose_graph_tools_ros.dir/src/utils.cpp.o[0m
+[4.150s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_graph_tools_ros.dir/src/visualizer.cpp.o[0m
+[12.405s] [ 66%] [32m[1mLinking CXX shared library libpose_graph_tools_ros.so[0m
+[12.555s] [ 66%] Built target pose_graph_tools_ros
+[12.574s] [ 83%] [32mBuilding CXX object CMakeFiles/visualizer_node.dir/rclcpp_components/node_main_visualizer_node.cpp.o[0m
+[14.218s] [100%] [32m[1mLinking CXX executable visualizer_node[0m
+[14.272s] [100%] Built target visualizer_node
+[14.286s] Invoked command in '/home/siny/hydra_ws/build/pose_graph_tools_ros' returned '0': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs:/home/siny/hydra_ws/install/pose_graph_tools:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib:/home/siny/hydra_ws/install/pose_graph_tools/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/pose_graph_tools/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/siny/hydra_ws/build/pose_graph_tools_ros -- -j20 -l20
+[14.287s] Invoking command in '/home/siny/hydra_ws/build/pose_graph_tools_ros': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs:/home/siny/hydra_ws/install/pose_graph_tools:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib:/home/siny/hydra_ws/install/pose_graph_tools/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/pose_graph_tools/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/siny/hydra_ws/build/pose_graph_tools_ros
+[14.295s] -- Install configuration: "Release"
+[14.296s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/lib/pose_graph_tools_ros/visualizer_node
+[14.297s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/pose_graph_tools_ros/lib/pose_graph_tools_ros/visualizer_node" to ""
+[14.298s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/lib/libpose_graph_tools_ros.so
+[14.302s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/pose_graph_tools_ros/lib/libpose_graph_tools_ros.so" to ""
+[14.302s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/include/pose_graph_tools_ros/pose_graph_tools_ros
+[14.303s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/include/pose_graph_tools_ros/pose_graph_tools_ros/conversions.h
+[14.303s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/include/pose_graph_tools_ros/pose_graph_tools_ros/utils.h
+[14.303s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/launch
+[14.304s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/launch/posegraph_view.launch.yaml
+[14.304s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/ament_index/resource_index/package_run_dependencies/pose_graph_tools_ros
+[14.304s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/ament_index/resource_index/parent_prefix_path/pose_graph_tools_ros
+[14.304s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/environment/ament_prefix_path.sh
+[14.304s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/environment/ament_prefix_path.dsv
+[14.305s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/environment/path.sh
+[14.305s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/environment/path.dsv
+[14.305s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/local_setup.bash
+[14.305s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/local_setup.sh
+[14.306s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/local_setup.zsh
+[14.306s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/local_setup.dsv
+[14.306s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/package.dsv
+[14.306s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/ament_index/resource_index/packages/pose_graph_tools_ros
+[14.306s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/ament_index/resource_index/rclcpp_components/pose_graph_tools_ros
+[14.306s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/cmake/pose_graph_tools_ros-targetsExport.cmake
+[14.306s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/cmake/pose_graph_tools_ros-targetsExport-release.cmake
+[14.306s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/cmake/ament_cmake_export_targets-extras.cmake
+[14.307s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.307s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/cmake/pose_graph_tools_rosConfig.cmake
+[14.307s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/cmake/pose_graph_tools_rosConfig-version.cmake
+[14.307s] -- Installing: /home/siny/hydra_ws/install/pose_graph_tools_ros/share/pose_graph_tools_ros/package.xml
+[14.323s] Invoked command in '/home/siny/hydra_ws/build/pose_graph_tools_ros' returned '0': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs:/home/siny/hydra_ws/install/pose_graph_tools:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib:/home/siny/hydra_ws/install/pose_graph_tools/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/pose_graph_tools/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/pose_graph_tools/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/pose_graph_tools_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/siny/hydra_ws/build/pose_graph_tools_ros

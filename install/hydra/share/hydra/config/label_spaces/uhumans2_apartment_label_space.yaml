@@ -1,8 +1,10 @@
 ---
-total_semantic_labels: 21
+total_semantic_labels: 25
 dynamic_labels: [20]
 invalid_labels: []
 object_labels: [5, 7, 10, 11, 14, 16, 18]
+surface_places_labels: [3, 15]
+semantic_layers: [OBJECTS, MESH_PLACES, ROOMS, PLACES]
 label_names:
   - {label: 0, name: unknown}
   - {label: 1, name: appliance}
@@ -24,4 +26,9 @@ label_names:
   - {label: 17, name: screens}
   - {label: 18, name: trashcan}
   - {label: 19, name: wall}
-  - {label: 20, name: human}
+  - {label: 20, name: bedroom}
+  - {label: 21, name: bathroom}
+  - {label: 22, name: kitchen}
+  - {label: 23, name: living_room}
+  - {label: 24, name: corridor}
+

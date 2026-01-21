@@ -1,0 +1,29 @@
+[0.011s] Invoking command in '/home/siny/hydra_ws/build/spatial_hash': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/spatial_hash -- -j20 -l20
+[0.082s] [ 28%] Built target spatial_hash
+[0.112s] [100%] Built target utest_spatial_hash
+[0.119s] Invoked command in '/home/siny/hydra_ws/build/spatial_hash' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/spatial_hash -- -j20 -l20
+[0.121s] Invoking command in '/home/siny/hydra_ws/build/spatial_hash': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/spatial_hash
+[0.127s] -- Install configuration: "Release"
+[0.129s] -- Up-to-date: /home/siny/hydra_ws/install/spatial_hash/lib/libspatial_hash.a
+[0.129s] -- Up-to-date: /home/siny/hydra_ws/install/spatial_hash/include
+[0.129s] -- Up-to-date: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash
+[0.129s] -- Up-to-date: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/neighbor_utils.h
+[0.129s] -- Up-to-date: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/voxel_layer.h
+[0.130s] -- Up-to-date: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/layer.h
+[0.130s] -- Up-to-date: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/hash.h
+[0.130s] -- Up-to-date: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/voxel_block.h
+[0.130s] -- Up-to-date: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/impl
+[0.130s] -- Up-to-date: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/impl/block_layer_impl.h
+[0.130s] -- Up-to-date: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/impl/neighbor_utils_impl.h
+[0.130s] -- Up-to-date: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/impl/voxel_block_impl.h
+[0.130s] -- Up-to-date: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/impl/voxel_layer_impl.h
+[0.130s] -- Up-to-date: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/impl/layer_impl.h
+[0.131s] -- Up-to-date: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/types.h
+[0.131s] -- Up-to-date: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/block.h
+[0.131s] -- Up-to-date: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/grid.h
+[0.131s] -- Up-to-date: /home/siny/hydra_ws/install/spatial_hash/include/spatial_hash/block_layer.h
+[0.131s] -- Up-to-date: /home/siny/hydra_ws/install/spatial_hash/lib/cmake/spatial_hash/spatial_hashTargets.cmake
+[0.131s] -- Up-to-date: /home/siny/hydra_ws/install/spatial_hash/lib/cmake/spatial_hash/spatial_hashTargets-release.cmake
+[0.131s] -- Up-to-date: /home/siny/hydra_ws/install/spatial_hash/lib/cmake/spatial_hash/spatial_hashConfig.cmake
+[0.131s] -- Up-to-date: /home/siny/hydra_ws/install/spatial_hash/lib/cmake/spatial_hash/spatial_hashConfigVersion.cmake
+[0.186s] Invoked command in '/home/siny/hydra_ws/build/spatial_hash' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/spatial_hash

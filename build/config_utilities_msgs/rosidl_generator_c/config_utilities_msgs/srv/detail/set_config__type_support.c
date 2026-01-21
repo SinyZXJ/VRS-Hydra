@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "config_utilities_msgs/srv/detail/set_config__functions.h"
 #include "config_utilities_msgs/srv/detail/set_config__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "config_utilities_msgs/srv/detail/set_config__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "config_utilities_msgs/srv/detail/set_config__functions.h"
 
 #ifdef __cplusplus
 extern "C"

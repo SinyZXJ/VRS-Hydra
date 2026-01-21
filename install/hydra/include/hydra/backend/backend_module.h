@@ -124,6 +124,8 @@ class BackendModule : public kimera_pgmo::KimeraPgmoInterface, public Module {
 
   void addSink(const Sink::Ptr& sink);
 
+  void updateNodeLabels(const std::vector<std::pair<uint64_t, uint32_t>>& updates);
+
  protected:
   virtual bool spinOnce(bool force_update = true);
 
@@ -141,6 +143,8 @@ class BackendModule : public kimera_pgmo::KimeraPgmoInterface, public Module {
   bool updatePrivateDsg(size_t timestamp_ns, bool force_update = true);
 
   void updateAgentNodeMeasurements(const pose_graph_tools::PoseGraph& meas);
+
+
 
   void optimize(size_t timestamp_ns, bool force_find_merge = false);
 
@@ -160,6 +164,7 @@ class BackendModule : public kimera_pgmo::KimeraPgmoInterface, public Module {
   bool have_new_loopclosures_ = false;
   bool have_new_mesh_ = false;
   uint64_t last_sequence_number_ = 0;
+  uint64_t last_backend_timestamp_ns_ = 0;
 
   SharedDsgInfo::Ptr private_dsg_;
   DynamicSceneGraph::Ptr unmerged_graph_;
@@ -183,6 +188,9 @@ class BackendModule : public kimera_pgmo::KimeraPgmoInterface, public Module {
 
   // TODO(lschmid): This mutex currently simply locks all data for manipulation.
   std::mutex mutex_;
+  
+  std::mutex label_updates_mutex_;
+  std::vector<std::pair<uint64_t, uint32_t>> pending_label_updates_;
 };
 
 void declare_config(BackendModule::Config& conf);

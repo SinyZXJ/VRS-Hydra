@@ -4,11 +4,16 @@
   "idl_tuples": [
     "/home/siny/hydra_ws/build/hydra_msgs/rosidl_adapter/hydra_msgs:msg/ActiveLayer.idl",
     "/home/siny/hydra_ws/build/hydra_msgs/rosidl_adapter/hydra_msgs:msg/DsgUpdate.idl",
+    "/home/siny/hydra_ws/build/hydra_msgs/rosidl_adapter/hydra_msgs:msg/NodeLabelUpdate.idl",
+    "/home/siny/hydra_ws/build/hydra_msgs/rosidl_adapter/hydra_msgs:msg/LabelUpdateRequest.idl",
+    "/home/siny/hydra_ws/build/hydra_msgs/rosidl_adapter/hydra_msgs:msg/PlaceNode.idl",
+    "/home/siny/hydra_ws/build/hydra_msgs/rosidl_adapter/hydra_msgs:msg/PlaceNodeArray.idl",
     "/home/siny/hydra_ws/build/hydra_msgs/rosidl_adapter/hydra_msgs:srv/GetDsg.idl"
   ],
   "include_paths": [
     "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
     "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
     "service_msgs:/opt/ros/jazzy/share/service_msgs"
   ]
 }

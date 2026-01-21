@@ -1,4 +1,0 @@
-Invoking command in '/home/siny/hydra_ws/build/semantic_inference_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/semantic_inference_msgs -- -j20 -l20
-Invoked command in '/home/siny/hydra_ws/build/semantic_inference_msgs' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/semantic_inference_msgs -- -j20 -l20
-Invoking command in '/home/siny/hydra_ws/build/semantic_inference_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/semantic_inference_msgs
-Invoked command in '/home/siny/hydra_ws/build/semantic_inference_msgs' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/semantic_inference_msgs

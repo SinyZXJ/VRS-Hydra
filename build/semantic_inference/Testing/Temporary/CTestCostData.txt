@@ -1,4 +1,0 @@
-*/ColorConversionFixture.FillColorImageCorrect/* 2 0.0258511
-ImageUtilities.FillDepthImage 2 0.0256104
-ImageUtilities.ConvertColorCorrect 2 0.0260888
----

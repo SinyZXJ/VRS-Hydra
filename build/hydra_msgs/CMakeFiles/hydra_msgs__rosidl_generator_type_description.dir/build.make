@@ -68,12 +68,20 @@ include CMakeFiles/hydra_msgs__rosidl_generator_type_description.dir/progress.ma
 
 CMakeFiles/hydra_msgs__rosidl_generator_type_description: rosidl_generator_type_description/hydra_msgs/msg/ActiveLayer.json
 CMakeFiles/hydra_msgs__rosidl_generator_type_description: rosidl_generator_type_description/hydra_msgs/msg/DsgUpdate.json
+CMakeFiles/hydra_msgs__rosidl_generator_type_description: rosidl_generator_type_description/hydra_msgs/msg/NodeLabelUpdate.json
+CMakeFiles/hydra_msgs__rosidl_generator_type_description: rosidl_generator_type_description/hydra_msgs/msg/LabelUpdateRequest.json
+CMakeFiles/hydra_msgs__rosidl_generator_type_description: rosidl_generator_type_description/hydra_msgs/msg/PlaceNode.json
+CMakeFiles/hydra_msgs__rosidl_generator_type_description: rosidl_generator_type_description/hydra_msgs/msg/PlaceNodeArray.json
 CMakeFiles/hydra_msgs__rosidl_generator_type_description: rosidl_generator_type_description/hydra_msgs/srv/GetDsg.json
 
 rosidl_generator_type_description/hydra_msgs/msg/ActiveLayer.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/hydra_msgs/msg/ActiveLayer.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/hydra_msgs/msg/ActiveLayer.json: rosidl_adapter/hydra_msgs/msg/ActiveLayer.idl
 rosidl_generator_type_description/hydra_msgs/msg/ActiveLayer.json: rosidl_adapter/hydra_msgs/msg/DsgUpdate.idl
+rosidl_generator_type_description/hydra_msgs/msg/ActiveLayer.json: rosidl_adapter/hydra_msgs/msg/NodeLabelUpdate.idl
+rosidl_generator_type_description/hydra_msgs/msg/ActiveLayer.json: rosidl_adapter/hydra_msgs/msg/LabelUpdateRequest.idl
+rosidl_generator_type_description/hydra_msgs/msg/ActiveLayer.json: rosidl_adapter/hydra_msgs/msg/PlaceNode.idl
+rosidl_generator_type_description/hydra_msgs/msg/ActiveLayer.json: rosidl_adapter/hydra_msgs/msg/PlaceNodeArray.idl
 rosidl_generator_type_description/hydra_msgs/msg/ActiveLayer.json: rosidl_adapter/hydra_msgs/srv/GetDsg.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/siny/hydra_ws/build/hydra_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/siny/hydra_ws/build/hydra_msgs/rosidl_generator_type_description__arguments.json
@@ -81,12 +89,28 @@ rosidl_generator_type_description/hydra_msgs/msg/ActiveLayer.json: rosidl_adapte
 rosidl_generator_type_description/hydra_msgs/msg/DsgUpdate.json: rosidl_generator_type_description/hydra_msgs/msg/ActiveLayer.json
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/hydra_msgs/msg/DsgUpdate.json
 
+rosidl_generator_type_description/hydra_msgs/msg/NodeLabelUpdate.json: rosidl_generator_type_description/hydra_msgs/msg/ActiveLayer.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/hydra_msgs/msg/NodeLabelUpdate.json
+
+rosidl_generator_type_description/hydra_msgs/msg/LabelUpdateRequest.json: rosidl_generator_type_description/hydra_msgs/msg/ActiveLayer.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/hydra_msgs/msg/LabelUpdateRequest.json
+
+rosidl_generator_type_description/hydra_msgs/msg/PlaceNode.json: rosidl_generator_type_description/hydra_msgs/msg/ActiveLayer.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/hydra_msgs/msg/PlaceNode.json
+
+rosidl_generator_type_description/hydra_msgs/msg/PlaceNodeArray.json: rosidl_generator_type_description/hydra_msgs/msg/ActiveLayer.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/hydra_msgs/msg/PlaceNodeArray.json
+
 rosidl_generator_type_description/hydra_msgs/srv/GetDsg.json: rosidl_generator_type_description/hydra_msgs/msg/ActiveLayer.json
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/hydra_msgs/srv/GetDsg.json
 
 hydra_msgs__rosidl_generator_type_description: CMakeFiles/hydra_msgs__rosidl_generator_type_description
 hydra_msgs__rosidl_generator_type_description: rosidl_generator_type_description/hydra_msgs/msg/ActiveLayer.json
 hydra_msgs__rosidl_generator_type_description: rosidl_generator_type_description/hydra_msgs/msg/DsgUpdate.json
+hydra_msgs__rosidl_generator_type_description: rosidl_generator_type_description/hydra_msgs/msg/LabelUpdateRequest.json
+hydra_msgs__rosidl_generator_type_description: rosidl_generator_type_description/hydra_msgs/msg/NodeLabelUpdate.json
+hydra_msgs__rosidl_generator_type_description: rosidl_generator_type_description/hydra_msgs/msg/PlaceNode.json
+hydra_msgs__rosidl_generator_type_description: rosidl_generator_type_description/hydra_msgs/msg/PlaceNodeArray.json
 hydra_msgs__rosidl_generator_type_description: rosidl_generator_type_description/hydra_msgs/srv/GetDsg.json
 hydra_msgs__rosidl_generator_type_description: CMakeFiles/hydra_msgs__rosidl_generator_type_description.dir/build.make
 .PHONY : hydra_msgs__rosidl_generator_type_description

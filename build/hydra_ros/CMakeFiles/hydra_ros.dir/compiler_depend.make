@@ -2495,7 +2495,14 @@ CMakeFiles/hydra_ros.dir/src/backend/ros_backend_publisher.cpp.o: /home/siny/hyd
   /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__struct.hpp \
   /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__traits.hpp \
   /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__type_support.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__struct.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__traits.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__builder.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__struct.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__traits.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__type_support.hpp \
   /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/dsg_update.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/place_node_array.hpp \
   /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /home/siny/hydra_ws/install/ianvs/include/ianvs/ianvs/node_handle.h \
   /home/siny/hydra_ws/install/ianvs/include/ianvs/ianvs/visibility_control.h \
@@ -11686,7 +11693,21 @@ CMakeFiles/hydra_ros.dir/src/hydra_ros_pipeline.cpp.o: /home/siny/hydra_ws/src/h
   /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__struct.hpp \
   /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__traits.hpp \
   /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__type_support.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__builder.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__struct.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__traits.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__type_support.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__struct.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__traits.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__struct.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__traits.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__builder.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__struct.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__traits.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__type_support.hpp \
   /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/dsg_update.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/label_update_request.hpp \
+  /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/place_node_array.hpp \
   /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /home/siny/hydra_ws/install/ianvs/include/ianvs/ianvs/node_handle.h \
   /home/siny/hydra_ws/install/ianvs/include/ianvs/ianvs/visibility_control.h \
@@ -33719,6 +33740,10 @@ CMakeFiles/hydra_ros.dir/src/visualizer/feature_color_adaptors.cpp.o: /home/siny
 
 /home/siny/hydra_ws/install/teaserpp/include/teaser/macros.h:
 
+/home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__traits.hpp:
+
+/home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__struct.hpp:
+
 /opt/ros/jazzy/include/class_loader/class_loader/exceptions.hpp:
 
 /home/siny/hydra_ws/install/hydra/include/hydra/loop_closure/subgraph_extraction.h:
@@ -33812,8 +33837,6 @@ CMakeFiles/hydra_ros.dir/src/visualizer/feature_color_adaptors.cpp.o: /home/siny
 /usr/include/pcl-1.14/pcl/point_struct_traits.h:
 
 /usr/include/pcl-1.14/pcl/pcl_config.h:
-
-/usr/include/pcl-1.14/pcl/exceptions.h:
 
 /usr/include/pcl-1.14/pcl/console/print.h:
 
@@ -34077,6 +34100,14 @@ CMakeFiles/hydra_ros.dir/src/visualizer/feature_color_adaptors.cpp.o: /home/siny
 
 /usr/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp:
 
+/usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp:
+
+/usr/include/boost/smart_ptr/detail/sp_convertible.hpp:
+
+/usr/include/boost/smart_ptr/detail/requires_cxx11.hpp:
+
+/usr/include/boost/smart_ptr/detail/operator_bool.hpp:
+
 /usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:
 
 /usr/include/c++/13/ratio:
@@ -34269,6 +34300,8 @@ CMakeFiles/hydra_ros.dir/src/visualizer/feature_color_adaptors.cpp.o: /home/siny
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp:
 
+/home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/label_update_request.hpp:
+
 /usr/include/c++/13/pstl/glue_algorithm_defs.h:
 
 /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker__builder.hpp:
@@ -34330,6 +34363,10 @@ CMakeFiles/hydra_ros.dir/src/visualizer/feature_color_adaptors.cpp.o: /home/siny
 /usr/include/boost/mpl/placeholders.hpp:
 
 /usr/include/c++/13/cxxabi.h:
+
+/usr/include/boost/smart_ptr/detail/shared_count.hpp:
+
+/usr/include/boost/multi_index/detail/auto_space.hpp:
 
 /usr/include/boost/preprocessor/seq/enum.hpp:
 
@@ -34472,6 +34509,12 @@ CMakeFiles/hydra_ros.dir/src/visualizer/feature_color_adaptors.cpp.o: /home/siny
 /usr/include/boost/range/iterator_range_io.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/types/stack_t.h:
+
+/usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_atomic.hpp:
+
+/usr/include/c++/13/bits/shared_ptr_base.h:
+
+/usr/include/c++/13/bits/new_allocator.h:
 
 /usr/include/c++/13/bits/localefwd.h:
 
@@ -34676,6 +34719,8 @@ CMakeFiles/hydra_ros.dir/src/visualizer/feature_color_adaptors.cpp.o: /home/siny
 /usr/include/aarch64-linux-gnu/c++/13/bits/gthr-default.h:
 
 /usr/include/aarch64-linux-gnu/c++/13/bits/cxxabi_tweaks.h:
+
+/home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__traits.hpp:
 
 /usr/include/c++/13/bits/fs_path.h:
 
@@ -35014,12 +35059,6 @@ CMakeFiles/hydra_ros.dir/src/visualizer/feature_color_adaptors.cpp.o: /home/siny
 /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/dsg_update.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp:
-
-/usr/include/c++/13/bits/shared_ptr_base.h:
-
-/usr/include/c++/13/bits/new_allocator.h:
-
-/usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_atomic.hpp:
 
 /usr/include/c++/13/locale:
 
@@ -35509,8 +35548,6 @@ CMakeFiles/hydra_ros.dir/src/visualizer/feature_color_adaptors.cpp.o: /home/siny
 
 /opt/ros/jazzy/include/rcl/rcl/event_callback.h:
 
-/usr/include/boost/smart_ptr/detail/operator_bool.hpp:
-
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp:
 
 /home/siny/hydra_ws/install/kimera_pgmo_msgs/include/kimera_pgmo_msgs/kimera_pgmo_msgs/msg/detail/mesh__type_support.hpp:
@@ -35616,6 +35653,8 @@ CMakeFiles/hydra_ros.dir/src/visualizer/feature_color_adaptors.cpp.o: /home/siny
 /home/siny/hydra_ws/install/hydra/include/hydra/openset/openset_types.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_template.hpp:
+
+/home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__type_support.hpp:
 
 /usr/include/boost/preprocessor/control/if.hpp:
 
@@ -35782,6 +35821,8 @@ CMakeFiles/hydra_ros.dir/src/visualizer/feature_color_adaptors.cpp.o: /home/siny
 /usr/include/boost/mpl/aux_/adl_barrier.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/is_ros_compatible_type.hpp:
+
+/home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__struct.hpp:
 
 /usr/include/boost/preprocessor/list/detail/limits/fold_right_256.hpp:
 
@@ -35988,8 +36029,6 @@ CMakeFiles/hydra_ros.dir/src/visualizer/feature_color_adaptors.cpp.o: /home/siny
 /usr/include/c++/13/bits/erase_if.h:
 
 /usr/include/boost/multi_index/detail/ord_index_impl.hpp:
-
-/usr/include/boost/smart_ptr/detail/requires_cxx11.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/loaned_message.hpp:
 
@@ -36627,8 +36666,6 @@ CMakeFiles/hydra_ros.dir/src/visualizer/feature_color_adaptors.cpp.o: /home/siny
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:
 
-/usr/include/boost/smart_ptr/detail/sp_convertible.hpp:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/serialized_message.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/timex.h:
@@ -37217,8 +37254,6 @@ CMakeFiles/hydra_ros.dir/src/visualizer/feature_color_adaptors.cpp.o: /home/siny
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/greater.hpp:
 
-/usr/include/linux/errno.h:
-
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
 
 /usr/include/linux/limits.h:
@@ -37579,6 +37614,24 @@ CMakeFiles/hydra_ros.dir/src/visualizer/feature_color_adaptors.cpp.o: /home/siny
 
 /usr/include/boost/preprocessor/variadic/limits/size_64.hpp:
 
+/home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__struct.hpp:
+
+/home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__traits.hpp:
+
+/usr/include/linux/errno.h:
+
+/home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__struct.hpp:
+
+/home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__traits.hpp:
+
+/usr/include/pcl-1.14/pcl/exceptions.h:
+
+/home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__type_support.hpp:
+
+/home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/place_node_array.hpp:
+
+/opt/ros/jazzy/include/tf2_ros/tf2_ros/transform_broadcaster.h:
+
 /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/deformation_graph.h:
 
 /usr/include/boost/serialization/level.hpp:
@@ -37594,6 +37647,8 @@ CMakeFiles/hydra_ros.dir/src/visualizer/feature_color_adaptors.cpp.o: /home/siny
 /usr/include/boost/type_traits/has_trivial_constructor.hpp:
 
 /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/kimera_pgmo_interface.h:
+
+/home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__builder.hpp:
 
 /home/siny/hydra_ws/install/kimera_pgmo/include/kimera_pgmo/mesh_traits.h:
 
@@ -37666,6 +37721,14 @@ CMakeFiles/hydra_ros.dir/src/visualizer/feature_color_adaptors.cpp.o: /home/siny
 /home/siny/hydra_ws/install/pose_graph_tools_msgs/include/pose_graph_tools_msgs/pose_graph_tools_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/jazzy/include/gtsam/linear/JacobianFactor-inl.h:
+
+/usr/include/boost/variant/detail/cast_storage.hpp:
+
+/usr/include/boost/smart_ptr/detail/sp_counted_base.hpp:
+
+/usr/include/c++/13/bits/stl_raw_storage_iter.h:
+
+/home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/edge_attributes.h:
 
 /home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/scene_graph_logger.h:
 
@@ -37876,8 +37939,6 @@ CMakeFiles/hydra_ros.dir/src/visualizer/feature_color_adaptors.cpp.o: /home/siny
 /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
 
 /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp:
-
-/opt/ros/jazzy/include/tf2_ros/tf2_ros/transform_broadcaster.h:
 
 /usr/include/aarch64-linux-gnu/c++/13/bits/basic_file.h:
 
@@ -38128,10 +38189,6 @@ CMakeFiles/hydra_ros.dir/src/visualizer/feature_color_adaptors.cpp.o: /home/siny
 /usr/include/nlohmann/detail/iterators/iter_impl.hpp:
 
 /usr/include/boost/core/allocator_access.hpp:
-
-/usr/include/boost/multi_index/detail/auto_space.hpp:
-
-/usr/include/boost/smart_ptr/detail/shared_count.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h:
 
@@ -38971,6 +39028,8 @@ CMakeFiles/hydra_ros.dir/src/visualizer/feature_color_adaptors.cpp.o: /home/siny
 
 /usr/include/boost/variant/detail/hash_variant.hpp:
 
+/home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__builder.hpp:
+
 /usr/include/boost/preprocessor/seq/elem.hpp:
 
 /usr/include/boost/preprocessor/seq/limits/fold_left_256.hpp:
@@ -39116,13 +39175,3 @@ CMakeFiles/hydra_ros.dir/src/visualizer/feature_color_adaptors.cpp.o: /home/siny
 /usr/include/boost/multi_index/detail/ord_index_node.hpp:
 
 /usr/include/boost/smart_ptr/detail/local_counted_base.hpp:
-
-/usr/include/boost/variant/detail/cast_storage.hpp:
-
-/usr/include/c++/13/bits/stl_raw_storage_iter.h:
-
-/home/siny/hydra_ws/install/spark_dsg/include/spark_dsg/edge_attributes.h:
-
-/usr/include/boost/smart_ptr/detail/sp_counted_base.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp:

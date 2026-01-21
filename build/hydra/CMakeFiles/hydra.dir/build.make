@@ -1385,10 +1385,24 @@ CMakeFiles/hydra.dir/src/rooms/room_utilities.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hydra.dir/src/rooms/room_utilities.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/siny/hydra_ws/src/hydra/src/rooms/room_utilities.cpp -o CMakeFiles/hydra.dir/src/rooms/room_utilities.cpp.s
 
+CMakeFiles/hydra.dir/src/rooms/semantic_smoothing.cpp.o: CMakeFiles/hydra.dir/flags.make
+CMakeFiles/hydra.dir/src/rooms/semantic_smoothing.cpp.o: /home/siny/hydra_ws/src/hydra/src/rooms/semantic_smoothing.cpp
+CMakeFiles/hydra.dir/src/rooms/semantic_smoothing.cpp.o: CMakeFiles/hydra.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/hydra.dir/src/rooms/semantic_smoothing.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hydra.dir/src/rooms/semantic_smoothing.cpp.o -MF CMakeFiles/hydra.dir/src/rooms/semantic_smoothing.cpp.o.d -o CMakeFiles/hydra.dir/src/rooms/semantic_smoothing.cpp.o -c /home/siny/hydra_ws/src/hydra/src/rooms/semantic_smoothing.cpp
+
+CMakeFiles/hydra.dir/src/rooms/semantic_smoothing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hydra.dir/src/rooms/semantic_smoothing.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/siny/hydra_ws/src/hydra/src/rooms/semantic_smoothing.cpp > CMakeFiles/hydra.dir/src/rooms/semantic_smoothing.cpp.i
+
+CMakeFiles/hydra.dir/src/rooms/semantic_smoothing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hydra.dir/src/rooms/semantic_smoothing.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/siny/hydra_ws/src/hydra/src/rooms/semantic_smoothing.cpp -o CMakeFiles/hydra.dir/src/rooms/semantic_smoothing.cpp.s
+
 CMakeFiles/hydra.dir/src/utils/active_window_tracker.cpp.o: CMakeFiles/hydra.dir/flags.make
 CMakeFiles/hydra.dir/src/utils/active_window_tracker.cpp.o: /home/siny/hydra_ws/src/hydra/src/utils/active_window_tracker.cpp
 CMakeFiles/hydra.dir/src/utils/active_window_tracker.cpp.o: CMakeFiles/hydra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/hydra.dir/src/utils/active_window_tracker.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/hydra.dir/src/utils/active_window_tracker.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hydra.dir/src/utils/active_window_tracker.cpp.o -MF CMakeFiles/hydra.dir/src/utils/active_window_tracker.cpp.o.d -o CMakeFiles/hydra.dir/src/utils/active_window_tracker.cpp.o -c /home/siny/hydra_ws/src/hydra/src/utils/active_window_tracker.cpp
 
 CMakeFiles/hydra.dir/src/utils/active_window_tracker.cpp.i: cmake_force
@@ -1402,7 +1416,7 @@ CMakeFiles/hydra.dir/src/utils/active_window_tracker.cpp.s: cmake_force
 CMakeFiles/hydra.dir/src/utils/csv_reader.cpp.o: CMakeFiles/hydra.dir/flags.make
 CMakeFiles/hydra.dir/src/utils/csv_reader.cpp.o: /home/siny/hydra_ws/src/hydra/src/utils/csv_reader.cpp
 CMakeFiles/hydra.dir/src/utils/csv_reader.cpp.o: CMakeFiles/hydra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/hydra.dir/src/utils/csv_reader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/hydra.dir/src/utils/csv_reader.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hydra.dir/src/utils/csv_reader.cpp.o -MF CMakeFiles/hydra.dir/src/utils/csv_reader.cpp.o.d -o CMakeFiles/hydra.dir/src/utils/csv_reader.cpp.o -c /home/siny/hydra_ws/src/hydra/src/utils/csv_reader.cpp
 
 CMakeFiles/hydra.dir/src/utils/csv_reader.cpp.i: cmake_force
@@ -1416,7 +1430,7 @@ CMakeFiles/hydra.dir/src/utils/csv_reader.cpp.s: cmake_force
 CMakeFiles/hydra.dir/src/utils/data_directory.cpp.o: CMakeFiles/hydra.dir/flags.make
 CMakeFiles/hydra.dir/src/utils/data_directory.cpp.o: /home/siny/hydra_ws/src/hydra/src/utils/data_directory.cpp
 CMakeFiles/hydra.dir/src/utils/data_directory.cpp.o: CMakeFiles/hydra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/hydra.dir/src/utils/data_directory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/hydra.dir/src/utils/data_directory.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hydra.dir/src/utils/data_directory.cpp.o -MF CMakeFiles/hydra.dir/src/utils/data_directory.cpp.o.d -o CMakeFiles/hydra.dir/src/utils/data_directory.cpp.o -c /home/siny/hydra_ws/src/hydra/src/utils/data_directory.cpp
 
 CMakeFiles/hydra.dir/src/utils/data_directory.cpp.i: cmake_force
@@ -1430,7 +1444,7 @@ CMakeFiles/hydra.dir/src/utils/data_directory.cpp.s: cmake_force
 CMakeFiles/hydra.dir/src/utils/disjoint_set.cpp.o: CMakeFiles/hydra.dir/flags.make
 CMakeFiles/hydra.dir/src/utils/disjoint_set.cpp.o: /home/siny/hydra_ws/src/hydra/src/utils/disjoint_set.cpp
 CMakeFiles/hydra.dir/src/utils/disjoint_set.cpp.o: CMakeFiles/hydra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/hydra.dir/src/utils/disjoint_set.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/hydra.dir/src/utils/disjoint_set.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hydra.dir/src/utils/disjoint_set.cpp.o -MF CMakeFiles/hydra.dir/src/utils/disjoint_set.cpp.o.d -o CMakeFiles/hydra.dir/src/utils/disjoint_set.cpp.o -c /home/siny/hydra_ws/src/hydra/src/utils/disjoint_set.cpp
 
 CMakeFiles/hydra.dir/src/utils/disjoint_set.cpp.i: cmake_force
@@ -1444,7 +1458,7 @@ CMakeFiles/hydra.dir/src/utils/disjoint_set.cpp.s: cmake_force
 CMakeFiles/hydra.dir/src/utils/display_utilities.cpp.o: CMakeFiles/hydra.dir/flags.make
 CMakeFiles/hydra.dir/src/utils/display_utilities.cpp.o: /home/siny/hydra_ws/src/hydra/src/utils/display_utilities.cpp
 CMakeFiles/hydra.dir/src/utils/display_utilities.cpp.o: CMakeFiles/hydra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/hydra.dir/src/utils/display_utilities.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/hydra.dir/src/utils/display_utilities.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hydra.dir/src/utils/display_utilities.cpp.o -MF CMakeFiles/hydra.dir/src/utils/display_utilities.cpp.o.d -o CMakeFiles/hydra.dir/src/utils/display_utilities.cpp.o -c /home/siny/hydra_ws/src/hydra/src/utils/display_utilities.cpp
 
 CMakeFiles/hydra.dir/src/utils/display_utilities.cpp.i: cmake_force
@@ -1458,7 +1472,7 @@ CMakeFiles/hydra.dir/src/utils/display_utilities.cpp.s: cmake_force
 CMakeFiles/hydra.dir/src/utils/id_tracker.cpp.o: CMakeFiles/hydra.dir/flags.make
 CMakeFiles/hydra.dir/src/utils/id_tracker.cpp.o: /home/siny/hydra_ws/src/hydra/src/utils/id_tracker.cpp
 CMakeFiles/hydra.dir/src/utils/id_tracker.cpp.o: CMakeFiles/hydra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/hydra.dir/src/utils/id_tracker.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/hydra.dir/src/utils/id_tracker.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hydra.dir/src/utils/id_tracker.cpp.o -MF CMakeFiles/hydra.dir/src/utils/id_tracker.cpp.o.d -o CMakeFiles/hydra.dir/src/utils/id_tracker.cpp.o -c /home/siny/hydra_ws/src/hydra/src/utils/id_tracker.cpp
 
 CMakeFiles/hydra.dir/src/utils/id_tracker.cpp.i: cmake_force
@@ -1472,7 +1486,7 @@ CMakeFiles/hydra.dir/src/utils/id_tracker.cpp.s: cmake_force
 CMakeFiles/hydra.dir/src/utils/mesh_utilities.cpp.o: CMakeFiles/hydra.dir/flags.make
 CMakeFiles/hydra.dir/src/utils/mesh_utilities.cpp.o: /home/siny/hydra_ws/src/hydra/src/utils/mesh_utilities.cpp
 CMakeFiles/hydra.dir/src/utils/mesh_utilities.cpp.o: CMakeFiles/hydra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/hydra.dir/src/utils/mesh_utilities.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/hydra.dir/src/utils/mesh_utilities.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hydra.dir/src/utils/mesh_utilities.cpp.o -MF CMakeFiles/hydra.dir/src/utils/mesh_utilities.cpp.o.d -o CMakeFiles/hydra.dir/src/utils/mesh_utilities.cpp.o -c /home/siny/hydra_ws/src/hydra/src/utils/mesh_utilities.cpp
 
 CMakeFiles/hydra.dir/src/utils/mesh_utilities.cpp.i: cmake_force
@@ -1486,7 +1500,7 @@ CMakeFiles/hydra.dir/src/utils/mesh_utilities.cpp.s: cmake_force
 CMakeFiles/hydra.dir/src/utils/minimum_spanning_tree.cpp.o: CMakeFiles/hydra.dir/flags.make
 CMakeFiles/hydra.dir/src/utils/minimum_spanning_tree.cpp.o: /home/siny/hydra_ws/src/hydra/src/utils/minimum_spanning_tree.cpp
 CMakeFiles/hydra.dir/src/utils/minimum_spanning_tree.cpp.o: CMakeFiles/hydra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/hydra.dir/src/utils/minimum_spanning_tree.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/hydra.dir/src/utils/minimum_spanning_tree.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hydra.dir/src/utils/minimum_spanning_tree.cpp.o -MF CMakeFiles/hydra.dir/src/utils/minimum_spanning_tree.cpp.o.d -o CMakeFiles/hydra.dir/src/utils/minimum_spanning_tree.cpp.o -c /home/siny/hydra_ws/src/hydra/src/utils/minimum_spanning_tree.cpp
 
 CMakeFiles/hydra.dir/src/utils/minimum_spanning_tree.cpp.i: cmake_force
@@ -1500,7 +1514,7 @@ CMakeFiles/hydra.dir/src/utils/minimum_spanning_tree.cpp.s: cmake_force
 CMakeFiles/hydra.dir/src/utils/nearest_neighbor_utilities.cpp.o: CMakeFiles/hydra.dir/flags.make
 CMakeFiles/hydra.dir/src/utils/nearest_neighbor_utilities.cpp.o: /home/siny/hydra_ws/src/hydra/src/utils/nearest_neighbor_utilities.cpp
 CMakeFiles/hydra.dir/src/utils/nearest_neighbor_utilities.cpp.o: CMakeFiles/hydra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/hydra.dir/src/utils/nearest_neighbor_utilities.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/hydra.dir/src/utils/nearest_neighbor_utilities.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hydra.dir/src/utils/nearest_neighbor_utilities.cpp.o -MF CMakeFiles/hydra.dir/src/utils/nearest_neighbor_utilities.cpp.o.d -o CMakeFiles/hydra.dir/src/utils/nearest_neighbor_utilities.cpp.o -c /home/siny/hydra_ws/src/hydra/src/utils/nearest_neighbor_utilities.cpp
 
 CMakeFiles/hydra.dir/src/utils/nearest_neighbor_utilities.cpp.i: cmake_force
@@ -1514,7 +1528,7 @@ CMakeFiles/hydra.dir/src/utils/nearest_neighbor_utilities.cpp.s: cmake_force
 CMakeFiles/hydra.dir/src/utils/pgmo_glog_sink.cpp.o: CMakeFiles/hydra.dir/flags.make
 CMakeFiles/hydra.dir/src/utils/pgmo_glog_sink.cpp.o: /home/siny/hydra_ws/src/hydra/src/utils/pgmo_glog_sink.cpp
 CMakeFiles/hydra.dir/src/utils/pgmo_glog_sink.cpp.o: CMakeFiles/hydra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/hydra.dir/src/utils/pgmo_glog_sink.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/hydra.dir/src/utils/pgmo_glog_sink.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hydra.dir/src/utils/pgmo_glog_sink.cpp.o -MF CMakeFiles/hydra.dir/src/utils/pgmo_glog_sink.cpp.o.d -o CMakeFiles/hydra.dir/src/utils/pgmo_glog_sink.cpp.o -c /home/siny/hydra_ws/src/hydra/src/utils/pgmo_glog_sink.cpp
 
 CMakeFiles/hydra.dir/src/utils/pgmo_glog_sink.cpp.i: cmake_force
@@ -1528,7 +1542,7 @@ CMakeFiles/hydra.dir/src/utils/pgmo_glog_sink.cpp.s: cmake_force
 CMakeFiles/hydra.dir/src/utils/pgmo_mesh_interface.cpp.o: CMakeFiles/hydra.dir/flags.make
 CMakeFiles/hydra.dir/src/utils/pgmo_mesh_interface.cpp.o: /home/siny/hydra_ws/src/hydra/src/utils/pgmo_mesh_interface.cpp
 CMakeFiles/hydra.dir/src/utils/pgmo_mesh_interface.cpp.o: CMakeFiles/hydra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/hydra.dir/src/utils/pgmo_mesh_interface.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/hydra.dir/src/utils/pgmo_mesh_interface.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hydra.dir/src/utils/pgmo_mesh_interface.cpp.o -MF CMakeFiles/hydra.dir/src/utils/pgmo_mesh_interface.cpp.o.d -o CMakeFiles/hydra.dir/src/utils/pgmo_mesh_interface.cpp.o -c /home/siny/hydra_ws/src/hydra/src/utils/pgmo_mesh_interface.cpp
 
 CMakeFiles/hydra.dir/src/utils/pgmo_mesh_interface.cpp.i: cmake_force
@@ -1542,7 +1556,7 @@ CMakeFiles/hydra.dir/src/utils/pgmo_mesh_interface.cpp.s: cmake_force
 CMakeFiles/hydra.dir/src/utils/pgmo_mesh_traits.cpp.o: CMakeFiles/hydra.dir/flags.make
 CMakeFiles/hydra.dir/src/utils/pgmo_mesh_traits.cpp.o: /home/siny/hydra_ws/src/hydra/src/utils/pgmo_mesh_traits.cpp
 CMakeFiles/hydra.dir/src/utils/pgmo_mesh_traits.cpp.o: CMakeFiles/hydra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/hydra.dir/src/utils/pgmo_mesh_traits.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/hydra.dir/src/utils/pgmo_mesh_traits.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hydra.dir/src/utils/pgmo_mesh_traits.cpp.o -MF CMakeFiles/hydra.dir/src/utils/pgmo_mesh_traits.cpp.o.d -o CMakeFiles/hydra.dir/src/utils/pgmo_mesh_traits.cpp.o -c /home/siny/hydra_ws/src/hydra/src/utils/pgmo_mesh_traits.cpp
 
 CMakeFiles/hydra.dir/src/utils/pgmo_mesh_traits.cpp.i: cmake_force
@@ -1556,7 +1570,7 @@ CMakeFiles/hydra.dir/src/utils/pgmo_mesh_traits.cpp.s: cmake_force
 CMakeFiles/hydra.dir/src/utils/place_2d_ellipsoid_math.cpp.o: CMakeFiles/hydra.dir/flags.make
 CMakeFiles/hydra.dir/src/utils/place_2d_ellipsoid_math.cpp.o: /home/siny/hydra_ws/src/hydra/src/utils/place_2d_ellipsoid_math.cpp
 CMakeFiles/hydra.dir/src/utils/place_2d_ellipsoid_math.cpp.o: CMakeFiles/hydra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/hydra.dir/src/utils/place_2d_ellipsoid_math.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/hydra.dir/src/utils/place_2d_ellipsoid_math.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hydra.dir/src/utils/place_2d_ellipsoid_math.cpp.o -MF CMakeFiles/hydra.dir/src/utils/place_2d_ellipsoid_math.cpp.o.d -o CMakeFiles/hydra.dir/src/utils/place_2d_ellipsoid_math.cpp.o -c /home/siny/hydra_ws/src/hydra/src/utils/place_2d_ellipsoid_math.cpp
 
 CMakeFiles/hydra.dir/src/utils/place_2d_ellipsoid_math.cpp.i: cmake_force
@@ -1570,7 +1584,7 @@ CMakeFiles/hydra.dir/src/utils/place_2d_ellipsoid_math.cpp.s: cmake_force
 CMakeFiles/hydra.dir/src/utils/timing_utilities.cpp.o: CMakeFiles/hydra.dir/flags.make
 CMakeFiles/hydra.dir/src/utils/timing_utilities.cpp.o: /home/siny/hydra_ws/src/hydra/src/utils/timing_utilities.cpp
 CMakeFiles/hydra.dir/src/utils/timing_utilities.cpp.o: CMakeFiles/hydra.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/hydra.dir/src/utils/timing_utilities.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/hydra.dir/src/utils/timing_utilities.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hydra.dir/src/utils/timing_utilities.cpp.o -MF CMakeFiles/hydra.dir/src/utils/timing_utilities.cpp.o.d -o CMakeFiles/hydra.dir/src/utils/timing_utilities.cpp.o -c /home/siny/hydra_ws/src/hydra/src/utils/timing_utilities.cpp
 
 CMakeFiles/hydra.dir/src/utils/timing_utilities.cpp.i: cmake_force
@@ -1677,6 +1691,7 @@ hydra_OBJECTS = \
 "CMakeFiles/hydra.dir/src/rooms/room_finder.cpp.o" \
 "CMakeFiles/hydra.dir/src/rooms/room_finder_config.cpp.o" \
 "CMakeFiles/hydra.dir/src/rooms/room_utilities.cpp.o" \
+"CMakeFiles/hydra.dir/src/rooms/semantic_smoothing.cpp.o" \
 "CMakeFiles/hydra.dir/src/utils/active_window_tracker.cpp.o" \
 "CMakeFiles/hydra.dir/src/utils/csv_reader.cpp.o" \
 "CMakeFiles/hydra.dir/src/utils/data_directory.cpp.o" \
@@ -1789,6 +1804,7 @@ libhydra.so: CMakeFiles/hydra.dir/src/rooms/graph_filtration.cpp.o
 libhydra.so: CMakeFiles/hydra.dir/src/rooms/room_finder.cpp.o
 libhydra.so: CMakeFiles/hydra.dir/src/rooms/room_finder_config.cpp.o
 libhydra.so: CMakeFiles/hydra.dir/src/rooms/room_utilities.cpp.o
+libhydra.so: CMakeFiles/hydra.dir/src/rooms/semantic_smoothing.cpp.o
 libhydra.so: CMakeFiles/hydra.dir/src/utils/active_window_tracker.cpp.o
 libhydra.so: CMakeFiles/hydra.dir/src/utils/csv_reader.cpp.o
 libhydra.so: CMakeFiles/hydra.dir/src/utils/data_directory.cpp.o
@@ -1835,7 +1851,7 @@ libhydra.so: /opt/ros/jazzy/lib/aarch64-linux-gnu/libmetis-gtsam.so
 libhydra.so: /home/siny/hydra_ws/install/pose_graph_tools/lib/libpose_graph_tools.so
 libhydra.so: /usr/lib/aarch64-linux-gnu/libopencv_core.so.4.6.0
 libhydra.so: CMakeFiles/hydra.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Linking CXX shared library libhydra.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/siny/hydra_ws/build/hydra/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Linking CXX shared library libhydra.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hydra.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

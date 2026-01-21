@@ -1,0 +1,743 @@
+[0.045s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'spark_dsg', 'hydra', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.045s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['spark_dsg', 'hydra'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xef11c7b37710>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xef11c7add370>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xef11c7add370>>, mixin_verb=('build',))
+[0.062s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.062s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.062s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.062s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.062s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.062s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.062s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/siny/hydra_ws'
+[0.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore_ament_install'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_pkg']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_pkg'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_meta']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_meta'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ros']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ros'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['cmake', 'python']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'cmake'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['python_setup_py']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python_setup_py'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extensions ['ignore', 'ignore_ament_install']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extension 'ignore'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extension 'ignore_ament_install'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extensions ['colcon_pkg']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extension 'colcon_pkg'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extensions ['colcon_meta']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extension 'colcon_meta'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extensions ['ros']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extension 'ros'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extensions ['cmake', 'python']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extension 'cmake'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extension 'python'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extensions ['python_setup_py']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities) by extension 'python_setup_py'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities) by extensions ['ignore', 'ignore_ament_install']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities) by extension 'ignore'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities) by extension 'ignore_ament_install'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities) by extensions ['colcon_pkg']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities) by extension 'colcon_pkg'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities) by extensions ['colcon_meta']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities) by extension 'colcon_meta'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities) by extensions ['ros']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities) by extension 'ros'
+[0.076s] DEBUG:colcon.colcon_core.package_identification:Package 'src/config_utilities/config_utilities' with type 'ros.cmake' and name 'config_utilities'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_msgs) by extension 'ignore'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_msgs) by extension 'ignore_ament_install'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_msgs) by extensions ['colcon_pkg']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_msgs) by extension 'colcon_pkg'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_msgs) by extensions ['colcon_meta']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_msgs) by extension 'colcon_meta'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_msgs) by extensions ['ros']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_msgs) by extension 'ros'
+[0.077s] DEBUG:colcon.colcon_core.package_identification:Package 'src/config_utilities/config_utilities_msgs' with type 'ros.ament_cmake' and name 'config_utilities_msgs'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_ros) by extension 'ignore'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_ros) by extension 'ignore_ament_install'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_ros) by extensions ['colcon_pkg']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_ros) by extension 'colcon_pkg'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_ros) by extensions ['colcon_meta']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_ros) by extension 'colcon_meta'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_ros) by extensions ['ros']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/config_utilities_ros) by extension 'ros'
+[0.077s] DEBUG:colcon.colcon_core.package_identification:Package 'src/config_utilities/config_utilities_ros' with type 'ros.ament_cmake' and name 'config_utilities_ros'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extension 'ignore'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extension 'ignore_ament_install'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extensions ['colcon_pkg']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extension 'colcon_pkg'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extensions ['colcon_meta']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extension 'colcon_meta'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extensions ['ros']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extension 'ros'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extensions ['cmake', 'python']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extension 'cmake'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extension 'python'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extensions ['python_setup_py']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/config_utilities/docs) by extension 'python_setup_py'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra) by extensions ['ignore', 'ignore_ament_install']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra) by extension 'ignore'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra) by extension 'ignore_ament_install'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra) by extensions ['colcon_pkg']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra) by extension 'colcon_pkg'
+[0.078s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'hydra' of package 'src/hydra' from colcon.pkg
+[0.078s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hydra' with type 'None' and name 'hydra'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra) by extensions ['colcon_meta']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra) by extension 'colcon_meta'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra) by extensions ['ros']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra) by extension 'ros'
+[0.078s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hydra' with type 'ros.cmake' and name 'hydra'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extension 'ignore'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extension 'ignore_ament_install'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extensions ['colcon_pkg']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extension 'colcon_pkg'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extensions ['colcon_meta']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extension 'colcon_meta'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extensions ['ros']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extension 'ros'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extensions ['cmake', 'python']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extension 'cmake'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extension 'python'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extensions ['python_setup_py']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros) by extension 'python_setup_py'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extensions ['ignore', 'ignore_ament_install']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extension 'ignore'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extension 'ignore_ament_install'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extensions ['colcon_pkg']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extension 'colcon_pkg'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extensions ['colcon_meta']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extension 'colcon_meta'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extensions ['ros']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extension 'ros'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extensions ['cmake', 'python']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extension 'cmake'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extension 'python'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extensions ['python_setup_py']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/dev) by extension 'python_setup_py'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extension 'ignore'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extension 'ignore_ament_install'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extensions ['colcon_pkg']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extension 'colcon_pkg'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extensions ['colcon_meta']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extension 'colcon_meta'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extensions ['ros']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extension 'ros'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extensions ['cmake', 'python']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extension 'cmake'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extension 'python'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extensions ['python_setup_py']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc) by extension 'python_setup_py'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extension 'ignore'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extension 'ignore_ament_install'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extensions ['colcon_pkg']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extension 'colcon_pkg'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extensions ['colcon_meta']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extension 'colcon_meta'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extensions ['ros']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extension 'ros'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extensions ['cmake', 'python']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extension 'cmake'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extension 'python'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extensions ['python_setup_py']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/doc/examples) by extension 'python_setup_py'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extension 'ignore'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extension 'ignore_ament_install'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extensions ['colcon_pkg']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extension 'colcon_pkg'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extensions ['colcon_meta']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extension 'colcon_meta'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extensions ['ros']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extension 'ros'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extensions ['cmake', 'python']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extension 'cmake'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extension 'python'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extensions ['python_setup_py']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker) by extension 'python_setup_py'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extensions ['ignore', 'ignore_ament_install']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extension 'ignore'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extension 'ignore_ament_install'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extensions ['colcon_pkg']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extension 'colcon_pkg'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extensions ['colcon_meta']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extension 'colcon_meta'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extensions ['ros']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extension 'ros'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extensions ['cmake', 'python']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extension 'cmake'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extension 'python'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extensions ['python_setup_py']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/dev) by extension 'python_setup_py'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extensions ['ignore', 'ignore_ament_install']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extension 'ignore'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extension 'ignore_ament_install'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extensions ['colcon_pkg']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extension 'colcon_pkg'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extensions ['colcon_meta']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extension 'colcon_meta'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extensions ['ros']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extension 'ros'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extensions ['cmake', 'python']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extension 'cmake'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extension 'python'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extensions ['python_setup_py']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/minimal) by extension 'python_setup_py'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extensions ['ignore', 'ignore_ament_install']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extension 'ignore'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extension 'ignore_ament_install'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extensions ['colcon_pkg']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extension 'colcon_pkg'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extensions ['colcon_meta']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extension 'colcon_meta'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extensions ['ros']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extension 'ros'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extensions ['cmake', 'python']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extension 'cmake'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extension 'python'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extensions ['python_setup_py']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/docker/zed) by extension 'python_setup_py'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_msgs) by extension 'ignore'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_msgs) by extension 'ignore_ament_install'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_msgs) by extensions ['colcon_pkg']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_msgs) by extension 'colcon_pkg'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_msgs) by extensions ['colcon_meta']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_msgs) by extension 'colcon_meta'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_msgs) by extensions ['ros']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_msgs) by extension 'ros'
+[0.080s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hydra_ros/hydra_msgs' with type 'ros.ament_cmake' and name 'hydra_msgs'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_ros) by extension 'ignore'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_ros) by extension 'ignore_ament_install'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_ros) by extensions ['colcon_pkg']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_ros) by extension 'colcon_pkg'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_ros) by extensions ['colcon_meta']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_ros) by extension 'colcon_meta'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_ros) by extensions ['ros']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_ros) by extension 'ros'
+[0.080s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hydra_ros/hydra_ros' with type 'ros.ament_cmake' and name 'hydra_ros'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_visualizer) by extensions ['ignore', 'ignore_ament_install']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_visualizer) by extension 'ignore'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_visualizer) by extension 'ignore_ament_install'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_visualizer) by extensions ['colcon_pkg']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_visualizer) by extension 'colcon_pkg'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_visualizer) by extensions ['colcon_meta']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_visualizer) by extension 'colcon_meta'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_visualizer) by extensions ['ros']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/hydra_visualizer) by extension 'ros'
+[0.081s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hydra_ros/hydra_visualizer' with type 'ros.ament_cmake' and name 'hydra_visualizer'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extensions ['ignore', 'ignore_ament_install']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extension 'ignore'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extension 'ignore_ament_install'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extensions ['colcon_pkg']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extension 'colcon_pkg'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extensions ['colcon_meta']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extension 'colcon_meta'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extensions ['ros']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extension 'ros'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extensions ['cmake', 'python']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extension 'cmake'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extension 'python'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extensions ['python_setup_py']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/hydra_ros/install) by extension 'python_setup_py'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extensions ['ignore', 'ignore_ament_install']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extension 'ignore'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extension 'ignore_ament_install'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extensions ['colcon_pkg']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extension 'colcon_pkg'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extensions ['colcon_meta']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extension 'colcon_meta'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extensions ['ros']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extension 'ros'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extensions ['cmake', 'python']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extension 'cmake'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extension 'python'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extensions ['python_setup_py']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs) by extension 'python_setup_py'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs/ianvs) by extensions ['ignore', 'ignore_ament_install']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs/ianvs) by extension 'ignore'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs/ianvs) by extension 'ignore_ament_install'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs/ianvs) by extensions ['colcon_pkg']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs/ianvs) by extension 'colcon_pkg'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs/ianvs) by extensions ['colcon_meta']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs/ianvs) by extension 'colcon_meta'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs/ianvs) by extensions ['ros']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/ianvs/ianvs) by extension 'ros'
+[0.082s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ianvs/ianvs' with type 'ros.ament_cmake' and name 'ianvs'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extension 'ignore_ament_install'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extensions ['colcon_pkg']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extension 'colcon_pkg'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extensions ['colcon_meta']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extension 'colcon_meta'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extensions ['ros']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extension 'ros'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extensions ['cmake', 'python']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extension 'cmake'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extension 'python'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extensions ['python_setup_py']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo) by extension 'python_setup_py'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extension 'ignore_ament_install'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extensions ['colcon_pkg']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extension 'colcon_pkg'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extensions ['colcon_meta']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extension 'colcon_meta'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extensions ['ros']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extension 'ros'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extensions ['cmake', 'python']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extension 'cmake'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extension 'python'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extensions ['python_setup_py']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/images) by extension 'python_setup_py'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extension 'ignore_ament_install'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extensions ['colcon_pkg']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extension 'colcon_pkg'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extensions ['colcon_meta']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extension 'colcon_meta'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extensions ['ros']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extension 'ros'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extensions ['cmake', 'python']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extension 'cmake'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extension 'python'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extensions ['python_setup_py']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/install) by extension 'python_setup_py'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo) by extension 'ignore_ament_install'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo) by extensions ['colcon_pkg']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo) by extension 'colcon_pkg'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo) by extensions ['colcon_meta']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo) by extension 'colcon_meta'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo) by extensions ['ros']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo) by extension 'ros'
+[0.083s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kimera_pgmo/kimera_pgmo' with type 'ros.cmake' and name 'kimera_pgmo'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_msgs) by extension 'ignore'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_msgs) by extension 'ignore_ament_install'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_msgs) by extensions ['colcon_pkg']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_msgs) by extension 'colcon_pkg'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_msgs) by extensions ['colcon_meta']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_msgs) by extension 'colcon_meta'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_msgs) by extensions ['ros']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_msgs) by extension 'ros'
+[0.083s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kimera_pgmo/kimera_pgmo_msgs' with type 'ros.ament_cmake' and name 'kimera_pgmo_msgs'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_ros) by extension 'ignore'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_ros) by extension 'ignore_ament_install'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_ros) by extensions ['colcon_pkg']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_ros) by extension 'colcon_pkg'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_ros) by extensions ['colcon_meta']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_ros) by extension 'colcon_meta'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_ros) by extensions ['ros']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_ros) by extension 'ros'
+[0.084s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kimera_pgmo/kimera_pgmo_ros' with type 'ros.ament_cmake' and name 'kimera_pgmo_ros'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_rviz) by extension 'ignore'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_rviz) by extension 'ignore_ament_install'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_rviz) by extensions ['colcon_pkg']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_rviz) by extension 'colcon_pkg'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_rviz) by extensions ['colcon_meta']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_rviz) by extension 'colcon_meta'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_rviz) by extensions ['ros']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_pgmo/kimera_pgmo_rviz) by extension 'ros'
+[0.084s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kimera_pgmo/kimera_pgmo_rviz' with type 'ros.ament_cmake' and name 'kimera_pgmo_rviz'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_rpgo) by extensions ['ignore', 'ignore_ament_install']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_rpgo) by extension 'ignore'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_rpgo) by extension 'ignore_ament_install'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_rpgo) by extensions ['colcon_pkg']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_rpgo) by extension 'colcon_pkg'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_rpgo) by extensions ['colcon_meta']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_rpgo) by extension 'colcon_meta'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_rpgo) by extensions ['ros']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/kimera_rpgo) by extension 'ros'
+[0.084s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kimera_rpgo' with type 'ros.cmake' and name 'kimera_rpgo'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extension 'ignore'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extension 'ignore_ament_install'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extensions ['colcon_pkg']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extension 'colcon_pkg'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extensions ['colcon_meta']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extension 'colcon_meta'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extensions ['ros']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extension 'ros'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extensions ['cmake', 'python']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extension 'cmake'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extension 'python'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extensions ['python_setup_py']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools) by extension 'python_setup_py'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools) by extension 'ignore'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools) by extension 'ignore_ament_install'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools) by extensions ['colcon_pkg']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools) by extension 'colcon_pkg'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools) by extensions ['colcon_meta']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools) by extension 'colcon_meta'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools) by extensions ['ros']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools) by extension 'ros'
+[0.085s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pose_graph_tools/pose_graph_tools' with type 'ros.cmake' and name 'pose_graph_tools'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_msgs) by extension 'ignore'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_msgs) by extension 'ignore_ament_install'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_msgs) by extensions ['colcon_pkg']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_msgs) by extension 'colcon_pkg'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_msgs) by extensions ['colcon_meta']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_msgs) by extension 'colcon_meta'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_msgs) by extensions ['ros']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_msgs) by extension 'ros'
+[0.085s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pose_graph_tools/pose_graph_tools_msgs' with type 'ros.ament_cmake' and name 'pose_graph_tools_msgs'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_ros) by extension 'ignore'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_ros) by extension 'ignore_ament_install'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_ros) by extensions ['colcon_pkg']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_ros) by extension 'colcon_pkg'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_ros) by extensions ['colcon_meta']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_ros) by extension 'colcon_meta'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_ros) by extensions ['ros']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_graph_tools/pose_graph_tools_ros) by extension 'ros'
+[0.085s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pose_graph_tools/pose_graph_tools_ros' with type 'ros.ament_cmake' and name 'pose_graph_tools_ros'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extensions ['ignore', 'ignore_ament_install']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extension 'ignore'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extension 'ignore_ament_install'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extensions ['colcon_pkg']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extension 'colcon_pkg'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extensions ['colcon_meta']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extension 'colcon_meta'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extensions ['ros']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extension 'ros'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extensions ['cmake', 'python']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extension 'cmake'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extension 'python'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extensions ['python_setup_py']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference) by extension 'python_setup_py'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extension 'ignore'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extension 'ignore_ament_install'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extensions ['colcon_pkg']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extension 'colcon_pkg'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extensions ['colcon_meta']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extension 'colcon_meta'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extensions ['ros']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extension 'ros'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extensions ['cmake', 'python']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extension 'cmake'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extension 'python'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extensions ['python_setup_py']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs) by extension 'python_setup_py'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extensions ['ignore', 'ignore_ament_install']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extension 'ignore'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extension 'ignore_ament_install'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extensions ['colcon_pkg']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extension 'colcon_pkg'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extensions ['colcon_meta']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extension 'colcon_meta'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extensions ['ros']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extension 'ros'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extensions ['cmake', 'python']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extension 'cmake'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extension 'python'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extensions ['python_setup_py']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/docs/media) by extension 'python_setup_py'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extensions ['ignore', 'ignore_ament_install']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extension 'ignore'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extension 'ignore_ament_install'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extensions ['colcon_pkg']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extension 'colcon_pkg'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extensions ['colcon_meta']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extension 'colcon_meta'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extensions ['ros']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extension 'ros'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extensions ['cmake', 'python']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extension 'cmake'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extension 'python'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extensions ['python_setup_py']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/exporting) by extension 'python_setup_py'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extensions ['ignore', 'ignore_ament_install']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extension 'ignore'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extension 'ignore_ament_install'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extensions ['colcon_pkg']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extension 'colcon_pkg'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extensions ['colcon_meta']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extension 'colcon_meta'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extensions ['ros']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extension 'ros'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extensions ['cmake', 'python']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extension 'cmake'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extension 'python'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extensions ['python_setup_py']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras) by extension 'python_setup_py'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras/semantic_inference_closed_set_zoo) by extensions ['ignore', 'ignore_ament_install']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras/semantic_inference_closed_set_zoo) by extension 'ignore'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/extras/semantic_inference_closed_set_zoo) ignored
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extensions ['ignore', 'ignore_ament_install']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extension 'ignore'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extension 'ignore_ament_install'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extensions ['colcon_pkg']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extension 'colcon_pkg'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extensions ['colcon_meta']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extension 'colcon_meta'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extensions ['ros']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extension 'ros'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extensions ['cmake', 'python']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extension 'cmake'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extension 'python'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extensions ['python_setup_py']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/install) by extension 'python_setup_py'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference) by extensions ['ignore', 'ignore_ament_install']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference) by extension 'ignore'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference) by extension 'ignore_ament_install'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference) by extensions ['colcon_pkg']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference) by extension 'colcon_pkg'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference) by extensions ['colcon_meta']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference) by extension 'colcon_meta'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference) by extensions ['ros']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference) by extension 'ros'
+[0.087s] DEBUG:colcon.colcon_core.package_identification:Package 'src/semantic_inference/semantic_inference' with type 'ros.cmake' and name 'semantic_inference'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_msgs) by extension 'ignore'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_msgs) by extension 'ignore_ament_install'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_msgs) by extensions ['colcon_pkg']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_msgs) by extension 'colcon_pkg'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_msgs) by extensions ['colcon_meta']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_msgs) by extension 'colcon_meta'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_msgs) by extensions ['ros']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_msgs) by extension 'ros'
+[0.087s] DEBUG:colcon.colcon_core.package_identification:Package 'src/semantic_inference/semantic_inference_msgs' with type 'ros.ament_cmake' and name 'semantic_inference_msgs'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_ros) by extension 'ignore'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_ros) by extension 'ignore_ament_install'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_ros) by extensions ['colcon_pkg']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_ros) by extension 'colcon_pkg'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_ros) by extensions ['colcon_meta']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_ros) by extension 'colcon_meta'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_ros) by extensions ['ros']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_inference/semantic_inference_ros) by extension 'ros'
+[0.088s] DEBUG:colcon.colcon_core.package_identification:Package 'src/semantic_inference/semantic_inference_ros' with type 'ros.ament_cmake' and name 'semantic_inference_ros'
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/spark_dsg) by extensions ['ignore', 'ignore_ament_install']
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/spark_dsg) by extension 'ignore'
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/spark_dsg) by extension 'ignore_ament_install'
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/spark_dsg) by extensions ['colcon_pkg']
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/spark_dsg) by extension 'colcon_pkg'
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/spark_dsg) by extensions ['colcon_meta']
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/spark_dsg) by extension 'colcon_meta'
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/spark_dsg) by extensions ['ros']
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/spark_dsg) by extension 'ros'
+[0.088s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spark_dsg' with type 'ros.cmake' and name 'spark_dsg'
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/spatial_hash) by extensions ['ignore', 'ignore_ament_install']
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/spatial_hash) by extension 'ignore'
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/spatial_hash) by extension 'ignore_ament_install'
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/spatial_hash) by extensions ['colcon_pkg']
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/spatial_hash) by extension 'colcon_pkg'
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/spatial_hash) by extensions ['colcon_meta']
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/spatial_hash) by extension 'colcon_meta'
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/spatial_hash) by extensions ['ros']
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/spatial_hash) by extension 'ros'
+[0.088s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spatial_hash' with type 'ros.cmake' and name 'spatial_hash'
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/teaser_plusplus) by extensions ['ignore', 'ignore_ament_install']
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/teaser_plusplus) by extension 'ignore'
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/teaser_plusplus) by extension 'ignore_ament_install'
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/teaser_plusplus) by extensions ['colcon_pkg']
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/teaser_plusplus) by extension 'colcon_pkg'
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/teaser_plusplus) by extensions ['colcon_meta']
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/teaser_plusplus) by extension 'colcon_meta'
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/teaser_plusplus) by extensions ['ros']
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/teaser_plusplus) by extension 'ros'
+[0.088s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teaser_plusplus' with type 'ros.cmake' and name 'teaserpp'
+[0.088s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.097s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/hydra' from colcon.pkg: {'name': 'hydra', 'hooks': ['share/hydra/local_setup.bash', 'share/hydra/local_setup.dsv', 'share/hydra/local_setup.sh', 'share/hydra/local_setup.zsh']}
+[0.099s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'config_utilities' in 'src/config_utilities/config_utilities'
+[0.099s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'config_utilities_msgs' in 'src/config_utilities/config_utilities_msgs'
+[0.099s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hydra_msgs' in 'src/hydra_ros/hydra_msgs'
+[0.099s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ianvs' in 'src/ianvs/ianvs'
+[0.099s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kimera_pgmo_msgs' in 'src/kimera_pgmo/kimera_pgmo_msgs'
+[0.099s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kimera_rpgo' in 'src/kimera_rpgo'
+[0.099s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pose_graph_tools' in 'src/pose_graph_tools/pose_graph_tools'
+[0.099s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pose_graph_tools_msgs' in 'src/pose_graph_tools/pose_graph_tools_msgs'
+[0.099s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'semantic_inference_msgs' in 'src/semantic_inference/semantic_inference_msgs'
+[0.099s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'spatial_hash' in 'src/spatial_hash'
+[0.099s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'teaserpp' in 'src/teaser_plusplus'
+[0.099s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'config_utilities_ros' in 'src/config_utilities/config_utilities_ros'
+[0.099s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kimera_pgmo' in 'src/kimera_pgmo/kimera_pgmo'
+[0.099s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kimera_pgmo_rviz' in 'src/kimera_pgmo/kimera_pgmo_rviz'
+[0.099s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pose_graph_tools_ros' in 'src/pose_graph_tools/pose_graph_tools_ros'
+[0.099s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'semantic_inference' in 'src/semantic_inference/semantic_inference'
+[0.099s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hydra_visualizer' in 'src/hydra_ros/hydra_visualizer'
+[0.099s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kimera_pgmo_ros' in 'src/kimera_pgmo/kimera_pgmo_ros'
+[0.099s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'semantic_inference_ros' in 'src/semantic_inference/semantic_inference_ros'
+[0.099s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hydra_ros' in 'src/hydra_ros/hydra_ros'
+[0.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.100s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 290 installed packages in /opt/ros/jazzy
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.117s] Level 5:colcon.colcon_core.verb:set package 'spark_dsg' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.117s] Level 5:colcon.colcon_core.verb:set package 'spark_dsg' build argument 'cmake_target' from command line to 'None'
+[0.117s] Level 5:colcon.colcon_core.verb:set package 'spark_dsg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.117s] Level 5:colcon.colcon_core.verb:set package 'spark_dsg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.117s] Level 5:colcon.colcon_core.verb:set package 'spark_dsg' build argument 'cmake_clean_first' from command line to 'False'
+[0.117s] Level 5:colcon.colcon_core.verb:set package 'spark_dsg' build argument 'cmake_force_configure' from command line to 'False'
+[0.117s] Level 5:colcon.colcon_core.verb:set package 'spark_dsg' build argument 'ament_cmake_args' from command line to 'None'
+[0.117s] Level 5:colcon.colcon_core.verb:set package 'spark_dsg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.117s] Level 5:colcon.colcon_core.verb:set package 'spark_dsg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.117s] DEBUG:colcon.colcon_core.verb:Building package 'spark_dsg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siny/hydra_ws/build/spark_dsg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siny/hydra_ws/install/spark_dsg', 'merge_install': False, 'path': '/home/siny/hydra_ws/src/spark_dsg', 'symlink_install': False, 'test_result_base': None}
+[0.117s] Level 5:colcon.colcon_core.verb:set package 'hydra' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.117s] Level 5:colcon.colcon_core.verb:set package 'hydra' build argument 'cmake_target' from command line to 'None'
+[0.117s] Level 5:colcon.colcon_core.verb:set package 'hydra' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.117s] Level 5:colcon.colcon_core.verb:set package 'hydra' build argument 'cmake_clean_cache' from command line to 'False'
+[0.117s] Level 5:colcon.colcon_core.verb:set package 'hydra' build argument 'cmake_clean_first' from command line to 'False'
+[0.117s] Level 5:colcon.colcon_core.verb:set package 'hydra' build argument 'cmake_force_configure' from command line to 'False'
+[0.117s] Level 5:colcon.colcon_core.verb:set package 'hydra' build argument 'ament_cmake_args' from command line to 'None'
+[0.117s] Level 5:colcon.colcon_core.verb:set package 'hydra' build argument 'catkin_cmake_args' from command line to 'None'
+[0.117s] Level 5:colcon.colcon_core.verb:set package 'hydra' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.117s] DEBUG:colcon.colcon_core.verb:Building package 'hydra' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/siny/hydra_ws/build/hydra', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/siny/hydra_ws/install/hydra', 'merge_install': False, 'path': '/home/siny/hydra_ws/src/hydra', 'symlink_install': False, 'test_result_base': None}
+[0.118s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.119s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.119s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/siny/hydra_ws/src/spark_dsg' with build type 'cmake'
+[0.119s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/siny/hydra_ws/src/spark_dsg'
+[0.120s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.120s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.120s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siny/hydra_ws/build/spark_dsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/siny/hydra_ws/src/spark_dsg -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/spark_dsg
+[0.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siny/hydra_ws/build/spark_dsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/siny/hydra_ws/src/spark_dsg -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/spark_dsg
+[0.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siny/hydra_ws/build/spark_dsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/spark_dsg -- -j20 -l20
+[12.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siny/hydra_ws/build/spark_dsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/spark_dsg -- -j20 -l20
+[12.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/siny/hydra_ws/build/spark_dsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/spark_dsg
+[12.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/siny/hydra_ws/build/spark_dsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/spark_dsg
+[12.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('spark_dsg', 'pkg_config_path')
+[12.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siny/hydra_ws/install/spark_dsg/share/spark_dsg/hook/pkg_config_path.ps1'
+[12.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siny/hydra_ws/install/spark_dsg/share/spark_dsg/hook/pkg_config_path.dsv'
+[12.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siny/hydra_ws/install/spark_dsg/share/spark_dsg/hook/pkg_config_path.sh'
+[12.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('spark_dsg', 'pkg_config_path_multiarch')
+[12.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siny/hydra_ws/install/spark_dsg/share/spark_dsg/hook/pkg_config_path_multiarch.ps1'
+[12.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siny/hydra_ws/install/spark_dsg/share/spark_dsg/hook/pkg_config_path_multiarch.dsv'
+[12.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siny/hydra_ws/install/spark_dsg/share/spark_dsg/hook/pkg_config_path_multiarch.sh'
+[12.845s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spark_dsg)
+[12.846s] Level 1:colcon.colcon_core.environment:checking '/home/siny/hydra_ws/install/spark_dsg' for CMake module files
+[12.846s] Level 1:colcon.colcon_core.environment:checking '/home/siny/hydra_ws/install/spark_dsg' for CMake config files
+[12.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('spark_dsg', 'cmake_prefix_path')
+[12.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siny/hydra_ws/install/spark_dsg/share/spark_dsg/hook/cmake_prefix_path.ps1'
+[12.846s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siny/hydra_ws/install/spark_dsg/share/spark_dsg/hook/cmake_prefix_path.dsv'
+[12.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siny/hydra_ws/install/spark_dsg/share/spark_dsg/hook/cmake_prefix_path.sh'
+[12.847s] Level 1:colcon.colcon_core.environment:checking '/home/siny/hydra_ws/install/spark_dsg/lib'
+[12.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('spark_dsg', 'ld_library_path_lib')
+[12.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siny/hydra_ws/install/spark_dsg/share/spark_dsg/hook/ld_library_path_lib.ps1'
+[12.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siny/hydra_ws/install/spark_dsg/share/spark_dsg/hook/ld_library_path_lib.dsv'
+[12.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siny/hydra_ws/install/spark_dsg/share/spark_dsg/hook/ld_library_path_lib.sh'
+[12.847s] Level 1:colcon.colcon_core.environment:checking '/home/siny/hydra_ws/install/spark_dsg/bin'
+[12.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('spark_dsg', 'path')
+[12.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siny/hydra_ws/install/spark_dsg/share/spark_dsg/hook/path.ps1'
+[12.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siny/hydra_ws/install/spark_dsg/share/spark_dsg/hook/path.dsv'
+[12.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siny/hydra_ws/install/spark_dsg/share/spark_dsg/hook/path.sh'
+[12.847s] Level 1:colcon.colcon_core.environment:checking '/home/siny/hydra_ws/install/spark_dsg/lib/pkgconfig/spark_dsg.pc'
+[12.847s] Level 1:colcon.colcon_core.environment:checking '/home/siny/hydra_ws/install/spark_dsg/lib/python3.12/site-packages'
+[12.848s] Level 1:colcon.colcon_core.environment:checking '/home/siny/hydra_ws/install/spark_dsg/bin'
+[12.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('spark_dsg', 'pythonscriptspath')
+[12.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siny/hydra_ws/install/spark_dsg/share/spark_dsg/hook/pythonscriptspath.ps1'
+[12.848s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/siny/hydra_ws/install/spark_dsg/share/spark_dsg/hook/pythonscriptspath.dsv'
+[12.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/siny/hydra_ws/install/spark_dsg/share/spark_dsg/hook/pythonscriptspath.sh'
+[12.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/siny/hydra_ws/install/spark_dsg/share/spark_dsg/package.ps1'
+[12.848s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siny/hydra_ws/install/spark_dsg/share/spark_dsg/package.dsv'
+[12.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/siny/hydra_ws/install/spark_dsg/share/spark_dsg/package.sh'
+[12.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/siny/hydra_ws/install/spark_dsg/share/spark_dsg/package.bash'
+[12.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/siny/hydra_ws/install/spark_dsg/share/spark_dsg/package.zsh'
+[12.849s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siny/hydra_ws/install/spark_dsg/share/colcon-core/packages/spark_dsg)
+[12.849s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/siny/hydra_ws/src/hydra' with build type 'cmake'
+[12.849s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/siny/hydra_ws/src/hydra'
+[12.849s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.849s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.851s] ERROR:colcon.colcon_cmake.task.cmake.build:Failed to find the following files:
+- /home/siny/hydra_ws/install/config_utilities/share/config_utilities/package.sh
+- /home/siny/hydra_ws/install/kimera_rpgo/share/kimera_rpgo/package.sh
+- /home/siny/hydra_ws/install/pose_graph_tools/share/pose_graph_tools/package.sh
+- /home/siny/hydra_ws/install/spatial_hash/share/spatial_hash/package.sh
+- /home/siny/hydra_ws/install/teaserpp/share/teaserpp/package.sh
+- /home/siny/hydra_ws/install/kimera_pgmo/share/kimera_pgmo/package.sh
+Check that the following packages have been built:
+- config_utilities
+- kimera_rpgo
+- pose_graph_tools
+- spatial_hash
+- teaserpp
+- kimera_pgmo
+[12.851s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hydra)
+[12.851s] Level 1:colcon.colcon_core.environment:checking '/home/siny/hydra_ws/install/hydra' for CMake module files
+[12.851s] Level 1:colcon.colcon_core.environment:checking '/home/siny/hydra_ws/install/hydra' for CMake config files
+[12.851s] Level 1:colcon.colcon_core.environment:checking '/home/siny/hydra_ws/install/hydra/bin'
+[12.851s] Level 1:colcon.colcon_core.environment:checking '/home/siny/hydra_ws/install/hydra/lib/pkgconfig/hydra.pc'
+[12.851s] Level 1:colcon.colcon_core.environment:checking '/home/siny/hydra_ws/install/hydra/lib/python3.12/site-packages'
+[12.851s] Level 1:colcon.colcon_core.environment:checking '/home/siny/hydra_ws/install/hydra/bin'
+[12.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/siny/hydra_ws/install/hydra/share/hydra/package.ps1'
+[12.852s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/siny/hydra_ws/install/hydra/share/hydra/package.dsv'
+[12.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/siny/hydra_ws/install/hydra/share/hydra/package.sh'
+[12.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/siny/hydra_ws/install/hydra/share/hydra/package.bash'
+[12.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/siny/hydra_ws/install/hydra/share/hydra/package.zsh'
+[12.852s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/siny/hydra_ws/install/hydra/share/colcon-core/packages/hydra)
+[12.862s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.862s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.862s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[12.862s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.867s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.867s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.867s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.899s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.899s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siny/hydra_ws/install/local_setup.ps1'
+[12.900s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/siny/hydra_ws/install/_local_setup_util_ps1.py'
+[12.900s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siny/hydra_ws/install/setup.ps1'
+[12.900s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siny/hydra_ws/install/local_setup.sh'
+[12.900s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/siny/hydra_ws/install/_local_setup_util_sh.py'
+[12.901s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siny/hydra_ws/install/setup.sh'
+[12.901s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siny/hydra_ws/install/local_setup.bash'
+[12.901s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siny/hydra_ws/install/setup.bash'
+[12.901s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/siny/hydra_ws/install/local_setup.zsh'
+[12.901s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/siny/hydra_ws/install/setup.zsh'

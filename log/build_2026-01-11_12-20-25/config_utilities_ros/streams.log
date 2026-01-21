@@ -1,0 +1,113 @@
+[0.024s] Invoking command in '/home/siny/hydra_ws/build/config_utilities_ros': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/config_utilities_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/config_utilities_msgs:/home/siny/hydra_ws/install/config_utilities:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/config_utilities_msgs/lib:/home/siny/hydra_ws/install/config_utilities/lib:${LD_LIBRARY_PATH} PATH=/home/siny/hydra_ws/install/config_utilities/bin:${PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/siny/hydra_ws/src/config_utilities/config_utilities_ros -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/config_utilities_ros
+[0.069s] -- The C compiler identification is GNU 13.3.0
+[0.107s] -- The CXX compiler identification is GNU 13.3.0
+[0.121s] -- Detecting C compiler ABI info
+[0.197s] -- Detecting C compiler ABI info - done
+[0.206s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.206s] -- Detecting C compile features
+[0.207s] -- Detecting C compile features - done
+[0.215s] -- Detecting CXX compiler ABI info
+[0.308s] -- Detecting CXX compiler ABI info - done
+[0.317s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.317s] -- Detecting CXX compile features
+[0.317s] -- Detecting CXX compile features - done
+[0.319s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.464s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.543s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.578s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.590s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.597s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.604s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.634s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.635s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.700s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.741s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.778s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.819s] -- Found config_utilities_msgs: 2.0.0 (/home/siny/hydra_ws/install/config_utilities_msgs/share/config_utilities_msgs/cmake)
+[0.952s] -- Configuring done (0.9s)
+[0.969s] -- Generating done (0.0s)
+[0.974s] -- Build files have been written to: /home/siny/hydra_ws/build/config_utilities_ros
+[0.985s] Invoked command in '/home/siny/hydra_ws/build/config_utilities_ros' returned '0': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/config_utilities_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/config_utilities_msgs:/home/siny/hydra_ws/install/config_utilities:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/config_utilities_msgs/lib:/home/siny/hydra_ws/install/config_utilities/lib:${LD_LIBRARY_PATH} PATH=/home/siny/hydra_ws/install/config_utilities/bin:${PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/siny/hydra_ws/src/config_utilities/config_utilities_ros -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/config_utilities_ros
+[0.986s] Invoking command in '/home/siny/hydra_ws/build/config_utilities_ros': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/config_utilities_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/config_utilities_msgs:/home/siny/hydra_ws/install/config_utilities:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/config_utilities_msgs/lib:/home/siny/hydra_ws/install/config_utilities/lib:${LD_LIBRARY_PATH} PATH=/home/siny/hydra_ws/install/config_utilities/bin:${PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/siny/hydra_ws/build/config_utilities_ros -- -j20 -l20
+[1.054s] [ 25%] [32mBuilding CXX object CMakeFiles/config_utilities_ros.dir/src/ros_dynamic_config_server.cpp.o[0m
+[1.063s] [ 25%] Built target ament_cmake_python_copy_config_utilities_ros
+[1.398s] running egg_info
+[1.401s] creating config_utilities_ros.egg-info
+[1.416s] writing config_utilities_ros.egg-info/PKG-INFO
+[1.417s] writing dependency_links to config_utilities_ros.egg-info/dependency_links.txt
+[1.418s] writing top-level names to config_utilities_ros.egg-info/top_level.txt
+[1.418s] writing manifest file 'config_utilities_ros.egg-info/SOURCES.txt'
+[1.476s] reading manifest file 'config_utilities_ros.egg-info/SOURCES.txt'
+[1.477s] writing manifest file 'config_utilities_ros.egg-info/SOURCES.txt'
+[1.511s] [ 25%] Built target ament_cmake_python_build_config_utilities_ros_egg
+[3.949s] [ 50%] [32m[1mLinking CXX shared library libconfig_utilities_ros.so[0m
+[4.018s] [ 50%] Built target config_utilities_ros
+[4.034s] [ 75%] [32mBuilding CXX object CMakeFiles/demo_ros_dynamic_config_server.dir/demos/demo_ros_dynamic_config_server.cpp.o[0m
+[10.396s] [100%] [32m[1mLinking CXX executable demo_ros_dynamic_config_server[0m
+[10.530s] [100%] Built target demo_ros_dynamic_config_server
+[10.543s] Invoked command in '/home/siny/hydra_ws/build/config_utilities_ros' returned '0': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/config_utilities_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/config_utilities_msgs:/home/siny/hydra_ws/install/config_utilities:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/config_utilities_msgs/lib:/home/siny/hydra_ws/install/config_utilities/lib:${LD_LIBRARY_PATH} PATH=/home/siny/hydra_ws/install/config_utilities/bin:${PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/siny/hydra_ws/build/config_utilities_ros -- -j20 -l20
+[10.545s] Invoking command in '/home/siny/hydra_ws/build/config_utilities_ros': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/config_utilities_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/config_utilities_msgs:/home/siny/hydra_ws/install/config_utilities:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/config_utilities_msgs/lib:/home/siny/hydra_ws/install/config_utilities/lib:${LD_LIBRARY_PATH} PATH=/home/siny/hydra_ws/install/config_utilities/bin:${PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/siny/hydra_ws/build/config_utilities_ros
+[10.552s] -- Install configuration: "Release"
+[10.552s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/environment/pythonpath.sh
+[10.552s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/environment/pythonpath.dsv
+[10.553s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros-2.0.0-py3.12.egg-info
+[10.553s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros-2.0.0-py3.12.egg-info/top_level.txt
+[10.553s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros-2.0.0-py3.12.egg-info/PKG-INFO
+[10.553s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros-2.0.0-py3.12.egg-info/SOURCES.txt
+[10.553s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros-2.0.0-py3.12.egg-info/dependency_links.txt
+[10.553s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros
+[10.553s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/__init__.py
+[10.553s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui
+[10.553s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/README.md
+[10.553s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/dynamic_config_gui.py
+[10.553s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/templates
+[10.554s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/templates/index.html
+[10.554s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/__init__.py
+[10.554s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static
+[10.554s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/js
+[10.554s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/js/build_fields.js
+[10.554s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/js/selection_panes.js
+[10.554s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/js/config_table.js
+[10.554s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/css
+[10.554s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/css/style.css
+[10.594s] Listing '/home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros'...
+[10.594s] Compiling '/home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/__init__.py'...
+[10.594s] Listing '/home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui'...
+[10.594s] Compiling '/home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/__init__.py'...
+[10.594s] Compiling '/home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/dynamic_config_gui.py'...
+[10.594s] Listing '/home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static'...
+[10.594s] Listing '/home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/css'...
+[10.594s] Listing '/home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/static/js'...
+[10.594s] Listing '/home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages/config_utilities_ros/gui/templates'...
+[10.601s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/libconfig_utilities_ros.so
+[10.602s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/config_utilities_ros/lib/libconfig_utilities_ros.so" to ""
+[10.602s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/config_utilities_ros/demo_ros_dynamic_config_server
+[10.602s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/config_utilities_ros/lib/config_utilities_ros/demo_ros_dynamic_config_server" to ""
+[10.603s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/include/config_utilities_ros/
+[10.603s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/include/config_utilities_ros//config_utilities_ros
+[10.603s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/include/config_utilities_ros//config_utilities_ros/ros_dynamic_config_server.h
+[10.603s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros//launch
+[10.603s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros//launch/demo_ros_dynamic_config.yaml
+[10.604s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/lib/config_utilities_ros/gui
+[10.604s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/environment/library_path.sh
+[10.604s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/environment/library_path.dsv
+[10.604s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/ament_index/resource_index/package_run_dependencies/config_utilities_ros
+[10.604s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/ament_index/resource_index/parent_prefix_path/config_utilities_ros
+[10.604s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/environment/ament_prefix_path.sh
+[10.604s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/environment/ament_prefix_path.dsv
+[10.605s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/environment/path.sh
+[10.605s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/environment/path.dsv
+[10.605s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/local_setup.bash
+[10.605s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/local_setup.sh
+[10.605s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/local_setup.zsh
+[10.605s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/local_setup.dsv
+[10.605s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/package.dsv
+[10.605s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/ament_index/resource_index/packages/config_utilities_ros
+[10.605s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/cmake/config_utilities_ros-targetsExport.cmake
+[10.606s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/cmake/config_utilities_ros-targetsExport-release.cmake
+[10.606s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/cmake/ament_cmake_export_targets-extras.cmake
+[10.606s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.606s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/cmake/config_utilities_rosConfig.cmake
+[10.606s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/cmake/config_utilities_rosConfig-version.cmake
+[10.606s] -- Installing: /home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/package.xml
+[10.609s] Invoked command in '/home/siny/hydra_ws/build/config_utilities_ros' returned '0': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/config_utilities_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/config_utilities_msgs:/home/siny/hydra_ws/install/config_utilities:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/config_utilities_msgs/lib:/home/siny/hydra_ws/install/config_utilities/lib:${LD_LIBRARY_PATH} PATH=/home/siny/hydra_ws/install/config_utilities/bin:${PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/siny/hydra_ws/build/config_utilities_ros

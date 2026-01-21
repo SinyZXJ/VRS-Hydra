@@ -1,0 +1,155 @@
+[0.026s] Invoking command in '/home/siny/hydra_ws/build/hydra_visualizer': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/config_utilities_ros:/home/siny/hydra_ws/install/kimera_pgmo_msgs:/home/siny/hydra_ws/install/ianvs:/home/siny/hydra_ws/install/hydra_msgs:/home/siny/hydra_ws/install/config_utilities_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/config_utilities_ros:/home/siny/hydra_ws/install/spark_dsg:/home/siny/hydra_ws/install/kimera_pgmo_msgs:/home/siny/hydra_ws/install/ianvs:/home/siny/hydra_ws/install/hydra_msgs:/home/siny/hydra_ws/install/config_utilities_msgs:/home/siny/hydra_ws/install/config_utilities:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/kimera_pgmo_rviz/lib:/home/siny/hydra_ws/install/config_utilities_ros/lib:/home/siny/hydra_ws/install/spark_dsg/lib:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib:/home/siny/hydra_ws/install/ianvs/lib:/home/siny/hydra_ws/install/hydra_msgs/lib:/home/siny/hydra_ws/install/config_utilities_msgs/lib:/home/siny/hydra_ws/install/config_utilities/lib:${LD_LIBRARY_PATH} PATH=/home/siny/hydra_ws/install/spark_dsg/bin:/home/siny/hydra_ws/install/config_utilities/bin:${PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/spark_dsg/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spark_dsg/lib/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/siny/hydra_ws/src/hydra_ros/hydra_visualizer -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/hydra_visualizer
+[0.084s] -- The C compiler identification is GNU 13.3.0
+[0.139s] -- The CXX compiler identification is GNU 13.3.0
+[0.156s] -- Detecting C compiler ABI info
+[0.248s] -- Detecting C compiler ABI info - done
+[0.256s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.257s] -- Detecting C compile features
+[0.257s] -- Detecting C compile features - done
+[0.266s] -- Detecting CXX compiler ABI info
+[0.368s] -- Detecting CXX compiler ABI info - done
+[0.377s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.377s] -- Detecting CXX compile features
+[0.378s] -- Detecting CXX compile features - done
+[0.380s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.535s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.659s] -- Found config_utilities_ros: 2.0.0 (/home/siny/hydra_ws/install/config_utilities_ros/share/config_utilities_ros/cmake)
+[0.701s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.715s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.730s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.748s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.828s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.833s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.946s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.970s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.996s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.092s] -- Found hydra_msgs: 0.0.1 (/home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake)
+[1.124s] -- Found ianvs: 0.0.0 (/home/siny/hydra_ws/install/ianvs/share/ianvs/cmake)
+[1.170s] -- Found kimera_pgmo_msgs: 0.0.1 (/home/siny/hydra_ws/install/kimera_pgmo_msgs/share/kimera_pgmo_msgs/cmake)
+[1.194s] -- Found nlohmann_json: /usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.11.3") 
+[1.195s] -- Found tf2_eigen: 0.36.16 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[1.307s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.334s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.336s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.339s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.432s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.433s] -- Found Threads: TRUE  
+[1.560s] -- Configuring done (1.5s)
+[1.610s] -- Generating done (0.0s)
+[1.624s] -- Build files have been written to: /home/siny/hydra_ws/build/hydra_visualizer
+[1.642s] Invoked command in '/home/siny/hydra_ws/build/hydra_visualizer' returned '0': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/config_utilities_ros:/home/siny/hydra_ws/install/kimera_pgmo_msgs:/home/siny/hydra_ws/install/ianvs:/home/siny/hydra_ws/install/hydra_msgs:/home/siny/hydra_ws/install/config_utilities_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/config_utilities_ros:/home/siny/hydra_ws/install/spark_dsg:/home/siny/hydra_ws/install/kimera_pgmo_msgs:/home/siny/hydra_ws/install/ianvs:/home/siny/hydra_ws/install/hydra_msgs:/home/siny/hydra_ws/install/config_utilities_msgs:/home/siny/hydra_ws/install/config_utilities:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/kimera_pgmo_rviz/lib:/home/siny/hydra_ws/install/config_utilities_ros/lib:/home/siny/hydra_ws/install/spark_dsg/lib:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib:/home/siny/hydra_ws/install/ianvs/lib:/home/siny/hydra_ws/install/hydra_msgs/lib:/home/siny/hydra_ws/install/config_utilities_msgs/lib:/home/siny/hydra_ws/install/config_utilities/lib:${LD_LIBRARY_PATH} PATH=/home/siny/hydra_ws/install/spark_dsg/bin:/home/siny/hydra_ws/install/config_utilities/bin:${PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/spark_dsg/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spark_dsg/lib/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/siny/hydra_ws/src/hydra_ros/hydra_visualizer -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/hydra_visualizer
+[1.643s] Invoking command in '/home/siny/hydra_ws/build/hydra_visualizer': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/config_utilities_ros:/home/siny/hydra_ws/install/kimera_pgmo_msgs:/home/siny/hydra_ws/install/ianvs:/home/siny/hydra_ws/install/hydra_msgs:/home/siny/hydra_ws/install/config_utilities_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/config_utilities_ros:/home/siny/hydra_ws/install/spark_dsg:/home/siny/hydra_ws/install/kimera_pgmo_msgs:/home/siny/hydra_ws/install/ianvs:/home/siny/hydra_ws/install/hydra_msgs:/home/siny/hydra_ws/install/config_utilities_msgs:/home/siny/hydra_ws/install/config_utilities:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/kimera_pgmo_rviz/lib:/home/siny/hydra_ws/install/config_utilities_ros/lib:/home/siny/hydra_ws/install/spark_dsg/lib:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib:/home/siny/hydra_ws/install/ianvs/lib:/home/siny/hydra_ws/install/hydra_msgs/lib:/home/siny/hydra_ws/install/config_utilities_msgs/lib:/home/siny/hydra_ws/install/config_utilities/lib:${LD_LIBRARY_PATH} PATH=/home/siny/hydra_ws/install/spark_dsg/bin:/home/siny/hydra_ws/install/config_utilities/bin:${PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/spark_dsg/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spark_dsg/lib/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/siny/hydra_ws/build/hydra_visualizer -- -j20 -l20
+[1.704s] [  3%] [32mBuilding CXX object CMakeFiles/hydra_visualizer.dir/src/layer_info.cpp.o[0m
+[1.704s] [  6%] [32mBuilding CXX object CMakeFiles/hydra_visualizer.dir/src/visualizer_node.cpp.o[0m
+[1.704s] [  9%] [32mBuilding CXX object CMakeFiles/hydra_visualizer.dir/src/drawing.cpp.o[0m
+[1.704s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.704s] [ 15%] [32mBuilding CXX object CMakeFiles/hydra_visualizer.dir/src/adapters/graph_color.cpp.o[0m
+[1.704s] [ 18%] [32mBuilding CXX object CMakeFiles/hydra_visualizer.dir/src/scene_graph_renderer.cpp.o[0m
+[1.704s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.627s] [ 24%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.726s] [ 27%] [32mBuilding CXX object CMakeFiles/hydra_visualizer.dir/src/plugins/footprint_plugin.cpp.o[0m
+[2.726s] [ 27%] Built target gtest_main
+[2.728s] [ 30%] [32mBuilding CXX object CMakeFiles/hydra_visualizer.dir/src/plugins/khronos_object_plugin.cpp.o[0m
+[2.730s] [ 33%] [32mBuilding CXX object CMakeFiles/hydra_visualizer.dir/src/plugins/mesh_plugin.cpp.o[0m
+[2.742s] [ 36%] [32mBuilding CXX object CMakeFiles/hydra_visualizer.dir/src/plugins/places_freespace_plugin.cpp.o[0m
+[2.747s] [ 39%] [32mBuilding CXX object CMakeFiles/hydra_visualizer.dir/src/groundtruth/bounding_box_publisher.cpp.o[0m
+[2.747s] [ 42%] [32mBuilding CXX object CMakeFiles/hydra_visualizer.dir/src/plugins/basis_point_plugin.cpp.o[0m
+[3.759s] [ 45%] [32mBuilding CXX object CMakeFiles/hydra_visualizer.dir/src/plugins/pose_plugin.cpp.o[0m
+[3.768s] [ 48%] [32mBuilding CXX object CMakeFiles/hydra_visualizer.dir/src/groundtruth/region_publisher.cpp.o[0m
+[3.768s] [ 51%] [32mBuilding CXX object CMakeFiles/hydra_visualizer.dir/src/io/graph_zmq_wrapper.cpp.o[0m
+[4.786s] [ 54%] [32mBuilding CXX object CMakeFiles/hydra_visualizer.dir/src/color/colormap_utilities.cpp.o[0m
+[4.790s] [ 57%] [32mBuilding CXX object CMakeFiles/hydra_visualizer.dir/src/io/graph_ros_wrapper.cpp.o[0m
+[4.792s] [ 60%] [32mBuilding CXX object CMakeFiles/hydra_visualizer.dir/src/io/graph_file_wrapper.cpp.o[0m
+[9.769s] [ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[9.868s] [ 63%] Built target gtest
+[15.753s] [ 66%] [32mBuilding CXX object CMakeFiles/hydra_visualizer.dir/src/utils/polygon_utilities.cpp.o[0m
+[16.344s] [ 69%] [32mBuilding CXX object CMakeFiles/hydra_visualizer.dir/src/utils/marker_tracker.cpp.o[0m
+[16.943s] [ 72%] [32mBuilding CXX object CMakeFiles/hydra_visualizer.dir/src/utils/marker_group_pub.cpp.o[0m
+[17.037s] [ 75%] [32mBuilding CXX object CMakeFiles/hydra_visualizer.dir/src/utils/ear_clipping.cpp.o[0m
+[17.412s] [ 78%] [32mBuilding CXX object CMakeFiles/hydra_visualizer.dir/src/adapters/text.cpp.o[0m
+[18.170s] [ 81%] [32mBuilding CXX object CMakeFiles/hydra_visualizer.dir/src/adapters/mesh_color.cpp.o[0m
+[25.998s] [ 84%] [32m[1mLinking CXX shared library libhydra_visualizer.so[0m
+[26.270s] [ 84%] Built target hydra_visualizer
+[26.291s] [ 87%] [32mBuilding CXX object CMakeFiles/test_hydra_visualizer.dir/tests/main.cpp.o[0m
+[26.291s] [ 93%] [32mBuilding CXX object CMakeFiles/hydra_visualizer_node.dir/app/hydra_visualizer_node.cpp.o[0m
+[26.291s] [ 93%] [32mBuilding CXX object CMakeFiles/test_hydra_visualizer.dir/tests/test_ear_clipping.cpp.o[0m
+[28.082s] [ 96%] [32m[1mLinking CXX executable test_hydra_visualizer[0m
+[28.218s] [ 96%] Built target test_hydra_visualizer
+[34.518s] [100%] [32m[1mLinking CXX executable hydra_visualizer_node[0m
+[34.777s] [100%] Built target hydra_visualizer_node
+[34.791s] Invoked command in '/home/siny/hydra_ws/build/hydra_visualizer' returned '0': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/config_utilities_ros:/home/siny/hydra_ws/install/kimera_pgmo_msgs:/home/siny/hydra_ws/install/ianvs:/home/siny/hydra_ws/install/hydra_msgs:/home/siny/hydra_ws/install/config_utilities_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/config_utilities_ros:/home/siny/hydra_ws/install/spark_dsg:/home/siny/hydra_ws/install/kimera_pgmo_msgs:/home/siny/hydra_ws/install/ianvs:/home/siny/hydra_ws/install/hydra_msgs:/home/siny/hydra_ws/install/config_utilities_msgs:/home/siny/hydra_ws/install/config_utilities:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/kimera_pgmo_rviz/lib:/home/siny/hydra_ws/install/config_utilities_ros/lib:/home/siny/hydra_ws/install/spark_dsg/lib:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib:/home/siny/hydra_ws/install/ianvs/lib:/home/siny/hydra_ws/install/hydra_msgs/lib:/home/siny/hydra_ws/install/config_utilities_msgs/lib:/home/siny/hydra_ws/install/config_utilities/lib:${LD_LIBRARY_PATH} PATH=/home/siny/hydra_ws/install/spark_dsg/bin:/home/siny/hydra_ws/install/config_utilities/bin:${PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/spark_dsg/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spark_dsg/lib/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/siny/hydra_ws/build/hydra_visualizer -- -j20 -l20
+[34.791s] Invoking command in '/home/siny/hydra_ws/build/hydra_visualizer': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/config_utilities_ros:/home/siny/hydra_ws/install/kimera_pgmo_msgs:/home/siny/hydra_ws/install/ianvs:/home/siny/hydra_ws/install/hydra_msgs:/home/siny/hydra_ws/install/config_utilities_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/config_utilities_ros:/home/siny/hydra_ws/install/spark_dsg:/home/siny/hydra_ws/install/kimera_pgmo_msgs:/home/siny/hydra_ws/install/ianvs:/home/siny/hydra_ws/install/hydra_msgs:/home/siny/hydra_ws/install/config_utilities_msgs:/home/siny/hydra_ws/install/config_utilities:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/kimera_pgmo_rviz/lib:/home/siny/hydra_ws/install/config_utilities_ros/lib:/home/siny/hydra_ws/install/spark_dsg/lib:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib:/home/siny/hydra_ws/install/ianvs/lib:/home/siny/hydra_ws/install/hydra_msgs/lib:/home/siny/hydra_ws/install/config_utilities_msgs/lib:/home/siny/hydra_ws/install/config_utilities/lib:${LD_LIBRARY_PATH} PATH=/home/siny/hydra_ws/install/spark_dsg/bin:/home/siny/hydra_ws/install/config_utilities/bin:${PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/spark_dsg/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spark_dsg/lib/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/siny/hydra_ws/build/hydra_visualizer
+[34.797s] -- Install configuration: "Release"
+[34.797s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/lib/libhydra_visualizer.so
+[34.802s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_visualizer/lib/libhydra_visualizer.so" to ""
+[34.802s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/lib/hydra_visualizer/hydra_visualizer_node
+[34.802s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_visualizer/lib/hydra_visualizer/hydra_visualizer_node" to ""
+[34.803s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer/
+[34.803s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer
+[34.803s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/drawing.h
+[34.804s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/visualizer_node.h
+[34.804s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/layer_info.h
+[34.804s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/plugins
+[34.804s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/plugins/basis_point_plugin.h
+[34.804s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/plugins/mesh_plugin.h
+[34.804s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/plugins/footprint_plugin.h
+[34.804s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/plugins/pose_plugin.h
+[34.806s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/plugins/khronos_object_plugin.h
+[34.806s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/plugins/places_freespace_plugin.h
+[34.806s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/plugins/visualizer_plugin.h
+[34.806s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/utils
+[34.806s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/utils/ear_clipping.h
+[34.807s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/utils/marker_group_pub.h
+[34.807s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/utils/marker_tracker.h
+[34.807s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/utils/polygon_utilities.h
+[34.807s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/color
+[34.807s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/color/colormap_utilities.h
+[34.807s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/color/color_parsing.h
+[34.807s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/adapters
+[34.807s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/adapters/graph_color.h
+[34.807s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/adapters/mesh_color.h
+[34.807s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/adapters/text.h
+[34.807s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/scene_graph_renderer.h
+[34.807s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/groundtruth
+[34.807s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/groundtruth/bounding_box_publisher.h
+[34.807s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/groundtruth/region_publisher.h
+[34.807s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/io
+[34.807s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/io/graph_ros_wrapper.h
+[34.807s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/io/graph_file_wrapper.h
+[34.807s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/io/graph_wrapper.h
+[34.809s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/include/hydra_visualizer//hydra_visualizer/io/graph_zmq_wrapper.h
+[34.809s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/launch
+[34.809s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/launch/streaming_visualizer.launch.yaml
+[34.809s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/launch/static_visualizer.launch.yaml
+[34.809s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/config
+[34.809s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/config/visualizer_plugins.yaml
+[34.809s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/config/visualizer_config_vlm.yaml
+[34.809s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/config/visualizer_config.yaml
+[34.810s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/config/external_plugins.yaml
+[34.810s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/rviz
+[34.810s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/rviz/static_visualizer.rviz
+[34.810s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/rviz/streaming_visualizer.rviz
+[34.811s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/rviz/zed.rviz
+[34.811s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/rviz/a1.rviz
+[34.811s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/environment/library_path.sh
+[34.811s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/environment/library_path.dsv
+[34.812s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/ament_index/resource_index/package_run_dependencies/hydra_visualizer
+[34.816s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/ament_index/resource_index/parent_prefix_path/hydra_visualizer
+[34.816s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/environment/ament_prefix_path.sh
+[34.816s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/environment/ament_prefix_path.dsv
+[34.816s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/environment/path.sh
+[34.816s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/environment/path.dsv
+[34.816s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/local_setup.bash
+[34.816s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/local_setup.sh
+[34.816s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/local_setup.zsh
+[34.816s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/local_setup.dsv
+[34.816s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/package.dsv
+[34.816s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/ament_index/resource_index/packages/hydra_visualizer
+[34.816s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/cmake/hydra_visualizer-targetsExport.cmake
+[34.816s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/cmake/hydra_visualizer-targetsExport-release.cmake
+[34.816s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/cmake/ament_cmake_export_targets-extras.cmake
+[34.816s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.816s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/cmake/hydra_visualizerConfig.cmake
+[34.816s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/cmake/hydra_visualizerConfig-version.cmake
+[34.816s] -- Installing: /home/siny/hydra_ws/install/hydra_visualizer/share/hydra_visualizer/package.xml
+[34.822s] Invoked command in '/home/siny/hydra_ws/build/hydra_visualizer' returned '0': AMENT_PREFIX_PATH=/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/config_utilities_ros:/home/siny/hydra_ws/install/kimera_pgmo_msgs:/home/siny/hydra_ws/install/ianvs:/home/siny/hydra_ws/install/hydra_msgs:/home/siny/hydra_ws/install/config_utilities_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/siny/hydra_ws/install/kimera_pgmo_rviz:/home/siny/hydra_ws/install/config_utilities_ros:/home/siny/hydra_ws/install/spark_dsg:/home/siny/hydra_ws/install/kimera_pgmo_msgs:/home/siny/hydra_ws/install/ianvs:/home/siny/hydra_ws/install/hydra_msgs:/home/siny/hydra_ws/install/config_utilities_msgs:/home/siny/hydra_ws/install/config_utilities:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/siny/hydra_ws/install/kimera_pgmo_rviz/lib:/home/siny/hydra_ws/install/config_utilities_ros/lib:/home/siny/hydra_ws/install/spark_dsg/lib:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib:/home/siny/hydra_ws/install/ianvs/lib:/home/siny/hydra_ws/install/hydra_msgs/lib:/home/siny/hydra_ws/install/config_utilities_msgs/lib:/home/siny/hydra_ws/install/config_utilities/lib:${LD_LIBRARY_PATH} PATH=/home/siny/hydra_ws/install/spark_dsg/bin:/home/siny/hydra_ws/install/config_utilities/bin:${PATH} PKG_CONFIG_PATH=/home/siny/hydra_ws/install/spark_dsg/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/spark_dsg/lib/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/aarch64-linux-gnu/pkgconfig:/home/siny/hydra_ws/install/config_utilities/lib/pkgconfig PYTHONPATH=/home/siny/hydra_ws/install/config_utilities_ros/lib/python3.12/site-packages:/home/siny/hydra_ws/install/kimera_pgmo_msgs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages:/home/siny/hydra_ws/install/config_utilities_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/siny/hydra_ws/build/hydra_visualizer

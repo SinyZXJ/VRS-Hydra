@@ -1,0 +1,148 @@
+[0.013s] Invoking command in '/home/siny/hydra_ws/build/ianvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/siny/hydra_ws/src/ianvs/ianvs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/ianvs
+[0.053s] -- The CXX compiler identification is GNU 13.3.0
+[0.067s] -- Detecting CXX compiler ABI info
+[0.137s] -- Detecting CXX compiler ABI info - done
+[0.142s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.142s] -- Detecting CXX compile features
+[0.142s] -- Detecting CXX compile features - done
+[0.145s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.263s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.367s] -- Found message_filters: 4.11.9 (/opt/ros/jazzy/share/message_filters/cmake)
+[0.427s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.441s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.456s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.472s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.550s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.555s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.639s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.659s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.679s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.776s] -- Found pluginlib: 5.4.3 (/opt/ros/jazzy/share/pluginlib/cmake)
+[0.799s] -- Found rosbag2_transport: 0.26.9 (/opt/ros/jazzy/share/rosbag2_transport/cmake)
+[0.828s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[0.873s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.931s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[0.967s] -- Found tf2_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_msgs/cmake)
+[1.072s] -- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.787s] -- Found Python: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development Development.Module Development.Embed 
+[1.870s] -- Found pybind11: /usr/include (found version "2.11.1")
+[2.470s] -- Configuring done (2.4s)
+[2.664s] -- Generating done (0.1s)
+[2.740s] -- Build files have been written to: /home/siny/hydra_ws/build/ianvs
+[2.811s] Invoked command in '/home/siny/hydra_ws/build/ianvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/siny/hydra_ws/src/ianvs/ianvs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/ianvs
+[2.812s] Invoking command in '/home/siny/hydra_ws/build/ianvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/ianvs -- -j20 -l20
+[2.997s] [  4%] [32mBuilding CXX object CMakeFiles/ianvs.dir/src/image_subscription.cpp.o[0m
+[2.998s] [  8%] [32mBuilding CXX object CMakeFiles/ianvs.dir/src/image_publisher.cpp.o[0m
+[2.998s] [ 13%] [32mBuilding CXX object CMakeFiles/ianvs.dir/src/detail/string_transforms.cpp.o[0m
+[3.006s] [ 17%] [32mBuilding CXX object CMakeFiles/ianvs_rosbag.dir/src/bag_reader.cpp.o[0m
+[3.006s] [ 21%] [32mBuilding CXX object CMakeFiles/transform_file_broadcaster.dir/app/transform_file_broadcaster.cpp.o[0m
+[3.006s] [ 26%] [32mBuilding CXX object CMakeFiles/_ianvs_bindings.dir/src/bindings/module.cpp.o[0m
+[3.007s] [ 30%] [32mBuilding CXX object CMakeFiles/_ianvs_bindings.dir/src/bindings/image_encodings.cpp.o[0m
+[3.007s] [ 34%] [32mBuilding CXX object CMakeFiles/ianvs.dir/src/node_handle.cpp.o[0m
+[3.008s] [ 39%] [32mBuilding CXX object CMakeFiles/ianvs.dir/src/node_handle_factory.cpp.o[0m
+[3.010s] [ 43%] [32mBuilding CXX object CMakeFiles/ianvs.dir/src/node_init.cpp.o[0m
+[3.011s] [ 47%] [32mBuilding CXX object CMakeFiles/ianvs.dir/src/spin_functions.cpp.o[0m
+[3.027s] [ 47%] Built target ament_cmake_python_copy_ianvs_setup
+[3.044s] [ 47%] Built target ament_cmake_python_copy_ianvs
+[3.843s] running egg_info
+[3.843s] creating ianvs.egg-info
+[3.913s] writing ianvs.egg-info/PKG-INFO
+[3.916s] writing dependency_links to ianvs.egg-info/dependency_links.txt
+[3.916s] writing entry points to ianvs.egg-info/entry_points.txt
+[3.917s] writing top-level names to ianvs.egg-info/top_level.txt
+[3.917s] writing manifest file 'ianvs.egg-info/SOURCES.txt'
+[4.113s] reading manifest file 'ianvs.egg-info/SOURCES.txt'
+[4.114s] writing manifest file 'ianvs.egg-info/SOURCES.txt'
+[4.233s] [ 47%] Built target ament_cmake_python_build_ianvs_egg
+[11.115s] [ 52%] [32m[1mLinking CXX shared library libianvs_rosbag.so[0m
+[11.806s] [ 56%] [32m[1mLinking CXX executable transform_file_broadcaster[0m
+[12.354s] [ 56%] Built target ianvs_rosbag
+[13.407s] [ 56%] Built target transform_file_broadcaster
+[13.950s] [ 60%] [32m[1mLinking CXX shared module _ianvs_bindings.cpython-312-aarch64-linux-gnu.so[0m
+[17.871s] [ 65%] [32m[1mLinking CXX shared library libianvs.so[0m
+[19.648s] [ 65%] Built target _ianvs_bindings
+[22.288s] [ 65%] Built target ianvs
+[22.324s] [ 69%] [32mBuilding CXX object CMakeFiles/ianvs_plugins.dir/src/app/signal_stop_plugin.cpp.o[0m
+[25.883s] [ 73%] [32mBuilding CXX object CMakeFiles/ianvs_plugins.dir/src/app/topic_remap_plugin.cpp.o[0m
+[28.958s] [ 78%] [32mBuilding CXX object CMakeFiles/ianvs_plugins.dir/src/app/tf_plugin.cpp.o[0m
+[33.942s] [ 82%] [32m[1mLinking CXX shared library libianvs_plugins.so[0m
+[36.120s] [ 82%] Built target ianvs_plugins
+[36.140s] [ 86%] [32mBuilding CXX object CMakeFiles/merge_rosbags.dir/app/merge_rosbags.cpp.o[0m
+[36.140s] [ 91%] [32mBuilding CXX object CMakeFiles/play_rosbag.dir/app/play_rosbag.cpp.o[0m
+[39.771s] [ 95%] [32m[1mLinking CXX executable merge_rosbags[0m
+[41.049s] [100%] [32m[1mLinking CXX executable play_rosbag[0m
+[41.252s] [100%] Built target merge_rosbags
+[42.897s] [100%] Built target play_rosbag
+[42.909s] Invoked command in '/home/siny/hydra_ws/build/ianvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/ianvs -- -j20 -l20
+[42.910s] Invoking command in '/home/siny/hydra_ws/build/ianvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/ianvs
+[42.918s] -- Install configuration: "Release"
+[42.918s] -- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs/
+[42.918s] -- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs
+[42.918s] -- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/image_subscription.h
+[42.918s] -- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/node_handle.h
+[42.918s] -- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/app
+[42.918s] -- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/app/rosbag_play_plugins.h
+[42.919s] -- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/node_handle_factory.h
+[42.919s] -- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/image_publisher.h
+[42.919s] -- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/bag_reader.h
+[42.919s] -- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/lazy_publisher_group.h
+[42.919s] -- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/spin_functions.h
+[42.919s] -- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/detail
+[42.919s] -- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/detail/string_transforms.h
+[42.920s] -- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/visibility_control.h
+[42.920s] -- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/message_wait_functor.h
+[42.920s] -- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/node_init.h
+[42.920s] -- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/bindings
+[42.920s] -- Installing: /home/siny/hydra_ws/install/ianvs/include/ianvs//ianvs/bindings/image_encodings.h
+[42.920s] -- Installing: /home/siny/hydra_ws/install/ianvs/lib/libianvs.so
+[42.922s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/ianvs/lib/libianvs.so" to ""
+[42.922s] -- Installing: /home/siny/hydra_ws/install/ianvs/lib/libianvs_plugins.so
+[42.923s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/ianvs/lib/libianvs_plugins.so" to ""
+[42.923s] -- Installing: /home/siny/hydra_ws/install/ianvs/lib/libianvs_rosbag.so
+[42.923s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/ianvs/lib/libianvs_rosbag.so" to ""
+[42.923s] -- Installing: /home/siny/hydra_ws/install/ianvs/lib/ianvs/play_rosbag
+[42.924s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/ianvs/lib/ianvs/play_rosbag" to ""
+[42.924s] -- Installing: /home/siny/hydra_ws/install/ianvs/lib/ianvs/merge_rosbags
+[42.925s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/ianvs/lib/ianvs/merge_rosbags" to ""
+[42.925s] -- Installing: /home/siny/hydra_ws/install/ianvs/lib/ianvs/transform_file_broadcaster
+[42.926s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/ianvs/lib/ianvs/transform_file_broadcaster" to ""
+[42.926s] -- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs/_ianvs_bindings.cpython-312-aarch64-linux-gnu.so
+[42.926s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs/_ianvs_bindings.cpython-312-aarch64-linux-gnu.so" to ""
+[42.926s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/pythonpath.sh
+[42.926s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/pythonpath.dsv
+[42.927s] -- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info
+[42.927s] -- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/entry_points.txt
+[42.927s] -- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/top_level.txt
+[42.927s] -- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/PKG-INFO
+[42.927s] -- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/SOURCES.txt
+[42.927s] -- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs-0.0.0-py3.12.egg-info/dependency_links.txt
+[42.927s] -- Up-to-date: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs
+[42.927s] -- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs/__init__.py
+[42.927s] -- Installing: /home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs/launch.py
+[42.962s] Listing '/home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs'...
+[42.962s] Compiling '/home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs/__init__.py'...
+[42.962s] Compiling '/home/siny/hydra_ws/install/ianvs/lib/python3.12/site-packages/ianvs/launch.py'...
+[42.966s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/plugins.xml
+[42.966s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/library_path.sh
+[42.967s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/library_path.dsv
+[42.967s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ament_index/resource_index/package_run_dependencies/ianvs
+[42.967s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ament_index/resource_index/parent_prefix_path/ianvs
+[42.967s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/ament_prefix_path.sh
+[42.967s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/ament_prefix_path.dsv
+[42.967s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/path.sh
+[42.967s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/environment/path.dsv
+[42.967s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/local_setup.bash
+[42.967s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/local_setup.sh
+[42.967s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/local_setup.zsh
+[42.967s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/local_setup.dsv
+[42.967s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/package.dsv
+[42.968s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ament_index/resource_index/packages/ianvs
+[42.968s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ament_index/resource_index/ianvs__pluginlib__plugin/ianvs
+[42.968s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ianvs-exportsExport.cmake
+[42.968s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ianvs-exportsExport-release.cmake
+[42.968s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ament_cmake_export_targets-extras.cmake
+[42.968s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[42.968s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ianvsConfig.cmake
+[42.968s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/cmake/ianvsConfig-version.cmake
+[42.968s] -- Installing: /home/siny/hydra_ws/install/ianvs/share/ianvs/package.xml
+[42.969s] Invoked command in '/home/siny/hydra_ws/build/ianvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/ianvs

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "semantic_inference_msgs/msg/detail/feature_vector__struct.h"
-#include "semantic_inference_msgs/msg/detail/feature_vector__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "semantic_inference_msgs/msg/detail/feature_vector__type_support.h"
+#include "semantic_inference_msgs/msg/detail/feature_vector__struct.h"
+#include "semantic_inference_msgs/msg/detail/feature_vector__functions.h"
 
 #ifdef __cplusplus
 extern "C"

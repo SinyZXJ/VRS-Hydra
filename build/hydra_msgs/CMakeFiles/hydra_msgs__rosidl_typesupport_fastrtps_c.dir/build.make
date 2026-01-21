@@ -79,6 +79,10 @@ rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesup
 rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em
 rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/hydra_msgs/msg/ActiveLayer.idl
 rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/hydra_msgs/msg/DsgUpdate.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/hydra_msgs/msg/NodeLabelUpdate.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/hydra_msgs/msg/LabelUpdateRequest.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/hydra_msgs/msg/PlaceNode.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/hydra_msgs/msg/PlaceNodeArray.idl
 rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/hydra_msgs/srv/GetDsg.idl
 rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
@@ -112,6 +116,38 @@ rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesup
 rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/std_msgs/msg/UInt8.idl
 rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/Inertia.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/InertiaStamped.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/Point.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/Point32.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/PointStamped.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/Polygon.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/PolygonInstance.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/PolygonInstanceStamped.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/PolygonStamped.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/Pose.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/Pose2D.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/PoseArray.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/PoseStamped.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/PoseWithCovariance.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/Quaternion.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/QuaternionStamped.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/Transform.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/TransformStamped.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/Twist.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/TwistStamped.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/TwistWithCovariance.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/Vector3.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/Vector3Stamped.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/VelocityStamped.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/Wrench.idl
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl
 rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/siny/hydra_ws/build/hydra_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support for eProsima Fast-RTPS"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /home/siny/hydra_ws/build/hydra_msgs/rosidl_typesupport_fastrtps_c__arguments.json
@@ -124,6 +160,30 @@ rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/dsg_update__rosidl_typesuppo
 
 rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/dsg_update__type_support_c.cpp: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/dsg_update__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__type_support_c.cpp: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__type_support_c.cpp: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__type_support_c.cpp: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__type_support_c.cpp: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__type_support_c.cpp
 
 rosidl_typesupport_fastrtps_c/hydra_msgs/srv/detail/get_dsg__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/hydra_msgs/srv/detail/get_dsg__rosidl_typesupport_fastrtps_c.h
@@ -159,10 +219,66 @@ CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/dsg_update__type_support_c.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/siny/hydra_ws/build/hydra_msgs/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/dsg_update__type_support_c.cpp -o CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/dsg_update__type_support_c.cpp.s
 
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__type_support_c.cpp.o: CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__type_support_c.cpp
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__type_support_c.cpp.o: CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__type_support_c.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__type_support_c.cpp.o -MF CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__type_support_c.cpp.o.d -o CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__type_support_c.cpp.o -c /home/siny/hydra_ws/build/hydra_msgs/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__type_support_c.cpp
+
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/siny/hydra_ws/build/hydra_msgs/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__type_support_c.cpp > CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__type_support_c.cpp.i
+
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/siny/hydra_ws/build/hydra_msgs/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__type_support_c.cpp -o CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__type_support_c.cpp.s
+
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__type_support_c.cpp.o: CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__type_support_c.cpp
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__type_support_c.cpp.o: CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__type_support_c.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__type_support_c.cpp.o -MF CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__type_support_c.cpp.o.d -o CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__type_support_c.cpp.o -c /home/siny/hydra_ws/build/hydra_msgs/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__type_support_c.cpp
+
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/siny/hydra_ws/build/hydra_msgs/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__type_support_c.cpp > CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__type_support_c.cpp.i
+
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/siny/hydra_ws/build/hydra_msgs/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__type_support_c.cpp -o CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__type_support_c.cpp.s
+
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__type_support_c.cpp.o: CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__type_support_c.cpp
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__type_support_c.cpp.o: CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__type_support_c.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__type_support_c.cpp.o -MF CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__type_support_c.cpp.o.d -o CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__type_support_c.cpp.o -c /home/siny/hydra_ws/build/hydra_msgs/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__type_support_c.cpp
+
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/siny/hydra_ws/build/hydra_msgs/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__type_support_c.cpp > CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__type_support_c.cpp.i
+
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/siny/hydra_ws/build/hydra_msgs/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__type_support_c.cpp -o CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__type_support_c.cpp.s
+
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__type_support_c.cpp.o: CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__type_support_c.cpp
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__type_support_c.cpp.o: CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__type_support_c.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__type_support_c.cpp.o -MF CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__type_support_c.cpp.o.d -o CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__type_support_c.cpp.o -c /home/siny/hydra_ws/build/hydra_msgs/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__type_support_c.cpp
+
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/siny/hydra_ws/build/hydra_msgs/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__type_support_c.cpp > CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__type_support_c.cpp.i
+
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/siny/hydra_ws/build/hydra_msgs/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__type_support_c.cpp -o CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__type_support_c.cpp.s
+
 CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/srv/detail/get_dsg__type_support_c.cpp.o: CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/srv/detail/get_dsg__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/hydra_msgs/srv/detail/get_dsg__type_support_c.cpp
 CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/srv/detail/get_dsg__type_support_c.cpp.o: CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/srv/detail/get_dsg__type_support_c.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/siny/hydra_ws/build/hydra_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/srv/detail/get_dsg__type_support_c.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/srv/detail/get_dsg__type_support_c.cpp.o -MF CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/srv/detail/get_dsg__type_support_c.cpp.o.d -o CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/srv/detail/get_dsg__type_support_c.cpp.o -c /home/siny/hydra_ws/build/hydra_msgs/rosidl_typesupport_fastrtps_c/hydra_msgs/srv/detail/get_dsg__type_support_c.cpp
 
 CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/srv/detail/get_dsg__type_support_c.cpp.i: cmake_force
@@ -177,6 +293,10 @@ CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fast
 hydra_msgs__rosidl_typesupport_fastrtps_c_OBJECTS = \
 "CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__type_support_c.cpp.o" \
 "CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/dsg_update__type_support_c.cpp.o" \
+"CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__type_support_c.cpp.o" \
+"CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__type_support_c.cpp.o" \
+"CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__type_support_c.cpp.o" \
+"CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__type_support_c.cpp.o" \
 "CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/srv/detail/get_dsg__type_support_c.cpp.o"
 
 # External object files for target hydra_msgs__rosidl_typesupport_fastrtps_c
@@ -184,11 +304,17 @@ hydra_msgs__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
 
 libhydra_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__type_support_c.cpp.o
 libhydra_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/dsg_update__type_support_c.cpp.o
+libhydra_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__type_support_c.cpp.o
+libhydra_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__type_support_c.cpp.o
+libhydra_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__type_support_c.cpp.o
+libhydra_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__type_support_c.cpp.o
 libhydra_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/srv/detail/get_dsg__type_support_c.cpp.o
 libhydra_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/build.make
 libhydra_msgs__rosidl_typesupport_fastrtps_c.so: libhydra_msgs__rosidl_generator_c.so
-libhydra_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+libhydra_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
 libhydra_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
+libhydra_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+libhydra_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
 libhydra_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
 libhydra_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 libhydra_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so
@@ -201,7 +327,7 @@ libhydra_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/libbuiltin_i
 libhydra_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libhydra_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/librcutils.so
 libhydra_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/siny/hydra_ws/build/hydra_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libhydra_msgs__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/siny/hydra_ws/build/hydra_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared library libhydra_msgs__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -216,6 +342,14 @@ CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupp
 CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__type_support_c.cpp
 CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/dsg_update__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/dsg_update__type_support_c.cpp
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__type_support_c.cpp
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__type_support_c.cpp
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__type_support_c.cpp
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__type_support_c.cpp
 CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/hydra_msgs/srv/detail/get_dsg__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/hydra_msgs/srv/detail/get_dsg__type_support_c.cpp
 	cd /home/siny/hydra_ws/build/hydra_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/siny/hydra_ws/src/hydra_ros/hydra_msgs /home/siny/hydra_ws/src/hydra_ros/hydra_msgs /home/siny/hydra_ws/build/hydra_msgs /home/siny/hydra_ws/build/hydra_msgs /home/siny/hydra_ws/build/hydra_msgs/CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake "--color=$(COLOR)"

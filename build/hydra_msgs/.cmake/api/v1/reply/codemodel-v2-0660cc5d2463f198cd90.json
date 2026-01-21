@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d2ad5be2dd42ecd1b0ef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "hydra_msgs__py",
+					"jsonFile" : "directory-hydra_msgs__py-Release-94d393f2896967ea365d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/siny/hydra_ws/build/hydra_msgs/hydra_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "hydra_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_hydra_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_hydra_msgs_egg-Release-bd79ec3856de6d3268d8.json",
+					"name" : "ament_cmake_python_build_hydra_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_hydra_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_hydra_msgs-Release-1b76721b35f9a1081c12.json",
+					"name" : "ament_cmake_python_copy_hydra_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hydra_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hydra_msgs-Release-fda677f7f3b346e90a71.json",
+					"name" : "hydra_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hydra_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hydra_msgs__cpp-Release-14c17bb13dbf5424098d.json",
+					"name" : "hydra_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "hydra_msgs__py::@7752248cd46e1d18db33",
+					"jsonFile" : "target-hydra_msgs__py-Release-09c779fc095aee5c02d6.json",
+					"name" : "hydra_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hydra_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hydra_msgs__rosidl_generator_c-Release-b55c5da743b535d0dd2f.json",
+					"name" : "hydra_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hydra_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hydra_msgs__rosidl_generator_py-Release-edb618af156517207761.json",
+					"name" : "hydra_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hydra_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hydra_msgs__rosidl_generator_type_description-Release-09ad9f50776413be971e.json",
+					"name" : "hydra_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hydra_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hydra_msgs__rosidl_typesupport_c-Release-7e152ebb62cb3a3b8986.json",
+					"name" : "hydra_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hydra_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hydra_msgs__rosidl_typesupport_cpp-Release-b670db5326d4c356e8f9.json",
+					"name" : "hydra_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hydra_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hydra_msgs__rosidl_typesupport_fastrtps_c-Release-14701c51303ad8737db5.json",
+					"name" : "hydra_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hydra_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hydra_msgs__rosidl_typesupport_fastrtps_cpp-Release-ef29847275211a8c7b5b.json",
+					"name" : "hydra_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hydra_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hydra_msgs__rosidl_typesupport_introspection_c-Release-570c4202e8a7ff8fbfef.json",
+					"name" : "hydra_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hydra_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hydra_msgs__rosidl_typesupport_introspection_cpp-Release-260e6e8170744d460624.json",
+					"name" : "hydra_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hydra_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hydra_msgs_s__rosidl_typesupport_c-Release-11ef3d988dd9aacee2ce.json",
+					"name" : "hydra_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hydra_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hydra_msgs_s__rosidl_typesupport_fastrtps_c-Release-d2a4b2481e8ebd83f2aa.json",
+					"name" : "hydra_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hydra_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hydra_msgs_s__rosidl_typesupport_introspection_c-Release-0fd290a2f130fea5bed8.json",
+					"name" : "hydra_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hydra_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hydra_msgs_uninstall-Release-24bbbaa47a409cb7b241.json",
+					"name" : "hydra_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-8ae9e54c04bd18795c2e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/siny/hydra_ws/build/hydra_msgs",
+		"source" : "/home/siny/hydra_ws/src/hydra_ros/hydra_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -23,8 +23,8 @@ pose_graph_tools_msgs__msg__BowQueries__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "pose_graph_tools_msgs/msg/detail/bow_query__functions.h"
 #include "pose_graph_tools_msgs/msg/detail/bow_vector__functions.h"
+#include "pose_graph_tools_msgs/msg/detail/bow_query__functions.h"
 #include "builtin_interfaces/msg/detail/time__functions.h"
 #include "std_msgs/msg/detail/header__functions.h"
 

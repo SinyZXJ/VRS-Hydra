@@ -1,0 +1,452 @@
+[0.013s] Invoking command in '/home/siny/hydra_ws/build/hydra_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/siny/hydra_ws/src/hydra_ros/hydra_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/hydra_msgs
+[0.053s] -- The C compiler identification is GNU 13.3.0
+[0.085s] -- The CXX compiler identification is GNU 13.3.0
+[0.099s] -- Detecting C compiler ABI info
+[0.169s] -- Detecting C compiler ABI info - done
+[0.174s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.174s] -- Detecting C compile features
+[0.174s] -- Detecting C compile features - done
+[0.183s] -- Detecting CXX compiler ABI info
+[0.250s] -- Detecting CXX compiler ABI info - done
+[0.258s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.259s] -- Detecting CXX compile features
+[0.259s] -- Detecting CXX compile features - done
+[0.261s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.353s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.413s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.445s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.454s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.460s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.469s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.481s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.491s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.495s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.507s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.524s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.621s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.598s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.605s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.910s] -- Found PythonExtra: /usr/bin/python3  
+[5.798s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.945s] -- Configuring done (5.9s)
+[6.048s] -- Generating done (0.1s)
+[6.066s] -- Build files have been written to: /home/siny/hydra_ws/build/hydra_msgs
+[6.094s] Invoked command in '/home/siny/hydra_ws/build/hydra_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/siny/hydra_ws/src/hydra_ros/hydra_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/hydra_msgs
+[6.094s] Invoking command in '/home/siny/hydra_ws/build/hydra_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/hydra_msgs -- -j20 -l20
+[6.255s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.255s] [  1%] Built target ament_cmake_python_copy_hydra_msgs
+[6.758s] running egg_info
+[6.759s] creating hydra_msgs.egg-info
+[6.787s] [  1%] Built target hydra_msgs__rosidl_generator_type_description
+[6.800s] writing hydra_msgs.egg-info/PKG-INFO
+[6.801s] writing dependency_links to hydra_msgs.egg-info/dependency_links.txt
+[6.801s] writing top-level names to hydra_msgs.egg-info/top_level.txt
+[6.801s] writing manifest file 'hydra_msgs.egg-info/SOURCES.txt'
+[6.821s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.845s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.988s] reading manifest file 'hydra_msgs.egg-info/SOURCES.txt'
+[6.989s] writing manifest file 'hydra_msgs.egg-info/SOURCES.txt'
+[7.099s] [  3%] Built target ament_cmake_python_build_hydra_msgs_egg
+[7.817s] [  3%] Built target hydra_msgs__cpp
+[8.608s] [  4%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/dsg_update__description.c.o[0m
+[8.610s] [  5%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/active_layer__description.c.o[0m
+[8.611s] [  6%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/active_layer__type_support.c.o[0m
+[8.614s] [  7%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/node_label_update__type_support.c.o[0m
+[8.622s] [  8%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/node_label_update__description.c.o[0m
+[8.622s] [  9%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/dsg_update__type_support.c.o[0m
+[8.622s] [ 11%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/dsg_update__functions.c.o[0m
+[8.622s] [ 11%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/active_layer__functions.c.o[0m
+[8.623s] [ 12%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/label_update_request__functions.c.o[0m
+[8.630s] [ 14%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/label_update_request__type_support.c.o[0m
+[8.634s] [ 14%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/label_update_request__description.c.o[0m
+[8.635s] [ 15%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/place_node__functions.c.o[0m
+[8.635s] [ 17%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/place_node__type_support.c.o[0m
+[8.636s] [ 18%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/place_node__description.c.o[0m
+[8.638s] [ 19%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/node_label_update__functions.c.o[0m
+[8.643s] [ 20%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/place_node_array__description.c.o[0m
+[8.656s] [ 21%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/place_node_array__type_support.c.o[0m
+[8.664s] [ 22%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/srv/detail/get_dsg__description.c.o[0m
+[8.664s] [ 23%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/msg/detail/place_node_array__functions.c.o[0m
+[8.669s] [ 24%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/srv/detail/get_dsg__functions.c.o[0m
+[8.719s] [ 25%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_c.dir/rosidl_generator_c/hydra_msgs/srv/detail/get_dsg__type_support.c.o[0m
+[9.013s] [ 26%] [32m[1mLinking C shared library libhydra_msgs__rosidl_generator_c.so[0m
+[9.080s] [ 26%] Built target hydra_msgs__rosidl_generator_c
+[9.097s] [ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.100s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.105s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.107s] [ 30%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.111s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.112s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.687s] [ 34%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hydra_msgs/msg/active_layer__type_support.cpp.o[0m
+[9.693s] [ 36%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hydra_msgs/msg/dsg_update__type_support.cpp.o[0m
+[9.696s] [ 38%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hydra_msgs/msg/place_node__type_support.cpp.o[0m
+[9.696s] [ 38%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hydra_msgs/msg/label_update_request__type_support.cpp.o[0m
+[9.704s] [ 39%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hydra_msgs/msg/place_node_array__type_support.cpp.o[0m
+[9.705s] [ 39%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hydra_msgs/msg/node_label_update__type_support.cpp.o[0m
+[9.705s] [ 40%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hydra_msgs/srv/get_dsg__type_support.cpp.o[0m
+[10.094s] [ 41%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hydra_msgs/msg/detail/dsg_update__type_support.c.o[0m
+[10.098s] [ 42%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hydra_msgs/msg/detail/active_layer__type_support.c.o[0m
+[10.098s] [ 43%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hydra_msgs/msg/detail/node_label_update__type_support.c.o[0m
+[10.103s] [ 44%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hydra_msgs/msg/detail/label_update_request__type_support.c.o[0m
+[10.116s] [ 45%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hydra_msgs/msg/node_label_update__type_support.cpp.o[0m
+[10.116s] [ 46%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hydra_msgs/msg/active_layer__type_support.cpp.o[0m
+[10.116s] [ 47%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hydra_msgs/msg/detail/place_node_array__type_support.c.o[0m
+[10.116s] [ 48%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hydra_msgs/srv/detail/get_dsg__type_support.c.o[0m
+[10.121s] [ 50%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hydra_msgs/msg/dsg_update__type_support.cpp.o[0m
+[10.126s] [ 51%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hydra_msgs/msg/detail/place_node__type_support.c.o[0m
+[10.242s] [ 52%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hydra_msgs/msg/label_update_request__type_support.cpp.o[0m
+[10.278s] [ 53%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hydra_msgs/srv/get_dsg__type_support.cpp.o[0m
+[10.294s] [ 54%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hydra_msgs/msg/place_node_array__type_support.cpp.o[0m
+[10.298s] [ 55%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hydra_msgs/msg/place_node__type_support.cpp.o[0m
+[10.352s] [ 56%] [32m[1mLinking C shared library libhydra_msgs__rosidl_typesupport_introspection_c.so[0m
+[10.369s] [ 57%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hydra_msgs/msg/detail/active_layer__type_support.cpp.o[0m
+[10.380s] [ 58%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hydra_msgs/msg/detail/dsg_update__type_support.cpp.o[0m
+[10.381s] [ 59%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hydra_msgs/msg/detail/node_label_update__type_support.cpp.o[0m
+[10.389s] [ 60%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hydra_msgs/msg/detail/place_node_array__type_support.cpp.o[0m
+[10.398s] [ 61%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hydra_msgs/srv/detail/get_dsg__type_support.cpp.o[0m
+[10.398s] [ 62%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hydra_msgs/msg/detail/label_update_request__type_support.cpp.o[0m
+[10.400s] [ 63%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hydra_msgs/msg/detail/place_node__type_support.cpp.o[0m
+[10.439s] [ 63%] Built target hydra_msgs__rosidl_typesupport_introspection_c
+[10.481s] [ 64%] [32m[1mLinking CXX shared library libhydra_msgs__rosidl_typesupport_c.so[0m
+[10.571s] [ 65%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/dsg_update__type_support_c.cpp.o[0m
+[10.575s] [ 67%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/active_layer__type_support_c.cpp.o[0m
+[10.591s] [ 69%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/node_label_update__type_support_c.cpp.o[0m
+[10.591s] [ 70%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node__type_support_c.cpp.o[0m
+[10.594s] [ 71%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/label_update_request__type_support_c.cpp.o[0m
+[10.594s] [ 71%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/msg/detail/place_node_array__type_support_c.cpp.o[0m
+[10.594s] [ 72%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hydra_msgs/srv/detail/get_dsg__type_support_c.cpp.o[0m
+[10.610s] [ 72%] Built target hydra_msgs__rosidl_typesupport_c
+[10.637s] [ 73%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hydra_msgs/msg/detail/dds_fastrtps/active_layer__type_support.cpp.o[0m
+[10.650s] [ 74%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hydra_msgs/msg/detail/dds_fastrtps/dsg_update__type_support.cpp.o[0m
+[10.764s] [ 75%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hydra_msgs/msg/detail/dds_fastrtps/node_label_update__type_support.cpp.o[0m
+[10.781s] [ 76%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hydra_msgs/msg/detail/dds_fastrtps/label_update_request__type_support.cpp.o[0m
+[11.055s] [ 77%] [32m[1mLinking CXX shared library libhydra_msgs__rosidl_typesupport_cpp.so[0m
+[11.056s] [ 78%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hydra_msgs/msg/detail/dds_fastrtps/place_node__type_support.cpp.o[0m
+[11.096s] [ 79%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hydra_msgs/msg/detail/dds_fastrtps/place_node_array__type_support.cpp.o[0m
+[11.263s] [ 79%] Built target hydra_msgs__rosidl_typesupport_cpp
+[11.278s] [ 80%] [32mBuilding CXX object CMakeFiles/hydra_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hydra_msgs/srv/detail/dds_fastrtps/get_dsg__type_support.cpp.o[0m
+[11.582s] [ 81%] [32m[1mLinking CXX shared library libhydra_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[11.767s] [ 81%] Built target hydra_msgs__rosidl_typesupport_introspection_cpp
+[12.223s] [ 82%] [32m[1mLinking CXX shared library libhydra_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[12.340s] [ 82%] Built target hydra_msgs__rosidl_typesupport_fastrtps_c
+[12.394s] [ 84%] [32m[1mLinking CXX shared library libhydra_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.554s] [ 84%] Built target hydra_msgs__rosidl_typesupport_fastrtps_cpp
+[12.591s] [ 84%] Built target hydra_msgs
+[12.625s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.732s] [ 85%] Built target hydra_msgs__py
+[14.785s] [ 86%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_py.dir/rosidl_generator_py/hydra_msgs/msg/_active_layer_s.c.o[0m
+[14.792s] [ 87%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_py.dir/rosidl_generator_py/hydra_msgs/msg/_dsg_update_s.c.o[0m
+[14.794s] [ 88%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_py.dir/rosidl_generator_py/hydra_msgs/srv/_get_dsg_s.c.o[0m
+[14.802s] [ 89%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_py.dir/rosidl_generator_py/hydra_msgs/msg/_place_node_s.c.o[0m
+[14.802s] [ 90%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_py.dir/rosidl_generator_py/hydra_msgs/msg/_place_node_array_s.c.o[0m
+[14.809s] [ 91%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_py.dir/rosidl_generator_py/hydra_msgs/msg/_node_label_update_s.c.o[0m
+[14.810s] [ 92%] [32mBuilding C object CMakeFiles/hydra_msgs__rosidl_generator_py.dir/rosidl_generator_py/hydra_msgs/msg/_label_update_request_s.c.o[0m
+[15.461s] [ 93%] [32m[1mLinking C shared library libhydra_msgs__rosidl_generator_py.so[0m
+[15.618s] [ 93%] Built target hydra_msgs__rosidl_generator_py
+[15.671s] [ 94%] [32mBuilding C object CMakeFiles/hydra_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.680s] [ 95%] [32mBuilding C object CMakeFiles/hydra_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.682s] [ 96%] [32mBuilding C object CMakeFiles/hydra_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[15.979s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/hydra_msgs/hydra_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[16.061s] [ 97%] Built target hydra_msgs_s__rosidl_typesupport_fastrtps_c
+[16.189s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/hydra_msgs/hydra_msgs_s__rosidl_typesupport_c.so[0m
+[16.258s] [ 98%] Built target hydra_msgs_s__rosidl_typesupport_c
+[16.294s] [100%] [32m[1mLinking C shared module rosidl_generator_py/hydra_msgs/hydra_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[16.373s] [100%] Built target hydra_msgs_s__rosidl_typesupport_introspection_c
+[16.416s] Invoked command in '/home/siny/hydra_ws/build/hydra_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/hydra_msgs -- -j20 -l20
+[16.416s] Invoking command in '/home/siny/hydra_ws/build/hydra_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/hydra_msgs
+[16.433s] -- Install configuration: "Release"
+[16.433s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/ament_index/resource_index/rosidl_interfaces/hydra_msgs
+[16.433s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/ActiveLayer.json
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/DsgUpdate.json
+[16.434s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/NodeLabelUpdate.json
+[16.439s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/LabelUpdateRequest.json
+[16.439s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/PlaceNode.json
+[16.439s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/PlaceNodeArray.json
+[16.439s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/srv/GetDsg.json
+[16.439s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs
+[16.439s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv
+[16.439s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/get_dsg.h
+[16.439s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail
+[16.439s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__functions.h
+[16.439s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__functions.c
+[16.439s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__type_support.c
+[16.439s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__struct.h
+[16.439s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__description.c
+[16.440s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__type_support.h
+[16.440s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg
+[16.440s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/place_node.h
+[16.440s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/rosidl_generator_c__visibility_control.h
+[16.440s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/active_layer.h
+[16.440s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/node_label_update.h
+[16.440s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/label_update_request.h
+[16.440s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/dsg_update.h
+[16.440s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/place_node_array.h
+[16.440s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail
+[16.440s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__type_support.c
+[16.444s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__type_support.h
+[16.445s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__type_support.h
+[16.445s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__type_support.h
+[16.445s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__struct.h
+[16.445s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__description.c
+[16.445s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__functions.h
+[16.445s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__functions.h
+[16.445s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__description.c
+[16.445s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__type_support.h
+[16.445s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__functions.h
+[16.445s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__description.c
+[16.445s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__type_support.c
+[16.445s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__struct.h
+[16.445s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__functions.c
+[16.445s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__type_support.c
+[16.445s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__functions.c
+[16.445s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__type_support.h
+[16.446s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__description.c
+[16.446s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__functions.c
+[16.446s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__type_support.h
+[16.446s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__struct.h
+[16.446s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__description.c
+[16.451s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__struct.h
+[16.451s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__functions.c
+[16.451s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__type_support.c
+[16.451s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__struct.h
+[16.451s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__functions.h
+[16.451s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__type_support.c
+[16.451s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__functions.h
+[16.451s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__functions.c
+[16.451s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__type_support.c
+[16.451s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__description.c
+[16.451s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__struct.h
+[16.451s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__functions.c
+[16.451s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__functions.h
+[16.451s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/environment/library_path.sh
+[16.451s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/environment/library_path.dsv
+[16.451s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_generator_c.so
+[16.451s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_generator_c.so" to ""
+[16.451s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs
+[16.451s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv
+[16.451s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail
+[16.451s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__rosidl_typesupport_fastrtps_c.h
+[16.452s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg
+[16.452s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.452s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail
+[16.452s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__rosidl_typesupport_fastrtps_c.h
+[16.452s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_c.h
+[16.452s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__rosidl_typesupport_fastrtps_c.h
+[16.453s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__rosidl_typesupport_fastrtps_c.h
+[16.453s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__rosidl_typesupport_fastrtps_c.h
+[16.453s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__rosidl_typesupport_fastrtps_c.h
+[16.453s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_fastrtps_c.so
+[16.453s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[16.453s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs
+[16.453s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv
+[16.453s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/get_dsg.hpp
+[16.453s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail
+[16.453s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__struct.hpp
+[16.460s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__traits.hpp
+[16.460s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__builder.hpp
+[16.460s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__type_support.hpp
+[16.460s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg
+[16.460s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/place_node_array.hpp
+[16.460s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/label_update_request.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/dsg_update.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/active_layer.hpp
+[16.461s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__builder.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__type_support.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__builder.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__traits.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__builder.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__type_support.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__type_support.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__traits.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__type_support.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__struct.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__struct.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__builder.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__struct.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__traits.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__traits.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__struct.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__type_support.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__builder.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__type_support.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__traits.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__traits.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__struct.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__struct.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__builder.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/place_node.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/node_label_update.hpp
+[16.461s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs
+[16.461s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv
+[16.461s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/dds_fastrtps
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__rosidl_typesupport_fastrtps_cpp.hpp
+[16.461s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.461s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail
+[16.461s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__rosidl_typesupport_fastrtps_cpp.hpp
+[16.462s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__rosidl_typesupport_fastrtps_cpp.hpp
+[16.462s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dds_fastrtps
+[16.462s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__rosidl_typesupport_fastrtps_cpp.hpp
+[16.462s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_fastrtps_cpp.hpp
+[16.462s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__rosidl_typesupport_fastrtps_cpp.hpp
+[16.465s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__rosidl_typesupport_fastrtps_cpp.hpp
+[16.465s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_fastrtps_cpp.so
+[16.465s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.465s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs
+[16.465s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv
+[16.465s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail
+[16.465s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__rosidl_typesupport_introspection_c.h
+[16.465s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__type_support.c
+[16.465s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg
+[16.465s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail
+[16.465s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__type_support.c
+[16.465s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__rosidl_typesupport_introspection_c.h
+[16.465s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__rosidl_typesupport_introspection_c.h
+[16.465s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__type_support.c
+[16.465s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__type_support.c
+[16.465s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__type_support.c
+[16.465s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__type_support.c
+[16.465s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__rosidl_typesupport_introspection_c.h
+[16.466s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_introspection_c.h
+[16.466s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__type_support.c
+[16.466s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__rosidl_typesupport_introspection_c.h
+[16.466s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__rosidl_typesupport_introspection_c.h
+[16.466s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.466s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_introspection_c.so
+[16.466s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_introspection_c.so" to ""
+[16.470s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_c.so
+[16.470s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_c.so" to ""
+[16.470s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs
+[16.470s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv
+[16.470s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail
+[16.470s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__rosidl_typesupport_introspection_cpp.hpp
+[16.470s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/srv/detail/get_dsg__type_support.cpp
+[16.471s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg
+[16.471s] -- Up-to-date: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail
+[16.471s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__type_support.cpp
+[16.471s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__type_support.cpp
+[16.471s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/node_label_update__rosidl_typesupport_introspection_cpp.hpp
+[16.472s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__type_support.cpp
+[16.472s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__type_support.cpp
+[16.472s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__rosidl_typesupport_introspection_cpp.hpp
+[16.472s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node__rosidl_typesupport_introspection_cpp.hpp
+[16.472s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__rosidl_typesupport_introspection_cpp.hpp
+[16.472s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/label_update_request__type_support.cpp
+[16.472s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/place_node_array__rosidl_typesupport_introspection_cpp.hpp
+[16.472s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/dsg_update__rosidl_typesupport_introspection_cpp.hpp
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/include/hydra_msgs/hydra_msgs/msg/detail/active_layer__type_support.cpp
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_introspection_cpp.so
+[16.474s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_cpp.so
+[16.474s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_typesupport_cpp.so" to ""
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/environment/pythonpath.sh
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/environment/pythonpath.dsv
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs-0.0.1-py3.12.egg-info
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs-0.0.1-py3.12.egg-info/top_level.txt
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs-0.0.1-py3.12.egg-info/PKG-INFO
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs-0.0.1-py3.12.egg-info/SOURCES.txt
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs-0.0.1-py3.12.egg-info/dependency_links.txt
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/hydra_msgs_s__rosidl_typesupport_introspection_c.so
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/srv
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/srv/_get_dsg_s.c
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/srv/__init__.py
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/srv/_get_dsg.py
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_node_label_update.py
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_place_node.py
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_active_layer_s.c
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_place_node_array.py
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_dsg_update_s.c
+[16.474s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_active_layer.py
+[16.475s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_dsg_update.py
+[16.475s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_node_label_update_s.c
+[16.475s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_label_update_request.py
+[16.475s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/__init__.py
+[16.475s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_place_node_s.c
+[16.483s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_place_node_array_s.c
+[16.483s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_label_update_request_s.c
+[16.483s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_c.c
+[16.483s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/__init__.py
+[16.483s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/hydra_msgs_s__rosidl_typesupport_c.so
+[16.483s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/_hydra_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.483s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/hydra_msgs_s__rosidl_typesupport_fastrtps_c.so
+[16.610s] Listing '/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs'...
+[16.610s] Compiling '/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/__init__.py'...
+[16.610s] Listing '/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg'...
+[16.610s] Compiling '/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/__init__.py'...
+[16.610s] Compiling '/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_active_layer.py'...
+[16.610s] Compiling '/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_dsg_update.py'...
+[16.610s] Compiling '/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_label_update_request.py'...
+[16.610s] Compiling '/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_node_label_update.py'...
+[16.610s] Compiling '/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_place_node.py'...
+[16.610s] Compiling '/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/msg/_place_node_array.py'...
+[16.610s] Listing '/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/srv'...
+[16.610s] Compiling '/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/srv/__init__.py'...
+[16.610s] Compiling '/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/srv/_get_dsg.py'...
+[16.629s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/hydra_msgs_s__rosidl_typesupport_fastrtps_c.so
+[16.629s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/hydra_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[16.629s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/hydra_msgs_s__rosidl_typesupport_introspection_c.so
+[16.629s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/hydra_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[16.629s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/hydra_msgs_s__rosidl_typesupport_c.so
+[16.629s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_msgs/lib/python3.12/site-packages/hydra_msgs/hydra_msgs_s__rosidl_typesupport_c.so" to ""
+[16.629s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_generator_py.so
+[16.629s] -- Set non-toolchain portion of runtime path of "/home/siny/hydra_ws/install/hydra_msgs/lib/libhydra_msgs__rosidl_generator_py.so" to ""
+[16.635s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/ActiveLayer.idl
+[16.635s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/DsgUpdate.idl
+[16.635s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/NodeLabelUpdate.idl
+[16.635s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/LabelUpdateRequest.idl
+[16.635s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/PlaceNode.idl
+[16.635s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/PlaceNodeArray.idl
+[16.635s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/srv/GetDsg.idl
+[16.635s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/ActiveLayer.msg
+[16.635s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/DsgUpdate.msg
+[16.635s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/NodeLabelUpdate.msg
+[16.635s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/LabelUpdateRequest.msg
+[16.635s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/PlaceNode.msg
+[16.635s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/msg/PlaceNodeArray.msg
+[16.636s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/srv/GetDsg.srv
+[16.636s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/ament_index/resource_index/package_run_dependencies/hydra_msgs
+[16.636s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/ament_index/resource_index/parent_prefix_path/hydra_msgs
+[16.636s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/environment/ament_prefix_path.sh
+[16.637s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/environment/ament_prefix_path.dsv
+[16.637s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/environment/path.sh
+[16.637s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/environment/path.dsv
+[16.641s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/local_setup.bash
+[16.641s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/local_setup.sh
+[16.641s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/local_setup.zsh
+[16.641s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/local_setup.dsv
+[16.642s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/package.dsv
+[16.642s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/ament_index/resource_index/packages/hydra_msgs
+[16.642s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/export_hydra_msgs__rosidl_generator_cExport.cmake
+[16.642s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/export_hydra_msgs__rosidl_generator_cExport-release.cmake
+[16.642s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/export_hydra_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[16.642s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/export_hydra_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[16.642s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/export_hydra_msgs__rosidl_generator_cppExport.cmake
+[16.642s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/export_hydra_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.642s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/export_hydra_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[16.642s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/hydra_msgs__rosidl_typesupport_introspection_cExport.cmake
+[16.642s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/hydra_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[16.643s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/hydra_msgs__rosidl_typesupport_cExport.cmake
+[16.643s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/hydra_msgs__rosidl_typesupport_cExport-release.cmake
+[16.657s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/hydra_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[16.657s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/hydra_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[16.657s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/hydra_msgs__rosidl_typesupport_cppExport.cmake
+[16.657s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/hydra_msgs__rosidl_typesupport_cppExport-release.cmake
+[16.657s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/export_hydra_msgs__rosidl_generator_pyExport.cmake
+[16.657s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/export_hydra_msgs__rosidl_generator_pyExport-release.cmake
+[16.657s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/rosidl_cmake-extras.cmake
+[16.657s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.657s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.657s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[16.657s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[16.657s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.657s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.657s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/hydra_msgsConfig.cmake
+[16.658s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/cmake/hydra_msgsConfig-version.cmake
+[16.658s] -- Installing: /home/siny/hydra_ws/install/hydra_msgs/share/hydra_msgs/package.xml
+[16.661s] Invoked command in '/home/siny/hydra_ws/build/hydra_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/hydra_msgs

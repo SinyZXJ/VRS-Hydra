@@ -1,0 +1,88 @@
+[0.014s] Invoking command in '/home/siny/hydra_ws/build/teaserpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/siny/hydra_ws/src/teaser_plusplus -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/teaserpp
+[0.053s] -- The C compiler identification is GNU 13.3.0
+[0.099s] -- The CXX compiler identification is GNU 13.3.0
+[0.110s] -- Detecting C compiler ABI info
+[0.181s] -- Detecting C compiler ABI info - done
+[0.185s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.185s] -- Detecting C compile features
+[0.185s] -- Detecting C compile features - done
+[0.190s] -- Detecting CXX compiler ABI info
+[0.268s] -- Detecting CXX compiler ABI info - done
+[0.277s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.277s] -- Detecting CXX compile features
+[0.278s] -- Detecting CXX compile features - done
+[0.279s] -- Enable printing of diagnostic messages.
+[3.843s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[4.167s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[4.167s] -- Found OpenMP: TRUE (found version "4.5")  
+[15.454s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.672s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.672s] -- Found Threads: TRUE  
+[15.872s] -- Failed to find sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+[15.876s] -- Configuring done (15.9s)
+[15.929s] -- Generating done (0.0s)
+[15.949s] -- Build files have been written to: /home/siny/hydra_ws/build/teaserpp
+[15.970s] Invoked command in '/home/siny/hydra_ws/build/teaserpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/siny/hydra_ws/src/teaser_plusplus -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/siny/hydra_ws/install/teaserpp
+[15.974s] Invoking command in '/home/siny/hydra_ws/build/teaserpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/teaserpp -- -j20 -l20
+[16.117s] [  2%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_maxclique.cpp.o[0m
+[16.128s] [  5%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique.cpp.o[0m
+[16.128s] [  8%] [32mBuilding CXX object teaser/CMakeFiles/teaser_io.dir/src/ply_io.cc.o[0m
+[16.128s] [ 11%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_heu.cpp.o[0m
+[16.128s] [ 14%] [32mBuilding CXX object _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[16.128s] [ 17%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_cores.cpp.o[0m
+[16.129s] [ 20%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.o[0m
+[16.135s] [ 22%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_graph.cpp.o[0m
+[16.149s] [ 25%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_utils.cpp.o[0m
+[16.174s] [ 28%] [32mBuilding CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_clique_utils.cpp.o[0m
+[20.080s] [ 31%] [32m[1mLinking CXX static library libpmc.a[0m
+[20.208s] [ 31%] Built target pmc
+[20.245s] [ 34%] [32mBuilding CXX object teaser/CMakeFiles/teaser_registration.dir/src/graph.cc.o[0m
+[20.245s] [ 37%] [32mBuilding CXX object teaser/CMakeFiles/teaser_registration.dir/src/certification.cc.o[0m
+[20.254s] [ 40%] [32mBuilding CXX object teaser/CMakeFiles/teaser_registration.dir/src/registration.cc.o[0m
+[22.108s] [ 42%] [32m[1mLinking CXX shared library libteaser_io.so[0m
+[22.211s] [ 42%] Built target teaser_io
+[25.776s] [ 45%] [32m[1mLinking CXX shared library ../../../lib/libgtest.so[0m
+[25.873s] [ 45%] Built target gtest
+[30.301s] [ 48%] [32m[1mLinking CXX shared library libteaser_registration.so[0m
+[30.362s] [ 48%] Built target teaser_registration
+[30.379s] [ 51%] [32mBuilding CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[31.933s] [ 54%] [32m[1mLinking CXX shared library ../../../lib/libgmock.so[0m
+[32.019s] [ 54%] Built target gmock
+[32.040s] [ 65%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/main.cc.o[0m
+[32.040s] [ 65%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/utils-test.cc.o[0m
+[32.040s] [ 65%] [32mBuilding CXX object test/benchmark/CMakeFiles/all_benchmarks.dir/registration-benchmark.cc.o[0m
+[32.040s] [ 65%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/io-test.cc.o[0m
+[32.040s] [ 71%] [32mBuilding CXX object test/benchmark/CMakeFiles/all_benchmarks.dir/main.cc.o[0m
+[32.040s] [ 71%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/geometry-test.cc.o[0m
+[32.041s] [ 74%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/tls-test.cc.o[0m
+[32.891s] [ 77%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/linalg-test.cc.o[0m
+[32.894s] [ 80%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/certification-test.cc.o[0m
+[32.894s] [ 82%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/graph-test.cc.o[0m
+[32.897s] [ 85%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/registration-test.cc.o[0m
+[33.270s] [ 88%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/rotation-solver-test.cc.o[0m
+[33.270s] [ 91%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/translation-solver-test.cc.o[0m
+[33.271s] [ 94%] [32mBuilding CXX object test/teaser/CMakeFiles/all_tests.dir/scale-solver-test.cc.o[0m
+[35.554s] [ 97%] [32m[1mLinking CXX executable all_benchmarks[0m
+[35.634s] [ 97%] Built target all_benchmarks
+[38.763s] [100%] [32m[1mLinking CXX executable all_tests[0m
+[38.843s] [100%] Built target all_tests
+[38.857s] Invoked command in '/home/siny/hydra_ws/build/teaserpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/siny/hydra_ws/build/teaserpp -- -j20 -l20
+[38.858s] Invoking command in '/home/siny/hydra_ws/build/teaserpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/teaserpp
+[38.863s] -- Install configuration: "Release"
+[38.863s] -- Installing: /home/siny/hydra_ws/install/teaserpp/lib/libteaser_io.so
+[38.863s] -- Installing: /home/siny/hydra_ws/install/teaserpp/lib/libteaser_registration.so
+[38.864s] -- Installing: /home/siny/hydra_ws/install/teaserpp/lib/cmake/teaserpp/teaserppTargets.cmake
+[38.864s] -- Installing: /home/siny/hydra_ws/install/teaserpp/lib/cmake/teaserpp/teaserppTargets-release.cmake
+[38.864s] -- Installing: /home/siny/hydra_ws/install/teaserpp/include
+[38.864s] -- Installing: /home/siny/hydra_ws/install/teaserpp/include/teaser
+[38.864s] -- Installing: /home/siny/hydra_ws/install/teaserpp/include/teaser/graph.h
+[38.864s] -- Installing: /home/siny/hydra_ws/install/teaserpp/include/teaser/geometry.h
+[38.864s] -- Installing: /home/siny/hydra_ws/install/teaserpp/include/teaser/registration.h
+[38.864s] -- Installing: /home/siny/hydra_ws/install/teaserpp/include/teaser/ply_io.h
+[38.864s] -- Installing: /home/siny/hydra_ws/install/teaserpp/include/teaser/utils.h
+[38.864s] -- Installing: /home/siny/hydra_ws/install/teaserpp/include/teaser/fpfh.h
+[38.864s] -- Installing: /home/siny/hydra_ws/install/teaserpp/include/teaser/certification.h
+[38.864s] -- Installing: /home/siny/hydra_ws/install/teaserpp/include/teaser/macros.h
+[38.864s] -- Installing: /home/siny/hydra_ws/install/teaserpp/include/teaser/matcher.h
+[38.864s] -- Installing: /home/siny/hydra_ws/install/teaserpp/lib/cmake/teaserpp/teaserppConfig.cmake
+[38.866s] Invoked command in '/home/siny/hydra_ws/build/teaserpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/siny/hydra_ws/build/teaserpp
