@@ -1,0 +1,75 @@
+launch:
+  # ---------------- 1. 参数定义 ----------------
+  - arg: {name: dataset_name, default: 'custom_dataset'}
+  - arg: {name: use_gt_semantics, default: 'true'}
+  - arg: {name: use_openset_places, default: 'false'}
+  - arg: {name: labelspace, default: tesse_ade20k} 
+  - arg: {name: log_prefix, default: $(var dataset_name)}
+  # 假设你暂时还没做 label remap，先用 office 的顶替一下，后续如果不准需要改这里
+  - arg: {name: label_remap_path, default: $(find-pkg-share hydra)/config/label_remaps/uhumans2_office.yaml}
+
+  # ---------------- 2. Topic Remappings ----------------
+  - set_remap: {from: hydra/input/left_cam/depth_registered/image_rect, to: /tesse/depth/image_raw}
+  
+  # 【关键点 1】RGB 接口 -> 接真实的相机 RGB (/tesse/left_cam/image_raw)
+  # 之前这里接错了，接成了 converted_id，这是不对的
+  - set_remap: {from: hydra/input/left_cam/rgb/image_raw, to: /tesse/left_cam/image_raw}
+  
+  # 相机内参
+  - set_remap: {from: hydra/input/left_cam/rgb/camera_info, to: /tesse/left_cam/camera_info}
+  
+  # 【关键点 2】语义接口 -> 接转换器输出的 ID (/tesse/segmentation/converted_id)
+  # 只要这一行生效，Hydra 就会停止报错
+  - set_remap: {from: hydra/input/left_cam/semantic/image_raw, to: /tesse/segmentation/converted_id}
+  
+  # 特征点
+  - set_remap: {from: hydra/input/left_cam/feature, to: /tesse/left_cam/semantic/feature}  # ---------------- 3. 内部配置逻辑 ----------------
+  - let: {name: extra_yaml_gt, value: '{semantic_label_remap_filepath: $(var label_remap_path), input: {inputs: {left_cam: {sensor: {semantic: {topic: "/tesse/segmentation/converted_id"}}}}}}'}
+  - let: {name: extra_yaml_no_gt, value: '{}'}
+
+  # ---------------- 4. 关键修复：手动发布 TF ----------------
+  # 既然 tf_static 读不到，我们手动把 'left_cam' 挂载到 'base_link_gt' 上。
+  # 参数格式: x y z qx qy qz qw frame_id child_frame_id
+  # 假设相机就在机器人中心，且方向一致 (Identity)。
+  # 如果你的点云是歪的（比如墙在地上），你需要修改这里的四元数。
+  - node:
+      pkg: tf2_ros
+      exec: static_transform_publisher
+      name: base_to_camera_tf
+      args: "0 0 0 0 0 0 1 base_link_gt left_cam"
+
+  # ---------------- 5. 辅助节点 ----------------
+  - group:
+      - push_ros_namespace: {namespace: tesse/left_cam}
+      - set_remap: {from: color/image_raw, to: image_raw} 
+      - include:
+          if: $(not $(var use_gt_semantics))
+          file: $(find-pkg-share semantic_inference_ros)/launch/closed_set.launch.yaml
+          arg:
+            - {name: labelspace_name, value: $(var labelspace)}
+      - include:
+          if: $(var use_openset_places)
+          file: $(find-pkg-share semantic_inference_ros)/launch/image_embedding_node.launch.yaml
+          arg:
+            - {name: min_period_s, value: '0.2'}
+
+  # ---------------- 6. Hydra 主程序 ----------------
+  - include:
+      file: $(find-pkg-share hydra_ros)/launch/hydra.launch.yaml
+      arg:
+        - {name: dataset, value: uhumans2} 
+        - {name: labelspace, value: $(var labelspace)}
+        - {name: log_prefix, value: $(var log_prefix)}
+        
+        # 这里必须和你上面 static_transform_publisher 里的名字一致
+        - {name: sensor_frame, value: left_cam} 
+        
+        # 你的 TF 树里机器人叫 base_link_gt
+        - {name: robot_frame, value: base_link_gt} 
+        
+        # 你的 TF 树里世界叫 world
+        - {name: odom_frame, value: world}         
+        - {name: map_frame, value: map}
+        
+        - {name: lcd_config_path, value: $(find-pkg-share hydra)/config/lcd/uhumans2.yaml}
+        - {name: extra_yaml, value: $(if $(var use_gt_semantics) $(var extra_yaml_gt) $(var extra_yaml_no_gt))}

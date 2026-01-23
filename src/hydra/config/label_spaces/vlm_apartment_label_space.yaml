@@ -1,0 +1,20 @@
+total_semantic_labels: 30
+dynamic_labels: []
+invalid_labels: []
+object_labels: [20, 21, 22, 23, 24]
+surface_places_labels: [3]
+semantic_layers: [OBJECTS, MESH_PLACES, ROOMS, PLACES]
+label_names:
+  - {label: 0, name: unknown}
+  - {label: 1, name: wall}
+  - {label: 3, name: floor}
+  - {label: 4, name: ceiling}
+  - {label: 19, name: wall}
+  - {label: 20, name: bedroom}
+  - {label: 21, name: bathroom}
+  - {label: 22, name: kitchen}
+  - {label: 23, name: living_room}
+  - {label: 24, name: corridor}
+  - {label: 25, name: background}
+
+colormap_filepath: /home/siny/hydra_ws/src/hydra_ros/hydra_ros/config/color/vlm_apartment_colors.csv

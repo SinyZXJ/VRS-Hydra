@@ -1,0 +1,97 @@
+# tesse_office_colors.yaml
+# 基于 uhumans2_office.csv 转换而来
+
+colormap:
+  # 格式: [R, G, B]: ID
+  
+  # --- ID 0: 背景/无效/杂物 ---
+  [32, 32, 32]: 0    # Cart, Cell_Bars, Sink, Toilet, etc.
+  [255, 255, 255]: 0 # Invalid
+  
+  # --- ID 1: 墙体/通风口 (Wall/Structure) ---
+  [255, 20, 127]: 1  # Airventilation, Box, etc.
+  
+  # --- ID 2: 书籍/杂物 (Books) ---
+  [250, 50, 50]: 2   # Books, Bookshelf
+  
+  # --- ID 3: 地板/地毯 (Floor) ---
+  [124, 133, 141]: 3 # Floor tiles
+  [169, 169, 169]: 3 # Carpet
+  
+  # --- ID 4: 天花板/灯具 (Ceiling) ---
+  [102, 0, 204]: 4   # CeilingLamp, PipeLarge
+  
+  # --- ID 5: 椅子 (Chair) ---
+  [102, 255, 0]: 5   # Chair_Leather, Chair_Wood
+  
+  # --- ID 6: 长凳 (Bench) ---
+  [35, 100, 35]: 6   # Leather_Bench
+  
+  # --- ID 7: 沙发 (Couch/Sofa) ---
+  [39, 144, 65]: 7   # Couch
+  
+  # --- ID 9: 柜子/门 (Cabinet/Door) ---
+  [154, 229, 206]: 9 # Closet, Door, Drawer, MetalCabinet
+  
+  # --- ID 10: 办公杂物 (Objects) ---
+  [255, 23, 23]: 10  # PC, Keyboard, Phone, Papers, Fan
+  
+  # --- ID 11: 灯 (Lamp) ---
+  [62, 146, 211]: 11 # Fluorescent Lamp
+  
+  # --- ID 12: 装饰画/白板 (Painting/Board) ---
+  [246, 188, 6]: 12  # Painting, WhiteBoard, Sticker
+  
+  # --- ID 13: 植物 (Plant) ---
+  [38, 112, 233]: 13 # Plant_Inside
+  
+  # --- ID 14: 标志 (Sign) ---
+  [175, 32, 45]: 14  # Sign_Hanging
+  
+  # --- ID 15: 楼梯 (Stairs) ---
+  [125, 218, 3]: 15  # Stairs_Unknown
+  
+  # --- ID 16: 桌子 (Table) ---
+  [54, 176, 239]: 16 # Desk, Table_Main
+  
+  # --- ID 17: 屏风 (Screen/Divider) ---
+  [244, 228, 69]: 17 # TableScreen
+  
+  # --- ID 18: 垃圾桶/饮水机 (Trashcan) ---
+  [154, 38, 91]: 18  # Trashcan, Water_Dispenser
+  
+  # --- ID 19: 墙体/电梯 (Wall/Elevator) ---
+  [2, 103, 71]: 19   # Elevator, W_1x (Wall sections)
+
+  # --- ID 20: 人 (Person) ---
+  [35, 213, 234]: 20 # SMPL models
+
+# 标签定义 (对应 ADE20k 的语义名称)
+# 注意：这里的名字必须是 Hydra 内部 labelspace (ade20k_full) 里定义过的名字
+labels:
+  0: "unknown"
+  1: "wall"
+  2: "bookshelf" 
+  3: "floor"
+  4: "ceiling"
+  5: "chair"
+  6: "bench"
+  7: "sofa"
+  9: "cabinet"
+  10: "keyboard" # 或者用 generic object，这里暂时映射为 keyboard 或其他小物体
+  11: "lamp"
+  12: "painting"
+  13: "plant"
+  14: "signboard"
+  15: "stairs"
+  16: "table"
+  17: "screen"   # 如果 ade20k 里没有 screen，可能需要映射成 wall 或 object
+  18: "trash_can"
+  19: "wall"     # ID 19 在 CSV 里也是墙体结构
+  20: "person"
+
+# 动态属性定义 (true=不构建进地图, false=构建进地图)
+dynamic_labels:
+  0: true  # 忽略背景杂物
+  20: true # 忽略人
+  # 其他默认为 false (静态)

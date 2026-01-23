@@ -1,0 +1,13 @@
+label_space:
+  type: `Semantic`
+  labels:
+    # 这里的 ID 对应我们下面 Python 代码输出的 ID
+    10: "office"      # 办公室
+    11: "living_room" # 客厅
+    12: "kitchen"     # 厨房
+    13: "corridor"    # 走廊/未知区域
+  colors:
+    10: [255, 0, 0]   # 红：办公室
+    11: [0, 255, 0]   # 绿：客厅
+    12: [0, 0, 255]   # 蓝：厨房
+    13: [128, 128, 128] # 灰：走廊

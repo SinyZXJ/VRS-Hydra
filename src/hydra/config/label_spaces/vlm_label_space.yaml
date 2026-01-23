@@ -1,0 +1,15 @@
+total_semantic_labels: 20
+dynamic_labels: []
+invalid_labels: [0]
+object_labels: [10, 11, 12, 13]
+surface_places_labels: [13]
+semantic_layers: [OBJECTS, MESH_PLACES, ROOMS, PLACES]
+label_names:
+  - {label: 0, name: unknown}
+  - {label: 10, name: office}
+  - {label: 11, name: living_room}
+  - {label: 12, name: kitchen}
+  - {label: 13, name: corridor}
+
+colormap_filepath: /home/siny/hydra_ws/src/hydra_ros/hydra_ros/config/color/vlm_colors.csv
+

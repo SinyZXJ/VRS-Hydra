@@ -1,0 +1,12 @@
+name,red,green,blue,alpha,id
+bedroom,255,100,100,255,20
+bathroom,100,100,255,255,21
+kitchen,255,0,0,255,22
+living_room,0,0,255,255,23
+corridor,255,255,0,255,24
+unknown,100,100,100,255,0
+wall_1,120,120,120,255,1
+floor,180,180,180,255,3
+ceiling,200,200,200,255,4
+wall_19,150,150,150,255,19
+background,128,128,128,255,25
